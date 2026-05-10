@@ -1,0 +1,10 @@
+PROFESOR DE PIANO v4.0.7 LITE MOTOR MIDI PRO
+ZIP sin IA pesada, sin modelos y sin voices.
+
+Total de archivos: 639
+
+Ejecutar:
+python3 main.py
+
+Archivo clave:
+app/core/analisis_midi_pro.py

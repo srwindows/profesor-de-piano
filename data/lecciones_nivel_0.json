@@ -1,0 +1,2092 @@
+{
+  "version": "4.0.5-lite-flujo-docente-clases",
+  "nivel": 0,
+  "titulo": "Nivel 0 — Base absoluta cerrada",
+  "descripcion": "Nivel 0 cerrado con 20 clases funcionales. Prepara postura, mano, digitación, orientación en el teclado, partitura básica, claves de Sol/Fa, Do central, figuras rítmicas, metrónomo, pizarra musical y primera lectura aplicada al piano virtual o teclado MIDI.",
+  "lecciones": [
+    {
+      "id": "n0_01_postura_base",
+      "orden": 1,
+      "titulo": "Postura al piano: cuerpo preparado",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/postura_al_piano.png",
+      "objetivo": "Preparar el cuerpo para tocar sin tensión: banco, espalda, hombros, codos y pies.",
+      "resumen": "La postura no es estética; es la base para moverse con libertad y evitar rigidez.",
+      "explicacion": "Antes de tocar una sola tecla hay que preparar el cuerpo. Siéntate cerca del borde del banco, con la espalda larga pero sin rigidez. Los hombros deben caer naturales y los pies deben estar apoyados. Los codos quedan cerca del nivel del teclado, no hundidos ni levantados. Cuando el cuerpo está estable, la mano puede trabajar mejor.",
+      "ejemplo": "Si elevas los hombros, los dedos se endurecen. Si dejas caer los hombros y mantienes la espalda larga, la mano puede moverse con menos esfuerzo.",
+      "pregunta": "¿Qué buscamos con la postura al piano?",
+      "opciones": [
+        "Tocar con control y sin tensión innecesaria",
+        "Parecer más serio",
+        "Tocar siempre más fuerte"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. La postura prepara el cuerpo para tocar con control y sin tensión.",
+      "feedback_error": "No. La postura no es decoración: permite tocar con libertad y evita tensión.",
+      "practica": "Colócate en el banco y revisa: borde del banco, espalda larga, hombros sueltos, pies apoyados y codos naturales.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Postura al piano: cuerpo preparado",
+          "objetivo": "Preparar el cuerpo para tocar sin tensión: banco, espalda, hombros, codos y pies.",
+          "resumen": "La postura no es estética; es la base para moverse con libertad y evitar rigidez.",
+          "explicacion": "Antes de tocar una sola tecla hay que preparar el cuerpo. Siéntate cerca del borde del banco, con la espalda larga pero sin rigidez. Los hombros deben caer naturales y los pies deben estar apoyados. Los codos quedan cerca del nivel del teclado, no hundidos ni levantados. Cuando el cuerpo está estable, la mano puede trabajar mejor.",
+          "ejemplo": "Si elevas los hombros, los dedos se endurecen. Si dejas caer los hombros y mantienes la espalda larga, la mano puede moverse con menos esfuerzo.",
+          "practica": "Colócate en el banco y revisa: borde del banco, espalda larga, hombros sueltos, pies apoyados y codos naturales.",
+          "archivo_visual": "assets/teoria/nivel_0/postura_al_piano.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_01_postura_base_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Postura al piano: cuerpo preparado",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué buscamos con la postura al piano?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Tocar con control y sin tensión innecesaria",
+                "Parecer más serio",
+                "Tocar siempre más fuerte"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_01_postura_base_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Postura al piano: cuerpo preparado",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_01_postura_base_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Postura al piano: cuerpo preparado",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_01_postura_base_examen_clase",
+          "titulo": "Examen final de clase — Postura al piano: cuerpo preparado",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué buscamos con la postura al piano?",
+          "opciones": [
+            "Tocar con control y sin tensión innecesaria",
+            "Parecer más serio",
+            "Tocar siempre más fuerte"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. La postura prepara el cuerpo para tocar con control y sin tensión.",
+          "feedback_error": "No. La postura no es decoración: permite tocar con libertad y evita tensión.",
+          "desbloquea_si_aprueba": "n0_02_postura_incorrecta_correcta"
+        },
+        "desbloquea": "n0_02_postura_incorrecta_correcta"
+      }
+    },
+    {
+      "id": "n0_02_postura_incorrecta_correcta",
+      "orden": 2,
+      "titulo": "Postura incorrecta y postura correcta",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/postura_mala_correcta.png",
+      "objetivo": "Distinguir una postura bloqueada de una postura equilibrada.",
+      "resumen": "Comparar lo incorrecto y lo correcto ayuda al alumno a corregirse sin depender siempre del profesor.",
+      "explicacion": "Una postura incorrecta suele tener espalda encorvada, hombros cerrados y cabeza caída. Esa forma bloquea los brazos. Una postura correcta mantiene la espalda larga, los hombros bajos y los brazos libres. No buscamos rigidez militar; buscamos equilibrio.",
+      "ejemplo": "Encórvate un momento y nota cómo se cierran los hombros. Luego vuelve a una espalda larga, suelta los hombros y observa cómo los brazos cuelgan mejor.",
+      "pregunta": "¿Por qué evitamos tocar encorvados?",
+      "opciones": [
+        "Porque genera tensión y limita el movimiento",
+        "Porque cambia el nombre de las notas",
+        "Porque impide usar el metrónomo"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. La espalda encorvada genera tensión y limita el movimiento.",
+      "feedback_error": "No. El problema no es la apariencia: es la tensión que impide moverse bien.",
+      "practica": "Alterna postura mala y postura correcta durante unos segundos para sentir la diferencia.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Postura incorrecta y postura correcta",
+          "objetivo": "Distinguir una postura bloqueada de una postura equilibrada.",
+          "resumen": "Comparar lo incorrecto y lo correcto ayuda al alumno a corregirse sin depender siempre del profesor.",
+          "explicacion": "Una postura incorrecta suele tener espalda encorvada, hombros cerrados y cabeza caída. Esa forma bloquea los brazos. Una postura correcta mantiene la espalda larga, los hombros bajos y los brazos libres. No buscamos rigidez militar; buscamos equilibrio.",
+          "ejemplo": "Encórvate un momento y nota cómo se cierran los hombros. Luego vuelve a una espalda larga, suelta los hombros y observa cómo los brazos cuelgan mejor.",
+          "practica": "Alterna postura mala y postura correcta durante unos segundos para sentir la diferencia.",
+          "archivo_visual": "assets/teoria/nivel_0/postura_mala_correcta.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_02_postura_incorrecta_correcta_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Postura incorrecta y postura correcta",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Por qué evitamos tocar encorvados?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Porque genera tensión y limita el movimiento",
+                "Porque cambia el nombre de las notas",
+                "Porque impide usar el metrónomo"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_02_postura_incorrecta_correcta_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Postura incorrecta y postura correcta",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_02_postura_incorrecta_correcta_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Postura incorrecta y postura correcta",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_02_postura_incorrecta_correcta_examen_clase",
+          "titulo": "Examen final de clase — Postura incorrecta y postura correcta",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Por qué evitamos tocar encorvados?",
+          "opciones": [
+            "Porque genera tensión y limita el movimiento",
+            "Porque cambia el nombre de las notas",
+            "Porque impide usar el metrónomo"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. La espalda encorvada genera tensión y limita el movimiento.",
+          "feedback_error": "No. El problema no es la apariencia: es la tensión que impide moverse bien.",
+          "desbloquea_si_aprueba": "n0_03_mano_redondeada"
+        },
+        "desbloquea": "n0_03_mano_redondeada"
+      }
+    },
+    {
+      "id": "n0_03_mano_redondeada",
+      "orden": 3,
+      "titulo": "Mano redondeada y muñeca viva",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/mano_correcta.png",
+      "objetivo": "Colocar la mano con dedos curvados, muñeca relajada y yemas preparadas.",
+      "resumen": "La mano debe estar natural, como si sujetara una pelota pequeña.",
+      "explicacion": "La muñeca no debe hundirse ni levantarse rígida. Los dedos no van planos; van curvados y relajados. Tocamos con la yema para controlar el sonido. La mano redondeada permite que cada dedo baje hacia la tecla sin aplastar.",
+      "ejemplo": "Apoya la mano sobre la mesa como si cubrieras una pelota pequeña. Esa forma redondeada es la que buscamos sobre el teclado.",
+      "pregunta": "¿Cómo deben estar los dedos en esta etapa?",
+      "opciones": [
+        "Curvados y relajados",
+        "Planos y rígidos",
+        "Totalmente estirados"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. Dedos curvados y relajados dan más control.",
+      "feedback_error": "No. Buscamos dedos curvados y relajados, no planos ni tensos.",
+      "practica": "Haz la forma de pelota pequeña con cada mano y llévala al teclado sin apretar.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Mano redondeada y muñeca viva",
+          "objetivo": "Colocar la mano con dedos curvados, muñeca relajada y yemas preparadas.",
+          "resumen": "La mano debe estar natural, como si sujetara una pelota pequeña.",
+          "explicacion": "La muñeca no debe hundirse ni levantarse rígida. Los dedos no van planos; van curvados y relajados. Tocamos con la yema para controlar el sonido. La mano redondeada permite que cada dedo baje hacia la tecla sin aplastar.",
+          "ejemplo": "Apoya la mano sobre la mesa como si cubrieras una pelota pequeña. Esa forma redondeada es la que buscamos sobre el teclado.",
+          "practica": "Haz la forma de pelota pequeña con cada mano y llévala al teclado sin apretar.",
+          "archivo_visual": "assets/teoria/nivel_0/mano_correcta.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_03_mano_redondeada_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Mano redondeada y muñeca viva",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Cómo deben estar los dedos en esta etapa?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Curvados y relajados",
+                "Planos y rígidos",
+                "Totalmente estirados"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_03_mano_redondeada_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Mano redondeada y muñeca viva",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_03_mano_redondeada_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Mano redondeada y muñeca viva",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_03_mano_redondeada_examen_clase",
+          "titulo": "Examen final de clase — Mano redondeada y muñeca viva",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cómo deben estar los dedos en esta etapa?",
+          "opciones": [
+            "Curvados y relajados",
+            "Planos y rígidos",
+            "Totalmente estirados"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. Dedos curvados y relajados dan más control.",
+          "feedback_error": "No. Buscamos dedos curvados y relajados, no planos ni tensos.",
+          "desbloquea_si_aprueba": "n0_04_digitacion_1_5"
+        },
+        "desbloquea": "n0_04_digitacion_1_5"
+      }
+    },
+    {
+      "id": "n0_04_digitacion_1_5",
+      "orden": 4,
+      "titulo": "Digitación 1–5",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/gifs/digitacion_1_5_pro_suave.gif",
+      "objetivo": "Aprender el número de cada dedo en ambas manos.",
+      "resumen": "La digitación usa números para decir qué dedo conviene usar.",
+      "explicacion": "En piano, el dedo 1 es el pulgar, 2 índice, 3 corazón, 4 anular y 5 meñique. Esto vale para las dos manos. Cuando veas un número junto a una nota, no es una nota nueva: es una indicación de dedo.",
+      "ejemplo": "Si una nota tiene un 3, usarás el dedo corazón. Si tiene un 1, usarás el pulgar.",
+      "pregunta": "¿Qué dedo corresponde al número 1?",
+      "opciones": [
+        "Pulgar",
+        "Índice",
+        "Meñique"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. El dedo 1 es el pulgar.",
+      "feedback_error": "No. En piano, dedo 1 es pulgar, 2 índice, 3 corazón, 4 anular y 5 meñique.",
+      "practica": "Di en voz alta la numeración tocando cada dedo: 1, 2, 3, 4, 5.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Digitación 1–5",
+          "objetivo": "Aprender el número de cada dedo en ambas manos.",
+          "resumen": "La digitación usa números para decir qué dedo conviene usar.",
+          "explicacion": "En piano, el dedo 1 es el pulgar, 2 índice, 3 corazón, 4 anular y 5 meñique. Esto vale para las dos manos. Cuando veas un número junto a una nota, no es una nota nueva: es una indicación de dedo.",
+          "ejemplo": "Si una nota tiene un 3, usarás el dedo corazón. Si tiene un 1, usarás el pulgar.",
+          "practica": "Di en voz alta la numeración tocando cada dedo: 1, 2, 3, 4, 5.",
+          "archivo_visual": "assets/teoria/nivel_0/gifs/digitacion_1_5_pro_suave.gif"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_04_digitacion_1_5_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Digitación 1–5",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué dedo corresponde al número 1?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Pulgar",
+                "Índice",
+                "Meñique"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_04_digitacion_1_5_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Digitación 1–5",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_04_digitacion_1_5_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Digitación 1–5",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_04_digitacion_1_5_examen_clase",
+          "titulo": "Examen final de clase — Digitación 1–5",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué dedo corresponde al número 1?",
+          "opciones": [
+            "Pulgar",
+            "Índice",
+            "Meñique"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. El dedo 1 es el pulgar.",
+          "feedback_error": "No. En piano, dedo 1 es pulgar, 2 índice, 3 corazón, 4 anular y 5 meñique.",
+          "desbloquea_si_aprueba": "n0_05_patron_teclas_negras"
+        },
+        "desbloquea": "n0_05_patron_teclas_negras"
+      }
+    },
+    {
+      "id": "n0_05_patron_teclas_negras",
+      "orden": 5,
+      "titulo": "Patrón del teclado: dos y tres teclas negras",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/patron_teclado.png",
+      "objetivo": "Reconocer el mapa visual del teclado mediante grupos de dos y tres teclas negras.",
+      "resumen": "El teclado no se memoriza como una fila infinita: se reconoce por patrones.",
+      "explicacion": "Las teclas negras forman grupos de dos y grupos de tres. Ese patrón se repite a lo largo del teclado. Si sabes reconocer esos grupos, podrás encontrar las notas blancas sin perderte.",
+      "ejemplo": "Busca un grupo de dos teclas negras. Justo antes de ese grupo está Do. Dentro y alrededor de ese grupo aparecen Do, Re y Mi.",
+      "pregunta": "¿Qué patrón se repite en las teclas negras?",
+      "opciones": [
+        "Dos negras y tres negras",
+        "Una negra y cuatro negras",
+        "Todas separadas igual"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. El mapa visual es dos negras, tres negras, y se repite.",
+      "feedback_error": "No. Observa el teclado: aparecen grupos de dos negras y grupos de tres negras.",
+      "practica": "Señala todos los grupos de dos negras que veas en el piano.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Patrón del teclado: dos y tres teclas negras",
+          "objetivo": "Reconocer el mapa visual del teclado mediante grupos de dos y tres teclas negras.",
+          "resumen": "El teclado no se memoriza como una fila infinita: se reconoce por patrones.",
+          "explicacion": "Las teclas negras forman grupos de dos y grupos de tres. Ese patrón se repite a lo largo del teclado. Si sabes reconocer esos grupos, podrás encontrar las notas blancas sin perderte.",
+          "ejemplo": "Busca un grupo de dos teclas negras. Justo antes de ese grupo está Do. Dentro y alrededor de ese grupo aparecen Do, Re y Mi.",
+          "practica": "Señala todos los grupos de dos negras que veas en el piano.",
+          "archivo_visual": "assets/teoria/nivel_0/patron_teclado.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_05_patron_teclas_negras_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Patrón del teclado: dos y tres teclas negras",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué patrón se repite en las teclas negras?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Dos negras y tres negras",
+                "Una negra y cuatro negras",
+                "Todas separadas igual"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_05_patron_teclas_negras_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Patrón del teclado: dos y tres teclas negras",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_05_patron_teclas_negras_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Patrón del teclado: dos y tres teclas negras",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_05_patron_teclas_negras_examen_clase",
+          "titulo": "Examen final de clase — Patrón del teclado: dos y tres teclas negras",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué patrón se repite en las teclas negras?",
+          "opciones": [
+            "Dos negras y tres negras",
+            "Una negra y cuatro negras",
+            "Todas separadas igual"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. El mapa visual es dos negras, tres negras, y se repite.",
+          "feedback_error": "No. Observa el teclado: aparecen grupos de dos negras y grupos de tres negras.",
+          "desbloquea_si_aprueba": "n0_06_do_central"
+        },
+        "desbloquea": "n0_06_do_central"
+      }
+    },
+    {
+      "id": "n0_06_do_central",
+      "orden": 6,
+      "titulo": "Localizar DO y DO central",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/teclas_blancas.png",
+      "objetivo": "Encontrar Do usando el grupo de dos negras y entender el Do central como referencia.",
+      "resumen": "Do está antes de cada grupo de dos negras. El Do central es el punto de orientación principal.",
+      "explicacion": "Para encontrar Do, busca dos teclas negras juntas. La tecla blanca justo a la izquierda es Do. En un piano completo hay varios Do. El Do central es el Do cercano al centro del teclado y sirve para relacionar teclado y partitura.",
+      "ejemplo": "Busca dos teclas negras cerca del centro. La blanca inmediatamente a su izquierda es Do central si está en la zona central del teclado.",
+      "pregunta": "¿Dónde está Do respecto a un grupo de dos teclas negras?",
+      "opciones": [
+        "A la izquierda del grupo",
+        "Entre las dos negras",
+        "A la derecha del grupo"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. Do está justo a la izquierda del grupo de dos negras.",
+      "feedback_error": "No. Re está entre las dos negras; Do está justo antes del grupo.",
+      "practica": "Toca varios Do en el teclado y luego busca el Do más cercano al centro.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Localizar DO y DO central",
+          "objetivo": "Encontrar Do usando el grupo de dos negras y entender el Do central como referencia.",
+          "resumen": "Do está antes de cada grupo de dos negras. El Do central es el punto de orientación principal.",
+          "explicacion": "Para encontrar Do, busca dos teclas negras juntas. La tecla blanca justo a la izquierda es Do. En un piano completo hay varios Do. El Do central es el Do cercano al centro del teclado y sirve para relacionar teclado y partitura.",
+          "ejemplo": "Busca dos teclas negras cerca del centro. La blanca inmediatamente a su izquierda es Do central si está en la zona central del teclado.",
+          "practica": "Toca varios Do en el teclado y luego busca el Do más cercano al centro.",
+          "archivo_visual": "assets/teoria/nivel_0/teclas_blancas.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_06_do_central_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Localizar DO y DO central",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Dónde está Do respecto a un grupo de dos teclas negras?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "A la izquierda del grupo",
+                "Entre las dos negras",
+                "A la derecha del grupo"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_06_do_central_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Localizar DO y DO central",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_06_do_central_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Localizar DO y DO central",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_06_do_central_examen_clase",
+          "titulo": "Examen final de clase — Localizar DO y DO central",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Dónde está Do respecto a un grupo de dos teclas negras?",
+          "opciones": [
+            "A la izquierda del grupo",
+            "Entre las dos negras",
+            "A la derecha del grupo"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. Do está justo a la izquierda del grupo de dos negras.",
+          "feedback_error": "No. Re está entre las dos negras; Do está justo antes del grupo.",
+          "desbloquea_si_aprueba": "n0_07_teclas_blancas"
+        },
+        "desbloquea": "n0_07_teclas_blancas"
+      }
+    },
+    {
+      "id": "n0_07_teclas_blancas",
+      "orden": 7,
+      "titulo": "Teclas blancas: DO RE MI FA SOL LA SI",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/teclas_blancas.png",
+      "objetivo": "Aprender la secuencia completa de notas blancas.",
+      "resumen": "Las teclas blancas siguen un orden fijo y circular.",
+      "explicacion": "Después de Do vienen Re, Mi, Fa, Sol, La y Si. Después de Si vuelve Do en otra altura. Esa secuencia se repite en todo el teclado. Si te pierdes, vuelve a buscar un grupo de dos negras.",
+      "ejemplo": "Desde Do central avanza por teclas blancas: Do, Re, Mi, Fa, Sol. Si sigues: La, Si y vuelve Do.",
+      "pregunta": "Después de SI, ¿qué nota vuelve?",
+      "opciones": [
+        "DO",
+        "FA",
+        "SOL"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. Después de Si vuelve Do.",
+      "feedback_error": "No. La secuencia es Do Re Mi Fa Sol La Si y vuelve Do.",
+      "practica": "Toca y di en voz alta: Do Re Mi Fa Sol La Si Do.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Teclas blancas: DO RE MI FA SOL LA SI",
+          "objetivo": "Aprender la secuencia completa de notas blancas.",
+          "resumen": "Las teclas blancas siguen un orden fijo y circular.",
+          "explicacion": "Después de Do vienen Re, Mi, Fa, Sol, La y Si. Después de Si vuelve Do en otra altura. Esa secuencia se repite en todo el teclado. Si te pierdes, vuelve a buscar un grupo de dos negras.",
+          "ejemplo": "Desde Do central avanza por teclas blancas: Do, Re, Mi, Fa, Sol. Si sigues: La, Si y vuelve Do.",
+          "practica": "Toca y di en voz alta: Do Re Mi Fa Sol La Si Do.",
+          "archivo_visual": "assets/teoria/nivel_0/teclas_blancas.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_07_teclas_blancas_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Teclas blancas: DO RE MI FA SOL LA SI",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: Después de SI, ¿qué nota vuelve?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "DO",
+                "FA",
+                "SOL"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_07_teclas_blancas_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Teclas blancas: DO RE MI FA SOL LA SI",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_07_teclas_blancas_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Teclas blancas: DO RE MI FA SOL LA SI",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_07_teclas_blancas_examen_clase",
+          "titulo": "Examen final de clase — Teclas blancas: DO RE MI FA SOL LA SI",
+          "tipo": "opcion_multiple",
+          "pregunta": "Después de SI, ¿qué nota vuelve?",
+          "opciones": [
+            "DO",
+            "FA",
+            "SOL"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. Después de Si vuelve Do.",
+          "feedback_error": "No. La secuencia es Do Re Mi Fa Sol La Si y vuelve Do.",
+          "desbloquea_si_aprueba": "n0_08_partitura_piano"
+        },
+        "desbloquea": "n0_08_partitura_piano"
+      }
+    },
+    {
+      "id": "n0_08_partitura_piano",
+      "orden": 8,
+      "titulo": "Qué es una partitura de piano",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/patron_teclado.png",
+      "objetivo": "Entender que la partitura indica qué tocar, cuándo tocarlo y cuánto dura.",
+      "resumen": "La partitura es el mapa escrito de la música.",
+      "explicacion": "Una partitura no es solo un dibujo bonito. Indica la altura de las notas, el momento en que suenan y su duración. En piano se suelen usar dos pentagramas: el superior suele orientar la mano derecha y el inferior la mano izquierda.",
+      "ejemplo": "Si una nota está más arriba en el pentagrama, normalmente suena más aguda. Si está más abajo, normalmente suena más grave.",
+      "pregunta": "¿Qué nos dice una partitura?",
+      "opciones": [
+        "Qué notas tocar, cuándo y cuánto duran",
+        "Solo qué volumen usar",
+        "Solo el nombre de la canción"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. La partitura une nota, tiempo y duración.",
+      "feedback_error": "No. La partitura es un mapa musical completo: notas, tiempo y duración.",
+      "practica": "Abre Partitura y pulsa Leer punto actual para ver la pizarra musical.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Qué es una partitura de piano",
+          "objetivo": "Entender que la partitura indica qué tocar, cuándo tocarlo y cuánto dura.",
+          "resumen": "La partitura es el mapa escrito de la música.",
+          "explicacion": "Una partitura no es solo un dibujo bonito. Indica la altura de las notas, el momento en que suenan y su duración. En piano se suelen usar dos pentagramas: el superior suele orientar la mano derecha y el inferior la mano izquierda.",
+          "ejemplo": "Si una nota está más arriba en el pentagrama, normalmente suena más aguda. Si está más abajo, normalmente suena más grave.",
+          "practica": "Abre Partitura y pulsa Leer punto actual para ver la pizarra musical.",
+          "archivo_visual": "assets/teoria/nivel_0/patron_teclado.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_08_partitura_piano_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Qué es una partitura de piano",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué nos dice una partitura?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Qué notas tocar, cuándo y cuánto duran",
+                "Solo qué volumen usar",
+                "Solo el nombre de la canción"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_08_partitura_piano_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Qué es una partitura de piano",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_08_partitura_piano_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Qué es una partitura de piano",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_08_partitura_piano_examen_clase",
+          "titulo": "Examen final de clase — Qué es una partitura de piano",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué nos dice una partitura?",
+          "opciones": [
+            "Qué notas tocar, cuándo y cuánto duran",
+            "Solo qué volumen usar",
+            "Solo el nombre de la canción"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. La partitura une nota, tiempo y duración.",
+          "feedback_error": "No. La partitura es un mapa musical completo: notas, tiempo y duración.",
+          "desbloquea_si_aprueba": "n0_09_claves_sol_fa"
+        },
+        "desbloquea": "n0_09_claves_sol_fa"
+      }
+    },
+    {
+      "id": "n0_09_claves_sol_fa",
+      "orden": 9,
+      "titulo": "Claves de SOL y FA",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/teclas_blancas.png",
+      "objetivo": "Entender qué es una clave y por qué se llaman clave de Sol y clave de Fa.",
+      "resumen": "Una clave indica cómo se llaman las líneas y espacios del pentagrama.",
+      "explicacion": "La clave de Sol se llama así porque señala la línea donde se coloca Sol. La clave de Fa se llama así porque sus dos puntos señalan la línea donde se coloca Fa. En piano inicial, la clave de Sol suele aparecer arriba y se relaciona con la mano derecha; la clave de Fa suele aparecer abajo y se relaciona con la mano izquierda.",
+      "ejemplo": "Cuando la pizarra señala la clave de Sol, también puede pedirte tocar Sol. Cuando señala la clave de Fa, puede pedirte tocar Fa.",
+      "pregunta": "¿Por qué se llama clave de Fa?",
+      "opciones": [
+        "Porque sus puntos señalan la línea de Fa",
+        "Porque siempre se toca fuerte",
+        "Porque indica el final de la canción"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. La clave de Fa señala la línea de Fa.",
+      "feedback_error": "No. La clave de Fa recibe su nombre porque sus puntos señalan la línea de Fa.",
+      "practica": "En la pizarra musical, avanza por los pasos de clave de Sol y clave de Fa y usa Tocar en piano.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Claves de SOL y FA",
+          "objetivo": "Entender qué es una clave y por qué se llaman clave de Sol y clave de Fa.",
+          "resumen": "Una clave indica cómo se llaman las líneas y espacios del pentagrama.",
+          "explicacion": "La clave de Sol se llama así porque señala la línea donde se coloca Sol. La clave de Fa se llama así porque sus dos puntos señalan la línea donde se coloca Fa. En piano inicial, la clave de Sol suele aparecer arriba y se relaciona con la mano derecha; la clave de Fa suele aparecer abajo y se relaciona con la mano izquierda.",
+          "ejemplo": "Cuando la pizarra señala la clave de Sol, también puede pedirte tocar Sol. Cuando señala la clave de Fa, puede pedirte tocar Fa.",
+          "practica": "En la pizarra musical, avanza por los pasos de clave de Sol y clave de Fa y usa Tocar en piano.",
+          "archivo_visual": "assets/teoria/nivel_0/teclas_blancas.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_09_claves_sol_fa_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Claves de SOL y FA",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Por qué se llama clave de Fa?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Porque sus puntos señalan la línea de Fa",
+                "Porque siempre se toca fuerte",
+                "Porque indica el final de la canción"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_09_claves_sol_fa_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Claves de SOL y FA",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_09_claves_sol_fa_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Claves de SOL y FA",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_09_claves_sol_fa_examen_clase",
+          "titulo": "Examen final de clase — Claves de SOL y FA",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Por qué se llama clave de Fa?",
+          "opciones": [
+            "Porque sus puntos señalan la línea de Fa",
+            "Porque siempre se toca fuerte",
+            "Porque indica el final de la canción"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. La clave de Fa señala la línea de Fa.",
+          "feedback_error": "No. La clave de Fa recibe su nombre porque sus puntos señalan la línea de Fa.",
+          "desbloquea_si_aprueba": "n0_10_do_central_pentagrama"
+        },
+        "desbloquea": "n0_10_do_central_pentagrama"
+      }
+    },
+    {
+      "id": "n0_10_do_central_pentagrama",
+      "orden": 10,
+      "titulo": "DO central entre teclado y pentagrama",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/teclas_blancas.png",
+      "objetivo": "Relacionar el Do central del teclado con la pizarra y la lectura inicial.",
+      "resumen": "El Do central sirve de puente entre el pentagrama superior y el inferior.",
+      "explicacion": "El Do central está cerca del centro del teclado. En la lectura de piano también queda como referencia entre la zona de clave de Sol y la zona de clave de Fa. Por eso lo usamos tanto: permite unir lo que ves escrito con lo que tocas.",
+      "ejemplo": "Si la pizarra marca Do central y el piano lo resalta, toca esa tecla para cerrar el ciclo: ver, entender y tocar.",
+      "pregunta": "¿Para qué sirve el Do central?",
+      "opciones": [
+        "Para orientarse entre teclado y partitura",
+        "Para tocar siempre más rápido",
+        "Para cambiar de instrumento"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. Do central es una referencia entre teclado y partitura.",
+      "feedback_error": "No. Do central sirve para orientarte, no para tocar más fuerte o cambiar sonidos.",
+      "practica": "Usa Partitura → Leer punto actual → paso del Do central → Tocar en piano.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "DO central entre teclado y pentagrama",
+          "objetivo": "Relacionar el Do central del teclado con la pizarra y la lectura inicial.",
+          "resumen": "El Do central sirve de puente entre el pentagrama superior y el inferior.",
+          "explicacion": "El Do central está cerca del centro del teclado. En la lectura de piano también queda como referencia entre la zona de clave de Sol y la zona de clave de Fa. Por eso lo usamos tanto: permite unir lo que ves escrito con lo que tocas.",
+          "ejemplo": "Si la pizarra marca Do central y el piano lo resalta, toca esa tecla para cerrar el ciclo: ver, entender y tocar.",
+          "practica": "Usa Partitura → Leer punto actual → paso del Do central → Tocar en piano.",
+          "archivo_visual": "assets/teoria/nivel_0/teclas_blancas.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_10_do_central_pentagrama_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — DO central entre teclado y pentagrama",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Para qué sirve el Do central?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Para orientarse entre teclado y partitura",
+                "Para tocar siempre más rápido",
+                "Para cambiar de instrumento"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_10_do_central_pentagrama_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — DO central entre teclado y pentagrama",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_10_do_central_pentagrama_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — DO central entre teclado y pentagrama",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_10_do_central_pentagrama_examen_clase",
+          "titulo": "Examen final de clase — DO central entre teclado y pentagrama",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Para qué sirve el Do central?",
+          "opciones": [
+            "Para orientarse entre teclado y partitura",
+            "Para tocar siempre más rápido",
+            "Para cambiar de instrumento"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. Do central es una referencia entre teclado y partitura.",
+          "feedback_error": "No. Do central sirve para orientarte, no para tocar más fuerte o cambiar sonidos.",
+          "desbloquea_si_aprueba": "n0_11_figura_negra"
+        },
+        "desbloquea": "n0_11_figura_negra"
+      }
+    },
+    {
+      "id": "n0_11_figura_negra",
+      "orden": 11,
+      "titulo": "La negra: un pulso",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+      "objetivo": "Comprender la negra como figura de un pulso en lectura inicial.",
+      "resumen": "La negra es la figura que usamos como unidad de pulso básica.",
+      "explicacion": "En muchos ejercicios iniciales contamos la negra como un pulso. Eso significa que una nota negra ocupa un golpe regular del tiempo. No se toca deprisa por ser negra; se toca en el pulso correcto.",
+      "ejemplo": "Cuenta 1, 2, 3, 4. Si hay cuatro negras, puedes tocar una en cada número.",
+      "pregunta": "Si la negra vale un pulso, ¿cuántos pulsos ocupa?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Cuatro"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. En esta lectura inicial, la negra ocupa un pulso.",
+      "feedback_error": "No. En estos ejercicios, la negra será nuestra unidad de un pulso.",
+      "practica": "Activa el metrónomo y toca Do central una vez por pulso.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "La negra: un pulso",
+          "objetivo": "Comprender la negra como figura de un pulso en lectura inicial.",
+          "resumen": "La negra es la figura que usamos como unidad de pulso básica.",
+          "explicacion": "En muchos ejercicios iniciales contamos la negra como un pulso. Eso significa que una nota negra ocupa un golpe regular del tiempo. No se toca deprisa por ser negra; se toca en el pulso correcto.",
+          "ejemplo": "Cuenta 1, 2, 3, 4. Si hay cuatro negras, puedes tocar una en cada número.",
+          "practica": "Activa el metrónomo y toca Do central una vez por pulso.",
+          "archivo_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_11_figura_negra_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — La negra: un pulso",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: Si la negra vale un pulso, ¿cuántos pulsos ocupa?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Uno",
+                "Dos",
+                "Cuatro"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_11_figura_negra_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — La negra: un pulso",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_11_figura_negra_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — La negra: un pulso",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_11_figura_negra_examen_clase",
+          "titulo": "Examen final de clase — La negra: un pulso",
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la negra vale un pulso, ¿cuántos pulsos ocupa?",
+          "opciones": [
+            "Uno",
+            "Dos",
+            "Cuatro"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. En esta lectura inicial, la negra ocupa un pulso.",
+          "feedback_error": "No. En estos ejercicios, la negra será nuestra unidad de un pulso.",
+          "desbloquea_si_aprueba": "n0_12_blanca_redonda"
+        },
+        "desbloquea": "n0_12_blanca_redonda"
+      }
+    },
+    {
+      "id": "n0_12_blanca_redonda",
+      "orden": 12,
+      "titulo": "Blanca y redonda",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+      "objetivo": "Distinguir duraciones de dos y cuatro pulsos.",
+      "resumen": "La blanca dura dos pulsos y la redonda dura cuatro pulsos si la negra vale uno.",
+      "explicacion": "Si una negra vale un pulso, una blanca dura dos y una redonda dura cuatro. Esto no significa tocar más teclas; significa sostener o contar durante más tiempo.",
+      "ejemplo": "En un compás de cuatro pulsos, una redonda puede ocupar todo el compás.",
+      "pregunta": "Si la negra vale uno, ¿cuánto dura una blanca?",
+      "opciones": [
+        "Dos pulsos",
+        "Un pulso",
+        "Cuatro pulsos"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. La blanca dura dos pulsos.",
+      "feedback_error": "No. Blanca son dos pulsos si la negra vale uno.",
+      "practica": "Cuenta cuatro pulsos: toca en el 1 y mantén hasta el 2 para sentir una blanca.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Blanca y redonda",
+          "objetivo": "Distinguir duraciones de dos y cuatro pulsos.",
+          "resumen": "La blanca dura dos pulsos y la redonda dura cuatro pulsos si la negra vale uno.",
+          "explicacion": "Si una negra vale un pulso, una blanca dura dos y una redonda dura cuatro. Esto no significa tocar más teclas; significa sostener o contar durante más tiempo.",
+          "ejemplo": "En un compás de cuatro pulsos, una redonda puede ocupar todo el compás.",
+          "practica": "Cuenta cuatro pulsos: toca en el 1 y mantén hasta el 2 para sentir una blanca.",
+          "archivo_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_12_blanca_redonda_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Blanca y redonda",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: Si la negra vale uno, ¿cuánto dura una blanca?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Dos pulsos",
+                "Un pulso",
+                "Cuatro pulsos"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_12_blanca_redonda_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Blanca y redonda",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_12_blanca_redonda_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Blanca y redonda",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_12_blanca_redonda_examen_clase",
+          "titulo": "Examen final de clase — Blanca y redonda",
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la negra vale uno, ¿cuánto dura una blanca?",
+          "opciones": [
+            "Dos pulsos",
+            "Un pulso",
+            "Cuatro pulsos"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. La blanca dura dos pulsos.",
+          "feedback_error": "No. Blanca son dos pulsos si la negra vale uno.",
+          "desbloquea_si_aprueba": "n0_13_silencios"
+        },
+        "desbloquea": "n0_13_silencios"
+      }
+    },
+    {
+      "id": "n0_13_silencios",
+      "orden": 13,
+      "titulo": "Silencios: no tocar, pero contar",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+      "objetivo": "Entender que el silencio ocupa tiempo aunque no se toque una nota.",
+      "resumen": "El silencio también forma parte del ritmo.",
+      "explicacion": "Un silencio no significa parar la música ni perder el pulso. Significa que durante ese tiempo no tocas, pero sigues contando por dentro. Esto es fundamental para entrar a tiempo después.",
+      "ejemplo": "Cuenta 1, 2, 3, 4. Toca Do en 1, guarda silencio en 2, toca otra vez en 3 y silencio en 4.",
+      "pregunta": "¿Qué hacemos durante un silencio?",
+      "opciones": [
+        "No tocamos, pero seguimos contando",
+        "Paramos completamente",
+        "Tocamos más fuerte"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. El silencio se cuenta aunque no suene una nota.",
+      "feedback_error": "No. En un silencio no tocas, pero el pulso continúa.",
+      "practica": "Con metrónomo: toca en 1, silencio en 2, toca en 3, silencio en 4.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Silencios: no tocar, pero contar",
+          "objetivo": "Entender que el silencio ocupa tiempo aunque no se toque una nota.",
+          "resumen": "El silencio también forma parte del ritmo.",
+          "explicacion": "Un silencio no significa parar la música ni perder el pulso. Significa que durante ese tiempo no tocas, pero sigues contando por dentro. Esto es fundamental para entrar a tiempo después.",
+          "ejemplo": "Cuenta 1, 2, 3, 4. Toca Do en 1, guarda silencio en 2, toca otra vez en 3 y silencio en 4.",
+          "practica": "Con metrónomo: toca en 1, silencio en 2, toca en 3, silencio en 4.",
+          "archivo_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_13_silencios_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Silencios: no tocar, pero contar",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué hacemos durante un silencio?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "No tocamos, pero seguimos contando",
+                "Paramos completamente",
+                "Tocamos más fuerte"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_13_silencios_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Silencios: no tocar, pero contar",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_13_silencios_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Silencios: no tocar, pero contar",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_13_silencios_examen_clase",
+          "titulo": "Examen final de clase — Silencios: no tocar, pero contar",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué hacemos durante un silencio?",
+          "opciones": [
+            "No tocamos, pero seguimos contando",
+            "Paramos completamente",
+            "Tocamos más fuerte"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. El silencio se cuenta aunque no suene una nota.",
+          "feedback_error": "No. En un silencio no tocas, pero el pulso continúa.",
+          "desbloquea_si_aprueba": "n0_14_metro_pulso"
+        },
+        "desbloquea": "n0_14_metro_pulso"
+      }
+    },
+    {
+      "id": "n0_14_metro_pulso",
+      "orden": 14,
+      "titulo": "Metrónomo y pulso regular",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+      "objetivo": "Usar el metrónomo como ayuda para no adelantar ni retrasar el pulso.",
+      "resumen": "El metrónomo no toca por ti: te da una referencia estable.",
+      "explicacion": "El metrónomo marca pulsos regulares. Tu trabajo es coordinar la nota con ese pulso. Si te adelantas, tocas antes del clic. Si te retrasas, tocas después. En esta etapa importa más ir regular que ir rápido.",
+      "ejemplo": "Pon 60 bpm y toca Do central en cada clic. Si puedes hacerlo cómodo, luego prueba Do Re Mi Fa Sol.",
+      "pregunta": "¿Para qué usamos el metrónomo?",
+      "opciones": [
+        "Para mantener un pulso regular",
+        "Para cambiar el sonido del piano",
+        "Para saber el nombre de las notas automáticamente"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. El metrónomo ayuda a mantener regularidad.",
+      "feedback_error": "No. El metrónomo no cambia notas ni sonidos; marca pulso.",
+      "practica": "Toca cuatro Do seguidos con el metrónomo lento.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Metrónomo y pulso regular",
+          "objetivo": "Usar el metrónomo como ayuda para no adelantar ni retrasar el pulso.",
+          "resumen": "El metrónomo no toca por ti: te da una referencia estable.",
+          "explicacion": "El metrónomo marca pulsos regulares. Tu trabajo es coordinar la nota con ese pulso. Si te adelantas, tocas antes del clic. Si te retrasas, tocas después. En esta etapa importa más ir regular que ir rápido.",
+          "ejemplo": "Pon 60 bpm y toca Do central en cada clic. Si puedes hacerlo cómodo, luego prueba Do Re Mi Fa Sol.",
+          "practica": "Toca cuatro Do seguidos con el metrónomo lento.",
+          "archivo_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_14_metro_pulso_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Metrónomo y pulso regular",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Para qué usamos el metrónomo?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Para mantener un pulso regular",
+                "Para cambiar el sonido del piano",
+                "Para saber el nombre de las notas automáticamente"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_14_metro_pulso_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Metrónomo y pulso regular",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_14_metro_pulso_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Metrónomo y pulso regular",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_14_metro_pulso_examen_clase",
+          "titulo": "Examen final de clase — Metrónomo y pulso regular",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Para qué usamos el metrónomo?",
+          "opciones": [
+            "Para mantener un pulso regular",
+            "Para cambiar el sonido del piano",
+            "Para saber el nombre de las notas automáticamente"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. El metrónomo ayuda a mantener regularidad.",
+          "feedback_error": "No. El metrónomo no cambia notas ni sonidos; marca pulso.",
+          "desbloquea_si_aprueba": "n0_15_lectura_sol_fa_do"
+        },
+        "desbloquea": "n0_15_lectura_sol_fa_do"
+      }
+    },
+    {
+      "id": "n0_15_lectura_sol_fa_do",
+      "orden": 15,
+      "titulo": "Primera lectura: SOL, FA y DO central",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/teclas_blancas.png",
+      "objetivo": "Aplicar la pizarra musical al teclado: Sol, Fa y Do central.",
+      "resumen": "La lectura empieza conectando un signo visual con una tecla real.",
+      "explicacion": "Cuando la pizarra señala la clave de Sol, puedes relacionarla con la nota Sol. Cuando señala la clave de Fa, puedes relacionarla con Fa. Cuando marca Do central, debes encontrar el Do del centro. Estas tres referencias empiezan a unir pentagrama y teclado.",
+      "ejemplo": "Usa Tocar en piano: clave de Sol pide Sol, clave de Fa pide Fa, Do central pide Do central.",
+      "pregunta": "¿Qué hay que hacer cuando la pizarra pide DO central?",
+      "opciones": [
+        "Buscarlo y tocarlo en el teclado",
+        "Cambiar de pantalla",
+        "Subir el volumen"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. La lectura se confirma tocando la tecla correspondiente.",
+      "feedback_error": "No. La idea es aplicar lo leído al teclado.",
+      "practica": "En Partitura, usa Tocar en piano y responde con el teclado virtual o MIDI.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Primera lectura: SOL, FA y DO central",
+          "objetivo": "Aplicar la pizarra musical al teclado: Sol, Fa y Do central.",
+          "resumen": "La lectura empieza conectando un signo visual con una tecla real.",
+          "explicacion": "Cuando la pizarra señala la clave de Sol, puedes relacionarla con la nota Sol. Cuando señala la clave de Fa, puedes relacionarla con Fa. Cuando marca Do central, debes encontrar el Do del centro. Estas tres referencias empiezan a unir pentagrama y teclado.",
+          "ejemplo": "Usa Tocar en piano: clave de Sol pide Sol, clave de Fa pide Fa, Do central pide Do central.",
+          "practica": "En Partitura, usa Tocar en piano y responde con el teclado virtual o MIDI.",
+          "archivo_visual": "assets/teoria/nivel_0/teclas_blancas.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_15_lectura_sol_fa_do_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Primera lectura: SOL, FA y DO central",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué hay que hacer cuando la pizarra pide DO central?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Buscarlo y tocarlo en el teclado",
+                "Cambiar de pantalla",
+                "Subir el volumen"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_15_lectura_sol_fa_do_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Primera lectura: SOL, FA y DO central",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_15_lectura_sol_fa_do_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Primera lectura: SOL, FA y DO central",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_15_lectura_sol_fa_do_examen_clase",
+          "titulo": "Examen final de clase — Primera lectura: SOL, FA y DO central",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué hay que hacer cuando la pizarra pide DO central?",
+          "opciones": [
+            "Buscarlo y tocarlo en el teclado",
+            "Cambiar de pantalla",
+            "Subir el volumen"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. La lectura se confirma tocando la tecla correspondiente.",
+          "feedback_error": "No. La idea es aplicar lo leído al teclado.",
+          "desbloquea_si_aprueba": "n0_16_secuencia_do_re_mi"
+        },
+        "desbloquea": "n0_16_secuencia_do_re_mi"
+      }
+    },
+    {
+      "id": "n0_16_secuencia_do_re_mi",
+      "orden": 16,
+      "titulo": "Secuencia DO–RE–MI",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/teclas_blancas.png",
+      "objetivo": "Tocar tres notas blancas seguidas desde Do con orden.",
+      "resumen": "Do, Re y Mi forman la primera mini-secuencia de lectura.",
+      "explicacion": "Después de encontrar Do, las siguientes teclas blancas hacia la derecha son Re y Mi. No saltes teclas; avanza por blancas vecinas. La lectura de secuencias empieza con movimientos pequeños y claros.",
+      "ejemplo": "Toca Do, luego la siguiente blanca Re, luego la siguiente blanca Mi.",
+      "pregunta": "Después de DO, ¿qué nota viene si avanzamos por teclas blancas?",
+      "opciones": [
+        "RE",
+        "FA",
+        "SI"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. Después de Do viene Re.",
+      "feedback_error": "No. En teclas blancas, después de Do viene Re.",
+      "practica": "Toca Do-Re-Mi lentamente con dedos 1-2-3.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Secuencia DO–RE–MI",
+          "objetivo": "Tocar tres notas blancas seguidas desde Do con orden.",
+          "resumen": "Do, Re y Mi forman la primera mini-secuencia de lectura.",
+          "explicacion": "Después de encontrar Do, las siguientes teclas blancas hacia la derecha son Re y Mi. No saltes teclas; avanza por blancas vecinas. La lectura de secuencias empieza con movimientos pequeños y claros.",
+          "ejemplo": "Toca Do, luego la siguiente blanca Re, luego la siguiente blanca Mi.",
+          "practica": "Toca Do-Re-Mi lentamente con dedos 1-2-3.",
+          "archivo_visual": "assets/teoria/nivel_0/teclas_blancas.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_16_secuencia_do_re_mi_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Secuencia DO–RE–MI",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: Después de DO, ¿qué nota viene si avanzamos por teclas blancas?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "RE",
+                "FA",
+                "SI"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_16_secuencia_do_re_mi_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Secuencia DO–RE–MI",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_16_secuencia_do_re_mi_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Secuencia DO–RE–MI",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_16_secuencia_do_re_mi_examen_clase",
+          "titulo": "Examen final de clase — Secuencia DO–RE–MI",
+          "tipo": "opcion_multiple",
+          "pregunta": "Después de DO, ¿qué nota viene si avanzamos por teclas blancas?",
+          "opciones": [
+            "RE",
+            "FA",
+            "SI"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. Después de Do viene Re.",
+          "feedback_error": "No. En teclas blancas, después de Do viene Re.",
+          "desbloquea_si_aprueba": "n0_17_digitacion_do_sol"
+        },
+        "desbloquea": "n0_17_digitacion_do_sol"
+      }
+    },
+    {
+      "id": "n0_17_digitacion_do_sol",
+      "orden": 17,
+      "titulo": "Digitación DO–RE–MI–FA–SOL",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/gifs/digitacion_1_5_pro_suave.gif",
+      "objetivo": "Relacionar cinco notas con dedos 1–5.",
+      "resumen": "Una digitación sencilla permite tocar sin mirar cada dedo como algo separado.",
+      "explicacion": "Con la mano derecha en Do central, puedes usar 1 en Do, 2 en Re, 3 en Mi, 4 en Fa y 5 en Sol. La mano debe seguir redondeada, sin hundir la muñeca.",
+      "ejemplo": "Toca Do-Re-Mi-Fa-Sol con dedos 1-2-3-4-5 y luego descansa.",
+      "pregunta": "En DO–RE–MI–FA–SOL con mano derecha, ¿qué dedo toca MI?",
+      "opciones": [
+        "3",
+        "1",
+        "5"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. Mi queda con el dedo 3 en esta posición básica.",
+      "feedback_error": "No. En esta posición: Do 1, Re 2, Mi 3, Fa 4, Sol 5.",
+      "practica": "Usa Tocar secuencia en la pizarra o toca Do-Re-Mi-Fa-Sol con dedos 1-2-3-4-5.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Digitación DO–RE–MI–FA–SOL",
+          "objetivo": "Relacionar cinco notas con dedos 1–5.",
+          "resumen": "Una digitación sencilla permite tocar sin mirar cada dedo como algo separado.",
+          "explicacion": "Con la mano derecha en Do central, puedes usar 1 en Do, 2 en Re, 3 en Mi, 4 en Fa y 5 en Sol. La mano debe seguir redondeada, sin hundir la muñeca.",
+          "ejemplo": "Toca Do-Re-Mi-Fa-Sol con dedos 1-2-3-4-5 y luego descansa.",
+          "practica": "Usa Tocar secuencia en la pizarra o toca Do-Re-Mi-Fa-Sol con dedos 1-2-3-4-5.",
+          "archivo_visual": "assets/teoria/nivel_0/gifs/digitacion_1_5_pro_suave.gif"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_17_digitacion_do_sol_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Digitación DO–RE–MI–FA–SOL",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: En DO–RE–MI–FA–SOL con mano derecha, ¿qué dedo toca MI?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "3",
+                "1",
+                "5"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_17_digitacion_do_sol_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Digitación DO–RE–MI–FA–SOL",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_17_digitacion_do_sol_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Digitación DO–RE–MI–FA–SOL",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_17_digitacion_do_sol_examen_clase",
+          "titulo": "Examen final de clase — Digitación DO–RE–MI–FA–SOL",
+          "tipo": "opcion_multiple",
+          "pregunta": "En DO–RE–MI–FA–SOL con mano derecha, ¿qué dedo toca MI?",
+          "opciones": [
+            "3",
+            "1",
+            "5"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. Mi queda con el dedo 3 en esta posición básica.",
+          "feedback_error": "No. En esta posición: Do 1, Re 2, Mi 3, Fa 4, Sol 5.",
+          "desbloquea_si_aprueba": "n0_18_manos_roles"
+        },
+        "desbloquea": "n0_18_manos_roles"
+      }
+    },
+    {
+      "id": "n0_18_manos_roles",
+      "orden": 18,
+      "titulo": "Mano derecha y mano izquierda",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/mano_correcta.png",
+      "objetivo": "Entender el papel inicial de cada mano en la lectura de piano.",
+      "resumen": "En piano inicial, la mano derecha suele leer arriba y la izquierda abajo.",
+      "explicacion": "Normalmente, en lectura inicial, el pentagrama superior se relaciona con la mano derecha y el inferior con la izquierda. Esto no es una ley absoluta para toda la música, pero sirve para empezar con orden. Cada mano debe mantener su forma y su relajación.",
+      "ejemplo": "Si la pizarra marca el pentagrama superior, piensa: preparo mano derecha. Si marca el inferior, preparo mano izquierda.",
+      "pregunta": "En lectura inicial, ¿qué mano suele usar el pentagrama superior?",
+      "opciones": [
+        "Mano derecha",
+        "Mano izquierda",
+        "Ninguna mano"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. El pentagrama superior suele guiar la mano derecha.",
+      "feedback_error": "No. En piano inicial, superior suele ser mano derecha e inferior mano izquierda.",
+      "practica": "Señala con cada mano su zona: derecha arriba, izquierda abajo.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Mano derecha y mano izquierda",
+          "objetivo": "Entender el papel inicial de cada mano en la lectura de piano.",
+          "resumen": "En piano inicial, la mano derecha suele leer arriba y la izquierda abajo.",
+          "explicacion": "Normalmente, en lectura inicial, el pentagrama superior se relaciona con la mano derecha y el inferior con la izquierda. Esto no es una ley absoluta para toda la música, pero sirve para empezar con orden. Cada mano debe mantener su forma y su relajación.",
+          "ejemplo": "Si la pizarra marca el pentagrama superior, piensa: preparo mano derecha. Si marca el inferior, preparo mano izquierda.",
+          "practica": "Señala con cada mano su zona: derecha arriba, izquierda abajo.",
+          "archivo_visual": "assets/teoria/nivel_0/mano_correcta.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_18_manos_roles_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Mano derecha y mano izquierda",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: En lectura inicial, ¿qué mano suele usar el pentagrama superior?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Mano derecha",
+                "Mano izquierda",
+                "Ninguna mano"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_18_manos_roles_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Mano derecha y mano izquierda",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_18_manos_roles_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Mano derecha y mano izquierda",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_18_manos_roles_examen_clase",
+          "titulo": "Examen final de clase — Mano derecha y mano izquierda",
+          "tipo": "opcion_multiple",
+          "pregunta": "En lectura inicial, ¿qué mano suele usar el pentagrama superior?",
+          "opciones": [
+            "Mano derecha",
+            "Mano izquierda",
+            "Ninguna mano"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. El pentagrama superior suele guiar la mano derecha.",
+          "feedback_error": "No. En piano inicial, superior suele ser mano derecha e inferior mano izquierda.",
+          "desbloquea_si_aprueba": "n0_19_primer_reto_midi"
+        },
+        "desbloquea": "n0_19_primer_reto_midi"
+      }
+    },
+    {
+      "id": "n0_19_primer_reto_midi",
+      "orden": 19,
+      "titulo": "Primer reto con teclado MIDI",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/teclas_blancas.png",
+      "objetivo": "Aplicar la primera lectura al teclado MIDI o al piano virtual.",
+      "resumen": "El profesor ya puede escuchar lo que tocas y comprobar si coincide con la pizarra.",
+      "explicacion": "Cuando conectas un teclado MIDI, el profesor puede usar lo que tocas para validar notas y secuencias. Si no tienes teclado MIDI, puedes usar el piano virtual. La idea es la misma: leer, localizar, tocar y recibir corrección.",
+      "ejemplo": "La pizarra pide Do central. Tocas Do central en tu teclado MIDI. El profesor confirma si has acertado.",
+      "pregunta": "¿Qué debe hacer el alumno en un reto MIDI de lectura?",
+      "opciones": [
+        "Tocar la nota o secuencia que pide la pizarra",
+        "Pulsar cualquier tecla",
+        "Cerrar el metrónomo"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. El teclado MIDI sirve para demostrar la lectura tocando.",
+      "feedback_error": "No. El reto MIDI consiste en tocar exactamente lo que la pizarra pide.",
+      "practica": "Conecta tu teclado MIDI y prueba Partitura → Leer punto actual → Tocar secuencia.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Primer reto con teclado MIDI",
+          "objetivo": "Aplicar la primera lectura al teclado MIDI o al piano virtual.",
+          "resumen": "El profesor ya puede escuchar lo que tocas y comprobar si coincide con la pizarra.",
+          "explicacion": "Cuando conectas un teclado MIDI, el profesor puede usar lo que tocas para validar notas y secuencias. Si no tienes teclado MIDI, puedes usar el piano virtual. La idea es la misma: leer, localizar, tocar y recibir corrección.",
+          "ejemplo": "La pizarra pide Do central. Tocas Do central en tu teclado MIDI. El profesor confirma si has acertado.",
+          "practica": "Conecta tu teclado MIDI y prueba Partitura → Leer punto actual → Tocar secuencia.",
+          "archivo_visual": "assets/teoria/nivel_0/teclas_blancas.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_19_primer_reto_midi_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Primer reto con teclado MIDI",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué debe hacer el alumno en un reto MIDI de lectura?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Tocar la nota o secuencia que pide la pizarra",
+                "Pulsar cualquier tecla",
+                "Cerrar el metrónomo"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_19_primer_reto_midi_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Primer reto con teclado MIDI",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_19_primer_reto_midi_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Primer reto con teclado MIDI",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_19_primer_reto_midi_examen_clase",
+          "titulo": "Examen final de clase — Primer reto con teclado MIDI",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué debe hacer el alumno en un reto MIDI de lectura?",
+          "opciones": [
+            "Tocar la nota o secuencia que pide la pizarra",
+            "Pulsar cualquier tecla",
+            "Cerrar el metrónomo"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. El teclado MIDI sirve para demostrar la lectura tocando.",
+          "feedback_error": "No. El reto MIDI consiste en tocar exactamente lo que la pizarra pide.",
+          "desbloquea_si_aprueba": "n0_20_cierre_nivel0"
+        },
+        "desbloquea": "n0_20_cierre_nivel0"
+      }
+    },
+    {
+      "id": "n0_20_cierre_nivel0",
+      "orden": 20,
+      "titulo": "Cierre del Nivel 0: ver, entender y tocar",
+      "tipo": "teoria_visual",
+      "archivo": "assets/teoria/nivel_0/patron_teclado.png",
+      "objetivo": "Repasar todo el Nivel 0 y prepararse para avanzar al Nivel 1.",
+      "resumen": "El Nivel 0 termina cuando puedes explicar y aplicar lo básico en el teclado.",
+      "explicacion": "Ya has trabajado postura, manos, digitación, patrón del teclado, notas blancas, Do central, claves de Sol y Fa, figuras rítmicas, metrónomo, pizarra y primera lectura aplicada al teclado. El objetivo no es tocar rápido; es entender y responder con calma.",
+      "ejemplo": "Si ves Do central en la pizarra, lo localizas en el teclado. Si ves una secuencia Do-Re-Mi, la tocas en orden. Si el metrónomo marca el pulso, no corres.",
+      "pregunta": "¿Qué resume mejor el objetivo del Nivel 0?",
+      "opciones": [
+        "Ver, entender y tocar con calma",
+        "Tocar rápido sin mirar",
+        "Saltar directamente a canciones difíciles"
+      ],
+      "respuesta_correcta": 0,
+      "feedback_correcto": "Correcto. Nivel 0 busca base, orientación y control.",
+      "feedback_error": "No. El cierre del Nivel 0 es ver, entender y tocar con calma.",
+      "practica": "Haz un repaso: postura, Do central, Do-Re-Mi, claves de Sol/Fa y una secuencia con metrónomo lento.",
+      "flujo_docente": {
+        "teoria": {
+          "titulo": "Cierre del Nivel 0: ver, entender y tocar",
+          "objetivo": "Repasar todo el Nivel 0 y prepararse para avanzar al Nivel 1.",
+          "resumen": "El Nivel 0 termina cuando puedes explicar y aplicar lo básico en el teclado.",
+          "explicacion": "Ya has trabajado postura, manos, digitación, patrón del teclado, notas blancas, Do central, claves de Sol y Fa, figuras rítmicas, metrónomo, pizarra y primera lectura aplicada al teclado. El objetivo no es tocar rápido; es entender y responder con calma.",
+          "ejemplo": "Si ves Do central en la pizarra, lo localizas en el teclado. Si ves una secuencia Do-Re-Mi, la tocas en orden. Si el metrónomo marca el pulso, no corres.",
+          "practica": "Haz un repaso: postura, Do central, Do-Re-Mi, claves de Sol/Fa y una secuencia con metrónomo lento.",
+          "archivo_visual": "assets/teoria/nivel_0/patron_teclado.png"
+        },
+        "ejercicios_asociados": [
+          {
+            "id": "n0_20_cierre_nivel0_ej01_comprension",
+            "orden": 1,
+            "tipo": "comprension",
+            "titulo": "Comprensión — Cierre del Nivel 0: ver, entender y tocar",
+            "objetivo": "Explicar con palabras propias la idea central antes de tocar.",
+            "instruccion": "El profesor pregunta: ¿Qué resume mejor el objetivo del Nivel 0?",
+            "validacion": {
+              "modo": "opcion_multiple",
+              "opciones": [
+                "Ver, entender y tocar con calma",
+                "Tocar rápido sin mirar",
+                "Saltar directamente a canciones difíciles"
+              ],
+              "respuesta_correcta": 0
+            }
+          },
+          {
+            "id": "n0_20_cierre_nivel0_ej02_pizarra",
+            "orden": 2,
+            "tipo": "pizarra",
+            "titulo": "Pizarra — Cierre del Nivel 0: ver, entender y tocar",
+            "objetivo": "Relacionar la teoría con el pentagrama o la pizarra musical.",
+            "instruccion": "Pulsa Leer punto actual, avanza por la pizarra y usa Clase ▾ para repetir, mostrar ejemplo o activar capas.",
+            "validacion": {
+              "modo": "pizarra_guiada",
+              "requiere_pizarra": true
+            }
+          },
+          {
+            "id": "n0_20_cierre_nivel0_ej03_midi",
+            "orden": 3,
+            "tipo": "midi_piano",
+            "titulo": "Aplicación MIDI/piano — Cierre del Nivel 0: ver, entender y tocar",
+            "objetivo": "Aplicar la teoría tocando en piano virtual o teclado MIDI.",
+            "instruccion": "Usa Tocar en piano, Tocar secuencia o Tocar con pulso cuando la pizarra ofrezca práctica.",
+            "validacion": {
+              "modo": "piano_o_midi",
+              "acepta_piano_virtual": true,
+              "acepta_midi": true,
+              "analisis_pro_pendiente": true
+            }
+          }
+        ],
+        "examen_clase": {
+          "id": "n0_20_cierre_nivel0_examen_clase",
+          "titulo": "Examen final de clase — Cierre del Nivel 0: ver, entender y tocar",
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué resume mejor el objetivo del Nivel 0?",
+          "opciones": [
+            "Ver, entender y tocar con calma",
+            "Tocar rápido sin mirar",
+            "Saltar directamente a canciones difíciles"
+          ],
+          "respuesta_correcta": 0,
+          "feedback_correcto": "Correcto. Nivel 0 busca base, orientación y control.",
+          "feedback_error": "No. El cierre del Nivel 0 es ver, entender y tocar con calma.",
+          "desbloquea_si_aprueba": "examen_global_nivel_0"
+        },
+        "desbloquea": "examen_global_nivel_0"
+      }
+    }
+  ],
+  "mini_evaluacion": {
+    "id": "n0_eval_20_clases",
+    "titulo": "Evaluación final Nivel 0 — 20 clases",
+    "descripcion": "Comprobación final de las 20 clases del Nivel 0 antes de avanzar al Nivel 1.",
+    "minimo_aprobado": 16,
+    "preguntas": [
+      {
+        "pregunta": "¿Qué buscamos con la postura al piano?",
+        "opciones": [
+          "Tocar con control y sin tensión innecesaria",
+          "Parecer más serio",
+          "Tocar siempre más fuerte"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. La postura prepara el cuerpo para tocar con control y sin tensión."
+      },
+      {
+        "pregunta": "¿Por qué evitamos tocar encorvados?",
+        "opciones": [
+          "Porque genera tensión y limita el movimiento",
+          "Porque cambia el nombre de las notas",
+          "Porque impide usar el metrónomo"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. La espalda encorvada genera tensión y limita el movimiento."
+      },
+      {
+        "pregunta": "¿Cómo deben estar los dedos en esta etapa?",
+        "opciones": [
+          "Curvados y relajados",
+          "Planos y rígidos",
+          "Totalmente estirados"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. Dedos curvados y relajados dan más control."
+      },
+      {
+        "pregunta": "¿Qué dedo corresponde al número 1?",
+        "opciones": [
+          "Pulgar",
+          "Índice",
+          "Meñique"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. El dedo 1 es el pulgar."
+      },
+      {
+        "pregunta": "¿Qué patrón se repite en las teclas negras?",
+        "opciones": [
+          "Dos negras y tres negras",
+          "Una negra y cuatro negras",
+          "Todas separadas igual"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. El mapa visual es dos negras, tres negras, y se repite."
+      },
+      {
+        "pregunta": "¿Dónde está Do respecto a un grupo de dos teclas negras?",
+        "opciones": [
+          "A la izquierda del grupo",
+          "Entre las dos negras",
+          "A la derecha del grupo"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. Do está justo a la izquierda del grupo de dos negras."
+      },
+      {
+        "pregunta": "Después de SI, ¿qué nota vuelve?",
+        "opciones": [
+          "DO",
+          "FA",
+          "SOL"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. Después de Si vuelve Do."
+      },
+      {
+        "pregunta": "¿Qué nos dice una partitura?",
+        "opciones": [
+          "Qué notas tocar, cuándo y cuánto duran",
+          "Solo qué volumen usar",
+          "Solo el nombre de la canción"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. La partitura une nota, tiempo y duración."
+      },
+      {
+        "pregunta": "¿Por qué se llama clave de Fa?",
+        "opciones": [
+          "Porque sus puntos señalan la línea de Fa",
+          "Porque siempre se toca fuerte",
+          "Porque indica el final de la canción"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. La clave de Fa señala la línea de Fa."
+      },
+      {
+        "pregunta": "¿Para qué sirve el Do central?",
+        "opciones": [
+          "Para orientarse entre teclado y partitura",
+          "Para tocar siempre más rápido",
+          "Para cambiar de instrumento"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. Do central es una referencia entre teclado y partitura."
+      },
+      {
+        "pregunta": "Si la negra vale un pulso, ¿cuántos pulsos ocupa?",
+        "opciones": [
+          "Uno",
+          "Dos",
+          "Cuatro"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. En esta lectura inicial, la negra ocupa un pulso."
+      },
+      {
+        "pregunta": "Si la negra vale uno, ¿cuánto dura una blanca?",
+        "opciones": [
+          "Dos pulsos",
+          "Un pulso",
+          "Cuatro pulsos"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. La blanca dura dos pulsos."
+      },
+      {
+        "pregunta": "¿Qué hacemos durante un silencio?",
+        "opciones": [
+          "No tocamos, pero seguimos contando",
+          "Paramos completamente",
+          "Tocamos más fuerte"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. El silencio se cuenta aunque no suene una nota."
+      },
+      {
+        "pregunta": "¿Para qué usamos el metrónomo?",
+        "opciones": [
+          "Para mantener un pulso regular",
+          "Para cambiar el sonido del piano",
+          "Para saber el nombre de las notas automáticamente"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. El metrónomo ayuda a mantener regularidad."
+      },
+      {
+        "pregunta": "¿Qué hay que hacer cuando la pizarra pide DO central?",
+        "opciones": [
+          "Buscarlo y tocarlo en el teclado",
+          "Cambiar de pantalla",
+          "Subir el volumen"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. La lectura se confirma tocando la tecla correspondiente."
+      },
+      {
+        "pregunta": "Después de DO, ¿qué nota viene si avanzamos por teclas blancas?",
+        "opciones": [
+          "RE",
+          "FA",
+          "SI"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. Después de Do viene Re."
+      },
+      {
+        "pregunta": "En DO–RE–MI–FA–SOL con mano derecha, ¿qué dedo toca MI?",
+        "opciones": [
+          "3",
+          "1",
+          "5"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. Mi queda con el dedo 3 en esta posición básica."
+      },
+      {
+        "pregunta": "En lectura inicial, ¿qué mano suele usar el pentagrama superior?",
+        "opciones": [
+          "Mano derecha",
+          "Mano izquierda",
+          "Ninguna mano"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. El pentagrama superior suele guiar la mano derecha."
+      },
+      {
+        "pregunta": "¿Qué debe hacer el alumno en un reto MIDI de lectura?",
+        "opciones": [
+          "Tocar la nota o secuencia que pide la pizarra",
+          "Pulsar cualquier tecla",
+          "Cerrar el metrónomo"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. El teclado MIDI sirve para demostrar la lectura tocando."
+      },
+      {
+        "pregunta": "¿Qué resume mejor el objetivo del Nivel 0?",
+        "opciones": [
+          "Ver, entender y tocar con calma",
+          "Tocar rápido sin mirar",
+          "Saltar directamente a canciones difíciles"
+        ],
+        "respuesta_correcta": 0,
+        "explicacion": "Correcto. Nivel 0 busca base, orientación y control."
+      }
+    ]
+  },
+  "siguiente_nivel": {
+    "id": "nivel_1",
+    "titulo": "Nivel 1 — Técnica inicial tipo Hanon propia",
+    "estado": "preparado_para_siguiente_version",
+    "nota": "El Nivel 1 se diseñará como técnica progresiva original inspirada en patrones públicos de dominio público, sin copiar ediciones protegidas."
+  },
+  "flujo_docente_obligatorio": {
+    "activo": true,
+    "estructura": [
+      "clase_teorica",
+      "ejercicios_asociados",
+      "examen_final_clase",
+      "examen_global_nivel"
+    ],
+    "archivo": "data/flujo_docente_nivel_0.json"
+  }
+}

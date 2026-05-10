@@ -1,0 +1,33 @@
+{
+  "version": "4.1.4-lite-clase1-nivel1-completa",
+  "titulo": "Política pedagógica de MIDIs externos",
+  "reglas": [
+    {
+      "niveles": [
+        0,
+        1,
+        2
+      ],
+      "carga_externa": false,
+      "mensaje": "Solo repertorio interno graduado y validado por el profesor."
+    },
+    {
+      "nivel": 3,
+      "carga_externa": true,
+      "max_pistas": 2,
+      "obligatorio": "Una pista debe ser base de batería/ritmo, normalmente canal MIDI 10."
+    },
+    {
+      "nivel": 4,
+      "carga_externa": true,
+      "max_pistas": 4
+    },
+    {
+      "nivel_minimo": 5,
+      "carga_externa": true,
+      "max_pistas": "completo",
+      "opciones": "El alumno podrá elegir qué pista toca."
+    }
+  ],
+  "motivo_docente": "Evitar frustración, impaciencia y malos hábitos."
+}

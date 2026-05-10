@@ -1,0 +1,5 @@
+[
+  {"id":"exam_inicial_01", "nivel":"inicial", "titulo":"Examen inicial 1", "minimo_aprobado":4, "ejercicios":["ini_midi_do", "ini_texto_teclas_negras", "ini_texto_blanca", "ini_midi_sol", "ini_texto_pulso"]},
+  {"id":"exam_basico_01", "nivel":"basico", "titulo":"Examen básico 1", "minimo_aprobado":4, "ejercicios":["bas_texto_do_mayor", "bas_midi_mi", "bas_acorde_c", "bas_texto_triada", "bas_midi_fa"]},
+  {"id":"exam_intermedio_01", "nivel":"intermedio", "titulo":"Examen intermedio 1", "minimo_aprobado":3, "ejercicios":["int_texto_progresion", "int_acorde_g", "int_texto_inversion", "int_midi_si"]}
+]

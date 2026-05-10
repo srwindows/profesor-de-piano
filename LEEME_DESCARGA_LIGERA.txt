@@ -1,0 +1,15 @@
+VERSIÓN LIGERA SIN VOCES
+
+Esta entrega no incluye la carpeta voices/ para evitar problemas de peso.
+Copia manualmente tu carpeta voices/ en la raíz del proyecto.
+
+V1.9.0:
+- Pantalla de inicio horizontal.
+- Avatar visible en todas las pantallas.
+- Identificación obligatoria del alumno al arrancar.
+- Nombre y tratamiento guardados en data/perfil_alumno.json.
+- Avatar más cercano y explícito.
+- Teoría visual con imágenes y GIF en assets/teoria/nivel_0/.
+
+Ejecutar:
+python3 main.py

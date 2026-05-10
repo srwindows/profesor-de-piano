@@ -1,0 +1,902 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "pizarra",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n1_01_pizarra",
+      "clase_id": "n1_01",
+      "modo": "tecnica",
+      "titulo": "Técnica 1: cinco dedos en DO con mano derecha",
+      "guion": [
+        "Observa la clase 01: Técnica 1: cinco dedos en DO con mano derecha.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-2-3-4-5-4-3-2-1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_01.md"
+    },
+    {
+      "id": "n1_02_pizarra",
+      "clase_id": "n1_02",
+      "modo": "tecnica",
+      "titulo": "Técnica 2: cinco dedos en DO con mano izquierda",
+      "guion": [
+        "Observa la clase 02: Técnica 2: cinco dedos en DO con mano izquierda.",
+        "Secuencia visual: DO3 - RE3 - MI3 - FA3 - SOL3 - FA3 - MI3 - RE3 - DO3.",
+        "Mano o enfoque principal: mano izquierda.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "digitacion": "5-4-3-2-1-2-3-4-5",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_02.md"
+    },
+    {
+      "id": "n1_03_pizarra",
+      "clase_id": "n1_03",
+      "modo": "tecnica",
+      "titulo": "Técnica 3: alternancia lenta 1-2-3-4-5",
+      "guion": [
+        "Observa la clase 03: Técnica 3: alternancia lenta 1-2-3-4-5.",
+        "Secuencia visual: DO4 - RE4 - DO4 - RE4 - MI4 - FA4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-2-1-2-3-4-3-4-5-4-3-2-1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_03.md"
+    },
+    {
+      "id": "n1_04_pizarra",
+      "clase_id": "n1_04",
+      "modo": "tecnica",
+      "titulo": "Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "guion": [
+        "Observa la clase 04: Técnica 4: vuelta 5-4-3-2-1 sin tensión.",
+        "Secuencia visual: SOL4 - FA4 - MI4 - RE4 - DO4 - RE4 - MI4 - FA4 - SOL4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "digitacion": "5-4-3-2-1-2-3-4-5",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_04.md"
+    },
+    {
+      "id": "n1_05_pizarra",
+      "clase_id": "n1_05",
+      "modo": "tecnica",
+      "titulo": "Técnica 5: igualdad de sonido entre dedos",
+      "guion": [
+        "Observa la clase 05: Técnica 5: igualdad de sonido entre dedos.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - DO4 - RE4 - MI4 - FA4 - SOL4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "digitacion": "1-2-3-4-5-1-2-3-4-5",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_05.md"
+    },
+    {
+      "id": "n1_06_pizarra",
+      "clase_id": "n1_06",
+      "modo": "tecnica",
+      "titulo": "Técnica 6: independencia del dedo 3",
+      "guion": [
+        "Observa la clase 06: Técnica 6: independencia del dedo 3.",
+        "Secuencia visual: MI4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4 - MI4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "3-2-3-4-3-2-1-3-5-3-1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_06.md"
+    },
+    {
+      "id": "n1_07_pizarra",
+      "clase_id": "n1_07",
+      "modo": "tecnica",
+      "titulo": "Técnica 7: independencia del dedo 4",
+      "guion": [
+        "Observa la clase 07: Técnica 7: independencia del dedo 4.",
+        "Secuencia visual: FA4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - FA4 - SOL4 - FA4 - RE4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "digitacion": "4-3-4-5-4-3-2-4-5-4-2",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_07.md"
+    },
+    {
+      "id": "n1_08_pizarra",
+      "clase_id": "n1_08",
+      "modo": "tecnica",
+      "titulo": "Técnica 8: pulgar flexible",
+      "guion": [
+        "Observa la clase 08: Técnica 8: pulgar flexible.",
+        "Secuencia visual: DO4 - MI4 - DO4 - FA4 - DO4 - SOL4 - DO4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-3-1-4-1-5-1-3-2-1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_08.md"
+    },
+    {
+      "id": "n1_09_pizarra",
+      "clase_id": "n1_09",
+      "modo": "tecnica",
+      "titulo": "Técnica 9: parejas de dedos 1-3 y 2-4",
+      "guion": [
+        "Observa la clase 09: Técnica 9: parejas de dedos 1-3 y 2-4.",
+        "Secuencia visual: DO4 - MI4 - RE4 - FA4 - MI4 - SOL4 - RE4 - FA4 - DO4 - MI4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "D4",
+        "F4",
+        "C4",
+        "E4"
+      ],
+      "digitacion": "1-3-2-4-3-5-2-4-1-3",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_09.md"
+    },
+    {
+      "id": "n1_10_pizarra",
+      "clase_id": "n1_10",
+      "modo": "tecnica",
+      "titulo": "Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "guion": [
+        "Observa la clase 10: Técnica 10: patrón 1-2-1-3-1-4-1-5.",
+        "Secuencia visual: DO4 - RE4 - DO4 - MI4 - DO4 - FA4 - DO4 - SOL4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4"
+      ],
+      "digitacion": "1-2-1-3-1-4-1-5-1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_10.md"
+    },
+    {
+      "id": "n1_11_pizarra",
+      "clase_id": "n1_11",
+      "modo": "tecnica",
+      "titulo": "Técnica 11: coordinación espejo de ambas manos",
+      "guion": [
+        "Observa la clase 11: Técnica 11: coordinación espejo de ambas manos.",
+        "Secuencia visual: DO4 - SI3 - LA3 - SOL3 - FA3 - SOL3 - LA3 - SI3 - DO4.",
+        "Mano o enfoque principal: ambas manos.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "B3",
+        "A3",
+        "G3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "digitacion": "MD 1-2-3-4-5 / MI 5-4-3-2-1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_11.md"
+    },
+    {
+      "id": "n1_12_pizarra",
+      "clase_id": "n1_12",
+      "modo": "tecnica",
+      "titulo": "Técnica 12: pregunta y respuesta entre manos",
+      "guion": [
+        "Observa la clase 12: Técnica 12: pregunta y respuesta entre manos.",
+        "Secuencia visual: DO4 - RE4 - MI4 - DO4 - DO3 - RE3 - MI3 - DO3.",
+        "Mano o enfoque principal: manos alternas.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "C3"
+      ],
+      "digitacion": "MD 1-2-3-1 / MI 5-4-3-5",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_12.md"
+    },
+    {
+      "id": "n1_13_pizarra",
+      "clase_id": "n1_13",
+      "modo": "tecnica",
+      "titulo": "Técnica 13: legato básico de cinco dedos",
+      "guion": [
+        "Observa la clase 13: Técnica 13: legato básico de cinco dedos.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "legato 1-2-3-4-5-4-3-2-1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_13.md"
+    },
+    {
+      "id": "n1_14_pizarra",
+      "clase_id": "n1_14",
+      "modo": "tecnica",
+      "titulo": "Técnica 14: staccato controlado",
+      "guion": [
+        "Observa la clase 14: Técnica 14: staccato controlado.",
+        "Secuencia visual: DO4 - MI4 - SOL4 - MI4 - DO4 - RE4 - FA4 - SOL4 - FA4 - RE4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "digitacion": "staccato controlado",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_14.md"
+    },
+    {
+      "id": "n1_15_pizarra",
+      "clase_id": "n1_15",
+      "modo": "tecnica",
+      "titulo": "Técnica 15: acentos suaves",
+      "guion": [
+        "Observa la clase 15: Técnica 15: acentos suaves.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4 - RE4 - MI4 - FA4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4"
+      ],
+      "digitacion": "acentos cada 4 notas",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_15.md"
+    },
+    {
+      "id": "n1_16_pizarra",
+      "clase_id": "n1_16",
+      "modo": "tecnica",
+      "titulo": "Técnica 16: dinámica piano y forte",
+      "guion": [
+        "Observa la clase 16: Técnica 16: dinámica piano y forte.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "piano luego forte",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_16.md"
+    },
+    {
+      "id": "n1_17_pizarra",
+      "clase_id": "n1_17",
+      "modo": "tecnica",
+      "titulo": "Técnica 17: metrónomo en negras",
+      "guion": [
+        "Observa la clase 17: Técnica 17: metrónomo en negras.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "digitacion": "negras a 60 bpm",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_17.md"
+    },
+    {
+      "id": "n1_18_pizarra",
+      "clase_id": "n1_18",
+      "modo": "tecnica",
+      "titulo": "Técnica 18: blancas y negras",
+      "guion": [
+        "Observa la clase 18: Técnica 18: blancas y negras.",
+        "Secuencia visual: DO4 - RE4 - MI4 - MI4 - FA4 - SOL4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "negras y blancas",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_18.md"
+    },
+    {
+      "id": "n1_19_pizarra",
+      "clase_id": "n1_19",
+      "modo": "tecnica",
+      "titulo": "Técnica 19: grupos de dos notas",
+      "guion": [
+        "Observa la clase 19: Técnica 19: grupos de dos notas.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4 - RE4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4"
+      ],
+      "digitacion": "grupos 2+2",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_19.md"
+    },
+    {
+      "id": "n1_20_pizarra",
+      "clase_id": "n1_20",
+      "modo": "tecnica",
+      "titulo": "Técnica 20: grupos de tres notas",
+      "guion": [
+        "Observa la clase 20: Técnica 20: grupos de tres notas.",
+        "Secuencia visual: DO4 - RE4 - MI4 - RE4 - MI4 - FA4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "digitacion": "grupos de tres",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_20.md"
+    },
+    {
+      "id": "n1_21_pizarra",
+      "clase_id": "n1_21",
+      "modo": "tecnica",
+      "titulo": "Técnica 21: patrón 1-3-2-4-3-5",
+      "guion": [
+        "Observa la clase 21: Técnica 21: patrón 1-3-2-4-3-5.",
+        "Secuencia visual: DO4 - MI4 - RE4 - FA4 - MI4 - SOL4 - FA4 - RE4 - MI4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "1-3-2-4-3-5",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_21.md"
+    },
+    {
+      "id": "n1_22_pizarra",
+      "clase_id": "n1_22",
+      "modo": "tecnica",
+      "titulo": "Técnica 22: patrón 1-2-4-3-5",
+      "guion": [
+        "Observa la clase 22: Técnica 22: patrón 1-2-4-3-5.",
+        "Secuencia visual: DO4 - RE4 - FA4 - MI4 - SOL4 - MI4 - FA4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "E4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-2-4-3-5",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_22.md"
+    },
+    {
+      "id": "n1_23_pizarra",
+      "clase_id": "n1_23",
+      "modo": "tecnica",
+      "titulo": "Técnica 23: dirección ascendente y descendente",
+      "guion": [
+        "Observa la clase 23: Técnica 23: dirección ascendente y descendente.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - MI4 - DO4 - RE4 - FA4 - MI4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "dirección melódica",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_23.md"
+    },
+    {
+      "id": "n1_24_pizarra",
+      "clase_id": "n1_24",
+      "modo": "tecnica",
+      "titulo": "Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "guion": [
+        "Observa la clase 24: Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "digitacion": "lectura DO a SOL",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_24.md"
+    },
+    {
+      "id": "n1_25_pizarra",
+      "clase_id": "n1_25",
+      "modo": "tecnica",
+      "titulo": "Técnica 25: leer SOL-FA-MI-RE-DO",
+      "guion": [
+        "Observa la clase 25: Técnica 25: leer SOL-FA-MI-RE-DO.",
+        "Secuencia visual: SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "lectura SOL a DO",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_25.md"
+    },
+    {
+      "id": "n1_26_pizarra",
+      "clase_id": "n1_26",
+      "modo": "tecnica",
+      "titulo": "Técnica 26: posición de DO en mano izquierda",
+      "guion": [
+        "Observa la clase 26: Técnica 26: posición de DO en mano izquierda.",
+        "Secuencia visual: DO3 - RE3 - MI3 - FA3 - SOL3 - FA3 - MI3 - RE3 - DO3.",
+        "Mano o enfoque principal: mano izquierda.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "digitacion": "5-4-3-2-1-2-3-4-5",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_26.md"
+    },
+    {
+      "id": "n1_27_pizarra",
+      "clase_id": "n1_27",
+      "modo": "tecnica",
+      "titulo": "Técnica 27: manos por turnos",
+      "guion": [
+        "Observa la clase 27: Técnica 27: manos por turnos.",
+        "Secuencia visual: DO4 - RE4 - MI4 - SOL4 - DO3 - RE3 - MI3 - SOL3.",
+        "Mano o enfoque principal: manos alternas.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "C3",
+        "D3",
+        "E3",
+        "G3"
+      ],
+      "digitacion": "MD responde MI",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_27.md"
+    },
+    {
+      "id": "n1_28_pizarra",
+      "clase_id": "n1_28",
+      "modo": "tecnica",
+      "titulo": "Técnica 28: manos simultáneas por octavas",
+      "guion": [
+        "Observa la clase 28: Técnica 28: manos simultáneas por octavas.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: ambas manos.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "octavas C3/C4",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_28.md"
+    },
+    {
+      "id": "n1_29_pizarra",
+      "clase_id": "n1_29",
+      "modo": "tecnica",
+      "titulo": "Técnica 29: miniestudio técnico Nivel 1",
+      "guion": [
+        "Observa la clase 29: Técnica 29: miniestudio técnico Nivel 1.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - MI4 - DO4 - RE4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "Mano o enfoque principal: mano derecha.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "miniestudio",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_29.md"
+    },
+    {
+      "id": "n1_30_pizarra",
+      "clase_id": "n1_30",
+      "modo": "tecnica",
+      "titulo": "Técnica 30: examen global del Nivel 1",
+      "guion": [
+        "Observa la clase 30: Técnica 30: examen global del Nivel 1.",
+        "Secuencia visual: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4 - DO3 - RE3 - MI3 - FA3 - SOL3.",
+        "Mano o enfoque principal: ambas manos.",
+        "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+        "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+      ],
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3"
+      ],
+      "digitacion": "síntesis Nivel 1",
+      "resalta_nota_actual": true,
+      "prepara_siguiente_nota": true,
+      "acepta_midi_externo": true,
+      "archivo": "assets/teoria/nivel_1/clase_30.md"
+    }
+  ]
+}

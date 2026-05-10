@@ -1,0 +1,11 @@
+PROFESOR DE PIANO v4.0.8 LITE ENTRADAS PRO
+ZIP sin IA pesada, sin modelos y sin voices.
+
+Total de archivos: 644
+
+Ejecutar:
+python3 main.py
+
+Archivos clave:
+app/core/entradas_alumno_pro.py
+app/audio/audio_input_manager.py

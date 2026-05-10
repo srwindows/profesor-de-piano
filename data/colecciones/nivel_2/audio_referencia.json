@@ -1,0 +1,218 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "audio_referencia",
+  "estado": "funcional_sin_recurso_pesado",
+  "items": [
+    {
+      "id": "n2_01_audio_referencia",
+      "clase_id": "n2_01",
+      "titulo": "Lectura 1: clave de Sol con DO-RE-MI",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_02_audio_referencia",
+      "clase_id": "n2_02",
+      "titulo": "Lectura 2: clave de Fa con DO-RE-MI",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_03_audio_referencia",
+      "clase_id": "n2_03",
+      "titulo": "Lectura 3: dos pentagramas por turnos",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_04_audio_referencia",
+      "clase_id": "n2_04",
+      "titulo": "Lectura 4: intervalos de segunda",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_05_audio_referencia",
+      "clase_id": "n2_05",
+      "titulo": "Lectura 5: intervalos de tercera",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_06_audio_referencia",
+      "clase_id": "n2_06",
+      "titulo": "Lectura 6: negras y blancas en melodía",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_07_audio_referencia",
+      "clase_id": "n2_07",
+      "titulo": "Lectura 7: silencios aplicados",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_08_audio_referencia",
+      "clase_id": "n2_08",
+      "titulo": "Lectura 8: compás de 4/4",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_09_audio_referencia",
+      "clase_id": "n2_09",
+      "titulo": "Lectura 9: compás de 3/4",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_10_audio_referencia",
+      "clase_id": "n2_10",
+      "titulo": "Lectura 10: ligadura de prolongación",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_11_audio_referencia",
+      "clase_id": "n2_11",
+      "titulo": "Lectura 11: frase de dos compases",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_12_audio_referencia",
+      "clase_id": "n2_12",
+      "titulo": "Lectura 12: legato y staccato en partitura",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_13_audio_referencia",
+      "clase_id": "n2_13",
+      "titulo": "Lectura 13: cambio simple de posición",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_14_audio_referencia",
+      "clase_id": "n2_14",
+      "titulo": "Lectura 14: escala de DO mayor mano derecha",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_15_audio_referencia",
+      "clase_id": "n2_15",
+      "titulo": "Lectura 15: escala de DO mayor mano izquierda",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_16_audio_referencia",
+      "clase_id": "n2_16",
+      "titulo": "Lectura 16: tríadas mayores C, F y G",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_17_audio_referencia",
+      "clase_id": "n2_17",
+      "titulo": "Lectura 17: bajo de tónica",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_18_audio_referencia",
+      "clase_id": "n2_18",
+      "titulo": "Lectura 18: melodía y bajo alterno",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_19_audio_referencia",
+      "clase_id": "n2_19",
+      "titulo": "Lectura 19: negras contra blancas",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_20_audio_referencia",
+      "clase_id": "n2_20",
+      "titulo": "Lectura 20: primer sostenido FA#",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_21_audio_referencia",
+      "clase_id": "n2_21",
+      "titulo": "Lectura 21: primer bemol SIb",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_22_audio_referencia",
+      "clase_id": "n2_22",
+      "titulo": "Lectura 22: dinámica escrita",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_23_audio_referencia",
+      "clase_id": "n2_23",
+      "titulo": "Lectura 23: lectura a primera vista sencilla",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_24_audio_referencia",
+      "clase_id": "n2_24",
+      "titulo": "Lectura 24: patrón de acompañamiento simple",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_25_audio_referencia",
+      "clase_id": "n2_25",
+      "titulo": "Lectura 25: canon sencillo entre manos",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_26_audio_referencia",
+      "clase_id": "n2_26",
+      "titulo": "Lectura 26: arpegio de DO mayor mano derecha",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_27_audio_referencia",
+      "clase_id": "n2_27",
+      "titulo": "Lectura 27: arpegio de DO mayor mano izquierda",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_28_audio_referencia",
+      "clase_id": "n2_28",
+      "titulo": "Lectura 28: pieza de ocho compases",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_29_audio_referencia",
+      "clase_id": "n2_29",
+      "titulo": "Lectura 29: repaso técnico de lectura",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n2_30_audio_referencia",
+      "clase_id": "n2_30",
+      "titulo": "Lectura 30: examen global del Nivel 2",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "ejercicios_completados": [
+    "lp_intro_00_que_es_partitura",
+    "lp_intro_00b_claves_sol_fa",
+    "lp_intro_01_do_central",
+    "lp_intro_02_figuras_basicas",
+    "lp_00_do_central",
+    "lp_01_do_re_mi",
+    "lp_02_pulso_blanca_negra",
+    "lp_03_frase_corta"
+  ],
+  "historial": [
+    {
+      "fecha": "2026-05-05T23:33:15",
+      "ejercicio_id": "lp_intro_00_que_es_partitura",
+      "titulo": "Qué es una partitura de piano",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    },
+    {
+      "fecha": "2026-05-06T00:15:10",
+      "ejercicio_id": "lp_intro_00b_claves_sol_fa",
+      "titulo": "Qué son la clave de Sol y la clave de Fa",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    },
+    {
+      "fecha": "2026-05-06T00:17:18",
+      "ejercicio_id": "lp_intro_01_do_central",
+      "titulo": "Dónde está el DO central y cómo se dibuja",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    },
+    {
+      "fecha": "2026-05-09T18:55:34",
+      "ejercicio_id": "lp_intro_02_figuras_basicas",
+      "titulo": "Negra, blanca, redonda y silencio",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    },
+    {
+      "fecha": "2026-05-09T18:57:04",
+      "ejercicio_id": "lp_00_do_central",
+      "titulo": "DO central en el pentagrama",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    },
+    {
+      "fecha": "2026-05-09T18:58:00",
+      "ejercicio_id": "lp_01_do_re_mi",
+      "titulo": "DO RE MI en lectura lenta",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    },
+    {
+      "fecha": "2026-05-09T18:58:10",
+      "ejercicio_id": "lp_02_pulso_blanca_negra",
+      "titulo": "Negras y blancas en pulso",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    },
+    {
+      "fecha": "2026-05-09T18:58:12",
+      "ejercicio_id": "lp_03_frase_corta",
+      "titulo": "Primera frase leída",
+      "version": "4.1.15-lite-hotfix-niveles-1-2-completos"
+    }
+  ],
+  "ultimo": "lp_03_frase_corta"
+}

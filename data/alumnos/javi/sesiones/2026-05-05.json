@@ -1,0 +1,849 @@
+{
+  "fecha": "2026-05-05",
+  "eventos": [
+    {
+      "ts": "2026-05-05T23:08:29",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:29.108",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "F3",
+        "velocity": 29,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado F3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "F3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:29",
+      "tipo": "observacion_pro",
+      "detalle": {
+        "ts": "2026-05-05T23:08:29",
+        "tipo": "observacion_camara",
+        "clave": "camara",
+        "detalle": {
+          "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+          "sin_grabacion": true,
+          "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:29",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:29.318",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "F3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 209.9 ms",
+        "contexto": {
+          "duracion_ms": 209.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:30",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:30.263",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "E3",
+        "velocity": 28,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:30",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:30.613",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "E3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 360.7 ms",
+        "contexto": {
+          "duracion_ms": 360.7
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:32",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:32.022",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "D3",
+        "velocity": 27,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado D3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "D3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:32",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:32.251",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "D3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 229.0 ms",
+        "contexto": {
+          "duracion_ms": 229.0
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:32",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:32.738",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "C3",
+        "velocity": 2,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado C3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "C3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:33",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:33.101",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "C3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 363.2 ms",
+        "contexto": {
+          "duracion_ms": 363.2
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:33",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:33.442",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "B2",
+        "velocity": 30,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado B2. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "B2"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:33",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:33.810",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "B2",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 368.1 ms",
+        "contexto": {
+          "duracion_ms": 368.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:34",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:34.165",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "A2",
+        "velocity": 2,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado A2. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "A2"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:34",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:34.681",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "A2",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 516.1 ms",
+        "contexto": {
+          "duracion_ms": 516.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:35",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:35.812",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "E3",
+        "velocity": 21,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:36",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:36.012",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "E3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 200.2 ms",
+        "contexto": {
+          "duracion_ms": 200.2
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:36",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:36.483",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "F3",
+        "velocity": 18,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado F3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "F3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:36",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:36.749",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "F3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 288.6 ms",
+        "contexto": {
+          "duracion_ms": 288.6
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:37",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:37.120",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "G3",
+        "velocity": 13,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado G3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "G3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:37",
+      "tipo": "observacion_pro",
+      "detalle": {
+        "ts": "2026-05-05T23:08:37",
+        "tipo": "observacion_camara",
+        "clave": "camara",
+        "detalle": {
+          "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+          "sin_grabacion": true,
+          "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:37",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:37.329",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "G3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 209.3 ms",
+        "contexto": {
+          "duracion_ms": 209.3
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:37",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:37.668",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "A3",
+        "velocity": 15,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado A3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "A3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:37",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:37.979",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "A3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 311.1 ms",
+        "contexto": {
+          "duracion_ms": 311.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:38",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:38.280",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "B3",
+        "velocity": 18,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado B3. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "B3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:38",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:38.629",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "B3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 349.4 ms",
+        "contexto": {
+          "duracion_ms": 349.4
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:38",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:38.823",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "C4",
+        "velocity": 33,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado C4. Velocity: suave.",
+        "contexto": {
+          "velocity_clase": "suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "C4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:39",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:39.271",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "C4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 448.3 ms",
+        "contexto": {
+          "duracion_ms": 448.3
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:39",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:39.494",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "D4",
+        "velocity": 35,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado D4. Velocity: suave.",
+        "contexto": {
+          "velocity_clase": "suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "D4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:39",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:39.693",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "D4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 198.6 ms",
+        "contexto": {
+          "duracion_ms": 198.6
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:40",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:40.054",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "E4",
+        "velocity": 30,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. La pulsación es muy suave; procura que la tecla baje con seguridad.",
+        "contexto": {
+          "velocity_clase": "muy_suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:40",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:40.405",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 350.7 ms",
+        "contexto": {
+          "duracion_ms": 350.7
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:40",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:40.666",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "F4",
+        "velocity": 42,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado F4. Velocity: suave.",
+        "contexto": {
+          "velocity_clase": "suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "F4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:40",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:40.856",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "F4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 190.0 ms",
+        "contexto": {
+          "duracion_ms": 190.0
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:41",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:41.284",
+        "tipo": "nota_libre",
+        "origen": "midi_in",
+        "nota": "G4",
+        "velocity": 33,
+        "canal": 1,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado G4. Velocity: suave.",
+        "contexto": {
+          "velocity_clase": "suave",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "G4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:41",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-05T23:08:41.435",
+        "tipo": "duracion",
+        "origen": "midi_in",
+        "nota": "G4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 150.7 ms",
+        "contexto": {
+          "duracion_ms": 150.7
+        }
+      }
+    }
+  ]
+}

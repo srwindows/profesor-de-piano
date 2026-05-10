@@ -1,0 +1,458 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "teoria_visual",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n1_01_teoria",
+      "clase_id": "n1_01",
+      "titulo": "Técnica 1: cinco dedos en DO con mano derecha",
+      "archivo": "assets/teoria/nivel_1/clase_01.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 01 del Nivel 1: Técnica 1: cinco dedos en DO con mano derecha.",
+        "Colocar la mano derecha en DO-RE-MI-FA-SOL y tocar con digitación 1-2-3-4-5 sin tensión.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: 1-2-3-4-5-4-3-2-1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_02_teoria",
+      "clase_id": "n1_02",
+      "titulo": "Técnica 2: cinco dedos en DO con mano izquierda",
+      "archivo": "assets/teoria/nivel_1/clase_02.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 02 del Nivel 1: Técnica 2: cinco dedos en DO con mano izquierda.",
+        "Colocar la mano izquierda en DO-RE-MI-FA-SOL y tocar con digitación 5-4-3-2-1 con control.",
+        "Trabajamos mano izquierda con una secuencia corta: DO3 - RE3 - MI3 - FA3 - SOL3 - FA3 - MI3 - RE3 - DO3.",
+        "La digitación o foco técnico es: 5-4-3-2-1-2-3-4-5.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_03_teoria",
+      "clase_id": "n1_03",
+      "titulo": "Técnica 3: alternancia lenta 1-2-3-4-5",
+      "archivo": "assets/teoria/nivel_1/clase_03.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 03 del Nivel 1: Técnica 3: alternancia lenta 1-2-3-4-5.",
+        "Alternar dedos vecinos con pulso estable, escuchando que ninguna nota sobresalga por accidente.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - DO4 - RE4 - MI4 - FA4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: 1-2-1-2-3-4-3-4-5-4-3-2-1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_04_teoria",
+      "clase_id": "n1_04",
+      "titulo": "Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "archivo": "assets/teoria/nivel_1/clase_04.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 04 del Nivel 1: Técnica 4: vuelta 5-4-3-2-1 sin tensión.",
+        "Bajar desde SOL hasta DO sin hundir la muñeca ni endurecer el quinto dedo.",
+        "Trabajamos mano derecha con una secuencia corta: SOL4 - FA4 - MI4 - RE4 - DO4 - RE4 - MI4 - FA4 - SOL4.",
+        "La digitación o foco técnico es: 5-4-3-2-1-2-3-4-5.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_05_teoria",
+      "clase_id": "n1_05",
+      "titulo": "Técnica 5: igualdad de sonido entre dedos",
+      "archivo": "assets/teoria/nivel_1/clase_05.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 05 del Nivel 1: Técnica 5: igualdad de sonido entre dedos.",
+        "Conseguir que pulgar, índice, medio, anular y meñique produzcan un sonido parecido.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - DO4 - RE4 - MI4 - FA4 - SOL4.",
+        "La digitación o foco técnico es: 1-2-3-4-5-1-2-3-4-5.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_06_teoria",
+      "clase_id": "n1_06",
+      "titulo": "Técnica 6: independencia del dedo 3",
+      "archivo": "assets/teoria/nivel_1/clase_06.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 06 del Nivel 1: Técnica 6: independencia del dedo 3.",
+        "Mantener la mano quieta mientras el dedo 3 trabaja sin arrastrar los demás dedos.",
+        "Trabajamos mano derecha con una secuencia corta: MI4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4 - MI4 - DO4.",
+        "La digitación o foco técnico es: 3-2-3-4-3-2-1-3-5-3-1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_07_teoria",
+      "clase_id": "n1_07",
+      "titulo": "Técnica 7: independencia del dedo 4",
+      "archivo": "assets/teoria/nivel_1/clase_07.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 07 del Nivel 1: Técnica 7: independencia del dedo 4.",
+        "Entrenar el dedo 4 con movimiento pequeño, sin tensión en hombro ni muñeca.",
+        "Trabajamos mano derecha con una secuencia corta: FA4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - FA4 - SOL4 - FA4 - RE4.",
+        "La digitación o foco técnico es: 4-3-4-5-4-3-2-4-5-4-2.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_08_teoria",
+      "clase_id": "n1_08",
+      "titulo": "Técnica 8: pulgar flexible",
+      "archivo": "assets/teoria/nivel_1/clase_08.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 08 del Nivel 1: Técnica 8: pulgar flexible.",
+        "Tocar con el pulgar sin golpear ni girar toda la mano.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - DO4 - FA4 - DO4 - SOL4 - DO4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: 1-3-1-4-1-5-1-3-2-1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_09_teoria",
+      "clase_id": "n1_09",
+      "titulo": "Técnica 9: parejas de dedos 1-3 y 2-4",
+      "archivo": "assets/teoria/nivel_1/clase_09.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 09 del Nivel 1: Técnica 9: parejas de dedos 1-3 y 2-4.",
+        "Combinar parejas no vecinas para ganar orientación dentro de la posición de cinco dedos.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - RE4 - FA4 - MI4 - SOL4 - RE4 - FA4 - DO4 - MI4.",
+        "La digitación o foco técnico es: 1-3-2-4-3-5-2-4-1-3.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_10_teoria",
+      "clase_id": "n1_10",
+      "titulo": "Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "archivo": "assets/teoria/nivel_1/clase_10.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 10 del Nivel 1: Técnica 10: patrón 1-2-1-3-1-4-1-5.",
+        "Usar DO como punto de apoyo para recorrer la posición sin perder la forma de la mano.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - DO4 - MI4 - DO4 - FA4 - DO4 - SOL4 - DO4.",
+        "La digitación o foco técnico es: 1-2-1-3-1-4-1-5-1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_11_teoria",
+      "clase_id": "n1_11",
+      "titulo": "Técnica 11: coordinación espejo de ambas manos",
+      "archivo": "assets/teoria/nivel_1/clase_11.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 11 del Nivel 1: Técnica 11: coordinación espejo de ambas manos.",
+        "Tocar ambas manos por movimiento contrario desde DO sin adelantar una mano sobre la otra.",
+        "Trabajamos ambas manos con una secuencia corta: DO4 - SI3 - LA3 - SOL3 - FA3 - SOL3 - LA3 - SI3 - DO4.",
+        "La digitación o foco técnico es: MD 1-2-3-4-5 / MI 5-4-3-2-1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_12_teoria",
+      "clase_id": "n1_12",
+      "titulo": "Técnica 12: pregunta y respuesta entre manos",
+      "archivo": "assets/teoria/nivel_1/clase_12.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 12 del Nivel 1: Técnica 12: pregunta y respuesta entre manos.",
+        "La mano derecha toca una idea corta y la izquierda responde imitando el ritmo.",
+        "Trabajamos manos alternas con una secuencia corta: DO4 - RE4 - MI4 - DO4 - DO3 - RE3 - MI3 - DO3.",
+        "La digitación o foco técnico es: MD 1-2-3-1 / MI 5-4-3-5.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_13_teoria",
+      "clase_id": "n1_13",
+      "titulo": "Técnica 13: legato básico de cinco dedos",
+      "archivo": "assets/teoria/nivel_1/clase_13.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 13 del Nivel 1: Técnica 13: legato básico de cinco dedos.",
+        "Unir notas vecinas sin huecos grandes, levantando cada dedo justo cuando entra el siguiente.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: legato 1-2-3-4-5-4-3-2-1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_14_teoria",
+      "clase_id": "n1_14",
+      "titulo": "Técnica 14: staccato controlado",
+      "archivo": "assets/teoria/nivel_1/clase_14.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 14 del Nivel 1: Técnica 14: staccato controlado.",
+        "Tocar notas cortas sin rigidez, usando rebote pequeño y sonido limpio.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - SOL4 - MI4 - DO4 - RE4 - FA4 - SOL4 - FA4 - RE4.",
+        "La digitación o foco técnico es: staccato controlado.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_15_teoria",
+      "clase_id": "n1_15",
+      "titulo": "Técnica 15: acentos suaves",
+      "archivo": "assets/teoria/nivel_1/clase_15.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 15 del Nivel 1: Técnica 15: acentos suaves.",
+        "Acentuar solo la primera nota de cada grupo sin convertir el resto en golpes desiguales.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4 - RE4 - MI4 - FA4.",
+        "La digitación o foco técnico es: acentos cada 4 notas.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_16_teoria",
+      "clase_id": "n1_16",
+      "titulo": "Técnica 16: dinámica piano y forte",
+      "archivo": "assets/teoria/nivel_1/clase_16.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 16 del Nivel 1: Técnica 16: dinámica piano y forte.",
+        "Distinguir sonido suave y sonido fuerte manteniendo la misma relajación corporal.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: piano luego forte.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_17_teoria",
+      "clase_id": "n1_17",
+      "titulo": "Técnica 17: metrónomo en negras",
+      "archivo": "assets/teoria/nivel_1/clase_17.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 17 del Nivel 1: Técnica 17: metrónomo en negras.",
+        "Tocar una nota por pulso con metrónomo lento, sin correr al final de la secuencia.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4.",
+        "La digitación o foco técnico es: negras a 60 bpm.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_18_teoria",
+      "clase_id": "n1_18",
+      "titulo": "Técnica 18: blancas y negras",
+      "archivo": "assets/teoria/nivel_1/clase_18.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 18 del Nivel 1: Técnica 18: blancas y negras.",
+        "Combinar notas de un pulso y dos pulsos mientras la mano mantiene la posición.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - MI4 - FA4 - SOL4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: negras y blancas.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_19_teoria",
+      "clase_id": "n1_19",
+      "titulo": "Técnica 19: grupos de dos notas",
+      "archivo": "assets/teoria/nivel_1/clase_19.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 19 del Nivel 1: Técnica 19: grupos de dos notas.",
+        "Agrupar la lectura en parejas para no pensar nota por nota de forma aislada.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4 - RE4.",
+        "La digitación o foco técnico es: grupos 2+2.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_20_teoria",
+      "clase_id": "n1_20",
+      "titulo": "Técnica 20: grupos de tres notas",
+      "archivo": "assets/teoria/nivel_1/clase_20.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 20 del Nivel 1: Técnica 20: grupos de tres notas.",
+        "Agrupar tres sonidos manteniendo pulso y respiración musical.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - RE4 - MI4 - FA4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4.",
+        "La digitación o foco técnico es: grupos de tres.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_21_teoria",
+      "clase_id": "n1_21",
+      "titulo": "Técnica 21: patrón 1-3-2-4-3-5",
+      "archivo": "assets/teoria/nivel_1/clase_21.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 21 del Nivel 1: Técnica 21: patrón 1-3-2-4-3-5.",
+        "Subir por dedos alternos sin descolocar la mano ni mirar continuamente los dedos.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - RE4 - FA4 - MI4 - SOL4 - FA4 - RE4 - MI4 - DO4.",
+        "La digitación o foco técnico es: 1-3-2-4-3-5.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_22_teoria",
+      "clase_id": "n1_22",
+      "titulo": "Técnica 22: patrón 1-2-4-3-5",
+      "archivo": "assets/teoria/nivel_1/clase_22.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 22 del Nivel 1: Técnica 22: patrón 1-2-4-3-5.",
+        "Entrenar saltos internos pequeños dentro de DO-RE-MI-FA-SOL.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - FA4 - MI4 - SOL4 - MI4 - FA4 - RE4 - DO4.",
+        "La digitación o foco técnico es: 1-2-4-3-5.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_23_teoria",
+      "clase_id": "n1_23",
+      "titulo": "Técnica 23: dirección ascendente y descendente",
+      "archivo": "assets/teoria/nivel_1/clase_23.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 23 del Nivel 1: Técnica 23: dirección ascendente y descendente.",
+        "Reconocer si la melodía sube, baja o vuelve al punto inicial.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - MI4 - DO4 - RE4 - FA4 - MI4 - DO4.",
+        "La digitación o foco técnico es: dirección melódica.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_24_teoria",
+      "clase_id": "n1_24",
+      "titulo": "Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "archivo": "assets/teoria/nivel_1/clase_24.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 24 del Nivel 1: Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama.",
+        "Relacionar cada nota de la posición de cinco dedos con su lugar visual en el pentagrama.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4.",
+        "La digitación o foco técnico es: lectura DO a SOL.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_25_teoria",
+      "clase_id": "n1_25",
+      "titulo": "Técnica 25: leer SOL-FA-MI-RE-DO",
+      "archivo": "assets/teoria/nivel_1/clase_25.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 25 del Nivel 1: Técnica 25: leer SOL-FA-MI-RE-DO.",
+        "Leer la dirección descendente sin confundir el orden de las notas.",
+        "Trabajamos mano derecha con una secuencia corta: SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: lectura SOL a DO.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_26_teoria",
+      "clase_id": "n1_26",
+      "titulo": "Técnica 26: posición de DO en mano izquierda",
+      "archivo": "assets/teoria/nivel_1/clase_26.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 26 del Nivel 1: Técnica 26: posición de DO en mano izquierda.",
+        "Aplicar el mismo mapa de cinco dedos a la mano izquierda en registro grave.",
+        "Trabajamos mano izquierda con una secuencia corta: DO3 - RE3 - MI3 - FA3 - SOL3 - FA3 - MI3 - RE3 - DO3.",
+        "La digitación o foco técnico es: 5-4-3-2-1-2-3-4-5.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_27_teoria",
+      "clase_id": "n1_27",
+      "titulo": "Técnica 27: manos por turnos",
+      "archivo": "assets/teoria/nivel_1/clase_27.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 27 del Nivel 1: Técnica 27: manos por turnos.",
+        "Alternar una frase corta de derecha y otra de izquierda sin perder el pulso.",
+        "Trabajamos manos alternas con una secuencia corta: DO4 - RE4 - MI4 - SOL4 - DO3 - RE3 - MI3 - SOL3.",
+        "La digitación o foco técnico es: MD responde MI.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_28_teoria",
+      "clase_id": "n1_28",
+      "titulo": "Técnica 28: manos simultáneas por octavas",
+      "archivo": "assets/teoria/nivel_1/clase_28.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 28 del Nivel 1: Técnica 28: manos simultáneas por octavas.",
+        "Tocar la misma nota en dos registros a la vez, escuchando si ambas manos caen juntas.",
+        "Trabajamos ambas manos con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: octavas C3/C4.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_29_teoria",
+      "clase_id": "n1_29",
+      "titulo": "Técnica 29: miniestudio técnico Nivel 1",
+      "archivo": "assets/teoria/nivel_1/clase_29.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 29 del Nivel 1: Técnica 29: miniestudio técnico Nivel 1.",
+        "Unir los patrones del nivel en una pieza corta de estudio con inicio, desarrollo y cierre.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - MI4 - DO4 - RE4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: miniestudio.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_30_teoria",
+      "clase_id": "n1_30",
+      "titulo": "Técnica 30: examen global del Nivel 1",
+      "archivo": "assets/teoria/nivel_1/clase_30.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 30 del Nivel 1: Técnica 30: examen global del Nivel 1.",
+        "Repasar todo el Nivel 1 antes del examen global: posición, igualdad, pulso, lectura y coordinación básica.",
+        "Trabajamos ambas manos con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4 - DO4 - DO3 - RE3 - MI3 - FA3 - SOL3.",
+        "La digitación o foco técnico es: síntesis Nivel 1.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    }
+  ]
+}

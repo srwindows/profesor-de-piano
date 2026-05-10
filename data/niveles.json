@@ -1,0 +1,56 @@
+[
+  {
+    "id": "nivel_0",
+    "nombre": "Nivel 0",
+    "descripcion": "Base absoluta: 20 clases guiadas antes de avanzar."
+  },
+  {
+    "id": "nivel_1",
+    "nombre": "Nivel 1",
+    "descripcion": "Técnica progresiva diaria con patrones originales, igualdad de dedos, pulso y lectura.",
+    "estado_contenido": "completo_funcional",
+    "clases": 30
+  },
+  {
+    "id": "inicial",
+    "nombre": "Inicial",
+    "descripcion": "Primer contacto: postura, Do central, nombres de notas, oído básico y pulso."
+  },
+  {
+    "id": "basico",
+    "nombre": "Básico",
+    "descripcion": "Escalas mayores, intervalos, acordes tríada y lectura sencilla."
+  },
+  {
+    "id": "intermedio",
+    "nombre": "Intermedio",
+    "descripcion": "Acordes, inversiones, ritmo, progresiones y acompañamiento."
+  },
+  {
+    "id": "avanzado",
+    "nombre": "Avanzado",
+    "descripcion": "Armonía funcional, lectura fluida, oído, técnica y musicalidad."
+  },
+  {
+    "id": "nivel_2",
+    "nombre": "Nivel 2",
+    "descripcion": "Lectura sencilla en ambas manos, intervalos, primeras alteraciones y coordinación aplicada.",
+    "estado_contenido": "completo_funcional",
+    "clases": 30
+  },
+  {
+    "id": "nivel_3",
+    "nombre": "Nivel 3",
+    "descripcion": "Triadas, grados I-IV-V, acompañamientos básicos y lectura armónica."
+  },
+  {
+    "id": "nivel_4",
+    "nombre": "Nivel 4",
+    "descripcion": "Independencia progresiva de manos, patrones rítmicos y coordinación con metrónomo."
+  },
+  {
+    "id": "nivel_5",
+    "nombre": "Nivel 5",
+    "descripcion": "Piezas cortas, dinámica, articulación, expresión y lectura con continuidad."
+  }
+]

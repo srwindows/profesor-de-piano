@@ -1,0 +1,39 @@
+{
+  "id": "hanon_19_examen",
+  "titulo": "Examen Hanon 19: Patrón ascendente-descendente",
+  "tipo": "examen_tecnico_hanon",
+  "instrucciones_profesor": [
+    "El alumno debe tocar el patrón sin ayuda excesiva.",
+    "La pizarra puede mostrar nota activa, pero no debe anticipar demasiado.",
+    "Evaluar nota, pulso, velocity, duración y continuidad."
+  ],
+  "pruebas": [
+    {
+      "id": "examen_mano_derecha",
+      "mano": "derecha",
+      "bpm": 72,
+      "peso": 35
+    },
+    {
+      "id": "examen_mano_izquierda",
+      "mano": "izquierda",
+      "bpm": 72,
+      "peso": 35
+    },
+    {
+      "id": "examen_regularidad",
+      "mano": "alternas_o_juntas",
+      "bpm": 76,
+      "peso": 30
+    }
+  ],
+  "aprobado_desde": 80,
+  "si_no_aprueba": {
+    "accion": "bloquear_siguiente_y_generar_repaso",
+    "bpm_recomendado": 60
+  },
+  "si_aprueba": {
+    "accion": "guardar_progreso_y_desbloquear_siguiente",
+    "incremento_bpm_recomendado": 4
+  }
+}

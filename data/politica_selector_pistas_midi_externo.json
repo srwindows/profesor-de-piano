@@ -1,0 +1,11 @@
+{
+  "version": "4.1.4-lite-clase1-nivel1-completa",
+  "titulo": "Selector pedagógico de pistas MIDI externas",
+  "reglas": {
+    "nivel_0_1_2": "sin plan; MIDI externo bloqueado",
+    "nivel_3": "ritmo/canal 10 + una pista para alumno",
+    "nivel_4": "hasta cuatro pistas activas",
+    "nivel_5": "MIDI completo"
+  },
+  "salida": ""
+}

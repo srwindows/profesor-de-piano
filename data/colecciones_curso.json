@@ -1,0 +1,294 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "fecha_generacion": "2026-05-05T20:22:50",
+  "titulo": "Colecciones curriculares del Profesor de Piano",
+  "descripcion": "Nivel 0 cerrado. Niveles 1 y 2 completos funcionales con clases, ejercicios, exámenes, MIDI, partituras y flujo docente.",
+  "politica_archivos": {
+    "voices": "no incluida en ZIP; se añade manualmente",
+    "modelos_ia": "no incluidos",
+    "material_pesado": "no incluido",
+    "recursos_externos": "no se incrustan; deben verificarse antes de incorporarse"
+  },
+  "colecciones": [
+    {
+      "id": "clases",
+      "nombre": "Clases",
+      "ruta_base_datos": "data/colecciones/<nivel>/clases.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "teoria_visual",
+      "nombre": "Teoria Visual",
+      "ruta_base_datos": "data/colecciones/<nivel>/teoria_visual.json",
+      "ruta_assets": "assets/teoria/<nivel>/",
+      "estado": "preparada"
+    },
+    {
+      "id": "pizarra",
+      "nombre": "Pizarra",
+      "ruta_base_datos": "data/colecciones/<nivel>/pizarra.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "partituras",
+      "nombre": "Partituras",
+      "ruta_base_datos": "data/colecciones/<nivel>/partituras.json",
+      "ruta_assets": "assets/partituras/<nivel>/",
+      "estado": "preparada"
+    },
+    {
+      "id": "midi",
+      "nombre": "Midi",
+      "ruta_base_datos": "data/colecciones/<nivel>/midi.json",
+      "ruta_assets": "assets/midi/<nivel>/",
+      "estado": "preparada"
+    },
+    {
+      "id": "tecnica",
+      "nombre": "Tecnica",
+      "ruta_base_datos": "data/colecciones/<nivel>/tecnica.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "ritmo_metronomo",
+      "nombre": "Ritmo Metronomo",
+      "ruta_base_datos": "data/colecciones/<nivel>/ritmo_metronomo.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "repertorio",
+      "nombre": "Repertorio",
+      "ruta_base_datos": "data/colecciones/<nivel>/repertorio.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "evaluaciones",
+      "nombre": "Evaluaciones",
+      "ruta_base_datos": "data/colecciones/<nivel>/evaluaciones.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "repasos",
+      "nombre": "Repasos",
+      "ruta_base_datos": "data/colecciones/<nivel>/repasos.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "imagenes",
+      "nombre": "Imagenes",
+      "ruta_base_datos": "data/colecciones/<nivel>/imagenes.json",
+      "ruta_assets": "assets/teoria/<nivel>/",
+      "estado": "preparada"
+    },
+    {
+      "id": "videos",
+      "nombre": "Videos",
+      "ruta_base_datos": "data/colecciones/<nivel>/videos.json",
+      "ruta_assets": "assets/video_referencia/<nivel>/",
+      "estado": "preparada"
+    },
+    {
+      "id": "documentacion",
+      "nombre": "Documentacion",
+      "ruta_base_datos": "data/colecciones/<nivel>/documentacion.json",
+      "ruta_assets": "",
+      "estado": "preparada"
+    },
+    {
+      "id": "audio_referencia",
+      "nombre": "Audio Referencia",
+      "ruta_base_datos": "data/colecciones/<nivel>/audio_referencia.json",
+      "ruta_assets": "assets/audio_referencia/<nivel>/",
+      "estado": "preparada"
+    }
+  ],
+  "niveles": [
+    {
+      "id": "nivel_0",
+      "nombre": "Nivel 0 — Base absoluta cerrada",
+      "estado": "cerrado",
+      "clases_previstas": 20,
+      "archivo_clases": "data/colecciones/nivel_0/clases.json",
+      "objetivo": "Base absoluta: postura, teclado, pentagrama, ritmo, pizarra y MIDI."
+    },
+    {
+      "id": "nivel_1",
+      "nombre": "Nivel 1 — Técnica inicial tipo Hanon propia",
+      "estado": "completo_funcional",
+      "clases_previstas": 30,
+      "archivo_clases": "data/colecciones/nivel_1/clases.json",
+      "objetivo": "Técnica progresiva diaria con patrones originales, igualdad de dedos, pulso y lectura."
+    },
+    {
+      "id": "nivel_2",
+      "nombre": "Nivel 2 — Lectura aplicada y manos coordinadas",
+      "estado": "completo_funcional",
+      "clases_previstas": 30,
+      "archivo_clases": "data/colecciones/nivel_2/clases.json",
+      "objetivo": "Lectura sencilla en ambas manos, intervalos, primeras alteraciones y coordinación aplicada."
+    },
+    {
+      "id": "nivel_3",
+      "nombre": "Nivel 3 — Acordes y armonía básica",
+      "estado": "esqueleto",
+      "clases_previstas": 30,
+      "archivo_clases": "data/colecciones/nivel_3/clases.json",
+      "objetivo": "Triadas, grados I-IV-V, acompañamientos básicos y lectura armónica."
+    },
+    {
+      "id": "nivel_4",
+      "nombre": "Nivel 4 — Independencia y ritmo aplicado",
+      "estado": "esqueleto",
+      "clases_previstas": 30,
+      "archivo_clases": "data/colecciones/nivel_4/clases.json",
+      "objetivo": "Independencia progresiva de manos, patrones rítmicos y coordinación con metrónomo."
+    },
+    {
+      "id": "nivel_5",
+      "nombre": "Nivel 5 — Repertorio guiado y musicalidad",
+      "estado": "esqueleto",
+      "clases_previstas": 30,
+      "archivo_clases": "data/colecciones/nivel_5/clases.json",
+      "objetivo": "Piezas cortas, dinámica, articulación, expresión y lectura con continuidad."
+    }
+  ],
+  "enlaces_internos": {
+    "nivel_0_clases": "data/colecciones/nivel_0/clases.json",
+    "nivel_1_clases": "data/colecciones/nivel_1/clases.json",
+    "catalogo": "data/colecciones_curso.json",
+    "nota_hanon": "docs/NOTA_HANON_DOMINIO_PUBLICO.md",
+    "curriculo": "docs/curriculo/",
+    "assets_teoria": "assets/teoria/",
+    "assets_partituras": "assets/partituras/",
+    "assets_midi": "assets/midi/",
+    "assets_audio": "assets/audio_referencia/",
+    "nivel_0_clases_original": "data/lecciones_nivel_0.json",
+    "nivel_2_clases": "data/colecciones/nivel_2/clases.json",
+    "nivel_1_flujo": "data/flujo_docente_nivel_1.json",
+    "nivel_2_flujo": "data/flujo_docente_nivel_2.json"
+  },
+  "flujo_docente": {
+    "activo": true,
+    "archivo_nivel_0": "data/flujo_docente_nivel_0.json",
+    "regla": "teoria -> ejercicios_asociados -> examen_clase -> siguiente_clase; ultima_clase -> examen_global_nivel",
+    "archivo_nivel_1": "data/flujo_docente_nivel_1.json",
+    "archivo_nivel_2": "data/flujo_docente_nivel_2.json"
+  },
+  "historial_pedagogico": {
+    "activo": true,
+    "modulo": "app/core/historial_alumno.py",
+    "ruta": "data/alumnos/<alumno_id>/"
+  },
+  "motor_midi_pro": {
+    "activo": true,
+    "modulo": "app/core/analisis_midi_pro.py",
+    "integrado_con_historial": true
+  },
+  "entradas_alumno_pro": {
+    "activo": true,
+    "entradas": [
+      "midi",
+      "camara",
+      "sonido",
+      "historial"
+    ],
+    "midi_permanente": true,
+    "camara_sonido_bajo_demanda": true
+  },
+  "repertorio_midi_nivel1": {
+    "activo": true,
+    "midis_propios": 6,
+    "ruta": "assets/midi/nivel_1/",
+    "coleccion": "data/colecciones/nivel_1/repertorio.json",
+    "sin_descargas_externas": true,
+    "licencia": "material didáctico propio del proyecto"
+  },
+  "clase_1_nivel_1": {
+    "activo": true,
+    "archivo": "data/colecciones/nivel_1/clase_01_completa.json",
+    "midi_didactico": "n1_midi_tecnica_cinco_dedos_do",
+    "flujo": "teoria -> pizarra -> escuchar -> practicar -> examen"
+  },
+  "midi_didactico": {
+    "activo": true,
+    "modulo": "app/core/midi_didactico.py",
+    "panel": "MIDI Didáctico",
+    "modos": [
+      "clase",
+      "escuchar",
+      "practica",
+      "examen"
+    ]
+  },
+  "pentagrama_vivo_nd": {
+    "activo": true,
+    "archivo": "data/pentagrama_nd_nivel_1.json",
+    "sincroniza": [
+      "MIDI Didáctico",
+      "pentagrama",
+      "piano_virtual",
+      "Motor MIDI Pro",
+      "profesor"
+    ],
+    "nota_actual_resaltada": true,
+    "siguiente_nota_preparada": true
+  },
+  "hotfix_v416": {
+    "audio_portaudio_cierre_seguro": true,
+    "midi_clase1_solo_mano_derecha": true,
+    "secuencia_clase1_corregida": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "F4",
+      "E4",
+      "D4",
+      "C4"
+    ]
+  },
+  "hotfix_v417": {
+    "pizarra_musical_metodos_faltantes": [
+      "_pedir_secuencia_piano",
+      "_pedir_pulso_piano"
+    ],
+    "motivo": "Los botones y menús de la pizarra estaban conectados a métodos que no existían.",
+    "estado": "corregido"
+  },
+  "hotfix_v418": {
+    "dialogo_reto_comprension": "corregido",
+    "motivo": "QRadioButton en PySide6 no tiene setWordWrap.",
+    "solucion": "envoltura manual del texto y respuesta original guardada en propiedad.",
+    "archivo": "app/ui/dialogo_reto_comprension.py"
+  },
+  "auditoria_v415": {
+    "niveles_auditados": [
+      "nivel_1",
+      "nivel_2"
+    ],
+    "resultado": "completados",
+    "clases_por_nivel": 30,
+    "ejercicios_por_clase": 4,
+    "examenes_clase_por_nivel": 30,
+    "examen_global_por_nivel": true,
+    "midi_generado_por_clase": true,
+    "musicxml_generado_por_clase": true
+  },
+  "politica_niveles_esqueleto": {
+    "niveles": [
+      "nivel_3",
+      "nivel_4",
+      "nivel_5"
+    ],
+    "regla": "No se consideran disponibles para clase real hasta tener ejercicios, examen_clase, MIDI y partitura existentes.",
+    "estado_esperado": "bloqueado_esqueleto"
+  }
+}

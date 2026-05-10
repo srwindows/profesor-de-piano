@@ -1,0 +1,141 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "titulo": "Ruta curricular del curso de piano",
+  "descripcion": "Mapa completo del curso para avanzar desde cero hasta un nivel funcional con teoría, práctica, evaluación y repaso.",
+  "niveles": [
+    {
+      "id": "nivel_0",
+      "nivel_practica": "nivel_0",
+      "titulo": "Nivel 0 — Base absoluta cerrada",
+      "estado_inicial": "disponible",
+      "objetivo": "Completar 20 clases: postura, teclado, partitura, ritmo, pizarra y primera lectura aplicada al teclado MIDI.",
+      "modulos": [
+        "20 clases guiadas funcionales",
+        "Postura corporal y banco",
+        "Postura de manos",
+        "Digitación 1–5",
+        "Patrón 2 y 3 teclas negras",
+        "Teclas blancas DO RE MI FA SOL LA SI",
+        "DO central",
+        "Claves de Sol y Fa",
+        "Figuras: negra, blanca, redonda y silencio",
+        "Pulso y metrónomo",
+        "Pizarra musical interactiva",
+        "Retos con piano virtual",
+        "Retos con teclado MIDI",
+        "Evaluación final Nivel 0"
+      ],
+      "desbloquea": "Nivel 1 — Técnica inicial tipo Hanon propia",
+      "coleccion": "data/colecciones/nivel_0/clases.json",
+      "clases_previstas": 20,
+      "estado_contenido": "cerrado_legacy",
+      "nota_auditoria": "Disponible, pero usa el esquema heredado de lecciones_nivel_0; no cumple la regla nueva de 4 ejercicios + examen por clase."
+    },
+    {
+      "id": "nivel_1",
+      "nivel_practica": "nivel_1",
+      "titulo": "Nivel 1 — Técnica inicial tipo Hanon propia",
+      "estado_inicial": "bloqueado_hasta_superar_nivel_0",
+      "objetivo": "Técnica progresiva diaria con patrones originales, igualdad de dedos, pulso y lectura.",
+      "modulos": [
+        "30 clases completas",
+        "Técnica propia de cinco dedos",
+        "Pizarra y pentagrama sincronizados",
+        "MIDI didáctico por clase",
+        "4 ejercicios por clase",
+        "Examen final de cada clase",
+        "Examen global Nivel 1"
+      ],
+      "desbloquea": "Nivel 2 — Lectura aplicada y manos coordinadas",
+      "coleccion": "data/colecciones/nivel_1/clases.json",
+      "clases_previstas": 30,
+      "estado_contenido": "completo_funcional"
+    },
+    {
+      "id": "nivel_2",
+      "nivel_practica": "nivel_2",
+      "titulo": "Nivel 2 — Lectura aplicada y manos coordinadas",
+      "estado_inicial": "bloqueado_hasta_superar_nivel_1",
+      "objetivo": "Lectura sencilla en ambas manos, intervalos, primeras alteraciones y coordinación aplicada.",
+      "modulos": [
+        "30 clases completas",
+        "Lectura clave de Sol y Fa",
+        "Intervalos",
+        "Ritmo aplicado",
+        "Alteraciones básicas",
+        "Manos coordinadas",
+        "Examen global Nivel 2"
+      ],
+      "desbloquea": "Nivel 3 — Acordes y armonía básica",
+      "coleccion": "data/colecciones/nivel_2/clases.json",
+      "estado_contenido": "completo_funcional",
+      "clases_previstas": 30
+    },
+    {
+      "id": "nivel_3",
+      "nivel_practica": "nivel_3",
+      "titulo": "Nivel 3 — Acordes y armonía básica",
+      "estado_inicial": "bloqueado_esqueleto",
+      "objetivo": "Triadas, grados I-IV-V, acompañamientos básicos y lectura armónica.",
+      "modulos": [
+        "Estructura curricular preparada",
+        "Contenido real pendiente",
+        "MIDI pendiente",
+        "Partituras pendientes",
+        "Evaluación pendiente"
+      ],
+      "desbloquea": "Siguiente nivel",
+      "coleccion": "data/colecciones/nivel_3/clases.json",
+      "estado_contenido": "esqueleto_no_disponible",
+      "clases_previstas": 30,
+      "nota_auditoria": "Estructura preparada, pero faltan ejercicios, examen_clase, MIDI y partituras reales. No debe presentarse como nivel disponible."
+    },
+    {
+      "id": "nivel_4",
+      "nivel_practica": "nivel_4",
+      "titulo": "Nivel 4 — Independencia y ritmo aplicado",
+      "estado_inicial": "bloqueado_esqueleto",
+      "objetivo": "Independencia progresiva de manos, patrones rítmicos y coordinación con metrónomo.",
+      "modulos": [
+        "Estructura curricular preparada",
+        "Contenido real pendiente",
+        "MIDI pendiente",
+        "Partituras pendientes",
+        "Evaluación pendiente"
+      ],
+      "desbloquea": "Siguiente nivel",
+      "coleccion": "data/colecciones/nivel_4/clases.json",
+      "estado_contenido": "esqueleto_no_disponible",
+      "clases_previstas": 30,
+      "nota_auditoria": "Estructura preparada, pero faltan ejercicios, examen_clase, MIDI y partituras reales. No debe presentarse como nivel disponible."
+    },
+    {
+      "id": "nivel_5",
+      "nivel_practica": "nivel_5",
+      "titulo": "Nivel 5 — Repertorio guiado y musicalidad",
+      "estado_inicial": "bloqueado_esqueleto",
+      "objetivo": "Piezas cortas, dinámica, articulación, expresión y lectura con continuidad.",
+      "modulos": [
+        "Estructura curricular preparada",
+        "Contenido real pendiente",
+        "MIDI pendiente",
+        "Partituras pendientes",
+        "Evaluación pendiente"
+      ],
+      "desbloquea": "Siguiente nivel",
+      "coleccion": "data/colecciones/nivel_5/clases.json",
+      "estado_contenido": "esqueleto_no_disponible",
+      "clases_previstas": 30,
+      "nota_auditoria": "Estructura preparada, pero faltan ejercicios, examen_clase, MIDI y partituras reales. No debe presentarse como nivel disponible."
+    }
+  ],
+  "colecciones_preparadas": true,
+  "catalogo_colecciones": "data/colecciones_curso.json",
+  "regla_curricular_activa": "nivel_0 -> nivel_1 -> nivel_2; nivel_3..nivel_5 bloqueados hasta completar assets y evaluaciones reales.",
+  "niveles_legacy_retirados_de_ruta": [
+    "inicial",
+    "basico",
+    "intermedio",
+    "avanzado"
+  ]
+}

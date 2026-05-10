@@ -1,0 +1,10 @@
+PROFESOR DE PIANO v4.0.6 LITE HISTORIAL PEDAGOGICO
+ZIP sin IA pesada, sin modelos y sin voices.
+
+Total de archivos: 635
+
+Ejecutar:
+python3 main.py
+
+Archivo clave:
+app/core/historial_alumno.py

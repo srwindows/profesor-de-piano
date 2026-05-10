@@ -1,0 +1,278 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "repertorio",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n2_01_estudio",
+      "clase_id": "n2_01",
+      "titulo": "Estudio didáctico — Lectura 1: clave de Sol con DO-RE-MI",
+      "midi": "assets/midi/nivel_2/clases/clase_01.mid",
+      "partitura": "assets/partituras/nivel_2/clase_01.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_02_estudio",
+      "clase_id": "n2_02",
+      "titulo": "Estudio didáctico — Lectura 2: clave de Fa con DO-RE-MI",
+      "midi": "assets/midi/nivel_2/clases/clase_02.mid",
+      "partitura": "assets/partituras/nivel_2/clase_02.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_03_estudio",
+      "clase_id": "n2_03",
+      "titulo": "Estudio didáctico — Lectura 3: dos pentagramas por turnos",
+      "midi": "assets/midi/nivel_2/clases/clase_03.mid",
+      "partitura": "assets/partituras/nivel_2/clase_03.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_04_estudio",
+      "clase_id": "n2_04",
+      "titulo": "Estudio didáctico — Lectura 4: intervalos de segunda",
+      "midi": "assets/midi/nivel_2/clases/clase_04.mid",
+      "partitura": "assets/partituras/nivel_2/clase_04.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_05_estudio",
+      "clase_id": "n2_05",
+      "titulo": "Estudio didáctico — Lectura 5: intervalos de tercera",
+      "midi": "assets/midi/nivel_2/clases/clase_05.mid",
+      "partitura": "assets/partituras/nivel_2/clase_05.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_06_estudio",
+      "clase_id": "n2_06",
+      "titulo": "Estudio didáctico — Lectura 6: negras y blancas en melodía",
+      "midi": "assets/midi/nivel_2/clases/clase_06.mid",
+      "partitura": "assets/partituras/nivel_2/clase_06.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_07_estudio",
+      "clase_id": "n2_07",
+      "titulo": "Estudio didáctico — Lectura 7: silencios aplicados",
+      "midi": "assets/midi/nivel_2/clases/clase_07.mid",
+      "partitura": "assets/partituras/nivel_2/clase_07.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_08_estudio",
+      "clase_id": "n2_08",
+      "titulo": "Estudio didáctico — Lectura 8: compás de 4/4",
+      "midi": "assets/midi/nivel_2/clases/clase_08.mid",
+      "partitura": "assets/partituras/nivel_2/clase_08.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_09_estudio",
+      "clase_id": "n2_09",
+      "titulo": "Estudio didáctico — Lectura 9: compás de 3/4",
+      "midi": "assets/midi/nivel_2/clases/clase_09.mid",
+      "partitura": "assets/partituras/nivel_2/clase_09.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_10_estudio",
+      "clase_id": "n2_10",
+      "titulo": "Estudio didáctico — Lectura 10: ligadura de prolongación",
+      "midi": "assets/midi/nivel_2/clases/clase_10.mid",
+      "partitura": "assets/partituras/nivel_2/clase_10.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_11_estudio",
+      "clase_id": "n2_11",
+      "titulo": "Estudio didáctico — Lectura 11: frase de dos compases",
+      "midi": "assets/midi/nivel_2/clases/clase_11.mid",
+      "partitura": "assets/partituras/nivel_2/clase_11.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_12_estudio",
+      "clase_id": "n2_12",
+      "titulo": "Estudio didáctico — Lectura 12: legato y staccato en partitura",
+      "midi": "assets/midi/nivel_2/clases/clase_12.mid",
+      "partitura": "assets/partituras/nivel_2/clase_12.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_13_estudio",
+      "clase_id": "n2_13",
+      "titulo": "Estudio didáctico — Lectura 13: cambio simple de posición",
+      "midi": "assets/midi/nivel_2/clases/clase_13.mid",
+      "partitura": "assets/partituras/nivel_2/clase_13.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_14_estudio",
+      "clase_id": "n2_14",
+      "titulo": "Estudio didáctico — Lectura 14: escala de DO mayor mano derecha",
+      "midi": "assets/midi/nivel_2/clases/clase_14.mid",
+      "partitura": "assets/partituras/nivel_2/clase_14.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_15_estudio",
+      "clase_id": "n2_15",
+      "titulo": "Estudio didáctico — Lectura 15: escala de DO mayor mano izquierda",
+      "midi": "assets/midi/nivel_2/clases/clase_15.mid",
+      "partitura": "assets/partituras/nivel_2/clase_15.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_16_estudio",
+      "clase_id": "n2_16",
+      "titulo": "Estudio didáctico — Lectura 16: tríadas mayores C, F y G",
+      "midi": "assets/midi/nivel_2/clases/clase_16.mid",
+      "partitura": "assets/partituras/nivel_2/clase_16.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_17_estudio",
+      "clase_id": "n2_17",
+      "titulo": "Estudio didáctico — Lectura 17: bajo de tónica",
+      "midi": "assets/midi/nivel_2/clases/clase_17.mid",
+      "partitura": "assets/partituras/nivel_2/clase_17.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_18_estudio",
+      "clase_id": "n2_18",
+      "titulo": "Estudio didáctico — Lectura 18: melodía y bajo alterno",
+      "midi": "assets/midi/nivel_2/clases/clase_18.mid",
+      "partitura": "assets/partituras/nivel_2/clase_18.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_19_estudio",
+      "clase_id": "n2_19",
+      "titulo": "Estudio didáctico — Lectura 19: negras contra blancas",
+      "midi": "assets/midi/nivel_2/clases/clase_19.mid",
+      "partitura": "assets/partituras/nivel_2/clase_19.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_20_estudio",
+      "clase_id": "n2_20",
+      "titulo": "Estudio didáctico — Lectura 20: primer sostenido FA#",
+      "midi": "assets/midi/nivel_2/clases/clase_20.mid",
+      "partitura": "assets/partituras/nivel_2/clase_20.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_21_estudio",
+      "clase_id": "n2_21",
+      "titulo": "Estudio didáctico — Lectura 21: primer bemol SIb",
+      "midi": "assets/midi/nivel_2/clases/clase_21.mid",
+      "partitura": "assets/partituras/nivel_2/clase_21.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_22_estudio",
+      "clase_id": "n2_22",
+      "titulo": "Estudio didáctico — Lectura 22: dinámica escrita",
+      "midi": "assets/midi/nivel_2/clases/clase_22.mid",
+      "partitura": "assets/partituras/nivel_2/clase_22.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_23_estudio",
+      "clase_id": "n2_23",
+      "titulo": "Estudio didáctico — Lectura 23: lectura a primera vista sencilla",
+      "midi": "assets/midi/nivel_2/clases/clase_23.mid",
+      "partitura": "assets/partituras/nivel_2/clase_23.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_24_estudio",
+      "clase_id": "n2_24",
+      "titulo": "Estudio didáctico — Lectura 24: patrón de acompañamiento simple",
+      "midi": "assets/midi/nivel_2/clases/clase_24.mid",
+      "partitura": "assets/partituras/nivel_2/clase_24.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_25_estudio",
+      "clase_id": "n2_25",
+      "titulo": "Estudio didáctico — Lectura 25: canon sencillo entre manos",
+      "midi": "assets/midi/nivel_2/clases/clase_25.mid",
+      "partitura": "assets/partituras/nivel_2/clase_25.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_26_estudio",
+      "clase_id": "n2_26",
+      "titulo": "Estudio didáctico — Lectura 26: arpegio de DO mayor mano derecha",
+      "midi": "assets/midi/nivel_2/clases/clase_26.mid",
+      "partitura": "assets/partituras/nivel_2/clase_26.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_27_estudio",
+      "clase_id": "n2_27",
+      "titulo": "Estudio didáctico — Lectura 27: arpegio de DO mayor mano izquierda",
+      "midi": "assets/midi/nivel_2/clases/clase_27.mid",
+      "partitura": "assets/partituras/nivel_2/clase_27.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_28_estudio",
+      "clase_id": "n2_28",
+      "titulo": "Estudio didáctico — Lectura 28: pieza de ocho compases",
+      "midi": "assets/midi/nivel_2/clases/clase_28.mid",
+      "partitura": "assets/partituras/nivel_2/clase_28.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_29_estudio",
+      "clase_id": "n2_29",
+      "titulo": "Estudio didáctico — Lectura 29: repaso técnico de lectura",
+      "midi": "assets/midi/nivel_2/clases/clase_29.mid",
+      "partitura": "assets/partituras/nivel_2/clase_29.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_30_estudio",
+      "clase_id": "n2_30",
+      "titulo": "Estudio didáctico — Lectura 30: examen global del Nivel 2",
+      "midi": "assets/midi/nivel_2/clases/clase_30.mid",
+      "partitura": "assets/partituras/nivel_2/clase_30.musicxml",
+      "nivel": "nivel_2",
+      "estado": "funcional"
+    }
+  ]
+}

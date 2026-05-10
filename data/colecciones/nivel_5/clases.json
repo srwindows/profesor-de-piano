@@ -1,0 +1,1270 @@
+{
+  "version": "4.0.0-lite-colecciones-preparadas",
+  "nivel": "nivel_5",
+  "estado": "esqueleto_no_disponible",
+  "titulo": "Nivel 5 — Repertorio guiado y musicalidad",
+  "total_clases": 30,
+  "clases": [
+    {
+      "id": "n5_01",
+      "orden": 1,
+      "titulo": "Clase 01 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_01.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_02",
+      "orden": 2,
+      "titulo": "Clase 02 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_02.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_03",
+      "orden": 3,
+      "titulo": "Clase 03 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_03.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_04",
+      "orden": 4,
+      "titulo": "Clase 04 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_04.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_05",
+      "orden": 5,
+      "titulo": "Clase 05 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_05.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_06",
+      "orden": 6,
+      "titulo": "Clase 06 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_06.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_07",
+      "orden": 7,
+      "titulo": "Clase 07 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_07.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_08",
+      "orden": 8,
+      "titulo": "Clase 08 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_08.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_09",
+      "orden": 9,
+      "titulo": "Clase 09 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_09.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_10",
+      "orden": 10,
+      "titulo": "Clase 10 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_10.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_11",
+      "orden": 11,
+      "titulo": "Clase 11 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_11.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_12",
+      "orden": 12,
+      "titulo": "Clase 12 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_12.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_13",
+      "orden": 13,
+      "titulo": "Clase 13 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_13.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_14",
+      "orden": 14,
+      "titulo": "Clase 14 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_14.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_15",
+      "orden": 15,
+      "titulo": "Clase 15 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_15.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_16",
+      "orden": 16,
+      "titulo": "Clase 16 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_16.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_17",
+      "orden": 17,
+      "titulo": "Clase 17 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_17.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_18",
+      "orden": 18,
+      "titulo": "Clase 18 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_18.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_19",
+      "orden": 19,
+      "titulo": "Clase 19 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_19.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_20",
+      "orden": 20,
+      "titulo": "Clase 20 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_20.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_21",
+      "orden": 21,
+      "titulo": "Clase 21 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_21.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_22",
+      "orden": 22,
+      "titulo": "Clase 22 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_22.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_23",
+      "orden": 23,
+      "titulo": "Clase 23 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_23.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_24",
+      "orden": 24,
+      "titulo": "Clase 24 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_24.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_25",
+      "orden": 25,
+      "titulo": "Clase 25 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_25.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_26",
+      "orden": 26,
+      "titulo": "Clase 26 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_26.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_27",
+      "orden": 27,
+      "titulo": "Clase 27 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_27.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_28",
+      "orden": 28,
+      "titulo": "Clase 28 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_28.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_29",
+      "orden": 29,
+      "titulo": "Clase 29 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_29.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    },
+    {
+      "id": "n5_30",
+      "orden": 30,
+      "titulo": "Clase 30 — pendiente de desarrollo",
+      "estado": "pendiente_desarrollo",
+      "tipo": "placeholder_funcional",
+      "objetivo": "Clase preparada en la colección. Se desarrollará con contenido completo en una versión posterior.",
+      "resumen": "Estructura preparada para teoría, pizarra, práctica, MIDI, evaluación y repaso.",
+      "explicacion": "Esta clase queda registrada para que el curso ya tenga su hueco curricular, sus rutas y sus enlaces internos. El contenido se completará clase por clase.",
+      "pizarra": {
+        "modo": "pendiente",
+        "guion": [],
+        "archivo": "assets/teoria/nivel_5/clase_30.md"
+      },
+      "midi": {
+        "activo": false,
+        "objetivo": [],
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "partitura": {
+        "archivo": "",
+        "estado": "pendiente"
+      },
+      "evaluacion": {
+        "pregunta": "¿Esta clase está preparada para completarse más adelante?",
+        "opciones": [
+          "Sí",
+          "No",
+          "No hace falta"
+        ],
+        "respuesta_correcta": 0
+      },
+      "enlaces": {
+        "teoria_visual": "assets/teoria/nivel_5/",
+        "partitura": "assets/partituras/nivel_5/",
+        "midi": "assets/midi/nivel_5/",
+        "documentacion": "docs/curriculo/nivel_5/"
+      },
+      "disponible": false,
+      "nota_auditoria": "Clase no disponible: faltan ejercicios, examen_clase, MIDI y partitura reales."
+    }
+  ],
+  "nota_auditoria": "Nivel estructural bloqueado: no contiene todavía ejercicios, examen_clase, MIDI ni partituras reales."
+}

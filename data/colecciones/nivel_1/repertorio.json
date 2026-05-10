@@ -1,0 +1,278 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "repertorio",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n1_01_estudio",
+      "clase_id": "n1_01",
+      "titulo": "Estudio didáctico — Técnica 1: cinco dedos en DO con mano derecha",
+      "midi": "assets/midi/nivel_1/clases/clase_01.mid",
+      "partitura": "assets/partituras/nivel_1/clase_01.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_02_estudio",
+      "clase_id": "n1_02",
+      "titulo": "Estudio didáctico — Técnica 2: cinco dedos en DO con mano izquierda",
+      "midi": "assets/midi/nivel_1/clases/clase_02.mid",
+      "partitura": "assets/partituras/nivel_1/clase_02.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_03_estudio",
+      "clase_id": "n1_03",
+      "titulo": "Estudio didáctico — Técnica 3: alternancia lenta 1-2-3-4-5",
+      "midi": "assets/midi/nivel_1/clases/clase_03.mid",
+      "partitura": "assets/partituras/nivel_1/clase_03.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_04_estudio",
+      "clase_id": "n1_04",
+      "titulo": "Estudio didáctico — Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "midi": "assets/midi/nivel_1/clases/clase_04.mid",
+      "partitura": "assets/partituras/nivel_1/clase_04.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_05_estudio",
+      "clase_id": "n1_05",
+      "titulo": "Estudio didáctico — Técnica 5: igualdad de sonido entre dedos",
+      "midi": "assets/midi/nivel_1/clases/clase_05.mid",
+      "partitura": "assets/partituras/nivel_1/clase_05.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_06_estudio",
+      "clase_id": "n1_06",
+      "titulo": "Estudio didáctico — Técnica 6: independencia del dedo 3",
+      "midi": "assets/midi/nivel_1/clases/clase_06.mid",
+      "partitura": "assets/partituras/nivel_1/clase_06.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_07_estudio",
+      "clase_id": "n1_07",
+      "titulo": "Estudio didáctico — Técnica 7: independencia del dedo 4",
+      "midi": "assets/midi/nivel_1/clases/clase_07.mid",
+      "partitura": "assets/partituras/nivel_1/clase_07.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_08_estudio",
+      "clase_id": "n1_08",
+      "titulo": "Estudio didáctico — Técnica 8: pulgar flexible",
+      "midi": "assets/midi/nivel_1/clases/clase_08.mid",
+      "partitura": "assets/partituras/nivel_1/clase_08.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_09_estudio",
+      "clase_id": "n1_09",
+      "titulo": "Estudio didáctico — Técnica 9: parejas de dedos 1-3 y 2-4",
+      "midi": "assets/midi/nivel_1/clases/clase_09.mid",
+      "partitura": "assets/partituras/nivel_1/clase_09.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_10_estudio",
+      "clase_id": "n1_10",
+      "titulo": "Estudio didáctico — Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "midi": "assets/midi/nivel_1/clases/clase_10.mid",
+      "partitura": "assets/partituras/nivel_1/clase_10.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_11_estudio",
+      "clase_id": "n1_11",
+      "titulo": "Estudio didáctico — Técnica 11: coordinación espejo de ambas manos",
+      "midi": "assets/midi/nivel_1/clases/clase_11.mid",
+      "partitura": "assets/partituras/nivel_1/clase_11.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_12_estudio",
+      "clase_id": "n1_12",
+      "titulo": "Estudio didáctico — Técnica 12: pregunta y respuesta entre manos",
+      "midi": "assets/midi/nivel_1/clases/clase_12.mid",
+      "partitura": "assets/partituras/nivel_1/clase_12.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_13_estudio",
+      "clase_id": "n1_13",
+      "titulo": "Estudio didáctico — Técnica 13: legato básico de cinco dedos",
+      "midi": "assets/midi/nivel_1/clases/clase_13.mid",
+      "partitura": "assets/partituras/nivel_1/clase_13.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_14_estudio",
+      "clase_id": "n1_14",
+      "titulo": "Estudio didáctico — Técnica 14: staccato controlado",
+      "midi": "assets/midi/nivel_1/clases/clase_14.mid",
+      "partitura": "assets/partituras/nivel_1/clase_14.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_15_estudio",
+      "clase_id": "n1_15",
+      "titulo": "Estudio didáctico — Técnica 15: acentos suaves",
+      "midi": "assets/midi/nivel_1/clases/clase_15.mid",
+      "partitura": "assets/partituras/nivel_1/clase_15.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_16_estudio",
+      "clase_id": "n1_16",
+      "titulo": "Estudio didáctico — Técnica 16: dinámica piano y forte",
+      "midi": "assets/midi/nivel_1/clases/clase_16.mid",
+      "partitura": "assets/partituras/nivel_1/clase_16.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_17_estudio",
+      "clase_id": "n1_17",
+      "titulo": "Estudio didáctico — Técnica 17: metrónomo en negras",
+      "midi": "assets/midi/nivel_1/clases/clase_17.mid",
+      "partitura": "assets/partituras/nivel_1/clase_17.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_18_estudio",
+      "clase_id": "n1_18",
+      "titulo": "Estudio didáctico — Técnica 18: blancas y negras",
+      "midi": "assets/midi/nivel_1/clases/clase_18.mid",
+      "partitura": "assets/partituras/nivel_1/clase_18.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_19_estudio",
+      "clase_id": "n1_19",
+      "titulo": "Estudio didáctico — Técnica 19: grupos de dos notas",
+      "midi": "assets/midi/nivel_1/clases/clase_19.mid",
+      "partitura": "assets/partituras/nivel_1/clase_19.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_20_estudio",
+      "clase_id": "n1_20",
+      "titulo": "Estudio didáctico — Técnica 20: grupos de tres notas",
+      "midi": "assets/midi/nivel_1/clases/clase_20.mid",
+      "partitura": "assets/partituras/nivel_1/clase_20.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_21_estudio",
+      "clase_id": "n1_21",
+      "titulo": "Estudio didáctico — Técnica 21: patrón 1-3-2-4-3-5",
+      "midi": "assets/midi/nivel_1/clases/clase_21.mid",
+      "partitura": "assets/partituras/nivel_1/clase_21.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_22_estudio",
+      "clase_id": "n1_22",
+      "titulo": "Estudio didáctico — Técnica 22: patrón 1-2-4-3-5",
+      "midi": "assets/midi/nivel_1/clases/clase_22.mid",
+      "partitura": "assets/partituras/nivel_1/clase_22.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_23_estudio",
+      "clase_id": "n1_23",
+      "titulo": "Estudio didáctico — Técnica 23: dirección ascendente y descendente",
+      "midi": "assets/midi/nivel_1/clases/clase_23.mid",
+      "partitura": "assets/partituras/nivel_1/clase_23.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_24_estudio",
+      "clase_id": "n1_24",
+      "titulo": "Estudio didáctico — Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "midi": "assets/midi/nivel_1/clases/clase_24.mid",
+      "partitura": "assets/partituras/nivel_1/clase_24.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_25_estudio",
+      "clase_id": "n1_25",
+      "titulo": "Estudio didáctico — Técnica 25: leer SOL-FA-MI-RE-DO",
+      "midi": "assets/midi/nivel_1/clases/clase_25.mid",
+      "partitura": "assets/partituras/nivel_1/clase_25.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_26_estudio",
+      "clase_id": "n1_26",
+      "titulo": "Estudio didáctico — Técnica 26: posición de DO en mano izquierda",
+      "midi": "assets/midi/nivel_1/clases/clase_26.mid",
+      "partitura": "assets/partituras/nivel_1/clase_26.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_27_estudio",
+      "clase_id": "n1_27",
+      "titulo": "Estudio didáctico — Técnica 27: manos por turnos",
+      "midi": "assets/midi/nivel_1/clases/clase_27.mid",
+      "partitura": "assets/partituras/nivel_1/clase_27.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_28_estudio",
+      "clase_id": "n1_28",
+      "titulo": "Estudio didáctico — Técnica 28: manos simultáneas por octavas",
+      "midi": "assets/midi/nivel_1/clases/clase_28.mid",
+      "partitura": "assets/partituras/nivel_1/clase_28.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_29_estudio",
+      "clase_id": "n1_29",
+      "titulo": "Estudio didáctico — Técnica 29: miniestudio técnico Nivel 1",
+      "midi": "assets/midi/nivel_1/clases/clase_29.mid",
+      "partitura": "assets/partituras/nivel_1/clase_29.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_30_estudio",
+      "clase_id": "n1_30",
+      "titulo": "Estudio didáctico — Técnica 30: examen global del Nivel 1",
+      "midi": "assets/midi/nivel_1/clases/clase_30.mid",
+      "partitura": "assets/partituras/nivel_1/clase_30.musicxml",
+      "nivel": "nivel_1",
+      "estado": "funcional"
+    }
+  ]
+}

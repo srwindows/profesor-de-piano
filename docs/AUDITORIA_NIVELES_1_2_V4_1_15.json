@@ -1,0 +1,20 @@
+{
+  "nivel_1": {
+    "clases": 30,
+    "pendientes": 0,
+    "clases_con_4_ejercicios": 30,
+    "clases_con_examen": 30,
+    "midis_existentes": 30,
+    "partituras_existentes": 30,
+    "docs_existentes": 30
+  },
+  "nivel_2": {
+    "clases": 30,
+    "pendientes": 0,
+    "clases_con_4_ejercicios": 30,
+    "clases_con_examen": 30,
+    "midis_existentes": 30,
+    "partituras_existentes": 30,
+    "docs_existentes": 30
+  }
+}

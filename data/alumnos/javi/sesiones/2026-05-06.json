@@ -1,0 +1,107 @@
+{
+  "fecha": "2026-05-06",
+  "eventos": [
+    {
+      "ts": "2026-05-06T00:14:32",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-06T00:14:32.622",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "F3",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado F3. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "F3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-06T00:14:32",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-06T00:14:32.625",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "F3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 2.9 ms",
+        "contexto": {
+          "duracion_ms": 2.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-06T00:14:33",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-06T00:14:33.354",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "F3",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado F3. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "F3"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-06T00:14:33",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-06T00:14:33.366",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "F3",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 12.3 ms",
+        "contexto": {
+          "duracion_ms": 12.3
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "superados": [],
+  "resultados": {
+    "hanon_01": {
+      "fecha": "2026-05-09T20:43:19",
+      "hanon_id": "hanon_01",
+      "bpm": 60,
+      "nota_final": 33,
+      "notas_correctas": 13,
+      "pulso": 0,
+      "velocity": 79,
+      "duracion": 28,
+      "errores_recurrentes": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3"
+      ],
+      "recomendacion": "Repite más lento y mira la nota activa en la pizarra.",
+      "aprobado": false,
+      "en_practica": true
+    }
+  },
+  "examenes_nivel": {},
+  "historial": [
+    {
+      "fecha": "2026-05-09T20:43:19",
+      "hanon_id": "hanon_01",
+      "bpm": 60,
+      "nota_final": 33,
+      "notas_correctas": 13,
+      "pulso": 0,
+      "velocity": 79,
+      "duracion": 28,
+      "errores_recurrentes": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3"
+      ],
+      "recomendacion": "Repite más lento y mira la nota activa en la pizarra.",
+      "aprobado": false
+    }
+  ],
+  "ultima_actualizacion": "2026-05-09T21:26:27"
+}

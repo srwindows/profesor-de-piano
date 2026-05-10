@@ -1,0 +1,4021 @@
+{
+  "actuales": [
+    {
+      "tipo": "pulso",
+      "prioridad": "alta",
+      "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+    },
+    {
+      "tipo": "lectura",
+      "prioridad": "media",
+      "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+    },
+    {
+      "tipo": "nota_recurrente",
+      "prioridad": "media",
+      "texto": "Repasar la nota C4: aparece como fallo recurrente."
+    }
+  ],
+  "historico": [
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:00",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:00",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:00",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:00",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:04",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:04",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:04",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:40:57",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:40:57",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:40:58",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:40:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:40:59",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:01",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:04",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:04",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:05",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:14",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:14",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:25",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:25",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:25",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:27",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:27",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:28",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:39",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:39",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:39",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:53",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:53",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:41:53",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:03",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:11",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:11",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:11",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:24",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:24",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:24",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:28",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:28",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:42:28",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:46:50",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:46:50",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:46:50",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:00",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:00",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:01",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:08",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:11",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:11",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:11",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:21",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:22",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:47:22",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:52:38",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:52:38",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:52:39",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:53:42",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:53:42",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:53:42",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:54:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:54:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T20:54:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:37",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:37",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:37",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:46",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:46",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:47",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:48",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:48",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:26:48",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:02",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:03",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:03",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:03",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:09",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:17",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:17",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota E5: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:17",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:17",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:19",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:19",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:20",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:22",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:22",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:22",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:24",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:24",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:25",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:29",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:30",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:30",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:32",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:32",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:32",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:33",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:33",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:34",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:34",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:34",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:35",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:35",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:35",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:36",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:36",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:36",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:37",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:37",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:37",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:37",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:38",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:38",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-09T21:27:38",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:17",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:17",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:18",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:18",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:19",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-10T10:45:19",
+      "actuales": [
+        {
+          "tipo": "pulso",
+          "prioridad": "alta",
+          "texto": "Reforzar pulso con metrónomo lento antes de avanzar."
+        },
+        {
+          "tipo": "lectura",
+          "prioridad": "media",
+          "texto": "Repetir lectura en pizarra antes de pedir velocidad."
+        },
+        {
+          "tipo": "nota_recurrente",
+          "prioridad": "media",
+          "texto": "Repasar la nota C4: aparece como fallo recurrente."
+        }
+      ]
+    }
+  ]
+}

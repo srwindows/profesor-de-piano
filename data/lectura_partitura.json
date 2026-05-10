@@ -1,0 +1,1973 @@
+{
+  "version": "4.1.15-hotfix-partitura-docente-5-niveles",
+  "titulo": "Partitura desde cero: leer, entender y tocar",
+  "descripcion": "Clase completa de lectura de partitura para un alumno sin teoría previa. Explica qué es una partitura, para qué sirve, qué significa cada símbolo básico, cómo se interpreta y cómo se lleva al piano con ejercicios corregidos por el profesor.",
+  "teoria": [
+    {
+      "titulo": "Qué es una partitura",
+      "texto": "Es la escritura de la música. No solo dice notas: indica altura, duración, pulso, compás, silencios, articulación, dinámica y, en piano, qué mano suele intervenir."
+    },
+    {
+      "titulo": "Para qué sirve",
+      "texto": "Sirve para que una obra pueda leerse, estudiarse, corregirse y repetirse sin depender solo de memoria o imitación. Es el mapa que une oído, vista, mano y tiempo."
+    },
+    {
+      "titulo": "Símbolos básicos",
+      "texto": "Pentagrama: cinco líneas. Clave: da nombre a las notas. Nota: sonido escrito. Figura: duración. Silencio: tiempo sin tocar. Compás: agrupa pulsos. Barra: separa compases. Alteración: sube o baja medio tono. Digitación: dedo recomendado."
+    },
+    {
+      "titulo": "Cómo se lee",
+      "texto": "Primero se mira la clave y el compás. Después se localiza la nota de referencia, se lee si sube o baja, se identifica la figura, se cuenta el pulso y por último se toca con la mano y dedo indicados."
+    }
+  ],
+  "niveles": [
+    {
+      "id": "nivel_0",
+      "titulo": "Nivel 0 - Símbolos y orientación",
+      "objetivo": "Entender qué se está mirando antes de tocar."
+    },
+    {
+      "id": "inicial",
+      "titulo": "Nivel 1 - Primeras notas y duraciones",
+      "objetivo": "Leer Do-Re-Mi, silencios y compás 4/4."
+    },
+    {
+      "id": "basico",
+      "titulo": "Nivel 2 - Lectura aplicada",
+      "objetivo": "Leer líneas, espacios, alteraciones y dos manos alternas."
+    },
+    {
+      "id": "intermedio",
+      "titulo": "Nivel 3 - Ritmo y expresión",
+      "objetivo": "Añadir corcheas, saltos, dinámica y simultaneidad."
+    },
+    {
+      "id": "avanzado",
+      "titulo": "Nivel 4 - Lectura musical completa",
+      "objetivo": "Unir dos pentagramas, melodía, bajo y examen inicial."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "lp_n0_01_que_es_partitura",
+      "nivel": "nivel_0",
+      "titulo": "Qué es una partitura y para qué sirve",
+      "objetivo": "Entender la partitura como mapa musical: dice qué tocar, cuándo tocarlo, cuánto dura y con qué intención.",
+      "clave": "Sol y Fa",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [],
+      "figuras": [],
+      "digitacion": [],
+      "simbolos": [
+        "pentagrama",
+        "clave",
+        "nota",
+        "figura",
+        "compás",
+        "pulso"
+      ],
+      "interpretacion": "Si el símbolo está más arriba, la nota suena más aguda; si está más abajo, suena más grave. La figura indica cuánto tiempo dura.",
+      "lectura_visual": "Una partitura une tres informaciones: altura de la nota, duración de la figura y pulso del compás.",
+      "pasos": [
+        "Mira primero el título y el compás, no empieces por las teclas.",
+        "Observa si hay pentagrama superior, inferior o ambos.",
+        "Busca la clave: la clave nombra las líneas y espacios.",
+        "Localiza la primera nota y relaciónala con el piano.",
+        "Cuenta el pulso antes de tocar."
+      ],
+      "criterio": "El alumno explica con sus palabras que una partitura no es un adorno, sino una instrucción musical completa.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "redonda",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n0_02_pentagrama",
+      "nivel": "nivel_0",
+      "titulo": "El pentagrama: líneas y espacios",
+      "objetivo": "Aprender que el pentagrama tiene cinco líneas y cuatro espacios donde se colocan las notas.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3"
+      ],
+      "simbolos": [
+        "línea",
+        "espacio",
+        "cabeza de nota"
+      ],
+      "interpretacion": "En clave de Sol, cada línea y espacio tiene un nombre. Para empezar usaremos Do central, Re y Mi como anclas.",
+      "lectura_visual": "Cinco líneas + cuatro espacios = posiciones de lectura. Cada posición corresponde a una nota según la clave.",
+      "pasos": [
+        "Cuenta las líneas de abajo hacia arriba: 1, 2, 3, 4, 5.",
+        "Cuenta los espacios de abajo hacia arriba: 1, 2, 3, 4.",
+        "Una nota en línea se dibuja atravesada por la línea.",
+        "Una nota en espacio queda entre dos líneas.",
+        "No leas por memoria visual: lee posición + clave."
+      ],
+      "criterio": "Distingue nota en línea y nota en espacio.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n0_03_clave_sol",
+      "nivel": "nivel_0",
+      "titulo": "Clave de Sol: referencia de la mano derecha",
+      "objetivo": "Entender que la clave de Sol sitúa la nota Sol y permite nombrar las demás notas del pentagrama superior.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "simbolos": [
+        "clave de Sol",
+        "línea de Sol"
+      ],
+      "interpretacion": "La clave de Sol se usa mucho para melodías y para la mano derecha inicial.",
+      "lectura_visual": "La clave de Sol señala la línea de Sol. Desde esa referencia subimos o bajamos por orden: Do, Re, Mi, Fa, Sol...",
+      "pasos": [
+        "Mira el signo de clave al inicio.",
+        "Recuerda que no se toca: se interpreta.",
+        "Busca Do central bajo el pentagrama como punto de partida.",
+        "Sube por Re, Mi, Fa y Sol.",
+        "Toca despacio y di el nombre de cada nota."
+      ],
+      "criterio": "Reconoce que la clave de Sol no suena, sino que organiza la lectura.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n0_04_clave_fa",
+      "nivel": "nivel_0",
+      "titulo": "Clave de Fa: referencia de la mano izquierda",
+      "objetivo": "Entender que la clave de Fa sitúa la nota Fa y permite leer el pentagrama inferior.",
+      "clave": "Fa",
+      "compas": "4/4",
+      "tempo": 56,
+      "notas": [
+        "C3",
+        "D3",
+        "E3",
+        "F3"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "simbolos": [
+        "clave de Fa",
+        "pentagrama inferior"
+      ],
+      "interpretacion": "En piano, la clave de Fa evita escribir muchas líneas adicionales para las notas graves.",
+      "lectura_visual": "La clave de Fa orienta la zona grave. Sus dos puntos abrazan la línea de Fa.",
+      "pasos": [
+        "Mira el pentagrama inferior.",
+        "Identifica la clave de Fa al principio.",
+        "Relaciona la zona grave del piano con la mano izquierda.",
+        "Empieza con Do3, Re3, Mi3 y Fa3.",
+        "Toca sin mirar continuamente la mano."
+      ],
+      "criterio": "Relaciona clave de Fa con pentagrama inferior y mano izquierda.",
+      "practica_notas": [
+        {
+          "nota": "C3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "C3"
+        },
+        {
+          "nota": "D3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "4",
+          "nombre": "D3"
+        },
+        {
+          "nota": "E3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "3",
+          "nombre": "E3"
+        },
+        {
+          "nota": "F3",
+          "figura": "blanca",
+          "mano": "izquierda",
+          "dedo": "2",
+          "nombre": "F3"
+        }
+      ]
+    },
+    {
+      "id": "lp_n0_05_do_central",
+      "nivel": "nivel_0",
+      "titulo": "Do central: puente entre las dos claves",
+      "objetivo": "Localizar el Do central escrito y tocado, entendiendo que une pentagrama superior e inferior.",
+      "clave": "Sol/Fa",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C4"
+      ],
+      "figuras": [
+        "redonda"
+      ],
+      "digitacion": [
+        "1"
+      ],
+      "simbolos": [
+        "línea adicional",
+        "Do central"
+      ],
+      "interpretacion": "Las líneas adicionales sirven para escribir notas que se salen del pentagrama sin cambiar de clave.",
+      "lectura_visual": "Do central = nota con línea adicional entre los dos pentagramas.",
+      "pasos": [
+        "Busca el grupo de dos teclas negras cerca del centro.",
+        "La tecla blanca de la izquierda es Do central.",
+        "En clave de Sol aparece debajo del pentagrama.",
+        "En clave de Fa aparece encima del pentagrama.",
+        "Toca Do central con dedo 1 y nómbralo en voz alta."
+      ],
+      "criterio": "Localiza Do central en teclado y partitura.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "silencio": true,
+          "figura": "silencio_negra",
+          "nombre": "silencio"
+        },
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "silencio": true,
+          "figura": "silencio_negra",
+          "nombre": "silencio"
+        }
+      ]
+    },
+    {
+      "id": "lp_n1_01_figuras_basicas",
+      "nivel": "inicial",
+      "titulo": "Negra, blanca y redonda",
+      "objetivo": "Comprender las duraciones básicas: negra = 1 pulso, blanca = 2, redonda = 4.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C4",
+        "D4",
+        "E4"
+      ],
+      "figuras": [
+        "negra",
+        "blanca",
+        "redonda"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3"
+      ],
+      "simbolos": [
+        "negra",
+        "blanca",
+        "redonda"
+      ],
+      "interpretacion": "Una nota puede tener el mismo nombre y diferente duración según su figura.",
+      "lectura_visual": "La posición dice qué nota es; la figura dice cuánto dura.",
+      "pasos": [
+        "Cuenta 1 para cada negra.",
+        "Cuenta 1-2 para cada blanca.",
+        "Cuenta 1-2-3-4 para la redonda.",
+        "No cortes la blanca antes de tiempo.",
+        "Respira antes del compás siguiente."
+      ],
+      "criterio": "Toca respetando duración, no solo nota.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "C4",
+          "figura": "redonda",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n1_02_silencios",
+      "nivel": "inicial",
+      "titulo": "Silencios: contar sin tocar",
+      "objetivo": "Aprender que el silencio también forma parte de la música y se cuenta igual que una nota.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C4",
+        "D4"
+      ],
+      "figuras": [
+        "negra",
+        "silencio",
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2"
+      ],
+      "simbolos": [
+        "silencio de negra"
+      ],
+      "interpretacion": "El silencio no es una pausa libre: tiene duración exacta.",
+      "lectura_visual": "Silencio = no tocar, pero el pulso sigue.",
+      "pasos": [
+        "Toca Do en el pulso 1.",
+        "En el silencio no pulses ninguna tecla.",
+        "Cuenta el silencio por dentro.",
+        "Vuelve a entrar en Re sin correr.",
+        "Si tocas durante el silencio, repite."
+      ],
+      "criterio": "Respeta los silencios sin perder el pulso.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "silencio": true,
+          "figura": "silencio_negra",
+          "nombre": "silencio"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "silencio": true,
+          "figura": "silencio_negra",
+          "nombre": "silencio"
+        }
+      ]
+    },
+    {
+      "id": "lp_n1_03_do_re_mi",
+      "nivel": "inicial",
+      "titulo": "Lectura DO RE MI",
+      "objetivo": "Leer tres notas consecutivas en clave de Sol y tocarlas con dedos 1-2-3.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 64,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "2",
+        "1"
+      ],
+      "simbolos": [
+        "nota ascendente",
+        "nota descendente"
+      ],
+      "interpretacion": "Cuando las notas suben en el pentagrama, normalmente suben también en el teclado.",
+      "lectura_visual": "Do central, Re y Mi forman la primera escalera de lectura.",
+      "pasos": [
+        "Lee las notas antes de tocar.",
+        "Di: Do, Re, Mi, Re, Do.",
+        "Usa dedos 1-2-3-2-1.",
+        "Mantén la muñeca relajada.",
+        "No avances si confundes Re y Mi."
+      ],
+      "criterio": "Lee y toca DO RE MI RE DO sin cambiar el orden.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n1_04_mano_izquierda_basica",
+      "nivel": "inicial",
+      "titulo": "Lectura básica con mano izquierda",
+      "objetivo": "Leer Do3-Re3-Mi3 en clave de Fa con dedos 5-4-3.",
+      "clave": "Fa",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C3",
+        "D3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "5",
+        "4",
+        "3",
+        "4",
+        "5"
+      ],
+      "simbolos": [
+        "clave de Fa",
+        "mano izquierda"
+      ],
+      "interpretacion": "La mano izquierda suele leer sonidos más graves; por eso se sitúa a la izquierda del piano.",
+      "lectura_visual": "El pentagrama inferior prepara la lectura grave.",
+      "pasos": [
+        "Coloca dedo 5 en Do3.",
+        "Lee Do, Re, Mi.",
+        "No cambies a mano derecha.",
+        "Cuenta negras iguales.",
+        "Termina con una blanca tranquila."
+      ],
+      "criterio": "Toca con mano izquierda sin confundir el registro.",
+      "practica_notas": [
+        {
+          "nota": "C3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "C3"
+        },
+        {
+          "nota": "D3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "4",
+          "nombre": "D3"
+        },
+        {
+          "nota": "E3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "3",
+          "nombre": "E3"
+        },
+        {
+          "nota": "D3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "4",
+          "nombre": "D3"
+        },
+        {
+          "nota": "C3",
+          "figura": "blanca",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "C3"
+        }
+      ]
+    },
+    {
+      "id": "lp_n1_05_compas_4_4",
+      "nivel": "inicial",
+      "titulo": "Compás 4/4 y acento del primer pulso",
+      "objetivo": "Entender que el 4/4 agrupa cuatro pulsos y que el primer pulso suele sentirse más fuerte.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 64,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "F4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "simbolos": [
+        "compás 4/4",
+        "barra de compás"
+      ],
+      "interpretacion": "La barra de compás separa grupos de pulsos; no significa detenerse.",
+      "lectura_visual": "4/4 = cuatro pulsos por compás. El pulso 1 orienta la entrada.",
+      "pasos": [
+        "Cuenta 1-2-3-4.",
+        "Acentúa suavemente el 1.",
+        "Toca una nota por pulso.",
+        "No aceleres en el cuarto pulso.",
+        "Repite hasta sentir el compás completo."
+      ],
+      "criterio": "Mantiene cuatro pulsos regulares.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n2_01_lineas_espacios",
+      "nivel": "basico",
+      "titulo": "Notas por líneas y espacios",
+      "objetivo": "Diferenciar visualmente notas en línea y notas en espacio dentro de una frase.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 66,
+      "notas": [
+        "E4",
+        "F4",
+        "G4",
+        "A4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "simbolos": [
+        "línea",
+        "espacio"
+      ],
+      "interpretacion": "Leer es reconocer posiciones relativas: una posición arriba equivale a la siguiente nota de la escala.",
+      "lectura_visual": "Alterna línea y espacio para leer sin depender de memoria muscular.",
+      "pasos": [
+        "Observa si la cabeza de la nota cruza una línea.",
+        "Nombra la nota antes de tocar.",
+        "Toca solo cuando estés seguro.",
+        "Repite más lento si miras demasiado al teclado.",
+        "Corrige nota por nota."
+      ],
+      "criterio": "Identifica línea/espacio y toca la nota correcta.",
+      "practica_notas": [
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "E4"
+        },
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "F4"
+        },
+        {
+          "nota": "G4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "G4"
+        },
+        {
+          "nota": "A4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "A4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n2_02_barra_repeticion",
+      "nivel": "basico",
+      "titulo": "Barra de compás y frase corta",
+      "objetivo": "Leer dos compases seguidos manteniendo el pulso entre barras.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 68,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "figuras": [
+        "negra",
+        "blanca"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "3",
+        "2",
+        "1"
+      ],
+      "simbolos": [
+        "barra de compás",
+        "frase"
+      ],
+      "interpretacion": "La frase musical es una idea; la barra organiza, no corta el pensamiento musical.",
+      "lectura_visual": "La barra separa compases, pero el pulso no se detiene.",
+      "pasos": [
+        "Lee el compás 1 completo.",
+        "Lee el compás 2 antes de tocar.",
+        "No pares en la barra.",
+        "Mantén el mismo tempo.",
+        "Escucha si la frase tiene continuidad."
+      ],
+      "criterio": "Toca dos compases sin parar en la barra.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "G4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n2_03_alteraciones",
+      "nivel": "basico",
+      "titulo": "Sostenido y bemol: alteraciones básicas",
+      "objetivo": "Entender que sostenido sube medio tono y bemol baja medio tono.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "F4",
+        "F#4",
+        "G4",
+        "G#4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "simbolos": [
+        "sostenido",
+        "bemol",
+        "becuadro"
+      ],
+      "interpretacion": "La alteración modifica la altura de la nota. Si aparece #, no debe sonar la nota natural.",
+      "lectura_visual": "# sube a la tecla negra o blanca siguiente; bemol baja medio tono.",
+      "pasos": [
+        "Mira si el símbolo está delante de la nota.",
+        "No confundas Sol con Sol#.",
+        "Localiza primero la nota natural.",
+        "Después sube o baja medio tono.",
+        "Comprueba en el piano antes de tocar."
+      ],
+      "criterio": "Toca alteraciones sin confundir natural y sostenido.",
+      "practica_notas": [
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "F4"
+        },
+        {
+          "nota": "F#4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "F#4"
+        },
+        {
+          "nota": "G4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "G4"
+        },
+        {
+          "nota": "G#4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "G#4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n2_04_dos_manos_alternas",
+      "nivel": "basico",
+      "titulo": "Lectura alternando dos manos",
+      "objetivo": "Tocar una melodía simple alternando pentagrama inferior y superior.",
+      "clave": "Sol/Fa",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C3",
+        "C4",
+        "D3",
+        "D4",
+        "E3",
+        "E4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "5",
+        "1",
+        "4",
+        "2",
+        "3",
+        "3"
+      ],
+      "simbolos": [
+        "gran pentagrama",
+        "manos alternas"
+      ],
+      "interpretacion": "En piano se leen dos pentagramas a la vez; al principio se alternan para aprender coordinación.",
+      "lectura_visual": "Pentagrama inferior = izquierda; superior = derecha. La lectura salta entre registros.",
+      "pasos": [
+        "Prepara ambas manos antes de empezar.",
+        "Toca bajo con izquierda.",
+        "Responde con derecha.",
+        "No dejes que una mano invada la otra.",
+        "Cuenta siempre el mismo pulso."
+      ],
+      "criterio": "Alterna ambas manos sin perder el pulso.",
+      "practica_notas": [
+        {
+          "nota": "C3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "C3"
+        },
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "4",
+          "nombre": "D3"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "3",
+          "nombre": "E3"
+        },
+        {
+          "nota": "E4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n2_05_blancas_ligadas",
+      "nivel": "basico",
+      "titulo": "Notas largas y respiración musical",
+      "objetivo": "Mantener notas largas sin soltarlas antes de tiempo.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 56,
+      "notas": [
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "figuras": [
+        "blanca"
+      ],
+      "digitacion": [
+        "1",
+        "3",
+        "5"
+      ],
+      "simbolos": [
+        "blanca",
+        "duración"
+      ],
+      "interpretacion": "Una blanca no son dos negras repetidas; es un sonido mantenido durante dos pulsos.",
+      "lectura_visual": "Las notas largas necesitan control: tocar, mantener y soltar en el pulso correcto.",
+      "pasos": [
+        "Toca la blanca y cuenta dos pulsos.",
+        "No repitas la tecla en el segundo pulso.",
+        "Escucha la duración.",
+        "Suelta justo al cambiar de nota.",
+        "Mantén mano relajada."
+      ],
+      "criterio": "Mantiene duraciones largas correctamente.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "E4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        },
+        {
+          "nota": "C4",
+          "figura": "redonda",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n3_01_corcheas",
+      "nivel": "intermedio",
+      "titulo": "Corcheas: dos sonidos por pulso",
+      "objetivo": "Leer corcheas contando subdivisión: 1 y 2 y 3 y 4 y.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 72,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "figuras": [
+        "corchea"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "simbolos": [
+        "corchea",
+        "subdivisión"
+      ],
+      "interpretacion": "La corchea divide el pulso en dos partes iguales.",
+      "lectura_visual": "Dos corcheas ocupan el mismo tiempo que una negra.",
+      "pasos": [
+        "Cuenta 1-y-2-y.",
+        "Toca dos notas por pulso sin correr.",
+        "Mantén la mano ligera.",
+        "No conviertas corcheas en notas desiguales.",
+        "Vuelve a negra si pierdes control."
+      ],
+      "criterio": "Toca corcheas parejas.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "corchea",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "corchea",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "corchea",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "F4",
+          "figura": "corchea",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        },
+        {
+          "nota": "G4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n3_02_saltos_pequenos",
+      "nivel": "intermedio",
+      "titulo": "Saltos pequeños de tercera",
+      "objetivo": "Leer saltos de una nota intermedia sin perder orientación visual.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 68,
+      "notas": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "3",
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "simbolos": [
+        "intervalo de tercera"
+      ],
+      "interpretacion": "La distancia visual en el pentagrama representa distancia sonora.",
+      "lectura_visual": "Un salto de tercera salta una posición: Do a Mi, Re a Fa, Mi a Sol.",
+      "pasos": [
+        "Identifica si la nota sube por paso o por salto.",
+        "Nombra el destino antes de tocar.",
+        "Mueve la mano lo mínimo necesario.",
+        "Mantén pulso lento.",
+        "Comprueba que no has tocado la nota intermedia."
+      ],
+      "criterio": "Distingue paso conjunto y salto de tercera.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n3_03_dinamica",
+      "nivel": "intermedio",
+      "titulo": "Dinámica: tocar suave y fuerte",
+      "objetivo": "Introducir p y f como indicaciones de intensidad.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 64,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "simbolos": [
+        "p",
+        "f",
+        "dinámica"
+      ],
+      "interpretacion": "La partitura también indica cómo debe sonar, no solo qué tecla pulsar.",
+      "lectura_visual": "p = piano/suave; f = forte/fuerte. No cambian la nota, cambian la energía.",
+      "pasos": [
+        "Lee primero las notas.",
+        "Después mira la dinámica.",
+        "Toca la primera mitad suave.",
+        "Toca la segunda con más presencia sin golpear.",
+        "Escucha el contraste."
+      ],
+      "criterio": "Diferencia suave y fuerte manteniendo nota y pulso.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n3_04_acordes_dos_notas",
+      "nivel": "intermedio",
+      "titulo": "Dos notas simultáneas",
+      "objetivo": "Entender que dos notas alineadas verticalmente se tocan a la vez.",
+      "clave": "Sol/Fa",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C4+E4",
+        "D4+F4",
+        "E4+G4"
+      ],
+      "figuras": [
+        "blanca"
+      ],
+      "digitacion": [
+        "1+3",
+        "2+4",
+        "3+5"
+      ],
+      "simbolos": [
+        "simultaneidad",
+        "acorde"
+      ],
+      "interpretacion": "La verticalidad en la partitura representa simultaneidad temporal.",
+      "lectura_visual": "Notas verticales = simultáneas. Notas horizontales = sucesivas.",
+      "pasos": [
+        "Mira si las cabezas están una encima de otra.",
+        "Prepara las dos teclas antes de tocar.",
+        "Pulsa a la vez, no una después de otra.",
+        "Suelta juntas.",
+        "Repite lento."
+      ],
+      "criterio": "Toca dos notas simultáneas de forma coordinada.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "E4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "D4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "F4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n3_05_frase_mixta",
+      "nivel": "intermedio",
+      "titulo": "Frase con negras, blancas y corcheas",
+      "objetivo": "Leer una frase corta con diferentes figuras sin perder el compás.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 72,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "figuras": [
+        "negra",
+        "corchea",
+        "blanca"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "3",
+        "1"
+      ],
+      "simbolos": [
+        "figuras mixtas"
+      ],
+      "interpretacion": "Leer bien significa unir altura y ritmo al mismo tiempo.",
+      "lectura_visual": "La dificultad está en cambiar de duración sin cambiar el tempo.",
+      "pasos": [
+        "Cuenta subdivisión antes de empezar.",
+        "Agrupa por compases.",
+        "Lee notas y figuras por separado.",
+        "Después une ambas cosas.",
+        "Corrige si aceleras en las corcheas."
+      ],
+      "criterio": "Mantiene tempo aunque cambie la figura.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "corchea",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "corchea",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n4_01_gran_pentagrama",
+      "nivel": "avanzado",
+      "titulo": "Gran pentagrama: dos líneas de lectura",
+      "objetivo": "Leer mano izquierda y derecha como un sistema único de piano.",
+      "clave": "Sol/Fa",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C3",
+        "E3",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "5",
+        "3",
+        "1",
+        "3",
+        "5"
+      ],
+      "simbolos": [
+        "gran pentagrama",
+        "llave de piano"
+      ],
+      "interpretacion": "El pianista lee vertical y horizontalmente: qué ocurre ahora y qué viene después.",
+      "lectura_visual": "El gran pentagrama une dos pentagramas: grave y agudo trabajan juntos.",
+      "pasos": [
+        "Observa ambas claves antes de tocar.",
+        "Localiza Do central como frontera.",
+        "Prepara una nota grave y una aguda.",
+        "Toca alternando al principio.",
+        "Cuando estés seguro, toca más fluido."
+      ],
+      "criterio": "Lee dos pentagramas con orientación básica.",
+      "practica_notas": [
+        {
+          "nota": "C3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "C3"
+        },
+        {
+          "nota": "E3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "3",
+          "nombre": "E3"
+        },
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n4_02_lectura_con_silencios",
+      "nivel": "avanzado",
+      "titulo": "Frase con silencios internos",
+      "objetivo": "Leer notas y silencios sin perder la continuidad musical.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 66,
+      "notas": [
+        "C4",
+        "silencio",
+        "E4",
+        "silencio",
+        "G4"
+      ],
+      "figuras": [
+        "negra",
+        "silencio",
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "-",
+        "3",
+        "-",
+        "5"
+      ],
+      "simbolos": [
+        "silencio interno"
+      ],
+      "interpretacion": "Los silencios crean forma y respiración. No son fallos ni espacios vacíos.",
+      "lectura_visual": "El silencio forma parte de la frase: se respira, pero no se abandona el pulso.",
+      "pasos": [
+        "Toca la primera nota.",
+        "Cuenta el silencio sin mover la mano de más.",
+        "Entra exacto después del silencio.",
+        "No rellenes huecos tocando.",
+        "Escucha el espacio."
+      ],
+      "criterio": "Respeta silencios internos.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "silencio": true,
+          "figura": "silencio_negra",
+          "nombre": "silencio"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "silencio": true,
+          "figura": "silencio_negra",
+          "nombre": "silencio"
+        },
+        {
+          "nota": "G4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n4_03_lectura_melodica",
+      "nivel": "avanzado",
+      "titulo": "Melodía inicial completa",
+      "objetivo": "Leer una melodía de ocho pulsos con dirección, ritmo y digitación.",
+      "clave": "Sol",
+      "compas": "4/4",
+      "tempo": 72,
+      "notas": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "simbolos": [
+        "frase melódica"
+      ],
+      "interpretacion": "Cuando ya lees símbolos aislados, el siguiente paso es leer frases musicales.",
+      "lectura_visual": "La melodía tiene dirección: sube, descansa y vuelve.",
+      "pasos": [
+        "Lee la forma general antes de tocar.",
+        "Marca dónde sube y dónde baja.",
+        "Toca sin detenerte en cada nota.",
+        "Escucha si parece una frase.",
+        "Corrige con el profesor nota por nota."
+      ],
+      "criterio": "Toca una melodía completa con continuidad.",
+      "practica_notas": [
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "G4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        },
+        {
+          "nota": "F4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "4",
+          "nombre": "F4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n4_04_bajo_melodia",
+      "nivel": "avanzado",
+      "titulo": "Bajo sencillo con melodía",
+      "objetivo": "Coordinar una nota de bajo con una respuesta melódica sencilla.",
+      "clave": "Sol/Fa",
+      "compas": "4/4",
+      "tempo": 60,
+      "notas": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "figuras": [
+        "negra"
+      ],
+      "digitacion": [
+        "5",
+        "1",
+        "2",
+        "3",
+        "5",
+        "3",
+        "2",
+        "1"
+      ],
+      "simbolos": [
+        "bajo",
+        "melodía",
+        "dos manos"
+      ],
+      "interpretacion": "En piano, muchas partituras combinan acompañamiento grave y melodía aguda.",
+      "lectura_visual": "La izquierda sostiene la base; la derecha contesta con melodía.",
+      "pasos": [
+        "Lee el bajo primero.",
+        "Lee la melodía después.",
+        "Une ambas manos muy lento.",
+        "No aceleres al cambiar de mano.",
+        "Escucha si bajo y melodía se entienden."
+      ],
+      "criterio": "Coordina bajo y melodía sin perder lectura.",
+      "practica_notas": [
+        {
+          "nota": "C3",
+          "figura": "blanca",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "C3"
+        },
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "G3",
+          "figura": "blanca",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "G3"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    },
+    {
+      "id": "lp_n4_05_examen_lectura_inicial",
+      "nivel": "avanzado",
+      "titulo": "Examen inicial de lectura de partitura",
+      "objetivo": "Comprobar si el alumno puede leer una partitura sencilla desde cero: símbolo, nota, duración, mano y pulso.",
+      "clave": "Sol/Fa",
+      "compas": "4/4",
+      "tempo": 68,
+      "notas": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "silencio",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "figuras": [
+        "negra",
+        "blanca",
+        "silencio"
+      ],
+      "digitacion": [
+        "5",
+        "1",
+        "2",
+        "3",
+        "-",
+        "5",
+        "3",
+        "1"
+      ],
+      "simbolos": [
+        "lectura completa",
+        "clave",
+        "figura",
+        "silencio",
+        "digitación"
+      ],
+      "interpretacion": "Este ejercicio une todos los símbolos básicos que debe conocer un alumno nuevo.",
+      "lectura_visual": "Examen: lee antes de tocar, cuenta y deja que el profesor corrija.",
+      "pasos": [
+        "Observa clave, compás y primera nota.",
+        "Nombra cada nota en voz baja.",
+        "Cuenta 1-2-3-4.",
+        "Toca con la mano indicada.",
+        "Acepta la corrección y repite si hace falta."
+      ],
+      "criterio": "Supera lectura con precisión de nota y pulso suficiente.",
+      "practica_notas": [
+        {
+          "nota": "C3",
+          "figura": "negra",
+          "mano": "izquierda",
+          "dedo": "5",
+          "nombre": "C3"
+        },
+        {
+          "nota": "C4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        },
+        {
+          "nota": "D4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "2",
+          "nombre": "D4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "silencio": true,
+          "figura": "silencio_negra",
+          "nombre": "silencio"
+        },
+        {
+          "nota": "G4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "5",
+          "nombre": "G4"
+        },
+        {
+          "nota": "E4",
+          "figura": "negra",
+          "mano": "derecha",
+          "dedo": "3",
+          "nombre": "E4"
+        },
+        {
+          "nota": "C4",
+          "figura": "blanca",
+          "mano": "derecha",
+          "dedo": "1",
+          "nombre": "C4"
+        }
+      ]
+    }
+  ]
+}

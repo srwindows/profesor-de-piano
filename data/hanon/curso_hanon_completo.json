@@ -1,0 +1,646 @@
+{
+  "id": "bloque_hanon_completo",
+  "titulo": "Técnica Hanon completa",
+  "tipo": "bloque_tecnico",
+  "descripcion": "Curso técnico completo con 60 ejercicios Hanon adaptados al Profesor de Piano.",
+  "integracion_recomendada": "Añadir como bloque transversal desde Nivel 1 y progresivo hasta Nivel 5.",
+  "clases": [
+    {
+      "id": "hanon_01",
+      "nivel": 1,
+      "orden": 1,
+      "titulo": "Hanon 01: Independencia de dedos",
+      "objetivo": "Trabajar independencia de dedos con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_01/hanon_01_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_01/ejercicios/hanon_01_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_01/examen/hanon_01_examen.json"
+    },
+    {
+      "id": "hanon_02",
+      "nivel": 1,
+      "orden": 2,
+      "titulo": "Hanon 02: Igualdad de ataque",
+      "objetivo": "Trabajar igualdad de ataque con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_02/hanon_02_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_02/ejercicios/hanon_02_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_02/examen/hanon_02_examen.json"
+    },
+    {
+      "id": "hanon_03",
+      "nivel": 1,
+      "orden": 3,
+      "titulo": "Hanon 03: Dedos 3-4-5",
+      "objetivo": "Trabajar dedos 3-4-5 con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_03/hanon_03_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_03/ejercicios/hanon_03_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_03/examen/hanon_03_examen.json"
+    },
+    {
+      "id": "hanon_04",
+      "nivel": 1,
+      "orden": 4,
+      "titulo": "Hanon 04: Articulación controlada",
+      "objetivo": "Trabajar articulación controlada con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_04/hanon_04_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_04/ejercicios/hanon_04_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_04/examen/hanon_04_examen.json"
+    },
+    {
+      "id": "hanon_05",
+      "nivel": 1,
+      "orden": 5,
+      "titulo": "Hanon 05: Paso suave entre dedos",
+      "objetivo": "Trabajar paso suave entre dedos con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_05/hanon_05_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_05/ejercicios/hanon_05_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_05/examen/hanon_05_examen.json"
+    },
+    {
+      "id": "hanon_06",
+      "nivel": 1,
+      "orden": 6,
+      "titulo": "Hanon 06: Regularidad con extensión moderada",
+      "objetivo": "Trabajar regularidad con extensión moderada con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_06/hanon_06_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_06/ejercicios/hanon_06_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_06/examen/hanon_06_examen.json"
+    },
+    {
+      "id": "hanon_07",
+      "nivel": 1,
+      "orden": 7,
+      "titulo": "Hanon 07: Control de dedos débiles",
+      "objetivo": "Trabajar control de dedos débiles con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_07/hanon_07_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_07/ejercicios/hanon_07_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_07/examen/hanon_07_examen.json"
+    },
+    {
+      "id": "hanon_08",
+      "nivel": 1,
+      "orden": 8,
+      "titulo": "Hanon 08: Movimiento conjunto y relajación",
+      "objetivo": "Trabajar movimiento conjunto y relajación con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_08/hanon_08_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_08/ejercicios/hanon_08_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_08/examen/hanon_08_examen.json"
+    },
+    {
+      "id": "hanon_09",
+      "nivel": 1,
+      "orden": 9,
+      "titulo": "Hanon 09: Patrón ascendente-descendente",
+      "objetivo": "Trabajar patrón ascendente-descendente con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_09/hanon_09_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_09/ejercicios/hanon_09_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_09/examen/hanon_09_examen.json"
+    },
+    {
+      "id": "hanon_10",
+      "nivel": 1,
+      "orden": 10,
+      "titulo": "Hanon 10: Precisión de corcheas",
+      "objetivo": "Trabajar precisión de corcheas con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_1/hanon_10/hanon_10_modelo.json",
+      "ejercicios": "data/hanon/nivel_1/hanon_10/ejercicios/hanon_10_ejercicios.json",
+      "examen": "data/hanon/nivel_1/hanon_10/examen/hanon_10_examen.json"
+    },
+    {
+      "id": "hanon_11",
+      "nivel": 2,
+      "orden": 11,
+      "titulo": "Hanon 11: Independencia de dedos",
+      "objetivo": "Trabajar independencia de dedos con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_11/hanon_11_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_11/ejercicios/hanon_11_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_11/examen/hanon_11_examen.json"
+    },
+    {
+      "id": "hanon_12",
+      "nivel": 2,
+      "orden": 12,
+      "titulo": "Hanon 12: Igualdad de ataque",
+      "objetivo": "Trabajar igualdad de ataque con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_12/hanon_12_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_12/ejercicios/hanon_12_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_12/examen/hanon_12_examen.json"
+    },
+    {
+      "id": "hanon_13",
+      "nivel": 2,
+      "orden": 13,
+      "titulo": "Hanon 13: Dedos 3-4-5",
+      "objetivo": "Trabajar dedos 3-4-5 con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_13/hanon_13_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_13/ejercicios/hanon_13_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_13/examen/hanon_13_examen.json"
+    },
+    {
+      "id": "hanon_14",
+      "nivel": 2,
+      "orden": 14,
+      "titulo": "Hanon 14: Articulación controlada",
+      "objetivo": "Trabajar articulación controlada con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_14/hanon_14_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_14/ejercicios/hanon_14_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_14/examen/hanon_14_examen.json"
+    },
+    {
+      "id": "hanon_15",
+      "nivel": 2,
+      "orden": 15,
+      "titulo": "Hanon 15: Paso suave entre dedos",
+      "objetivo": "Trabajar paso suave entre dedos con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_15/hanon_15_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_15/ejercicios/hanon_15_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_15/examen/hanon_15_examen.json"
+    },
+    {
+      "id": "hanon_16",
+      "nivel": 2,
+      "orden": 16,
+      "titulo": "Hanon 16: Regularidad con extensión moderada",
+      "objetivo": "Trabajar regularidad con extensión moderada con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_16/hanon_16_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_16/ejercicios/hanon_16_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_16/examen/hanon_16_examen.json"
+    },
+    {
+      "id": "hanon_17",
+      "nivel": 2,
+      "orden": 17,
+      "titulo": "Hanon 17: Control de dedos débiles",
+      "objetivo": "Trabajar control de dedos débiles con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_17/hanon_17_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_17/ejercicios/hanon_17_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_17/examen/hanon_17_examen.json"
+    },
+    {
+      "id": "hanon_18",
+      "nivel": 2,
+      "orden": 18,
+      "titulo": "Hanon 18: Movimiento conjunto y relajación",
+      "objetivo": "Trabajar movimiento conjunto y relajación con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_18/hanon_18_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_18/ejercicios/hanon_18_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_18/examen/hanon_18_examen.json"
+    },
+    {
+      "id": "hanon_19",
+      "nivel": 2,
+      "orden": 19,
+      "titulo": "Hanon 19: Patrón ascendente-descendente",
+      "objetivo": "Trabajar patrón ascendente-descendente con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_19/hanon_19_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_19/ejercicios/hanon_19_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_19/examen/hanon_19_examen.json"
+    },
+    {
+      "id": "hanon_20",
+      "nivel": 2,
+      "orden": 20,
+      "titulo": "Hanon 20: Precisión de corcheas",
+      "objetivo": "Trabajar precisión de corcheas con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_2/hanon_20/hanon_20_modelo.json",
+      "ejercicios": "data/hanon/nivel_2/hanon_20/ejercicios/hanon_20_ejercicios.json",
+      "examen": "data/hanon/nivel_2/hanon_20/examen/hanon_20_examen.json"
+    },
+    {
+      "id": "hanon_21",
+      "nivel": 3,
+      "orden": 21,
+      "titulo": "Hanon 21: Escalas preparatorias",
+      "objetivo": "Trabajar escalas preparatorias con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_21/hanon_21_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_21/ejercicios/hanon_21_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_21/examen/hanon_21_examen.json"
+    },
+    {
+      "id": "hanon_22",
+      "nivel": 3,
+      "orden": 22,
+      "titulo": "Hanon 22: Terceras rotas",
+      "objetivo": "Trabajar terceras rotas con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_22/hanon_22_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_22/ejercicios/hanon_22_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_22/examen/hanon_22_examen.json"
+    },
+    {
+      "id": "hanon_23",
+      "nivel": 3,
+      "orden": 23,
+      "titulo": "Hanon 23: Sextas simplificadas",
+      "objetivo": "Trabajar sextas simplificadas con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_23/hanon_23_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_23/ejercicios/hanon_23_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_23/examen/hanon_23_examen.json"
+    },
+    {
+      "id": "hanon_24",
+      "nivel": 3,
+      "orden": 24,
+      "titulo": "Hanon 24: Cromatismo controlado",
+      "objetivo": "Trabajar cromatismo controlado con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_24/hanon_24_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_24/ejercicios/hanon_24_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_24/examen/hanon_24_examen.json"
+    },
+    {
+      "id": "hanon_25",
+      "nivel": 3,
+      "orden": 25,
+      "titulo": "Hanon 25: Repetición con cambio de dedo",
+      "objetivo": "Trabajar repetición con cambio de dedo con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_25/hanon_25_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_25/ejercicios/hanon_25_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_25/examen/hanon_25_examen.json"
+    },
+    {
+      "id": "hanon_26",
+      "nivel": 3,
+      "orden": 26,
+      "titulo": "Hanon 26: Arpegio quebrado",
+      "objetivo": "Trabajar arpegio quebrado con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_26/hanon_26_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_26/ejercicios/hanon_26_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_26/examen/hanon_26_examen.json"
+    },
+    {
+      "id": "hanon_27",
+      "nivel": 3,
+      "orden": 27,
+      "titulo": "Hanon 27: Doble dirección",
+      "objetivo": "Trabajar doble dirección con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_27/hanon_27_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_27/ejercicios/hanon_27_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_27/examen/hanon_27_examen.json"
+    },
+    {
+      "id": "hanon_28",
+      "nivel": 3,
+      "orden": 28,
+      "titulo": "Hanon 28: Velocidad con relajación",
+      "objetivo": "Trabajar velocidad con relajación con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_28/hanon_28_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_28/ejercicios/hanon_28_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_28/examen/hanon_28_examen.json"
+    },
+    {
+      "id": "hanon_29",
+      "nivel": 3,
+      "orden": 29,
+      "titulo": "Hanon 29: Control de acentos",
+      "objetivo": "Trabajar control de acentos con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_29/hanon_29_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_29/ejercicios/hanon_29_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_29/examen/hanon_29_examen.json"
+    },
+    {
+      "id": "hanon_30",
+      "nivel": 3,
+      "orden": 30,
+      "titulo": "Hanon 30: Preparación de trino",
+      "objetivo": "Trabajar preparación de trino con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_30/hanon_30_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_30/ejercicios/hanon_30_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_30/examen/hanon_30_examen.json"
+    },
+    {
+      "id": "hanon_31",
+      "nivel": 3,
+      "orden": 31,
+      "titulo": "Hanon 31: Saltos pequeños",
+      "objetivo": "Trabajar saltos pequeños con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_31/hanon_31_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_31/ejercicios/hanon_31_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_31/examen/hanon_31_examen.json"
+    },
+    {
+      "id": "hanon_32",
+      "nivel": 3,
+      "orden": 32,
+      "titulo": "Hanon 32: Fluidez entre posiciones",
+      "objetivo": "Trabajar fluidez entre posiciones con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_3/hanon_32/hanon_32_modelo.json",
+      "ejercicios": "data/hanon/nivel_3/hanon_32/ejercicios/hanon_32_ejercicios.json",
+      "examen": "data/hanon/nivel_3/hanon_32/examen/hanon_32_examen.json"
+    },
+    {
+      "id": "hanon_33",
+      "nivel": 4,
+      "orden": 33,
+      "titulo": "Hanon 33: Escalas preparatorias",
+      "objetivo": "Trabajar escalas preparatorias con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_33/hanon_33_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_33/ejercicios/hanon_33_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_33/examen/hanon_33_examen.json"
+    },
+    {
+      "id": "hanon_34",
+      "nivel": 4,
+      "orden": 34,
+      "titulo": "Hanon 34: Terceras rotas",
+      "objetivo": "Trabajar terceras rotas con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_34/hanon_34_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_34/ejercicios/hanon_34_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_34/examen/hanon_34_examen.json"
+    },
+    {
+      "id": "hanon_35",
+      "nivel": 4,
+      "orden": 35,
+      "titulo": "Hanon 35: Sextas simplificadas",
+      "objetivo": "Trabajar sextas simplificadas con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_35/hanon_35_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_35/ejercicios/hanon_35_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_35/examen/hanon_35_examen.json"
+    },
+    {
+      "id": "hanon_36",
+      "nivel": 4,
+      "orden": 36,
+      "titulo": "Hanon 36: Cromatismo controlado",
+      "objetivo": "Trabajar cromatismo controlado con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_36/hanon_36_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_36/ejercicios/hanon_36_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_36/examen/hanon_36_examen.json"
+    },
+    {
+      "id": "hanon_37",
+      "nivel": 4,
+      "orden": 37,
+      "titulo": "Hanon 37: Repetición con cambio de dedo",
+      "objetivo": "Trabajar repetición con cambio de dedo con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_37/hanon_37_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_37/ejercicios/hanon_37_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_37/examen/hanon_37_examen.json"
+    },
+    {
+      "id": "hanon_38",
+      "nivel": 4,
+      "orden": 38,
+      "titulo": "Hanon 38: Arpegio quebrado",
+      "objetivo": "Trabajar arpegio quebrado con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_38/hanon_38_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_38/ejercicios/hanon_38_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_38/examen/hanon_38_examen.json"
+    },
+    {
+      "id": "hanon_39",
+      "nivel": 4,
+      "orden": 39,
+      "titulo": "Hanon 39: Doble dirección",
+      "objetivo": "Trabajar doble dirección con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_39/hanon_39_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_39/ejercicios/hanon_39_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_39/examen/hanon_39_examen.json"
+    },
+    {
+      "id": "hanon_40",
+      "nivel": 4,
+      "orden": 40,
+      "titulo": "Hanon 40: Velocidad con relajación",
+      "objetivo": "Trabajar velocidad con relajación con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_40/hanon_40_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_40/ejercicios/hanon_40_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_40/examen/hanon_40_examen.json"
+    },
+    {
+      "id": "hanon_41",
+      "nivel": 4,
+      "orden": 41,
+      "titulo": "Hanon 41: Control de acentos",
+      "objetivo": "Trabajar control de acentos con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_41/hanon_41_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_41/ejercicios/hanon_41_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_41/examen/hanon_41_examen.json"
+    },
+    {
+      "id": "hanon_42",
+      "nivel": 4,
+      "orden": 42,
+      "titulo": "Hanon 42: Preparación de trino",
+      "objetivo": "Trabajar preparación de trino con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_42/hanon_42_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_42/ejercicios/hanon_42_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_42/examen/hanon_42_examen.json"
+    },
+    {
+      "id": "hanon_43",
+      "nivel": 4,
+      "orden": 43,
+      "titulo": "Hanon 43: Saltos pequeños",
+      "objetivo": "Trabajar saltos pequeños con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_4/hanon_43/hanon_43_modelo.json",
+      "ejercicios": "data/hanon/nivel_4/hanon_43/ejercicios/hanon_43_ejercicios.json",
+      "examen": "data/hanon/nivel_4/hanon_43/examen/hanon_43_examen.json"
+    },
+    {
+      "id": "hanon_44",
+      "nivel": 5,
+      "orden": 44,
+      "titulo": "Hanon 44: Escala mayor",
+      "objetivo": "Trabajar escala mayor con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_44/hanon_44_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_44/ejercicios/hanon_44_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_44/examen/hanon_44_examen.json"
+    },
+    {
+      "id": "hanon_45",
+      "nivel": 5,
+      "orden": 45,
+      "titulo": "Hanon 45: Escala menor natural",
+      "objetivo": "Trabajar escala menor natural con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_45/hanon_45_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_45/ejercicios/hanon_45_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_45/examen/hanon_45_examen.json"
+    },
+    {
+      "id": "hanon_46",
+      "nivel": 5,
+      "orden": 46,
+      "titulo": "Hanon 46: Arpegio mayor",
+      "objetivo": "Trabajar arpegio mayor con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_46/hanon_46_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_46/ejercicios/hanon_46_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_46/examen/hanon_46_examen.json"
+    },
+    {
+      "id": "hanon_47",
+      "nivel": 5,
+      "orden": 47,
+      "titulo": "Hanon 47: Arpegio menor",
+      "objetivo": "Trabajar arpegio menor con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_47/hanon_47_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_47/ejercicios/hanon_47_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_47/examen/hanon_47_examen.json"
+    },
+    {
+      "id": "hanon_48",
+      "nivel": 5,
+      "orden": 48,
+      "titulo": "Hanon 48: Acorde roto y cadencia",
+      "objetivo": "Trabajar acorde roto y cadencia con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_48/hanon_48_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_48/ejercicios/hanon_48_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_48/examen/hanon_48_examen.json"
+    },
+    {
+      "id": "hanon_49",
+      "nivel": 5,
+      "orden": 49,
+      "titulo": "Hanon 49: Octavas preparatorias",
+      "objetivo": "Trabajar octavas preparatorias con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_49/hanon_49_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_49/ejercicios/hanon_49_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_49/examen/hanon_49_examen.json"
+    },
+    {
+      "id": "hanon_50",
+      "nivel": 5,
+      "orden": 50,
+      "titulo": "Hanon 50: Escala cromática",
+      "objetivo": "Trabajar escala cromática con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_50/hanon_50_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_50/ejercicios/hanon_50_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_50/examen/hanon_50_examen.json"
+    },
+    {
+      "id": "hanon_51",
+      "nivel": 5,
+      "orden": 51,
+      "titulo": "Hanon 51: Dominante y resolución",
+      "objetivo": "Trabajar dominante y resolución con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_51/hanon_51_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_51/ejercicios/hanon_51_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_51/examen/hanon_51_examen.json"
+    },
+    {
+      "id": "hanon_52",
+      "nivel": 5,
+      "orden": 52,
+      "titulo": "Hanon 52: Arpegio disminuido simplificado",
+      "objetivo": "Trabajar arpegio disminuido simplificado con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_52/hanon_52_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_52/ejercicios/hanon_52_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_52/examen/hanon_52_examen.json"
+    },
+    {
+      "id": "hanon_53",
+      "nivel": 5,
+      "orden": 53,
+      "titulo": "Hanon 53: Patrón de cierre técnico",
+      "objetivo": "Trabajar patrón de cierre técnico con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_53/hanon_53_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_53/ejercicios/hanon_53_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_53/examen/hanon_53_examen.json"
+    },
+    {
+      "id": "hanon_54",
+      "nivel": 5,
+      "orden": 54,
+      "titulo": "Hanon 54: Escala mayor",
+      "objetivo": "Trabajar escala mayor con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_54/hanon_54_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_54/ejercicios/hanon_54_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_54/examen/hanon_54_examen.json"
+    },
+    {
+      "id": "hanon_55",
+      "nivel": 5,
+      "orden": 55,
+      "titulo": "Hanon 55: Escala menor natural",
+      "objetivo": "Trabajar escala menor natural con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_55/hanon_55_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_55/ejercicios/hanon_55_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_55/examen/hanon_55_examen.json"
+    },
+    {
+      "id": "hanon_56",
+      "nivel": 5,
+      "orden": 56,
+      "titulo": "Hanon 56: Arpegio mayor",
+      "objetivo": "Trabajar arpegio mayor con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_56/hanon_56_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_56/ejercicios/hanon_56_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_56/examen/hanon_56_examen.json"
+    },
+    {
+      "id": "hanon_57",
+      "nivel": 5,
+      "orden": 57,
+      "titulo": "Hanon 57: Arpegio menor",
+      "objetivo": "Trabajar arpegio menor con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_57/hanon_57_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_57/ejercicios/hanon_57_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_57/examen/hanon_57_examen.json"
+    },
+    {
+      "id": "hanon_58",
+      "nivel": 5,
+      "orden": 58,
+      "titulo": "Hanon 58: Acorde roto y cadencia",
+      "objetivo": "Trabajar acorde roto y cadencia con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_58/hanon_58_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_58/ejercicios/hanon_58_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_58/examen/hanon_58_examen.json"
+    },
+    {
+      "id": "hanon_59",
+      "nivel": 5,
+      "orden": 59,
+      "titulo": "Hanon 59: Octavas preparatorias",
+      "objetivo": "Trabajar octavas preparatorias con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_59/hanon_59_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_59/ejercicios/hanon_59_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_59/examen/hanon_59_examen.json"
+    },
+    {
+      "id": "hanon_60",
+      "nivel": 5,
+      "orden": 60,
+      "titulo": "Hanon 60: Escala cromática",
+      "objetivo": "Trabajar escala cromática con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+      "modelo": "data/hanon/nivel_5/hanon_60/hanon_60_modelo.json",
+      "ejercicios": "data/hanon/nivel_5/hanon_60/ejercicios/hanon_60_ejercicios.json",
+      "examen": "data/hanon/nivel_5/hanon_60/examen/hanon_60_examen.json"
+    }
+  ],
+  "examenes_globales": [
+    {
+      "id": "examen_global_hanon_nivel_1",
+      "nivel": 1,
+      "despues_de": "hanon_10",
+      "objetivo": "Comprobar regularidad, independencia inicial y lectura.",
+      "aprobado_desde": 80
+    },
+    {
+      "id": "examen_global_hanon_nivel_2",
+      "nivel": 2,
+      "despues_de": "hanon_20",
+      "objetivo": "Comprobar continuidad, control de dedos débiles y pulso.",
+      "aprobado_desde": 80
+    },
+    {
+      "id": "examen_global_hanon_nivel_3",
+      "nivel": 3,
+      "despues_de": "hanon_32",
+      "objetivo": "Comprobar patrones avanzados, cromatismo y control de acentos.",
+      "aprobado_desde": 82
+    },
+    {
+      "id": "examen_global_hanon_nivel_4",
+      "nivel": 4,
+      "despues_de": "hanon_43",
+      "objetivo": "Comprobar fluidez avanzada y velocidad controlada.",
+      "aprobado_desde": 84
+    },
+    {
+      "id": "examen_global_hanon_nivel_5",
+      "nivel": 5,
+      "despues_de": "hanon_60",
+      "objetivo": "Comprobar dominio técnico general del curso Hanon.",
+      "aprobado_desde": 85
+    }
+  ]
+}

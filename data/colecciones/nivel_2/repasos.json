@@ -1,0 +1,368 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "repasos",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n2_01_repaso",
+      "clase_id": "n2_01",
+      "titulo": "Repaso — Lectura 1: clave de Sol con DO-RE-MI",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_02_repaso",
+      "clase_id": "n2_02",
+      "titulo": "Repaso — Lectura 2: clave de Fa con DO-RE-MI",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_03_repaso",
+      "clase_id": "n2_03",
+      "titulo": "Repaso — Lectura 3: dos pentagramas por turnos",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_04_repaso",
+      "clase_id": "n2_04",
+      "titulo": "Repaso — Lectura 4: intervalos de segunda",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_05_repaso",
+      "clase_id": "n2_05",
+      "titulo": "Repaso — Lectura 5: intervalos de tercera",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_06_repaso",
+      "clase_id": "n2_06",
+      "titulo": "Repaso — Lectura 6: negras y blancas en melodía",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_07_repaso",
+      "clase_id": "n2_07",
+      "titulo": "Repaso — Lectura 7: silencios aplicados",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_08_repaso",
+      "clase_id": "n2_08",
+      "titulo": "Repaso — Lectura 8: compás de 4/4",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_09_repaso",
+      "clase_id": "n2_09",
+      "titulo": "Repaso — Lectura 9: compás de 3/4",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_10_repaso",
+      "clase_id": "n2_10",
+      "titulo": "Repaso — Lectura 10: ligadura de prolongación",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_11_repaso",
+      "clase_id": "n2_11",
+      "titulo": "Repaso — Lectura 11: frase de dos compases",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_12_repaso",
+      "clase_id": "n2_12",
+      "titulo": "Repaso — Lectura 12: legato y staccato en partitura",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_13_repaso",
+      "clase_id": "n2_13",
+      "titulo": "Repaso — Lectura 13: cambio simple de posición",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_14_repaso",
+      "clase_id": "n2_14",
+      "titulo": "Repaso — Lectura 14: escala de DO mayor mano derecha",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_15_repaso",
+      "clase_id": "n2_15",
+      "titulo": "Repaso — Lectura 15: escala de DO mayor mano izquierda",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_16_repaso",
+      "clase_id": "n2_16",
+      "titulo": "Repaso — Lectura 16: tríadas mayores C, F y G",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_17_repaso",
+      "clase_id": "n2_17",
+      "titulo": "Repaso — Lectura 17: bajo de tónica",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_18_repaso",
+      "clase_id": "n2_18",
+      "titulo": "Repaso — Lectura 18: melodía y bajo alterno",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_19_repaso",
+      "clase_id": "n2_19",
+      "titulo": "Repaso — Lectura 19: negras contra blancas",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_20_repaso",
+      "clase_id": "n2_20",
+      "titulo": "Repaso — Lectura 20: primer sostenido FA#",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_21_repaso",
+      "clase_id": "n2_21",
+      "titulo": "Repaso — Lectura 21: primer bemol SIb",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_22_repaso",
+      "clase_id": "n2_22",
+      "titulo": "Repaso — Lectura 22: dinámica escrita",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_23_repaso",
+      "clase_id": "n2_23",
+      "titulo": "Repaso — Lectura 23: lectura a primera vista sencilla",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_24_repaso",
+      "clase_id": "n2_24",
+      "titulo": "Repaso — Lectura 24: patrón de acompañamiento simple",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_25_repaso",
+      "clase_id": "n2_25",
+      "titulo": "Repaso — Lectura 25: canon sencillo entre manos",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_26_repaso",
+      "clase_id": "n2_26",
+      "titulo": "Repaso — Lectura 26: arpegio de DO mayor mano derecha",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_27_repaso",
+      "clase_id": "n2_27",
+      "titulo": "Repaso — Lectura 27: arpegio de DO mayor mano izquierda",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_28_repaso",
+      "clase_id": "n2_28",
+      "titulo": "Repaso — Lectura 28: pieza de ocho compases",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_29_repaso",
+      "clase_id": "n2_29",
+      "titulo": "Repaso — Lectura 29: repaso técnico de lectura",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_30_repaso",
+      "clase_id": "n2_30",
+      "titulo": "Repaso — Lectura 30: examen global del Nivel 2",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    }
+  ]
+}

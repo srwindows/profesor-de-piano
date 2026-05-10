@@ -1,0 +1,276 @@
+{
+  "version": "4.1.8-lite-hotfix-reto-comprension",
+  "modo": "lite",
+  "objetivo": "Máxima estabilidad y compatibilidad",
+  "ia_pesada_local": false,
+  "modelos_pesados_incluidos": false,
+  "voices_incluidas": false,
+  "profesor": {
+    "lectura_guiada": true,
+    "interpretacion_por_reglas": true,
+    "ia_local_qwen": false,
+    "nube": false,
+    "comentario": "El profesor interpreta texto técnico con reglas rápidas, sin cargar modelos."
+  },
+  "compatibilidad_prioritaria": [
+    "Debian",
+    "portátiles modestos",
+    "futura versión Android Lite",
+    "futura versión iPad Lite"
+  ],
+  "modulos_excluidos_de_esta_rama": [
+    "IA local Qwen",
+    "QThread IA",
+    "Whisper local",
+    "SmolVLM",
+    "análisis visual pesado",
+    "webcam IA continua"
+  ],
+  "retos_comprension": {
+    "activo": true,
+    "modo": "opcion_multiple",
+    "avance_bloqueado_hasta_acierto": true,
+    "ia_pesada": false
+  },
+  "pizarra_musical": {
+    "activa": true,
+    "disparador": "Leer punto actual",
+    "ubicacion": "recuadro superior de la pestaña, encima del metrónomo",
+    "ia_pesada": false,
+    "modos": [
+      "clase",
+      "practica",
+      "examen"
+    ],
+    "correccion_visible": true,
+    "motivo_correccion": "La pizarra no aparecía porque el texto superior estaba dentro de un QFrame y la búsqueda no entraba en el layout padre.",
+    "voz_sincronizada": true,
+    "botones_que_hablan": [
+      "paso anterior",
+      "paso siguiente",
+      "mostrar ejemplo",
+      "ver texto"
+    ],
+    "voz_sincronizada_con_dibujo": true,
+    "narracion_inicial_sincronizada": true,
+    "descripcion": "El profesor narra el elemento visual que está dibujado en cada paso.",
+    "capas_didacticas": true,
+    "puntero_docente": true,
+    "resaltado_piano_virtual": true,
+    "capas": [
+      "claves",
+      "notas",
+      "do_central",
+      "manos",
+      "figuras",
+      "pulso",
+      "digitacion",
+      "puntero"
+    ],
+    "reto_piano_desde_pizarra": true,
+    "boton_tocar_en_piano": true,
+    "comprobacion_notas": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "F3"
+    ],
+    "descripcion_reto": "La pizarra puede pedir al alumno que toque la nota resaltada en el piano virtual.",
+    "secuencias_guiadas": true,
+    "boton_tocar_secuencia": true,
+    "validacion_orden": true,
+    "reinicia_si_falla": true,
+    "secuencias_base": {
+      "partitura": [
+        "C4",
+        "G4",
+        "F3"
+      ],
+      "digitacion": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "ritmo": [
+        "C4",
+        "C4",
+        "C4",
+        "C4"
+      ]
+    },
+    "entrada_midi_alumno": true,
+    "lectura_pentagrama_aplicada_a_teclado_midi": true,
+    "retos_pizarra_aceptan_midi": true,
+    "secuencias_pizarra_aceptan_midi": true,
+    "estadistica_midi_lectura": [
+      "aciertos",
+      "errores"
+    ],
+    "pentagrama_ajustado_v401": {
+      "activo": true,
+      "cambio": "Sistema de pentagramas desplazado hacia arriba para evitar que el pentagrama inferior quede cortado.",
+      "y1_anterior": 82,
+      "y2_anterior": 170,
+      "y1_nuevo": 58,
+      "y2_nuevo": 138
+    },
+    "reto_con_metronomo": true,
+    "boton_tocar_con_pulso": true,
+    "tolerancia_pulso_segundos": 0.34,
+    "tempos_base": {
+      "partitura": 58,
+      "ritmo": 60,
+      "pulso": 60,
+      "digitacion": 54
+    },
+    "interfaz_reestructurada_v403": true,
+    "menu_unico_clase": true,
+    "canvas_min_height": 320,
+    "explicacion_compacta": true,
+    "modos_trabajo_v404": true,
+    "mini_examen_punto": true,
+    "menu_clase": "Clase ▾"
+  },
+  "docencia_claves": {
+    "activo": true,
+    "explica_clave_sol": true,
+    "explica_clave_fa": true,
+    "explica_por_que_se_llaman_asi": true,
+    "ia_pesada": false
+  },
+  "nivel_0": {
+    "cerrado": true,
+    "total_clases": 20,
+    "evaluacion_final_preguntas": 20,
+    "minimo_aprobado": 16,
+    "siguiente_nivel": "nivel_1",
+    "nivel_1_enfoque": "técnica inicial tipo Hanon propia, sin copiar ediciones protegidas"
+  },
+  "flujo_docente_clases": {
+    "activo": true,
+    "archivo": "data/flujo_docente_nivel_0.json",
+    "orden_obligatorio": [
+      "clase_teorica",
+      "ejercicios_asociados",
+      "examen_final_clase"
+    ],
+    "examen_global_nivel": true,
+    "ultima_clase_desbloquea_examen_global": true
+  },
+  "historial_pedagogico": {
+    "activo": true,
+    "ruta_base": "data/alumnos/",
+    "archivos": [
+      "perfil.json",
+      "progreso.json",
+      "historial_clases.json",
+      "historial_midi.json",
+      "errores_recurrentes.json",
+      "recomendaciones.json",
+      "sesiones/YYYY-MM-DD.json"
+    ],
+    "uso_docente": "El profesor consulta el expediente antes de explicar y lo actualiza con clases, ejercicios y MIDI."
+  },
+  "motor_midi_pro": {
+    "activo": true,
+    "modulo": "app/core/analisis_midi_pro.py",
+    "analiza": [
+      "nota_correcta",
+      "secuencia",
+      "acorde",
+      "velocity",
+      "tiempo_reaccion_ms",
+      "pulso_frente_metronomo",
+      "simultaneidad_ms",
+      "notas_sobrantes",
+      "notas_faltantes",
+      "duracion_ms"
+    ],
+    "sin_ia_pesada": true
+  },
+  "entradas_alumno_pro": {
+    "activo": true,
+    "modulo": "app/core/entradas_alumno_pro.py",
+    "audio_input": "app/audio/audio_input_manager.py",
+    "midi": "activo permanente de bajo consumo",
+    "historial": "activo permanente",
+    "camara": "activable bajo petición voluntaria",
+    "sonido": "activable bajo petición voluntaria",
+    "privacidad": {
+      "graba_video_por_defecto": false,
+      "graba_audio_por_defecto": false,
+      "guarda_observaciones_didacticas": true
+    }
+  },
+  "repertorio_midi_nivel1": {
+    "activo": true,
+    "midis_propios": 6,
+    "ruta": "assets/midi/nivel_1/",
+    "coleccion": "data/colecciones/nivel_1/repertorio.json",
+    "sin_descargas_externas": true,
+    "licencia": "material didáctico propio del proyecto"
+  },
+  "clase_1_nivel_1": {
+    "activo": true,
+    "archivo": "data/colecciones/nivel_1/clase_01_completa.json",
+    "midi_didactico": "n1_midi_tecnica_cinco_dedos_do",
+    "flujo": "teoria -> pizarra -> escuchar -> practicar -> examen"
+  },
+  "midi_didactico": {
+    "activo": true,
+    "modulo": "app/core/midi_didactico.py",
+    "panel": "MIDI Didáctico",
+    "modos": [
+      "clase",
+      "escuchar",
+      "practica",
+      "examen"
+    ]
+  },
+  "pentagrama_vivo_nd": {
+    "activo": true,
+    "archivo": "data/pentagrama_nd_nivel_1.json",
+    "sincroniza": [
+      "MIDI Didáctico",
+      "pentagrama",
+      "piano_virtual",
+      "Motor MIDI Pro",
+      "profesor"
+    ],
+    "nota_actual_resaltada": true,
+    "siguiente_nota_preparada": true
+  },
+  "hotfix_v416": {
+    "audio_portaudio_cierre_seguro": true,
+    "midi_clase1_solo_mano_derecha": true,
+    "secuencia_clase1_corregida": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "F4",
+      "E4",
+      "D4",
+      "C4"
+    ]
+  },
+  "hotfix_v417": {
+    "pizarra_musical_metodos_faltantes": [
+      "_pedir_secuencia_piano",
+      "_pedir_pulso_piano"
+    ],
+    "motivo": "Los botones y menús de la pizarra estaban conectados a métodos que no existían.",
+    "estado": "corregido"
+  },
+  "hotfix_v418": {
+    "dialogo_reto_comprension": "corregido",
+    "motivo": "QRadioButton en PySide6 no tiene setWordWrap.",
+    "solucion": "envoltura manual del texto y respuesta original guardada en propiedad.",
+    "archivo": "app/ui/dialogo_reto_comprension.py"
+  }
+}

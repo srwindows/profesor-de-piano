@@ -1,0 +1,1232 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "evaluaciones",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n1_01_examen_clase",
+      "titulo": "Examen final de clase 01 — Técnica 1: cinco dedos en DO con mano derecha",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Colocar la mano derecha en DO-RE-MI-FA-SOL y tocar con digitación 1-2-3-4-5 sin tensión.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_02",
+      "si_aprueba": "desbloquea n1_02",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_01"
+    },
+    {
+      "id": "n1_02_examen_clase",
+      "titulo": "Examen final de clase 02 — Técnica 2: cinco dedos en DO con mano izquierda",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Colocar la mano izquierda en DO-RE-MI-FA-SOL y tocar con digitación 5-4-3-2-1 con control.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_03",
+      "si_aprueba": "desbloquea n1_03",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_02"
+    },
+    {
+      "id": "n1_03_examen_clase",
+      "titulo": "Examen final de clase 03 — Técnica 3: alternancia lenta 1-2-3-4-5",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Alternar dedos vecinos con pulso estable, escuchando que ninguna nota sobresalga por accidente.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_04",
+      "si_aprueba": "desbloquea n1_04",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_03"
+    },
+    {
+      "id": "n1_04_examen_clase",
+      "titulo": "Examen final de clase 04 — Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Bajar desde SOL hasta DO sin hundir la muñeca ni endurecer el quinto dedo.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_05",
+      "si_aprueba": "desbloquea n1_05",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_04"
+    },
+    {
+      "id": "n1_05_examen_clase",
+      "titulo": "Examen final de clase 05 — Técnica 5: igualdad de sonido entre dedos",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Conseguir que pulgar, índice, medio, anular y meñique produzcan un sonido parecido.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_06",
+      "si_aprueba": "desbloquea n1_06",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_05"
+    },
+    {
+      "id": "n1_06_examen_clase",
+      "titulo": "Examen final de clase 06 — Técnica 6: independencia del dedo 3",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Mantener la mano quieta mientras el dedo 3 trabaja sin arrastrar los demás dedos.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_07",
+      "si_aprueba": "desbloquea n1_07",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_06"
+    },
+    {
+      "id": "n1_07_examen_clase",
+      "titulo": "Examen final de clase 07 — Técnica 7: independencia del dedo 4",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Entrenar el dedo 4 con movimiento pequeño, sin tensión en hombro ni muñeca.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_08",
+      "si_aprueba": "desbloquea n1_08",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_07"
+    },
+    {
+      "id": "n1_08_examen_clase",
+      "titulo": "Examen final de clase 08 — Técnica 8: pulgar flexible",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar con el pulgar sin golpear ni girar toda la mano.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_09",
+      "si_aprueba": "desbloquea n1_09",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_08"
+    },
+    {
+      "id": "n1_09_examen_clase",
+      "titulo": "Examen final de clase 09 — Técnica 9: parejas de dedos 1-3 y 2-4",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Combinar parejas no vecinas para ganar orientación dentro de la posición de cinco dedos.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "D4",
+        "F4",
+        "C4",
+        "E4"
+      ],
+      "tempo": 60,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_10",
+      "si_aprueba": "desbloquea n1_10",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_09"
+    },
+    {
+      "id": "n1_10_examen_clase",
+      "titulo": "Examen final de clase 10 — Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Usar DO como punto de apoyo para recorrer la posición sin perder la forma de la mano.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_11",
+      "si_aprueba": "desbloquea n1_11",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_10"
+    },
+    {
+      "id": "n1_11_examen_clase",
+      "titulo": "Examen final de clase 11 — Técnica 11: coordinación espejo de ambas manos",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar ambas manos por movimiento contrario desde DO sin adelantar una mano sobre la otra.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "B3",
+        "A3",
+        "G3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_12",
+      "si_aprueba": "desbloquea n1_12",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_11"
+    },
+    {
+      "id": "n1_12_examen_clase",
+      "titulo": "Examen final de clase 12 — Técnica 12: pregunta y respuesta entre manos",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "La mano derecha toca una idea corta y la izquierda responde imitando el ritmo.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "C3"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_13",
+      "si_aprueba": "desbloquea n1_13",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_12"
+    },
+    {
+      "id": "n1_13_examen_clase",
+      "titulo": "Examen final de clase 13 — Técnica 13: legato básico de cinco dedos",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Unir notas vecinas sin huecos grandes, levantando cada dedo justo cuando entra el siguiente.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_14",
+      "si_aprueba": "desbloquea n1_14",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_13"
+    },
+    {
+      "id": "n1_14_examen_clase",
+      "titulo": "Examen final de clase 14 — Técnica 14: staccato controlado",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar notas cortas sin rigidez, usando rebote pequeño y sonido limpio.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_15",
+      "si_aprueba": "desbloquea n1_15",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_14"
+    },
+    {
+      "id": "n1_15_examen_clase",
+      "titulo": "Examen final de clase 15 — Técnica 15: acentos suaves",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Acentuar solo la primera nota de cada grupo sin convertir el resto en golpes desiguales.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_16",
+      "si_aprueba": "desbloquea n1_16",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_15"
+    },
+    {
+      "id": "n1_16_examen_clase",
+      "titulo": "Examen final de clase 16 — Técnica 16: dinámica piano y forte",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Distinguir sonido suave y sonido fuerte manteniendo la misma relajación corporal.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_17",
+      "si_aprueba": "desbloquea n1_17",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_16"
+    },
+    {
+      "id": "n1_17_examen_clase",
+      "titulo": "Examen final de clase 17 — Técnica 17: metrónomo en negras",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar una nota por pulso con metrónomo lento, sin correr al final de la secuencia.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_18",
+      "si_aprueba": "desbloquea n1_18",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_17"
+    },
+    {
+      "id": "n1_18_examen_clase",
+      "titulo": "Examen final de clase 18 — Técnica 18: blancas y negras",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Combinar notas de un pulso y dos pulsos mientras la mano mantiene la posición.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_19",
+      "si_aprueba": "desbloquea n1_19",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_18"
+    },
+    {
+      "id": "n1_19_examen_clase",
+      "titulo": "Examen final de clase 19 — Técnica 19: grupos de dos notas",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Agrupar la lectura en parejas para no pensar nota por nota de forma aislada.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4"
+      ],
+      "tempo": 64,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_20",
+      "si_aprueba": "desbloquea n1_20",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_19"
+    },
+    {
+      "id": "n1_20_examen_clase",
+      "titulo": "Examen final de clase 20 — Técnica 20: grupos de tres notas",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Agrupar tres sonidos manteniendo pulso y respiración musical.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_21",
+      "si_aprueba": "desbloquea n1_21",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_20"
+    },
+    {
+      "id": "n1_21_examen_clase",
+      "titulo": "Examen final de clase 21 — Técnica 21: patrón 1-3-2-4-3-5",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Subir por dedos alternos sin descolocar la mano ni mirar continuamente los dedos.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "E4",
+        "C4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_22",
+      "si_aprueba": "desbloquea n1_22",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_21"
+    },
+    {
+      "id": "n1_22_examen_clase",
+      "titulo": "Examen final de clase 22 — Técnica 22: patrón 1-2-4-3-5",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Entrenar saltos internos pequeños dentro de DO-RE-MI-FA-SOL.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "E4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_23",
+      "si_aprueba": "desbloquea n1_23",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_22"
+    },
+    {
+      "id": "n1_23_examen_clase",
+      "titulo": "Examen final de clase 23 — Técnica 23: dirección ascendente y descendente",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Reconocer si la melodía sube, baja o vuelve al punto inicial.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "C4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_24",
+      "si_aprueba": "desbloquea n1_24",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_23"
+    },
+    {
+      "id": "n1_24_examen_clase",
+      "titulo": "Examen final de clase 24 — Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Relacionar cada nota de la posición de cinco dedos con su lugar visual en el pentagrama.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_25",
+      "si_aprueba": "desbloquea n1_25",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_24"
+    },
+    {
+      "id": "n1_25_examen_clase",
+      "titulo": "Examen final de clase 25 — Técnica 25: leer SOL-FA-MI-RE-DO",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Leer la dirección descendente sin confundir el orden de las notas.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_26",
+      "si_aprueba": "desbloquea n1_26",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_25"
+    },
+    {
+      "id": "n1_26_examen_clase",
+      "titulo": "Examen final de clase 26 — Técnica 26: posición de DO en mano izquierda",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Aplicar el mismo mapa de cinco dedos a la mano izquierda en registro grave.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_27",
+      "si_aprueba": "desbloquea n1_27",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_26"
+    },
+    {
+      "id": "n1_27_examen_clase",
+      "titulo": "Examen final de clase 27 — Técnica 27: manos por turnos",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Alternar una frase corta de derecha y otra de izquierda sin perder el pulso.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "C3",
+        "D3",
+        "E3",
+        "G3"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_28",
+      "si_aprueba": "desbloquea n1_28",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_27"
+    },
+    {
+      "id": "n1_28_examen_clase",
+      "titulo": "Examen final de clase 28 — Técnica 28: manos simultáneas por octavas",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar la misma nota en dos registros a la vez, escuchando si ambas manos caen juntas.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_29",
+      "si_aprueba": "desbloquea n1_29",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_28"
+    },
+    {
+      "id": "n1_29_examen_clase",
+      "titulo": "Examen final de clase 29 — Técnica 29: miniestudio técnico Nivel 1",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Unir los patrones del nivel en una pieza corta de estudio con inicio, desarrollo y cierre.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n1_30",
+      "si_aprueba": "desbloquea n1_30",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_29"
+    },
+    {
+      "id": "n1_30_examen_clase",
+      "titulo": "Examen final de clase 30 — Técnica 30: examen global del Nivel 1",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Repasar todo el Nivel 1 antes del examen global: posición, igualdad, pulso, lectura y coordinación básica.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3"
+      ],
+      "tempo": 68,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "examen_global_nivel_1",
+      "si_aprueba": "desbloquea examen_global_nivel_1",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n1_30"
+    }
+  ]
+}

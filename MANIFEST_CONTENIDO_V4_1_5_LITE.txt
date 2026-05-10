@@ -1,0 +1,12 @@
+PROFESOR DE PIANO v4.1.5 LITE PENTAGRAMA VIVO ND
+ZIP sin IA pesada, sin modelos y sin voices.
+
+Total de archivos: 668
+
+Ejecutar:
+python3 main.py
+
+Archivos clave:
+app/ui/pizarra_musical.py
+app/ui/ventana_principal.py
+data/pentagrama_nd_nivel_1.json

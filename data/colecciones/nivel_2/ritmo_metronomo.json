@@ -1,0 +1,248 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "ritmo_metronomo",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n2_01_ritmo",
+      "clase_id": "n2_01",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_02_ritmo",
+      "clase_id": "n2_02",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_03_ritmo",
+      "clase_id": "n2_03",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_04_ritmo",
+      "clase_id": "n2_04",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_05_ritmo",
+      "clase_id": "n2_05",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_06_ritmo",
+      "clase_id": "n2_06",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_07_ritmo",
+      "clase_id": "n2_07",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_08_ritmo",
+      "clase_id": "n2_08",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_09_ritmo",
+      "clase_id": "n2_09",
+      "tempo": 66,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_10_ritmo",
+      "clase_id": "n2_10",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_11_ritmo",
+      "clase_id": "n2_11",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_12_ritmo",
+      "clase_id": "n2_12",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_13_ritmo",
+      "clase_id": "n2_13",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_14_ritmo",
+      "clase_id": "n2_14",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_15_ritmo",
+      "clase_id": "n2_15",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_16_ritmo",
+      "clase_id": "n2_16",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_17_ritmo",
+      "clase_id": "n2_17",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_18_ritmo",
+      "clase_id": "n2_18",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_19_ritmo",
+      "clase_id": "n2_19",
+      "tempo": 70,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_20_ritmo",
+      "clase_id": "n2_20",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_21_ritmo",
+      "clase_id": "n2_21",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_22_ritmo",
+      "clase_id": "n2_22",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_23_ritmo",
+      "clase_id": "n2_23",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_24_ritmo",
+      "clase_id": "n2_24",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_25_ritmo",
+      "clase_id": "n2_25",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_26_ritmo",
+      "clase_id": "n2_26",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_27_ritmo",
+      "clase_id": "n2_27",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_28_ritmo",
+      "clase_id": "n2_28",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_29_ritmo",
+      "clase_id": "n2_29",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_30_ritmo",
+      "clase_id": "n2_30",
+      "tempo": 74,
+      "compas": "4/4",
+      "objetivo": "Mantener pulso estable durante la secuencia.",
+      "estado": "funcional"
+    }
+  ]
+}

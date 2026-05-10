@@ -1,0 +1,1200 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "evaluaciones",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n2_01_examen_clase",
+      "titulo": "Examen final de clase 01 — Lectura 1: clave de Sol con DO-RE-MI",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Leer DO, RE y MI en clave de Sol y tocarlos sin depender solo de la memoria visual del teclado.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_02",
+      "si_aprueba": "desbloquea n2_02",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_01"
+    },
+    {
+      "id": "n2_02_examen_clase",
+      "titulo": "Examen final de clase 02 — Lectura 2: clave de Fa con DO-RE-MI",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Leer DO, RE y MI en registro grave y asociarlos a la mano izquierda.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "D3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_03",
+      "si_aprueba": "desbloquea n2_03",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_02"
+    },
+    {
+      "id": "n2_03_examen_clase",
+      "titulo": "Examen final de clase 03 — Lectura 3: dos pentagramas por turnos",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Leer el pentagrama superior y el inferior alternando manos sin solaparlas.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "C4",
+        "E4",
+        "C3"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_04",
+      "si_aprueba": "desbloquea n2_04",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_03"
+    },
+    {
+      "id": "n2_04_examen_clase",
+      "titulo": "Examen final de clase 04 — Lectura 4: intervalos de segunda",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Reconocer pasos conjuntos: de una nota a la siguiente por teclas vecinas.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_05",
+      "si_aprueba": "desbloquea n2_05",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_04"
+    },
+    {
+      "id": "n2_05_examen_clase",
+      "titulo": "Examen final de clase 05 — Lectura 5: intervalos de tercera",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Reconocer saltos de una tecla blanca intermedia sin perder orientación.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_06",
+      "si_aprueba": "desbloquea n2_06",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_05"
+    },
+    {
+      "id": "n2_06_examen_clase",
+      "titulo": "Examen final de clase 06 — Lectura 6: negras y blancas en melodía",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Leer duración y altura a la vez en una melodía corta.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_07",
+      "si_aprueba": "desbloquea n2_07",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_06"
+    },
+    {
+      "id": "n2_07_examen_clase",
+      "titulo": "Examen final de clase 07 — Lectura 7: silencios aplicados",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Contar silencios sin perder el pulso ni entrar antes de tiempo.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "F4",
+        "E4",
+        "G4",
+        "C4"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_08",
+      "si_aprueba": "desbloquea n2_08",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_07"
+    },
+    {
+      "id": "n2_08_examen_clase",
+      "titulo": "Examen final de clase 08 — Lectura 8: compás de 4/4",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Sentir cuatro pulsos por compás y reconocer el primer pulso como referencia.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_09",
+      "si_aprueba": "desbloquea n2_09",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_08"
+    },
+    {
+      "id": "n2_09_examen_clase",
+      "titulo": "Examen final de clase 09 — Lectura 9: compás de 3/4",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "tempo": 66,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_10",
+      "si_aprueba": "desbloquea n2_10",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_09"
+    },
+    {
+      "id": "n2_10_examen_clase",
+      "titulo": "Examen final de clase 10 — Lectura 10: ligadura de prolongación",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Mantener una nota durante más tiempo cuando la partitura la une con ligadura.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_11",
+      "si_aprueba": "desbloquea n2_11",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_10"
+    },
+    {
+      "id": "n2_11_examen_clase",
+      "titulo": "Examen final de clase 11 — Lectura 11: frase de dos compases",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar una frase completa respirando al final, no cortando cada nota como si fuera aislada.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_12",
+      "si_aprueba": "desbloquea n2_12",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_11"
+    },
+    {
+      "id": "n2_12_examen_clase",
+      "titulo": "Examen final de clase 12 — Lectura 12: legato y staccato en partitura",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Diferenciar notas unidas y notas cortas según la indicación escrita.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_13",
+      "si_aprueba": "desbloquea n2_13",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_12"
+    },
+    {
+      "id": "n2_13_examen_clase",
+      "titulo": "Examen final de clase 13 — Lectura 13: cambio simple de posición",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Mover la mano de posición de DO a posición de SOL con preparación y sin salto brusco.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_14",
+      "si_aprueba": "desbloquea n2_14",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_13"
+    },
+    {
+      "id": "n2_14_examen_clase",
+      "titulo": "Examen final de clase 14 — Lectura 14: escala de DO mayor mano derecha",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar una octava de DO mayor con paso de pulgar preparado.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_15",
+      "si_aprueba": "desbloquea n2_15",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_14"
+    },
+    {
+      "id": "n2_15_examen_clase",
+      "titulo": "Examen final de clase 15 — Lectura 15: escala de DO mayor mano izquierda",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar una octava de DO mayor descendente y ascendente con la mano izquierda.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_16",
+      "si_aprueba": "desbloquea n2_16",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_15"
+    },
+    {
+      "id": "n2_16_examen_clase",
+      "titulo": "Examen final de clase 16 — Lectura 16: tríadas mayores C, F y G",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Reconocer y tocar acordes básicos de DO, FA y SOL sin apretar la mano.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "A4",
+        "C5",
+        "G4",
+        "B4",
+        "D5"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_17",
+      "si_aprueba": "desbloquea n2_17",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_16"
+    },
+    {
+      "id": "n2_17_examen_clase",
+      "titulo": "Examen final de clase 17 — Lectura 17: bajo de tónica",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Acompañar una melodía sencilla con la nota fundamental en la mano izquierda.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "G4",
+        "F4",
+        "E4",
+        "C3",
+        "C4"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_18",
+      "si_aprueba": "desbloquea n2_18",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_17"
+    },
+    {
+      "id": "n2_18_examen_clase",
+      "titulo": "Examen final de clase 18 — Lectura 18: melodía y bajo alterno",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Mantener una melodía en la derecha mientras la izquierda entra en pulsos sencillos.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "C4",
+        "D4",
+        "G3",
+        "E4",
+        "F4",
+        "C3",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_19",
+      "si_aprueba": "desbloquea n2_19",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_18"
+    },
+    {
+      "id": "n2_19_examen_clase",
+      "titulo": "Examen final de clase 19 — Lectura 19: negras contra blancas",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Coordinar una mano moviéndose por negras mientras la otra sostiene blancas.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "E4",
+        "D4",
+        "C3",
+        "C4"
+      ],
+      "tempo": 70,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_20",
+      "si_aprueba": "desbloquea n2_20",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_19"
+    },
+    {
+      "id": "n2_20_examen_clase",
+      "titulo": "Examen final de clase 20 — Lectura 20: primer sostenido FA#",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Entender el sostenido como subida de medio tono y aplicarlo a FA sostenido.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "G4",
+        "F#4",
+        "F4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_21",
+      "si_aprueba": "desbloquea n2_21",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_20"
+    },
+    {
+      "id": "n2_21_examen_clase",
+      "titulo": "Examen final de clase 21 — Lectura 21: primer bemol SIb",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Entender el bemol como bajada de medio tono y aplicarlo a SI bemol.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "A4",
+        "Bb4",
+        "C5",
+        "Bb4",
+        "A4",
+        "G4",
+        "F4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_22",
+      "si_aprueba": "desbloquea n2_22",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_21"
+    },
+    {
+      "id": "n2_22_examen_clase",
+      "titulo": "Examen final de clase 22 — Lectura 22: dinámica escrita",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Aplicar piano, mezzo forte y forte sin cambiar el tempo.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_23",
+      "si_aprueba": "desbloquea n2_23",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_22"
+    },
+    {
+      "id": "n2_23_examen_clase",
+      "titulo": "Examen final de clase 23 — Lectura 23: lectura a primera vista sencilla",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Leer una línea corta nueva con calma, mirando antes de tocar.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "C5",
+        "B4",
+        "A4",
+        "G4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_24",
+      "si_aprueba": "desbloquea n2_24",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_23"
+    },
+    {
+      "id": "n2_24_examen_clase",
+      "titulo": "Examen final de clase 24 — Lectura 24: patrón de acompañamiento simple",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Usar izquierda en bajo y derecha en notas largas para formar acompañamiento básico.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "E4",
+        "G4",
+        "G3",
+        "D4",
+        "F4",
+        "C3",
+        "E4",
+        "G4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_25",
+      "si_aprueba": "desbloquea n2_25",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_24"
+    },
+    {
+      "id": "n2_25_examen_clase",
+      "titulo": "Examen final de clase 25 — Lectura 25: canon sencillo entre manos",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "F4",
+        "G4",
+        "F3",
+        "G3"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_26",
+      "si_aprueba": "desbloquea n2_26",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_25"
+    },
+    {
+      "id": "n2_26_examen_clase",
+      "titulo": "Examen final de clase 26 — Lectura 26: arpegio de DO mayor mano derecha",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Separar las notas del acorde de DO mayor manteniendo forma relajada.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_27",
+      "si_aprueba": "desbloquea n2_27",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_26"
+    },
+    {
+      "id": "n2_27_examen_clase",
+      "titulo": "Examen final de clase 27 — Lectura 27: arpegio de DO mayor mano izquierda",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Tocar el arpegio de DO mayor en registro grave sin colapsar la muñeca.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "G3",
+        "E3",
+        "C3"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": false,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_28",
+      "si_aprueba": "desbloquea n2_28",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_27"
+    },
+    {
+      "id": "n2_28_examen_clase",
+      "titulo": "Examen final de clase 28 — Lectura 28: pieza de ocho compases",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Unir lectura, pulso, articulación y manos en una pieza corta completa.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_29",
+      "si_aprueba": "desbloquea n2_29",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_28"
+    },
+    {
+      "id": "n2_29_examen_clase",
+      "titulo": "Examen final de clase 29 — Lectura 29: repaso técnico de lectura",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Repasar intervalos, compás, alteraciones y coordinación antes del cierre del nivel.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C4",
+        "E4",
+        "G4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "n2_30",
+      "si_aprueba": "desbloquea n2_30",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_29"
+    },
+    {
+      "id": "n2_30_examen_clase",
+      "titulo": "Examen final de clase 30 — Lectura 30: examen global del Nivel 2",
+      "tipo": "opcion_multiple_y_midi_pro",
+      "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+      "opciones": [
+        "Demostrar lectura aplicada con ambas manos, pulso, intervalos y primeras alteraciones.",
+        "Tocar más fuerte aunque haya errores",
+        "Avanzar sin comprobar la secuencia"
+      ],
+      "respuesta_correcta": 0,
+      "secuencia_obligatoria": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "tempo": 74,
+      "criterios": {
+        "nota_correcta": true,
+        "orden_correcto": true,
+        "pulso_aceptable": true,
+        "velocity_equilibrada": true,
+        "sin_teclas_de_mas": true,
+        "simultaneidad_si_aplica": true,
+        "postura_camara_opcional": true
+      },
+      "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+      "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+      "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+      "desbloquea_si_aprueba": "examen_global_nivel_2",
+      "si_aprueba": "desbloquea examen_global_nivel_2",
+      "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen",
+      "clase_id": "n2_30"
+    }
+  ]
+}

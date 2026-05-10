@@ -1,0 +1,96 @@
+{
+  "id": "hanon_59",
+  "numero_hanon": 59,
+  "nivel_profesor_piano": 5,
+  "titulo": "Hanon 59: Octavas preparatorias",
+  "categoria": "Parte III - Virtuosismo aplicado: escalas, arpegios y cadencias",
+  "tecnica_principal": "octavas preparatorias",
+  "estado": "completo_para_integracion",
+  "licencia": {
+    "obra_original": "Charles-Louis Hanon. Obra original en dominio publico.",
+    "adaptacion": "Curso didactico propio para Profesor de Piano.",
+    "nota": "No copia ediciones modernas, textos editoriales, audios ni maquetaciones protegidas."
+  },
+  "objetivo": "Trabajar octavas preparatorias con pulso estable, sonido uniforme, lectura guiada y control técnico.",
+  "objetivos_detallados": [
+    "Tocar sin tensión y con muñeca estable.",
+    "Mantener corcheas regulares con metrónomo.",
+    "Conseguir igualdad de velocity entre dedos.",
+    "Leer la nota activa en la pizarra.",
+    "Corregir errores recurrentes antes de subir tempo."
+  ],
+  "requisitos_previos": [
+    "Conocer posición básica de la mano.",
+    "Reconocer clave de Sol y clave de Fa.",
+    "Usar MIDI externo o piano virtual.",
+    "Aceptar que no se sube tempo hasta tocar limpio."
+  ],
+  "tempo": {
+    "bpm_inicial": 68,
+    "bpm_practica_lenta": 56,
+    "bpm_objetivo": 84,
+    "incremento_si_aprueba": 4
+  },
+  "estructura_clase": [
+    "Presentación del objetivo técnico",
+    "Explicación visual en pizarra",
+    "Demostración lenta",
+    "Práctica mano derecha",
+    "Práctica mano izquierda",
+    "Práctica alterna o manos juntas según nivel",
+    "Examen del ejercicio",
+    "Corrección personalizada",
+    "Guardado de progreso"
+  ],
+  "archivos": {
+    "midi_demo": "data/hanon/nivel_5/hanon_59/midi/hanon_59_demo.mid",
+    "partitura_musicxml": "data/hanon/nivel_5/hanon_59/partituras/hanon_59.musicxml",
+    "secuencia_pizarra": "data/hanon/nivel_5/hanon_59/pizarra/hanon_59_pizarra.json",
+    "guion_profesor": "data/hanon/nivel_5/hanon_59/profesor/hanon_59_guion_profesor.json",
+    "rubrica": "data/hanon/nivel_5/hanon_59/evaluacion/hanon_59_rubrica.json",
+    "ejercicios": "data/hanon/nivel_5/hanon_59/ejercicios/hanon_59_ejercicios.json",
+    "examen": "data/hanon/nivel_5/hanon_59/examen/hanon_59_examen.json"
+  },
+  "datos_musicales": {
+    "compas": "4/4",
+    "tonalidad_base": "Do mayor",
+    "figura_principal": "corcheas",
+    "patron_mano_derecha_primer_compas": [
+      "Do4",
+      "Do5",
+      "Re4",
+      "Re5",
+      "Mi4",
+      "Mi5",
+      "Fa4",
+      "Fa5"
+    ],
+    "rango_mano_derecha": "Do4-La#5",
+    "rango_mano_izquierda": "Do3-La#4",
+    "canal_midi_demo_derecha": 1,
+    "canal_midi_demo_izquierda": 2
+  },
+  "analisis_midi": {
+    "evaluar": [
+      "nota_correcta",
+      "tiempo_frente_metronomo",
+      "velocity_regular",
+      "duracion_de_nota",
+      "continuidad",
+      "errores_recurrentes"
+    ],
+    "umbrales": {
+      "ventana_tiempo_correcto_ms": 120,
+      "nota_correcta_minimo_pct": 90,
+      "pulso_minimo_pct": 80,
+      "desviacion_velocity_max": 18,
+      "aprobado_total": 80
+    }
+  },
+  "bloqueo": {
+    "no_avanzar_hasta_superar": true,
+    "minimo_aprobado": 80,
+    "max_intentos_antes_de_repaso": 3,
+    "si_falla": "repetir a tempo menor y mostrar errores en pizarra"
+  }
+}

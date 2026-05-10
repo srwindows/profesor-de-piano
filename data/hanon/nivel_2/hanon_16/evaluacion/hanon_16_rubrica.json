@@ -1,0 +1,48 @@
+{
+  "id": "hanon_16_rubrica",
+  "titulo": "Rúbrica Hanon 16: Regularidad con extensión moderada",
+  "puntuacion_total": 100,
+  "aprobado_desde": 80,
+  "criterios": [
+    {
+      "id": "notas_correctas",
+      "nombre": "Notas correctas",
+      "peso": 35,
+      "medicion": "porcentaje_notas_correctas",
+      "aprobado_desde": 90
+    },
+    {
+      "id": "pulso",
+      "nombre": "Pulso frente al metrónomo",
+      "peso": 25,
+      "medicion": "porcentaje_notas_en_ventana_tiempo",
+      "ventana_ms": 120,
+      "aprobado_desde": 80
+    },
+    {
+      "id": "velocity",
+      "nombre": "Regularidad de velocity",
+      "peso": 20,
+      "medicion": "desviacion_velocity",
+      "max_desviacion_aprobada": 18
+    },
+    {
+      "id": "duracion",
+      "nombre": "Duración y continuidad",
+      "peso": 10,
+      "medicion": "regularidad_duracion"
+    },
+    {
+      "id": "tecnica",
+      "nombre": "Relajación y postura",
+      "peso": 10,
+      "medicion": "observacion_profesor_o_camara_opcional"
+    }
+  ],
+  "feedback": {
+    "nota_incorrecta": "Repite más lento y mira la nota activa en la pizarra.",
+    "fuera_de_pulso": "Escucha dos pulsos antes de entrar y toca más cerca del metrónomo.",
+    "velocity_irregular": "No golpees. Mantén dedos cerca de la tecla y muñeca relajada.",
+    "aprobado": "Ejercicio superado. Puedes subir ligeramente el tempo."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "version": "2.5.1-partitura-clase-metronomo-real",
+  "titulo": "Técnica diaria tipo Hanon",
+  "descripcion": "Rutina progresiva de técnica diaria inspirada en patrones clásicos de independencia, igualdad de dedos y coordinación. No incluye PDFs ni partituras externas.",
+  "rutinas": [
+    {
+      "id": "td_00_preparacion",
+      "nivel": "nivel_0",
+      "titulo": "Preparación: postura y dedos 1–5",
+      "duracion_min": 3,
+      "tempo_min": 50,
+      "tempo_max": 70,
+      "objetivo": "Activar postura, dedos curvados y pulso lento antes de tocar.",
+      "instrucciones": [
+        "Siéntate al borde del banco.",
+        "Relaja hombros y muñecas.",
+        "Coloca la mano derecha sobre DO RE MI FA SOL.",
+        "Toca 1-2-3-4-5 y vuelve 5-4-3-2-1 muy despacio.",
+        "Repite con mano izquierda sin tensión."
+      ],
+      "patron": "1-2-3-4-5-4-3-2-1",
+      "notas_referencia": "DO RE MI FA SOL FA MI RE DO",
+      "criterio": "Debe sonar regular, sin golpes bruscos y sin hundir la muñeca."
+    },
+    {
+      "id": "td_01_cinco_dedos",
+      "nivel": "inicial",
+      "titulo": "Cinco dedos: igualdad de sonido",
+      "duracion_min": 5,
+      "tempo_min": 55,
+      "tempo_max": 80,
+      "objetivo": "Conseguir que todos los dedos suenen parecidos.",
+      "instrucciones": [
+        "Toca DO RE MI FA SOL con dedos 1-2-3-4-5.",
+        "Vuelve SOL FA MI RE DO con 5-4-3-2-1.",
+        "No corras. Escucha si un dedo suena más fuerte que otro.",
+        "Primero mano derecha, después mano izquierda.",
+        "Al final, prueba manos alternas."
+      ],
+      "patron": "1-2-3-4-5 / 5-4-3-2-1",
+      "notas_referencia": "DO RE MI FA SOL / SOL FA MI RE DO",
+      "criterio": "El alumno mantiene pulso y sonido equilibrado."
+    },
+    {
+      "id": "td_02_independencia_3_4_5",
+      "nivel": "inicial",
+      "titulo": "Independencia: dedos 3-4-5",
+      "duracion_min": 5,
+      "tempo_min": 45,
+      "tempo_max": 70,
+      "objetivo": "Fortalecer control de los dedos más débiles sin tensión.",
+      "instrucciones": [
+        "Mantén la mano relajada.",
+        "Toca MI FA SOL FA MI usando 3-4-5-4-3.",
+        "No levantes los dedos exageradamente.",
+        "Si aparece tensión, baja el tempo.",
+        "Repite pocas veces, pero con precisión."
+      ],
+      "patron": "3-4-5-4-3",
+      "notas_referencia": "MI FA SOL FA MI",
+      "criterio": "Los dedos 4 y 5 se mueven sin arrastrar toda la mano."
+    },
+    {
+      "id": "td_03_cruce_pulgar_preparatorio",
+      "nivel": "basico",
+      "titulo": "Cruce preparatorio del pulgar",
+      "duracion_min": 6,
+      "tempo_min": 50,
+      "tempo_max": 80,
+      "objetivo": "Preparar el paso del pulgar para escalas sin girar la mano.",
+      "instrucciones": [
+        "Toca DO RE MI con 1-2-3.",
+        "Pasa el pulgar suavemente hacia FA.",
+        "Continúa FA SOL LA con 1-2-3.",
+        "No hagas salto brusco de muñeca.",
+        "Hazlo lento hasta que el movimiento sea pequeño."
+      ],
+      "patron": "1-2-3 / 1-2-3",
+      "notas_referencia": "DO RE MI / FA SOL LA",
+      "criterio": "El pulgar pasa sin golpe y la mano no se tuerce."
+    },
+    {
+      "id": "td_04_coordinacion_manos",
+      "nivel": "basico",
+      "titulo": "Coordinación básica de manos",
+      "duracion_min": 7,
+      "tempo_min": 45,
+      "tempo_max": 75,
+      "objetivo": "Coordinar dos manos en movimiento paralelo lento.",
+      "instrucciones": [
+        "Mano derecha: DO RE MI FA SOL.",
+        "Mano izquierda: DO SI LA SOL FA, lentamente.",
+        "Toca una nota por pulso.",
+        "Escucha que las dos manos caen juntas.",
+        "Si se descoordina, vuelve a una sola mano."
+      ],
+      "patron": "paralelo lento",
+      "notas_referencia": "MD: DO RE MI FA SOL / MI: DO SI LA SOL FA",
+      "criterio": "Las dos manos mantienen el mismo pulso."
+    }
+  ]
+}

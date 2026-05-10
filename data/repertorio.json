@@ -1,0 +1,510 @@
+{
+  "version": "4.1.6-lite-hotfix-audio-midi-nd",
+  "titulo": "Repertorio progresivo guiado",
+  "descripcion": "Piezas originales y progresivas para que el alumno aplique postura, digitación, pulso, lectura, técnica y musicalidad. Incluye MIDIs didácticos propios del Nivel 1 para técnica, canciones sencillas y primer contacto clásico.",
+  "piezas": [
+    {
+      "id": "rep_00_dos_negras",
+      "nivel": "nivel_0",
+      "titulo": "Dos negras y un Do",
+      "duracion_estudio_min": 8,
+      "objetivo": "Convertir el patrón de 2 teclas negras en una pequeña pieza de orientación.",
+      "conceptos": [
+        "DO",
+        "patrón 2 teclas negras",
+        "pulso lento",
+        "dedo 1"
+      ],
+      "tempo": 60,
+      "compas": "4/4",
+      "mano_derecha": [
+        "DO",
+        "RE",
+        "MI",
+        "RE",
+        "DO",
+        "RE",
+        "MI",
+        "DO"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "silencio",
+        "DO",
+        "silencio",
+        "DO",
+        "silencio",
+        "DO",
+        "silencio"
+      ],
+      "digitacion_md": "1-2-3-2-1-2-3-1",
+      "digitacion_mi": "5 - 5 - 5 - 5",
+      "fases": [
+        "Localiza DO con el grupo de dos teclas negras.",
+        "Toca la mano derecha sola muy despacio.",
+        "Añade la izquierda solo en los DO.",
+        "Mantén hombros relajados y sonido parejo.",
+        "Repite sin mirar las manos todo el tiempo."
+      ],
+      "criterio": "El alumno mantiene pulso lento y localiza DO sin dudar."
+    },
+    {
+      "id": "rep_01_cinco_dedos",
+      "nivel": "inicial",
+      "titulo": "Camino de cinco dedos",
+      "duracion_estudio_min": 10,
+      "objetivo": "Practicar DO RE MI FA SOL y volver con digitación 1–5.",
+      "conceptos": [
+        "cinco dedos",
+        "igualdad de sonido",
+        "frase corta",
+        "pulso"
+      ],
+      "tempo": 65,
+      "compas": "4/4",
+      "mano_derecha": [
+        "DO",
+        "RE",
+        "MI",
+        "FA",
+        "SOL",
+        "FA",
+        "MI",
+        "RE",
+        "DO"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "silencio",
+        "SOL",
+        "silencio",
+        "DO"
+      ],
+      "digitacion_md": "1-2-3-4-5-4-3-2-1",
+      "digitacion_mi": "5 - 1 - 5",
+      "fases": [
+        "Recita la digitación antes de tocar.",
+        "Toca la mano derecha legato y sin tensión.",
+        "Añade bajos lentos con la izquierda.",
+        "Escucha si todos los dedos suenan igual.",
+        "Toca la pieza completa dos veces sin parar."
+      ],
+      "criterio": "Sonido parejo y dedos relajados."
+    },
+    {
+      "id": "rep_02_pulso_constante",
+      "nivel": "inicial",
+      "titulo": "Pulso de paseo",
+      "duracion_estudio_min": 12,
+      "objetivo": "Mantener pulso constante con una melodía sencilla.",
+      "conceptos": [
+        "pulso",
+        "blancas y negras",
+        "coordinación básica"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "mano_derecha": [
+        "DO",
+        "DO",
+        "RE",
+        "MI",
+        "RE",
+        "DO",
+        "silencio",
+        "DO"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "SOL",
+        "DO",
+        "SOL"
+      ],
+      "digitacion_md": "1-1-2-3-2-1 - 1",
+      "digitacion_mi": "5-1-5-1",
+      "fases": [
+        "Marca el pulso con la voz: uno, dos, tres, cuatro.",
+        "Toca solo la derecha contando en voz baja.",
+        "Añade izquierda en los tiempos fuertes.",
+        "No aceleres en las notas repetidas.",
+        "Haz una repetición suave y otra un poco más expresiva."
+      ],
+      "criterio": "No pierde el pulso al añadir la izquierda."
+    },
+    {
+      "id": "rep_03_primer_acorde",
+      "nivel": "basico",
+      "titulo": "Primer acorde de Do",
+      "duracion_estudio_min": 12,
+      "objetivo": "Introducir el acorde de Do mayor dentro de una mini pieza.",
+      "conceptos": [
+        "acorde",
+        "Do mayor",
+        "tríada",
+        "melodía acompañada"
+      ],
+      "tempo": 60,
+      "compas": "4/4",
+      "mano_derecha": [
+        "MI",
+        "SOL",
+        "DO",
+        "SOL",
+        "MI",
+        "RE",
+        "DO"
+      ],
+      "mano_izquierda": [
+        "DO-MI-SOL",
+        "silencio",
+        "DO-MI-SOL",
+        "silencio"
+      ],
+      "digitacion_md": "3-5-1-5-3-2-1",
+      "digitacion_mi": "5-3-1",
+      "fases": [
+        "Construye el acorde DO-MI-SOL sin tocar fuerte.",
+        "Toca el acorde con la izquierda y escucha su equilibrio.",
+        "Practica la melodía de la derecha sola.",
+        "Une ambas manos muy lento.",
+        "Finaliza con el acorde suave, sin golpear."
+      ],
+      "criterio": "El acorde no tapa la melodía."
+    },
+    {
+      "id": "rep_04_frase_y_respuesta",
+      "nivel": "basico",
+      "titulo": "Pregunta y respuesta",
+      "duracion_estudio_min": 15,
+      "objetivo": "Tocar dos frases cortas con sentido musical.",
+      "conceptos": [
+        "frase",
+        "respuesta",
+        "dinámica",
+        "respiración musical"
+      ],
+      "tempo": 72,
+      "compas": "4/4",
+      "mano_derecha": [
+        "DO",
+        "RE",
+        "MI",
+        "SOL",
+        "MI",
+        "RE",
+        "DO",
+        "silencio",
+        "MI",
+        "FA",
+        "SOL",
+        "LA",
+        "SOL",
+        "MI",
+        "DO"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "SOL",
+        "DO",
+        "SOL",
+        "FA",
+        "DO",
+        "SOL",
+        "DO"
+      ],
+      "digitacion_md": "1-2-3-5-3-2-1 / 1-2-3-4-3-1-1",
+      "digitacion_mi": "5-1-5-1 / 5-1-2-5",
+      "fases": [
+        "Separa la pieza en pregunta y respuesta.",
+        "Toca la primera frase con sonido medio.",
+        "Toca la segunda frase un poco más suave.",
+        "Añade la izquierda sin tapar la melodía.",
+        "Haz una pausa mental entre frases."
+      ],
+      "criterio": "Se distingue la pregunta y la respuesta."
+    },
+    {
+      "id": "n1_midi_tecnica_cinco_dedos_do",
+      "nivel": "nivel_1",
+      "titulo": "Técnica cinco dedos en DO",
+      "duracion_estudio_min": 10,
+      "objetivo": "Tocar DO-RE-MI-FA-SOL y volver con digitación 1-2-3-4-5.",
+      "conceptos": [
+        "Nivel 1",
+        "MIDI didáctico",
+        "pulso",
+        "ambas manos"
+      ],
+      "tempo": 60,
+      "compas": "4/4",
+      "midi_path": "assets/midi/nivel_1/tecnica/n1_tecnica_cinco_dedos_do.mid",
+      "licencia": "MIDI didáctico propio creado para el proyecto. No procede de descarga externa.",
+      "categoria": "tecnica",
+      "mano_derecha": [
+        "DO",
+        "RE",
+        "MI",
+        "FA",
+        "SOL",
+        "FA",
+        "MI",
+        "RE",
+        "DO"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "silencio",
+        "SOL",
+        "silencio",
+        "DO"
+      ],
+      "digitacion_md": "1-2-3-4-5-4-3-2-1",
+      "digitacion_mi": "5 - 1 - 5",
+      "fases": [
+        "Escucha el MIDI completo una vez.",
+        "Toca la mano derecha sola con metrónomo lento.",
+        "Toca la mano izquierda sola.",
+        "Une ambas manos a tempo lento.",
+        "Repite con el panel Diagnóstico Pro abierto."
+      ],
+      "criterio": "El alumno mantiene pulso lento, toca notas correctas y usa ambas manos sin tensión."
+    },
+    {
+      "id": "n1_midi_cumpleanos_feliz_simplificado",
+      "nivel": "nivel_1",
+      "titulo": "Cumpleaños feliz simplificado",
+      "duracion_estudio_min": 14,
+      "objetivo": "Primer contacto con una canción reconocible usando melodía sencilla y bajo largo.",
+      "conceptos": [
+        "Nivel 1",
+        "MIDI didáctico",
+        "pulso",
+        "ambas manos"
+      ],
+      "tempo": 70,
+      "compas": "3/4",
+      "midi_path": "assets/midi/nivel_1/canciones/cumpleanos_feliz_simplificado_v1.mid",
+      "licencia": "MIDI didáctico propio creado para el proyecto. No procede de descarga externa.",
+      "categoria": "canciones",
+      "mano_derecha": [
+        "SOL",
+        "SOL",
+        "LA",
+        "SOL",
+        "DO",
+        "SI"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "SOL",
+        "DO",
+        "SOL"
+      ],
+      "digitacion_md": "adaptada",
+      "digitacion_mi": "5-1",
+      "fases": [
+        "Escucha el MIDI completo una vez.",
+        "Toca la mano derecha sola con metrónomo lento.",
+        "Toca la mano izquierda sola.",
+        "Une ambas manos a tempo lento.",
+        "Repite con el panel Diagnóstico Pro abierto."
+      ],
+      "criterio": "El alumno mantiene pulso lento, toca notas correctas y usa ambas manos sin tensión."
+    },
+    {
+      "id": "n1_midi_oda_alegria_reducida",
+      "nivel": "nivel_1",
+      "titulo": "Oda a la alegría reducida",
+      "duracion_estudio_min": 14,
+      "objetivo": "Primer contacto clásico con melodía reducida y bajo muy simple.",
+      "conceptos": [
+        "Nivel 1",
+        "MIDI didáctico",
+        "pulso",
+        "ambas manos"
+      ],
+      "tempo": 76,
+      "compas": "4/4",
+      "midi_path": "assets/midi/nivel_1/clasicas/oda_alegria_reducida_v1.mid",
+      "licencia": "MIDI didáctico propio creado para el proyecto. No procede de descarga externa.",
+      "categoria": "clasicas",
+      "mano_derecha": [
+        "MI",
+        "MI",
+        "FA",
+        "SOL",
+        "SOL",
+        "FA",
+        "MI",
+        "RE"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "silencio",
+        "SOL",
+        "silencio"
+      ],
+      "digitacion_md": "3-3-4-5",
+      "digitacion_mi": "5 - 1",
+      "fases": [
+        "Escucha el MIDI completo una vez.",
+        "Toca la mano derecha sola con metrónomo lento.",
+        "Toca la mano izquierda sola.",
+        "Une ambas manos a tempo lento.",
+        "Repite con el panel Diagnóstico Pro abierto."
+      ],
+      "criterio": "El alumno mantiene pulso lento, toca notas correctas y usa ambas manos sin tensión."
+    },
+    {
+      "id": "n1_midi_frere_jacques_simplificado",
+      "nivel": "nivel_1",
+      "titulo": "Frère Jacques simplificado",
+      "duracion_estudio_min": 14,
+      "objetivo": "Trabajar repetición de frase y pulso regular.",
+      "conceptos": [
+        "Nivel 1",
+        "MIDI didáctico",
+        "pulso",
+        "ambas manos"
+      ],
+      "tempo": 68,
+      "compas": "4/4",
+      "midi_path": "assets/midi/nivel_1/canciones/frere_jacques_simplificado_v1.mid",
+      "licencia": "MIDI didáctico propio creado para el proyecto. No procede de descarga externa.",
+      "categoria": "canciones",
+      "mano_derecha": [
+        "DO",
+        "RE",
+        "MI",
+        "DO",
+        "DO",
+        "RE",
+        "MI",
+        "DO"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "silencio",
+        "SOL",
+        "silencio"
+      ],
+      "digitacion_md": "1-2-3-1",
+      "digitacion_mi": "5 - 1",
+      "fases": [
+        "Escucha el MIDI completo una vez.",
+        "Toca la mano derecha sola con metrónomo lento.",
+        "Toca la mano izquierda sola.",
+        "Une ambas manos a tempo lento.",
+        "Repite con el panel Diagnóstico Pro abierto."
+      ],
+      "criterio": "El alumno mantiene pulso lento, toca notas correctas y usa ambas manos sin tensión."
+    },
+    {
+      "id": "n1_midi_twinkle_simplificado",
+      "nivel": "nivel_1",
+      "titulo": "Twinkle simplificado",
+      "duracion_estudio_min": 14,
+      "objetivo": "Aplicar salto controlado y frase corta tradicional.",
+      "conceptos": [
+        "Nivel 1",
+        "MIDI didáctico",
+        "pulso",
+        "ambas manos"
+      ],
+      "tempo": 72,
+      "compas": "4/4",
+      "midi_path": "assets/midi/nivel_1/canciones/twinkle_simplificado_v1.mid",
+      "licencia": "MIDI didáctico propio creado para el proyecto. No procede de descarga externa.",
+      "categoria": "canciones",
+      "mano_derecha": [
+        "DO",
+        "DO",
+        "SOL",
+        "SOL",
+        "LA",
+        "LA",
+        "SOL"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "silencio",
+        "SOL",
+        "silencio"
+      ],
+      "digitacion_md": "1-1-5-5",
+      "digitacion_mi": "5 - 1",
+      "fases": [
+        "Escucha el MIDI completo una vez.",
+        "Toca la mano derecha sola con metrónomo lento.",
+        "Toca la mano izquierda sola.",
+        "Une ambas manos a tempo lento.",
+        "Repite con el panel Diagnóstico Pro abierto."
+      ],
+      "criterio": "El alumno mantiene pulso lento, toca notas correctas y usa ambas manos sin tensión."
+    },
+    {
+      "id": "n1_midi_vals_didactico_profesor",
+      "nivel": "nivel_1",
+      "titulo": "Vals didáctico del profesor",
+      "duracion_estudio_min": 14,
+      "objetivo": "Primer vals propio con bajo largo y melodía sencilla.",
+      "conceptos": [
+        "Nivel 1",
+        "MIDI didáctico",
+        "pulso",
+        "ambas manos"
+      ],
+      "tempo": 66,
+      "compas": "3/4",
+      "midi_path": "assets/midi/nivel_1/canciones/vals_didactico_profesor_v1.mid",
+      "licencia": "MIDI didáctico propio creado para el proyecto. No procede de descarga externa.",
+      "categoria": "canciones",
+      "mano_derecha": [
+        "DO",
+        "MI",
+        "SOL",
+        "MI",
+        "RE",
+        "FA",
+        "SOL",
+        "FA"
+      ],
+      "mano_izquierda": [
+        "DO",
+        "SOL",
+        "DO",
+        "SOL",
+        "DO"
+      ],
+      "digitacion_md": "1-3-5-3",
+      "digitacion_mi": "5-1-5",
+      "fases": [
+        "Escucha el MIDI completo una vez.",
+        "Toca la mano derecha sola con metrónomo lento.",
+        "Toca la mano izquierda sola.",
+        "Une ambas manos a tempo lento.",
+        "Repite con el panel Diagnóstico Pro abierto."
+      ],
+      "criterio": "El alumno mantiene pulso lento, toca notas correctas y usa ambas manos sin tensión."
+    }
+  ],
+  "clase_01_nivel_1": {
+    "usa_midi": "n1_midi_tecnica_cinco_dedos_do",
+    "estado": "funcional"
+  },
+  "hotfix_v416": {
+    "audio_portaudio_cierre_seguro": true,
+    "midi_clase1_solo_mano_derecha": true,
+    "secuencia_clase1_corregida": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "F4",
+      "E4",
+      "D4",
+      "C4"
+    ]
+  }
+}

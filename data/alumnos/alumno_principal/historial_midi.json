@@ -1,0 +1,19 @@
+{
+  "eventos": [],
+  "estadisticas": {
+    "notas_total": 0,
+    "aciertos": 0,
+    "errores": 0,
+    "velocity_media": 0.0,
+    "fuera_de_pulso": 0,
+    "a_tiempo": 0,
+    "acordes_total": 0,
+    "acordes_correctos": 0,
+    "acordes_incompletos": 0,
+    "tiempo_reaccion_media_ms": 0.0,
+    "simultaneidad_media_ms": 0.0,
+    "notas_simultaneas": 0,
+    "notas_sobrantes": 0,
+    "notas_faltantes": 0
+  }
+}

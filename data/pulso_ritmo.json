@@ -1,0 +1,2883 @@
+{
+  "version": "4.1.15-hotfix-pulso-practica-dirigida",
+  "titulo": "Pulso y ritmo guiado por el profesor",
+  "descripcion": "Entrenamiento didáctico de pulso, metrónomo, compás, acento, silencios, subdivisión, síncopas y patrones rítmicos. Progresa en cinco niveles: desde contar pulsos básicos hasta ritmos avanzados. La práctica incluye corrección real por nota, tiempo, silencio, acento, subdivisión y finalización guiada por el profesor.",
+  "niveles": [
+    {
+      "id": "nivel_0",
+      "titulo": "Nivel 1 · Pulso básico",
+      "bpm_base": 58
+    },
+    {
+      "id": "inicial",
+      "titulo": "Nivel 2 · Compás y acento",
+      "bpm_base": 66
+    },
+    {
+      "id": "basico",
+      "titulo": "Nivel 3 · Corcheas y subdivisión",
+      "bpm_base": 76
+    },
+    {
+      "id": "intermedio",
+      "titulo": "Nivel 4 · Síncopas y patrones",
+      "bpm_base": 88
+    },
+    {
+      "id": "avanzado",
+      "titulo": "Nivel 5 · Ritmo musical avanzado",
+      "bpm_base": 104
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pulso_n1_01_contar_4",
+      "nivel": "nivel_0",
+      "bloque": "Nivel 1 · Pulso básico",
+      "titulo": "Contar 4 pulsos",
+      "bpm": 60,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "TA - - -",
+      "objetivo": "Sentir el pulso antes de tocar.",
+      "instrucciones": [
+        "Escucha cuatro compases.",
+        "Cuenta 1, 2, 3, 4 sin tocar.",
+        "Respira estable y no corras."
+      ],
+      "criterio": "No pierde el conteo de 4 pulsos.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón TA - - -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: cuatro pulsos constantes",
+        "compases": 4,
+        "tolerancia_ms": 260,
+        "notas": [
+          "C4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "pulso 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 1.0,
+            "nota": "C4",
+            "label": "pulso 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "C4",
+            "label": "pulso 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "C4",
+            "label": "pulso 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "pulso 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 5.0,
+            "nota": "C4",
+            "label": "pulso 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "C4",
+            "label": "pulso 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "C4",
+            "label": "pulso 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "pulso 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 9.0,
+            "nota": "C4",
+            "label": "pulso 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.0,
+            "nota": "C4",
+            "label": "pulso 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "C4",
+            "label": "pulso 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "pulso 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 13.0,
+            "nota": "C4",
+            "label": "pulso 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.0,
+            "nota": "C4",
+            "label": "pulso 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.0,
+            "nota": "C4",
+            "label": "pulso 4",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Toca DO central en cada clic. El profesor corrige si corres o te quedas atrás.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n1_02_do_en_1",
+      "nivel": "nivel_0",
+      "bloque": "Nivel 1 · Pulso básico",
+      "titulo": "DO solo en el tiempo 1",
+      "bpm": 62,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "DO - - -",
+      "objetivo": "Tocar solo al comienzo del compás.",
+      "instrucciones": [
+        "Cuenta 1, 2, 3, 4.",
+        "Toca DO solamente en el 1.",
+        "Deja silencio en 2, 3 y 4."
+      ],
+      "criterio": "El DO cae en el pulso 1.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón DO - - -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: DO solo en el tiempo 1",
+        "compases": 4,
+        "tolerancia_ms": 260,
+        "notas": [
+          "C4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          }
+        ],
+        "guia": "Cuenta 1-2-3-4 y toca solo en el 1. Los demás pulsos son silencio.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n1_03_negras_iguales",
+      "nivel": "nivel_0",
+      "bloque": "Nivel 1 · Pulso básico",
+      "titulo": "Negras iguales",
+      "bpm": 64,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "DO RE MI FA",
+      "objetivo": "Tocar una nota por pulso con separación regular.",
+      "instrucciones": [
+        "Toca DO RE MI FA.",
+        "Una nota por cada clic.",
+        "La distancia entre notas debe ser igual."
+      ],
+      "criterio": "Las negras son regulares.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón DO RE MI FA. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: negras iguales DO RE MI FA",
+        "compases": 4,
+        "tolerancia_ms": 240,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 1.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 5.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 9.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 13.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Una nota por clic. Todas deben tener la misma separación.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n1_04_blancas",
+      "nivel": "nivel_0",
+      "bloque": "Nivel 1 · Pulso básico",
+      "titulo": "Blancas: dos pulsos",
+      "bpm": 66,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "DO__ RE__",
+      "objetivo": "Sostener cada nota durante dos pulsos.",
+      "instrucciones": [
+        "Toca DO y sostén 1-2.",
+        "Toca RE y sostén 3-4.",
+        "Cuenta aunque la nota esté sonando."
+      ],
+      "criterio": "Sostiene sin cortar antes.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón DO__ RE__. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: blancas cada dos pulsos",
+        "compases": 4,
+        "tolerancia_ms": 260,
+        "notas": [
+          "C4",
+          "D4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO 1-2",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 2.0,
+            "nota": "D4",
+            "label": "RE 3-4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO 1-2",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 6.0,
+            "nota": "D4",
+            "label": "RE 3-4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO 1-2",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 10.0,
+            "nota": "D4",
+            "label": "RE 3-4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO 1-2",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 14.0,
+            "nota": "D4",
+            "label": "RE 3-4",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Toca en el 1 y en el 3. No rellenes los pulsos intermedios.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n1_05_silencio",
+      "nivel": "nivel_0",
+      "bloque": "Nivel 1 · Pulso básico",
+      "titulo": "Silencio controlado",
+      "bpm": 68,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "DO - - SOL",
+      "objetivo": "Aprender que el silencio también tiene pulso.",
+      "instrucciones": [
+        "Toca DO en 1.",
+        "Calla 2 y 3.",
+        "Toca SOL en 4."
+      ],
+      "criterio": "Respeta silencios sin perder el tiempo.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón DO - - SOL. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: silencio entre DO y SOL",
+        "compases": 4,
+        "tolerancia_ms": 260,
+        "notas": [
+          "C4",
+          "G4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 3.0,
+            "nota": "G4",
+            "label": "SOL",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 7.0,
+            "nota": "G4",
+            "label": "SOL",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 11.0,
+            "nota": "G4",
+            "label": "SOL",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 15.0,
+            "nota": "G4",
+            "label": "SOL",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Toca DO en 1, espera en silencio 2 y 3, y toca SOL en 4.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n2_01_acento_1",
+      "nivel": "inicial",
+      "bloque": "Nivel 2 · Compás y acento",
+      "titulo": "Acento del primer pulso",
+      "bpm": 68,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": ">DO re mi fa",
+      "objetivo": "Reconocer el tiempo fuerte del compás.",
+      "instrucciones": [
+        "Marca el 1 un poco más presente.",
+        "2, 3 y 4 suaves.",
+        "No golpees: acentúa con control."
+      ],
+      "criterio": "El 1 se reconoce sin tensión.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón >DO re mi fa. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: acento del primer pulso",
+        "compases": 4,
+        "tolerancia_ms": 230,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 1.0,
+            "nota": "D4",
+            "label": "re suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "mi suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "F4",
+            "label": "fa suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 5.0,
+            "nota": "D4",
+            "label": "re suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "E4",
+            "label": "mi suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "F4",
+            "label": "fa suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 9.0,
+            "nota": "D4",
+            "label": "re suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.0,
+            "nota": "E4",
+            "label": "mi suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "F4",
+            "label": "fa suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 13.0,
+            "nota": "D4",
+            "label": "re suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.0,
+            "nota": "E4",
+            "label": "mi suave",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.0,
+            "nota": "F4",
+            "label": "fa suave",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "El tiempo 1 debe sentirse fuerte. No aceleres después del acento.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n2_02_dos_notas",
+      "nivel": "inicial",
+      "bloque": "Nivel 2 · Compás y acento",
+      "titulo": "Dos notas por compás",
+      "bpm": 70,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "DO - MI -",
+      "objetivo": "Colocar notas en 1 y 3.",
+      "instrucciones": [
+        "Toca DO en 1.",
+        "Toca MI en 3.",
+        "Escucha el espacio entre ambas."
+      ],
+      "criterio": "Mantiene 1 y 3 estables.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón DO - MI -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: dos notas por compás",
+        "compases": 4,
+        "tolerancia_ms": 230,
+        "notas": [
+          "C4",
+          "E4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "MI en 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 6.0,
+            "nota": "E4",
+            "label": "MI en 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 10.0,
+            "nota": "E4",
+            "label": "MI en 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO en 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 14.0,
+            "nota": "E4",
+            "label": "MI en 3",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Toca en 1 y 3. Mantén vacío 2 y 4.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n2_03_contratiempo_simple",
+      "nivel": "inicial",
+      "bloque": "Nivel 2 · Compás y acento",
+      "titulo": "Entrada en el 2",
+      "bpm": 72,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "- RE - -",
+      "objetivo": "No depender siempre del tiempo 1.",
+      "instrucciones": [
+        "Cuenta 1 en silencio.",
+        "Toca RE en 2.",
+        "Mantén la cuenta hasta 4."
+      ],
+      "criterio": "Entra en 2 sin adelantarse.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón - RE - -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: entrada en el tiempo 2",
+        "compases": 4,
+        "tolerancia_ms": 230,
+        "notas": [
+          "D4"
+        ],
+        "eventos": [
+          {
+            "beat": 1.0,
+            "nota": "D4",
+            "label": "RE en 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "D4",
+            "label": "RE en 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.0,
+            "nota": "D4",
+            "label": "RE en 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.0,
+            "nota": "D4",
+            "label": "RE en 2",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "No toques en el 1. Escucha el acento y entra en el 2.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n2_04_final_4",
+      "nivel": "inicial",
+      "bloque": "Nivel 2 · Compás y acento",
+      "titulo": "Nota de cierre en 4",
+      "bpm": 74,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "- - - SOL",
+      "objetivo": "Preparar el final del compás sin precipitarse.",
+      "instrucciones": [
+        "Cuenta completo.",
+        "Toca SOL exactamente en 4.",
+        "No anticipes la llegada."
+      ],
+      "criterio": "El 4 no se adelanta.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón - - - SOL. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: cierre en el tiempo 4",
+        "compases": 4,
+        "tolerancia_ms": 230,
+        "notas": [
+          "G4"
+        ],
+        "eventos": [
+          {
+            "beat": 3.0,
+            "nota": "G4",
+            "label": "SOL en 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "G4",
+            "label": "SOL en 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "G4",
+            "label": "SOL en 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.0,
+            "nota": "G4",
+            "label": "SOL en 4",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Cuenta 1-2-3 y toca exactamente en 4.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n2_05_eco",
+      "nivel": "inicial",
+      "bloque": "Nivel 2 · Compás y acento",
+      "titulo": "Eco rítmico",
+      "bpm": 76,
+      "compas": 4,
+      "duracion_compases": 4,
+      "patron": "DO - MI - | DO - MI -",
+      "objetivo": "Imitar una célula corta.",
+      "instrucciones": [
+        "Escucha: DO - MI -.",
+        "Repite igual en el siguiente compás.",
+        "Mantén el mismo tempo."
+      ],
+      "criterio": "Repite sin deformar el ritmo.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón DO - MI - | DO - MI -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: eco DO-MI",
+        "compases": 4,
+        "tolerancia_ms": 220,
+        "notas": [
+          "C4",
+          "E4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 6.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 10.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 14.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Repite el mismo patrón sin perder el pulso entre compases.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n3_01_corcheas",
+      "nivel": "basico",
+      "bloque": "Nivel 3 · Corcheas y subdivisión",
+      "titulo": "Corcheas: 1 y 2 y",
+      "bpm": 78,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "1& 2& 3& 4&",
+      "objetivo": "Dividir cada pulso en dos partes iguales.",
+      "instrucciones": [
+        "Cuenta 1 y 2 y 3 y 4 y.",
+        "Toca DO RE MI FA SOL LA SI DO.",
+        "No conviertas corcheas en carrera."
+      ],
+      "criterio": "Las dos mitades del pulso son iguales.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón 1& 2& 3& 4&. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: corcheas 1 y 2 y 3 y 4 y",
+        "compases": 2,
+        "tolerancia_ms": 180,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4",
+          "B4",
+          "C5"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 0.5,
+            "nota": "D4",
+            "label": "y",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "E4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.5,
+            "nota": "F4",
+            "label": "y",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "G4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.5,
+            "nota": "A4",
+            "label": "y",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "B4",
+            "label": "4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.5,
+            "nota": "C5",
+            "label": "y",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.5,
+            "nota": "D4",
+            "label": "y",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "E4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.5,
+            "nota": "F4",
+            "label": "y",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "G4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.5,
+            "nota": "A4",
+            "label": "y",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "B4",
+            "label": "4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.5,
+            "nota": "C5",
+            "label": "y",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Cuenta 1-y-2-y-3-y-4-y. Cada corchea ocupa medio pulso.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 8.0
+      }
+    },
+    {
+      "id": "pulso_n3_02_negra_dos_corcheas",
+      "nivel": "basico",
+      "bloque": "Nivel 3 · Corcheas y subdivisión",
+      "titulo": "Negra + dos corcheas",
+      "bpm": 80,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "TA - ti-ti -",
+      "objetivo": "Combinar duración larga y subdivisión.",
+      "instrucciones": [
+        "Pulso 1: una negra.",
+        "Pulso 2: dos corcheas.",
+        "Repite sin perder el clic."
+      ],
+      "criterio": "La subdivisión no acelera.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón TA - ti-ti -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: negra + dos corcheas",
+        "compases": 4,
+        "tolerancia_ms": 185,
+        "notas": [
+          "C4",
+          "D4",
+          "E4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 2.0,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.5,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 6.0,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.5,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 10.0,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.5,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 14.0,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.5,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Primero una negra larga de pulso; después dos corcheas regulares.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n3_03_silencio_corchea",
+      "nivel": "basico",
+      "bloque": "Nivel 3 · Corcheas y subdivisión",
+      "titulo": "Silencio de corchea",
+      "bpm": 82,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "- & 2 &",
+      "objetivo": "Entrar después de un hueco pequeño.",
+      "instrucciones": [
+        "Cuenta 1 y.",
+        "Calla la primera mitad.",
+        "Toca en la y."
+      ],
+      "criterio": "La entrada cae en la segunda mitad.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón - & 2 &. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: silencio de corchea y entrada en &",
+        "compases": 4,
+        "tolerancia_ms": 180,
+        "notas": [
+          "D4",
+          "E4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.5,
+            "nota": "D4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "E4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.5,
+            "nota": "F4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.5,
+            "nota": "D4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "E4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.5,
+            "nota": "F4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.5,
+            "nota": "D4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.0,
+            "nota": "E4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.5,
+            "nota": "F4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.5,
+            "nota": "D4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.0,
+            "nota": "E4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.5,
+            "nota": "F4",
+            "label": "& de 2",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "El primer medio pulso es silencio. Entra en la y del 1 sin adelantarte.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n3_04_manos_alternas",
+      "nivel": "basico",
+      "bloque": "Nivel 3 · Corcheas y subdivisión",
+      "titulo": "Alternancia derecha/izquierda",
+      "bpm": 84,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "D I D I D I D I",
+      "objetivo": "Coordinar pulso y mano sin perder regularidad.",
+      "instrucciones": [
+        "Derecha en pulsos fuertes.",
+        "Izquierda en las y.",
+        "Mantén sonido uniforme."
+      ],
+      "criterio": "Las manos alternan a tempo.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón D I D I D I D I. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: alternancia izquierda/derecha",
+        "compases": 2,
+        "tolerancia_ms": 180,
+        "notas": [
+          "C3",
+          "C4",
+          "D3",
+          "D4",
+          "E3",
+          "E4",
+          "F3",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "D",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 0.5,
+            "nota": "C3",
+            "label": "I",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 1.0,
+            "nota": "D4",
+            "label": "D",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.5,
+            "nota": "D3",
+            "label": "I",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "D",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.5,
+            "nota": "E3",
+            "label": "I",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 3.0,
+            "nota": "F4",
+            "label": "D",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.5,
+            "nota": "F3",
+            "label": "I",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "D",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.5,
+            "nota": "C3",
+            "label": "I",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 5.0,
+            "nota": "D4",
+            "label": "D",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.5,
+            "nota": "D3",
+            "label": "I",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 6.0,
+            "nota": "E4",
+            "label": "D",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.5,
+            "nota": "E3",
+            "label": "I",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 7.0,
+            "nota": "F4",
+            "label": "D",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.5,
+            "nota": "F3",
+            "label": "I",
+            "mano": "izquierda"
+          }
+        ],
+        "guia": "Alterna mano derecha e izquierda. No juntes las manos salvo que el ejercicio lo pida.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 8.0
+      }
+    },
+    {
+      "id": "pulso_n3_05_cambio_tempo",
+      "nivel": "basico",
+      "bloque": "Nivel 3 · Corcheas y subdivisión",
+      "titulo": "Cambio de tempo controlado",
+      "bpm": 86,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "72→80",
+      "objetivo": "Acelerar sin perder estabilidad.",
+      "instrucciones": [
+        "Empieza a 72 bpm.",
+        "Sube a 80 bpm.",
+        "No cambies la separación interna."
+      ],
+      "criterio": "El tempo cambia sin desordenarse.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón 72→80. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: mantener pulso al cambiar tempo",
+        "compases": 4,
+        "tolerancia_ms": 175,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 1.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 5.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 9.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "DO",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 13.0,
+            "nota": "D4",
+            "label": "RE",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.0,
+            "nota": "E4",
+            "label": "MI",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.0,
+            "nota": "F4",
+            "label": "FA",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Empieza lento. Si lo superas, sube 4 BPM desde el control de tempo y repite.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n4_01_sincopa_ligera",
+      "nivel": "intermedio",
+      "bloque": "Nivel 4 · Síncopas y patrones",
+      "titulo": "Síncopa ligera",
+      "bpm": 90,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "1 - & - 3 - & -",
+      "objetivo": "Sentir notas fuera del pulso fuerte.",
+      "instrucciones": [
+        "Cuenta el pulso en voz baja.",
+        "Toca entre los clics.",
+        "No pierdas dónde está el 1."
+      ],
+      "criterio": "La síncopa no descoloca el compás.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón 1 - & - 3 - & -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: síncopa ligera en la y",
+        "compases": 4,
+        "tolerancia_ms": 155,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 1.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.5,
+            "nota": "F4",
+            "label": "& de 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 5.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.5,
+            "nota": "F4",
+            "label": "& de 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 9.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.5,
+            "nota": "F4",
+            "label": "& de 4",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 13.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.5,
+            "nota": "F4",
+            "label": "& de 4",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Las entradas en & no deben caer sobre el clic. Cuenta subdividido.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n4_02_tresillo",
+      "nivel": "intermedio",
+      "bloque": "Nivel 4 · Síncopas y patrones",
+      "titulo": "Tresillo básico",
+      "bpm": 92,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "tri-o-la tri-o-la",
+      "objetivo": "Dividir un pulso en tres partes iguales.",
+      "instrucciones": [
+        "Di tri-o-la.",
+        "Tres golpes caben en un pulso.",
+        "Evita hacerlo como corcheas."
+      ],
+      "criterio": "El tresillo reparte tres partes iguales.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón tri-o-la tri-o-la. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: tresillo básico",
+        "compases": 2,
+        "tolerancia_ms": 150,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "tri",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 0.3333333333333333,
+            "nota": "D4",
+            "label": "o",
+            "mano": "derecha"
+          },
+          {
+            "beat": 0.6666666666666666,
+            "nota": "E4",
+            "label": "la",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "F4",
+            "label": "tri",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.3333333333333333,
+            "nota": "G4",
+            "label": "o",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.6666666666666665,
+            "nota": "A4",
+            "label": "la",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "tri",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.333333333333333,
+            "nota": "D4",
+            "label": "o",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.666666666666667,
+            "nota": "E4",
+            "label": "la",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "F4",
+            "label": "tri",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.333333333333333,
+            "nota": "G4",
+            "label": "o",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.666666666666666,
+            "nota": "A4",
+            "label": "la",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Tres golpes repartidos dentro de un pulso: tri-o-la.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 8.0
+      }
+    },
+    {
+      "id": "pulso_n4_03_ostinato",
+      "nivel": "intermedio",
+      "bloque": "Nivel 4 · Síncopas y patrones",
+      "titulo": "Ostinato rítmico",
+      "bpm": 94,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "TA ti-ti TA -",
+      "objetivo": "Repetir un patrón sin deformarlo.",
+      "instrucciones": [
+        "Repite el mismo ritmo 8 compases.",
+        "Escucha si se acelera.",
+        "Mantén articulación clara."
+      ],
+      "criterio": "El patrón no se deforma.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón TA ti-ti TA -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: ostinato rítmico",
+        "compases": 4,
+        "tolerancia_ms": 155,
+        "notas": [
+          "C4",
+          "D4",
+          "E4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 0.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 8.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 12.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Repite el ostinato igual cada compás. El patrón no debe deformarse.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n4_04_acento_3",
+      "nivel": "intermedio",
+      "bloque": "Nivel 4 · Síncopas y patrones",
+      "titulo": "Acento desplazado",
+      "bpm": 96,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "ta ta >TA ta",
+      "objetivo": "Acentuar sin cambiar el tempo.",
+      "instrucciones": [
+        "Acentúa el 3.",
+        "Mantén 1,2,4 suaves.",
+        "No conviertas el acento en golpe."
+      ],
+      "criterio": "Acentúa donde toca sin variar el pulso.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón ta ta >TA ta. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: acento desplazado al 3",
+        "compases": 4,
+        "tolerancia_ms": 160,
+        "notas": [
+          "C4",
+          "D4",
+          "G4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "D4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "G4",
+            "label": "TA fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 3.0,
+            "nota": "F4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "D4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "G4",
+            "label": "TA fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 7.0,
+            "nota": "F4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.0,
+            "nota": "D4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.0,
+            "nota": "G4",
+            "label": "TA fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 11.0,
+            "nota": "F4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.0,
+            "nota": "D4",
+            "label": "ta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.0,
+            "nota": "G4",
+            "label": "TA fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 15.0,
+            "nota": "F4",
+            "label": "ta",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "El acento musical está en el 3. No lo confundas con el 1 del metrónomo.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n4_05_3_4",
+      "nivel": "intermedio",
+      "bloque": "Nivel 4 · Síncopas y patrones",
+      "titulo": "Compás 3/4",
+      "bpm": 98,
+      "compas": 3,
+      "duracion_compases": 8,
+      "patron": ">TA ta ta",
+      "objetivo": "Sentir fraseo ternario.",
+      "instrucciones": [
+        "Cuenta 1, 2, 3.",
+        "Acentúa 1.",
+        "Evita pensar en 4/4."
+      ],
+      "criterio": "El alumno siente el 3/4.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón >TA ta ta. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: compás ternario 3/4",
+        "compases": 4,
+        "compas": 3,
+        "tolerancia_ms": 165,
+        "notas": [
+          "C4",
+          "D4",
+          "E4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "1 fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 1.0,
+            "nota": "D4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "C4",
+            "label": "1 fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.0,
+            "nota": "D4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "C4",
+            "label": "1 fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 7.0,
+            "nota": "D4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.0,
+            "nota": "C4",
+            "label": "1 fuerte",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 10.0,
+            "nota": "D4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "E4",
+            "label": "3",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Cuenta 1-2-3. No conviertas el compás en 4/4.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 12.0
+      }
+    },
+    {
+      "id": "pulso_n5_01_semicorcheas",
+      "nivel": "avanzado",
+      "bloque": "Nivel 5 · Ritmo musical avanzado",
+      "titulo": "Semicorcheas controladas",
+      "bpm": 106,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "1e&a 2e&a",
+      "objetivo": "Tocar cuatro subdivisiones por pulso sin tensión.",
+      "instrucciones": [
+        "Cuenta 1 e y a.",
+        "Empieza lento.",
+        "Busca igualdad, no velocidad."
+      ],
+      "criterio": "Las cuatro subdivisiones son iguales.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón 1e&a 2e&a. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: semicorcheas controladas",
+        "compases": 2,
+        "tolerancia_ms": 115,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 0.25,
+            "nota": "D4",
+            "label": "e",
+            "mano": "derecha"
+          },
+          {
+            "beat": 0.5,
+            "nota": "E4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 0.75,
+            "nota": "F4",
+            "label": "a",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "C4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.25,
+            "nota": "D4",
+            "label": "e",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.5,
+            "nota": "E4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.75,
+            "nota": "F4",
+            "label": "a",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.25,
+            "nota": "D4",
+            "label": "e",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.5,
+            "nota": "E4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.75,
+            "nota": "F4",
+            "label": "a",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "C4",
+            "label": "2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.25,
+            "nota": "D4",
+            "label": "e",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.5,
+            "nota": "E4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.75,
+            "nota": "F4",
+            "label": "a",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Cuatro golpes dentro de un pulso. Hazlo lento antes de subir BPM.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 8.0
+      }
+    },
+    {
+      "id": "pulso_n5_02_sincopa_fuerte",
+      "nivel": "avanzado",
+      "bloque": "Nivel 5 · Ritmo musical avanzado",
+      "titulo": "Síncopa fuerte",
+      "bpm": 108,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "- & - & | TA -",
+      "objetivo": "Mantener pulso interno con notas desplazadas.",
+      "instrucciones": [
+        "El clic manda.",
+        "La nota puede ir fuera del clic.",
+        "No muevas el tempo para perseguir la nota."
+      ],
+      "criterio": "Pulso interno estable.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón - & - & | TA -. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: síncopa fuerte en contratiempo",
+        "compases": 4,
+        "tolerancia_ms": 130,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "G4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.5,
+            "nota": "C4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.5,
+            "nota": "E4",
+            "label": "& de 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "G4",
+            "label": "cierre",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.5,
+            "nota": "C4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.5,
+            "nota": "E4",
+            "label": "& de 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "G4",
+            "label": "cierre",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.5,
+            "nota": "C4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.5,
+            "nota": "E4",
+            "label": "& de 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "G4",
+            "label": "cierre",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.5,
+            "nota": "C4",
+            "label": "& de 1",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.5,
+            "nota": "D4",
+            "label": "& de 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.5,
+            "nota": "E4",
+            "label": "& de 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.0,
+            "nota": "G4",
+            "label": "cierre",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "La mayoría de entradas no caen en el clic. El clic queda como referencia interna.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n5_03_puntillo",
+      "nivel": "avanzado",
+      "bloque": "Nivel 5 · Ritmo musical avanzado",
+      "titulo": "Ritmo con puntillo",
+      "bpm": 110,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "TAaa-ti TAaa-ti",
+      "objetivo": "Controlar largo-corto con precisión.",
+      "instrucciones": [
+        "La primera nota dura más.",
+        "La segunda entra corta y clara.",
+        "No lo hagas como dos notas iguales."
+      ],
+      "criterio": "Se entiende largo-corto.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón TAaa-ti TAaa-ti. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: puntillo corchea con semicorchea",
+        "compases": 4,
+        "tolerancia_ms": 125,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "larga",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 0.75,
+            "nota": "D4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "E4",
+            "label": "larga",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.75,
+            "nota": "F4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "larga",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.75,
+            "nota": "D4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "E4",
+            "label": "larga",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.75,
+            "nota": "F4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "larga",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 8.75,
+            "nota": "D4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.0,
+            "nota": "E4",
+            "label": "larga",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.75,
+            "nota": "F4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "larga",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 12.75,
+            "nota": "D4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.0,
+            "nota": "E4",
+            "label": "larga",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.75,
+            "nota": "F4",
+            "label": "corta",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "La segunda nota entra tarde, cerca del final del pulso. No la conviertas en corchea normal.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    },
+    {
+      "id": "pulso_n5_04_polirritmia_intro",
+      "nivel": "avanzado",
+      "bloque": "Nivel 5 · Ritmo musical avanzado",
+      "titulo": "Introducción 3 contra 2",
+      "bpm": 112,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": "2: TA - TA - | 3: tri-o-la",
+      "objetivo": "Entender sensación de cruce rítmico.",
+      "instrucciones": [
+        "Una mano piensa dos partes.",
+        "La otra siente tres partes.",
+        "Empieza sin velocidad."
+      ],
+      "criterio": "No colapsa el pulso base.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón 2: TA - TA - | 3: tri-o-la. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: introducción 3 contra 2",
+        "compases": 2,
+        "tolerancia_ms": 145,
+        "notas": [
+          "C3",
+          "G3",
+          "C4",
+          "E4",
+          "G4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C3",
+            "label": "I 1",
+            "mano": "izquierda",
+            "acento": true
+          },
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "D 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 1.333,
+            "nota": "E4",
+            "label": "D 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.0,
+            "nota": "G3",
+            "label": "I 2",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 2.667,
+            "nota": "G4",
+            "label": "D 3",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C3",
+            "label": "I 1",
+            "mano": "izquierda",
+            "acento": true
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "D 1",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 5.333,
+            "nota": "E4",
+            "label": "D 2",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.0,
+            "nota": "G3",
+            "label": "I 2",
+            "mano": "izquierda"
+          },
+          {
+            "beat": 6.667,
+            "nota": "G4",
+            "label": "D 3",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Mano izquierda en 2 golpes y derecha en 3. Coinciden al inicio del compás.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 8.0
+      }
+    },
+    {
+      "id": "pulso_n5_05_reto_final",
+      "nivel": "avanzado",
+      "bloque": "Nivel 5 · Ritmo musical avanzado",
+      "titulo": "Reto final rítmico",
+      "bpm": 114,
+      "compas": 4,
+      "duracion_compases": 8,
+      "patron": ">TA ti-ti - & | TAaa-ti",
+      "objetivo": "Combinar acento, silencio, síncopa y subdivisión.",
+      "instrucciones": [
+        "Lee el patrón antes de tocar.",
+        "Activa metrónomo.",
+        "Toca 8 compases sin perder el 1."
+      ],
+      "criterio": "Completa 8 compases con pulso estable.",
+      "profesor": "Primero escucha el pulso. Después cuenta en voz baja y por último toca el patrón >TA ti-ti - & | TAaa-ti. El profesor debe corregir adelantos, retrasos y pérdida del tiempo 1.",
+      "practica": {
+        "titulo": "Práctica: reto final rítmico",
+        "compases": 4,
+        "tolerancia_ms": 120,
+        "notas": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4"
+        ],
+        "eventos": [
+          {
+            "beat": 0.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 0.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 1.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 2.5,
+            "nota": "F4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.0,
+            "nota": "G4",
+            "label": "TA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 3.75,
+            "nota": "A4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 4.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 4.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 5.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 6.5,
+            "nota": "F4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.0,
+            "nota": "G4",
+            "label": "TA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 7.75,
+            "nota": "A4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 8.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 8.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 9.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 10.5,
+            "nota": "F4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.0,
+            "nota": "G4",
+            "label": "TA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 11.75,
+            "nota": "A4",
+            "label": "corta",
+            "mano": "derecha"
+          },
+          {
+            "beat": 12.0,
+            "nota": "C4",
+            "label": "TA",
+            "mano": "derecha",
+            "acento": true
+          },
+          {
+            "beat": 12.5,
+            "nota": "D4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 13.0,
+            "nota": "E4",
+            "label": "ti",
+            "mano": "derecha"
+          },
+          {
+            "beat": 14.5,
+            "nota": "F4",
+            "label": "&",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.0,
+            "nota": "G4",
+            "label": "TA",
+            "mano": "derecha"
+          },
+          {
+            "beat": 15.75,
+            "nota": "A4",
+            "label": "corta",
+            "mano": "derecha"
+          }
+        ],
+        "guia": "Mezcla acento, silencio, síncopa y subdivisión. No subas velocidad hasta dominarlo.",
+        "modo": "practica_pulso",
+        "criterio_practico": "Supera el ejercicio con al menos un 80% de notas correctas y sin perder el pulso global.",
+        "duracion_beats": 16.0
+      }
+    }
+  ]
+}

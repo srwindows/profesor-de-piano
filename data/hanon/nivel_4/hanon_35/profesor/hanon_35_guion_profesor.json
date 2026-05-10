@@ -1,0 +1,74 @@
+{
+  "id": "hanon_35_guion_profesor",
+  "titulo": "Guion profesor Hanon 35: Sextas simplificadas",
+  "sincronizar_con_pizarra": true,
+  "pasos": [
+    {
+      "id": "intro",
+      "orden": 1,
+      "fase": "presentacion",
+      "texto": "Vamos con Hanon 35: Sextas simplificadas. No buscamos velocidad; buscamos control técnico y sonido uniforme.",
+      "pizarra_paso": "presentacion",
+      "duracion_estimada_s": 8
+    },
+    {
+      "id": "pentagrama",
+      "orden": 2,
+      "fase": "explicacion",
+      "texto": "Mira el pentagrama. La nota activa se iluminará mientras avanzamos.",
+      "pizarra_paso": "pentagrama",
+      "duracion_estimada_s": 7
+    },
+    {
+      "id": "derecha",
+      "orden": 3,
+      "fase": "explicacion",
+      "texto": "Primero mano derecha: clave de Sol, lectura clara y dedos cerca de la tecla.",
+      "pizarra_paso": "mano_derecha",
+      "duracion_estimada_s": 9
+    },
+    {
+      "id": "patron",
+      "orden": 4,
+      "fase": "demostracion",
+      "texto": "Escucha el patrón: Do4, La4, Re4, Si4, Mi4, Do5, Fa4, Re5. Todas las notas deben sonar igual de controladas.",
+      "pizarra_paso": "patron_derecha",
+      "duracion_estimada_s": 12
+    },
+    {
+      "id": "izquierda",
+      "orden": 5,
+      "fase": "explicacion",
+      "texto": "Ahora mano izquierda: clave de Fa, mismo control y misma regularidad.",
+      "pizarra_paso": "mano_izquierda",
+      "duracion_estimada_s": 9
+    },
+    {
+      "id": "demo",
+      "orden": 6,
+      "fase": "demo_midi",
+      "texto": "Reproduzco una demostración lenta. Sigue la nota activa en la pizarra.",
+      "pizarra_paso": "demo",
+      "accion": "reproducir_midi_demo",
+      "duracion_estimada_s": 20
+    },
+    {
+      "id": "practica",
+      "orden": 7,
+      "fase": "practica",
+      "texto": "Ahora toca tú con el piano externo o el piano virtual. Corregiré nota, pulso y regularidad.",
+      "pizarra_paso": "practica",
+      "accion": "activar_practica_midi",
+      "duracion_estimada_s": 45
+    },
+    {
+      "id": "correccion",
+      "orden": 8,
+      "fase": "correccion",
+      "texto": "Vamos a ver tu resultado y decidir si puedes avanzar o debes repetir más lento.",
+      "pizarra_paso": "correccion",
+      "accion": "mostrar_evaluacion",
+      "duracion_estimada_s": 15
+    }
+  ]
+}

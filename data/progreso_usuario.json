@@ -1,0 +1,21 @@
+{
+  "nivel_actual": "sin_evaluar",
+  "lecciones_superadas": 0,
+  "ejercicios_superados": 0,
+  "ejercicios_fallados": 0,
+  "ultimo_ejercicio_id": "",
+  "indice_ejercicio": 0,
+  "racha": 0,
+  "modo_inicio": "nuevo",
+  "examenes_aprobados": 0,
+  "examenes_fallados": 0,
+  "modo_examen": false,
+  "historial": [],
+  "lecciones_guiadas_superadas": [],
+  "leccion_guiada_actual": "",
+  "ultima_pantalla": "inicio",
+  "repasos_pendientes": [],
+  "mapa_fallos": {},
+  "mapa_aciertos": {},
+  "ultima_recomendacion": ""
+}

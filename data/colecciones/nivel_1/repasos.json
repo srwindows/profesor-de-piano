@@ -1,0 +1,368 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "repasos",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n1_01_repaso",
+      "clase_id": "n1_01",
+      "titulo": "Repaso — Técnica 1: cinco dedos en DO con mano derecha",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_02_repaso",
+      "clase_id": "n1_02",
+      "titulo": "Repaso — Técnica 2: cinco dedos en DO con mano izquierda",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_03_repaso",
+      "clase_id": "n1_03",
+      "titulo": "Repaso — Técnica 3: alternancia lenta 1-2-3-4-5",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_04_repaso",
+      "clase_id": "n1_04",
+      "titulo": "Repaso — Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_05_repaso",
+      "clase_id": "n1_05",
+      "titulo": "Repaso — Técnica 5: igualdad de sonido entre dedos",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_06_repaso",
+      "clase_id": "n1_06",
+      "titulo": "Repaso — Técnica 6: independencia del dedo 3",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_07_repaso",
+      "clase_id": "n1_07",
+      "titulo": "Repaso — Técnica 7: independencia del dedo 4",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_08_repaso",
+      "clase_id": "n1_08",
+      "titulo": "Repaso — Técnica 8: pulgar flexible",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_09_repaso",
+      "clase_id": "n1_09",
+      "titulo": "Repaso — Técnica 9: parejas de dedos 1-3 y 2-4",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_10_repaso",
+      "clase_id": "n1_10",
+      "titulo": "Repaso — Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_11_repaso",
+      "clase_id": "n1_11",
+      "titulo": "Repaso — Técnica 11: coordinación espejo de ambas manos",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_12_repaso",
+      "clase_id": "n1_12",
+      "titulo": "Repaso — Técnica 12: pregunta y respuesta entre manos",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_13_repaso",
+      "clase_id": "n1_13",
+      "titulo": "Repaso — Técnica 13: legato básico de cinco dedos",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_14_repaso",
+      "clase_id": "n1_14",
+      "titulo": "Repaso — Técnica 14: staccato controlado",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_15_repaso",
+      "clase_id": "n1_15",
+      "titulo": "Repaso — Técnica 15: acentos suaves",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_16_repaso",
+      "clase_id": "n1_16",
+      "titulo": "Repaso — Técnica 16: dinámica piano y forte",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_17_repaso",
+      "clase_id": "n1_17",
+      "titulo": "Repaso — Técnica 17: metrónomo en negras",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_18_repaso",
+      "clase_id": "n1_18",
+      "titulo": "Repaso — Técnica 18: blancas y negras",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_19_repaso",
+      "clase_id": "n1_19",
+      "titulo": "Repaso — Técnica 19: grupos de dos notas",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_20_repaso",
+      "clase_id": "n1_20",
+      "titulo": "Repaso — Técnica 20: grupos de tres notas",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_21_repaso",
+      "clase_id": "n1_21",
+      "titulo": "Repaso — Técnica 21: patrón 1-3-2-4-3-5",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_22_repaso",
+      "clase_id": "n1_22",
+      "titulo": "Repaso — Técnica 22: patrón 1-2-4-3-5",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_23_repaso",
+      "clase_id": "n1_23",
+      "titulo": "Repaso — Técnica 23: dirección ascendente y descendente",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_24_repaso",
+      "clase_id": "n1_24",
+      "titulo": "Repaso — Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_25_repaso",
+      "clase_id": "n1_25",
+      "titulo": "Repaso — Técnica 25: leer SOL-FA-MI-RE-DO",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_26_repaso",
+      "clase_id": "n1_26",
+      "titulo": "Repaso — Técnica 26: posición de DO en mano izquierda",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_27_repaso",
+      "clase_id": "n1_27",
+      "titulo": "Repaso — Técnica 27: manos por turnos",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_28_repaso",
+      "clase_id": "n1_28",
+      "titulo": "Repaso — Técnica 28: manos simultáneas por octavas",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_29_repaso",
+      "clase_id": "n1_29",
+      "titulo": "Repaso — Técnica 29: miniestudio técnico Nivel 1",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_30_repaso",
+      "clase_id": "n1_30",
+      "titulo": "Repaso — Técnica 30: examen global del Nivel 1",
+      "acciones": [
+        "releer teoría",
+        "ver pizarra",
+        "tocar secuencia",
+        "repetir examen"
+      ],
+      "estado": "funcional"
+    }
+  ]
+}

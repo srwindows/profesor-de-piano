@@ -1,0 +1,7 @@
+PROFESOR DE PIANO v4.0.3 LITE PARTITURA REESTRUCTURADA
+ZIP sin IA pesada, sin modelos y sin voices.
+
+Total de archivos: 621
+
+Ejecutar:
+python3 main.py

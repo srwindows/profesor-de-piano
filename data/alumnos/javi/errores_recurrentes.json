@@ -1,0 +1,1796 @@
+{
+  "notas_falladas": {
+    "C5": 8,
+    "D5": 7,
+    "E5": 9,
+    "F5": 7,
+    "G5": 7,
+    "A5": 4,
+    "B5": 4,
+    "C6": 4,
+    "D6": 4,
+    "E6": 4,
+    "F6": 5,
+    "G6": 2,
+    "A6": 2,
+    "B6": 2,
+    "C7": 1,
+    "B4": 1,
+    "F4": 5,
+    "G4": 3,
+    "E4": 6,
+    "D4": 5,
+    "C4": 10,
+    "B3": 3,
+    "A3": 1,
+    "G3": 1,
+    "F3": 2,
+    "C3": 4,
+    "B2": 1,
+    "A2": 1,
+    "G2": 1,
+    "F2": 2,
+    "F1": 6,
+    "G1": 2,
+    "D3": 4,
+    "C1": 1,
+    "E3": 2
+  },
+  "errores_por_tipo": {
+    "midi_nota": 131
+  },
+  "errores_por_clase": {},
+  "observaciones": [
+    {
+      "ts": "2026-05-05T23:08:29",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-05T23:08:37",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T18:55:56",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:16",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:16",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 27,
+        "diferencia_ms": 14019,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:16",
+      "tipo": "observacion_sonido",
+      "clave": "sonido",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar escucha para revisar sonido real.",
+        "sin_grabacion": true,
+        "motivo": "El acorde no baja suficientemente junto. Conviene escuchar y/o ver el ataque."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:16",
+      "tipo": "midi_nota",
+      "clave": "D5",
+      "detalle": {
+        "esperado": "C4",
+        "velocity": 29,
+        "diferencia_ms": 14398,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:16",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 31,
+        "diferencia_ms": 14312,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:17",
+      "tipo": "midi_nota",
+      "clave": "F5",
+      "detalle": {
+        "esperado": "E4",
+        "velocity": 33,
+        "diferencia_ms": 14715,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:17",
+      "tipo": "midi_nota",
+      "clave": "G5",
+      "detalle": {
+        "esperado": "F3",
+        "velocity": 43,
+        "diferencia_ms": 14645,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:18",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "F4",
+        "velocity": 41,
+        "diferencia_ms": 15559,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:19",
+      "tipo": "midi_nota",
+      "clave": "D5",
+      "detalle": {
+        "esperado": "G3",
+        "velocity": 22,
+        "diferencia_ms": 15486,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:19",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "G4",
+        "velocity": 19,
+        "diferencia_ms": 16043,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:19",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "A3",
+        "velocity": 44,
+        "diferencia_ms": 15749,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:20",
+      "tipo": "midi_nota",
+      "clave": "F5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 33,
+        "diferencia_ms": 16105,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:20",
+      "tipo": "midi_nota",
+      "clave": "G5",
+      "detalle": {
+        "esperado": "G3",
+        "velocity": 33,
+        "diferencia_ms": 16035,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:20",
+      "tipo": "midi_nota",
+      "clave": "A5",
+      "detalle": {
+        "esperado": "G4",
+        "velocity": 28,
+        "diferencia_ms": 16393,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:21",
+      "tipo": "midi_nota",
+      "clave": "B5",
+      "detalle": {
+        "esperado": "F3",
+        "velocity": 46,
+        "diferencia_ms": 16323,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:21",
+      "tipo": "midi_nota",
+      "clave": "C6",
+      "detalle": {
+        "esperado": "F4",
+        "velocity": 40,
+        "diferencia_ms": 16747,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:22",
+      "tipo": "midi_nota",
+      "clave": "D6",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 36,
+        "diferencia_ms": 16667,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:22",
+      "tipo": "midi_nota",
+      "clave": "E6",
+      "detalle": {
+        "esperado": "E4",
+        "velocity": 40,
+        "diferencia_ms": 17085,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:22",
+      "tipo": "midi_nota",
+      "clave": "F6",
+      "detalle": {
+        "esperado": "D3",
+        "velocity": 42,
+        "diferencia_ms": 16961,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:23",
+      "tipo": "midi_nota",
+      "clave": "E6",
+      "detalle": {
+        "esperado": "D4",
+        "velocity": 39,
+        "diferencia_ms": 17337,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:23",
+      "tipo": "midi_nota",
+      "clave": "D6",
+      "detalle": {
+        "esperado": "F#3",
+        "velocity": 41,
+        "diferencia_ms": 17213,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:24",
+      "tipo": "midi_nota",
+      "clave": "C6",
+      "detalle": {
+        "esperado": "F#4",
+        "velocity": 34,
+        "diferencia_ms": 17626,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:24",
+      "tipo": "observacion_sonido",
+      "clave": "sonido",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar escucha para revisar sonido real.",
+        "sin_grabacion": true,
+        "motivo": "El acorde no baja suficientemente junto. Conviene escuchar y/o ver el ataque."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:24",
+      "tipo": "midi_nota",
+      "clave": "B5",
+      "detalle": {
+        "esperado": "G3",
+        "velocity": 36,
+        "diferencia_ms": 17495,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:24",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:24",
+      "tipo": "midi_nota",
+      "clave": "A5",
+      "detalle": {
+        "esperado": "G4",
+        "velocity": 26,
+        "diferencia_ms": 17853,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:25",
+      "tipo": "midi_nota",
+      "clave": "G5",
+      "detalle": {
+        "esperado": "A3",
+        "velocity": 26,
+        "diferencia_ms": 17725,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:25",
+      "tipo": "midi_nota",
+      "clave": "F5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 16,
+        "diferencia_ms": 17991,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:25",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "B3",
+        "velocity": 16,
+        "diferencia_ms": 17880,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:26",
+      "tipo": "midi_nota",
+      "clave": "D5",
+      "detalle": {
+        "esperado": "B4",
+        "velocity": 18,
+        "diferencia_ms": 18226,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:26",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "A3",
+        "velocity": 23,
+        "diferencia_ms": 18070,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:27",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 37,
+        "diferencia_ms": 18730,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:27",
+      "tipo": "midi_nota",
+      "clave": "D5",
+      "detalle": {
+        "esperado": "G3",
+        "velocity": 31,
+        "diferencia_ms": 18598,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:27",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "G4",
+        "velocity": 16,
+        "diferencia_ms": 18949,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:28",
+      "tipo": "midi_nota",
+      "clave": "F5",
+      "detalle": {
+        "esperado": "F#3",
+        "velocity": 30,
+        "diferencia_ms": 18875,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:28",
+      "tipo": "midi_nota",
+      "clave": "G5",
+      "detalle": {
+        "esperado": "F#4",
+        "velocity": 25,
+        "diferencia_ms": 19239,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:29",
+      "tipo": "midi_nota",
+      "clave": "A5",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 27,
+        "diferencia_ms": 19091,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:29",
+      "tipo": "midi_nota",
+      "clave": "B5",
+      "detalle": {
+        "esperado": "E4",
+        "velocity": 45,
+        "diferencia_ms": 19450,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:29",
+      "tipo": "midi_nota",
+      "clave": "C6",
+      "detalle": {
+        "esperado": "G#3",
+        "velocity": 27,
+        "diferencia_ms": 19293,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:30",
+      "tipo": "midi_nota",
+      "clave": "D6",
+      "detalle": {
+        "esperado": "G#4",
+        "velocity": 28,
+        "diferencia_ms": 19673,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:30",
+      "tipo": "midi_nota",
+      "clave": "E6",
+      "detalle": {
+        "esperado": "A3",
+        "velocity": 15,
+        "diferencia_ms": 19530,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:30",
+      "tipo": "midi_nota",
+      "clave": "F6",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 29,
+        "diferencia_ms": 19942,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:32",
+      "tipo": "midi_nota",
+      "clave": "F6",
+      "detalle": {
+        "esperado": "B3",
+        "velocity": 1,
+        "diferencia_ms": 20912,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:33",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:33",
+      "tipo": "midi_nota",
+      "clave": "F6",
+      "detalle": {
+        "esperado": "B4",
+        "velocity": 6,
+        "diferencia_ms": 22051,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:34",
+      "tipo": "observacion_sonido",
+      "clave": "sonido",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar escucha para revisar sonido real.",
+        "sin_grabacion": true,
+        "motivo": "El acorde no baja suficientemente junto. Conviene escuchar y/o ver el ataque."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:34",
+      "tipo": "midi_nota",
+      "clave": "G6",
+      "detalle": {
+        "esperado": "C#4",
+        "velocity": 21,
+        "diferencia_ms": 22024,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:34",
+      "tipo": "midi_nota",
+      "clave": "A6",
+      "detalle": {
+        "esperado": "C#5",
+        "velocity": 35,
+        "diferencia_ms": 22398,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:34",
+      "tipo": "midi_nota",
+      "clave": "B6",
+      "detalle": {
+        "esperado": "B3",
+        "velocity": 33,
+        "diferencia_ms": 22265,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:35",
+      "tipo": "midi_nota",
+      "clave": "C7",
+      "detalle": {
+        "esperado": "B4",
+        "velocity": 39,
+        "diferencia_ms": 22662,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:35",
+      "tipo": "midi_nota",
+      "clave": "B6",
+      "detalle": {
+        "esperado": "A3",
+        "velocity": 33,
+        "diferencia_ms": 22536,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:35",
+      "tipo": "midi_nota",
+      "clave": "A6",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 40,
+        "diferencia_ms": 22898,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:36",
+      "tipo": "midi_nota",
+      "clave": "G6",
+      "detalle": {
+        "esperado": "G#3",
+        "velocity": 33,
+        "diferencia_ms": 22783,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:36",
+      "tipo": "midi_nota",
+      "clave": "F6",
+      "detalle": {
+        "esperado": "G#4",
+        "velocity": 41,
+        "diferencia_ms": 23152,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:37",
+      "tipo": "midi_nota",
+      "clave": "E6",
+      "detalle": {
+        "esperado": "F3",
+        "velocity": 35,
+        "diferencia_ms": 23094,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:37",
+      "tipo": "midi_nota",
+      "clave": "D6",
+      "detalle": {
+        "esperado": "F4",
+        "velocity": 26,
+        "diferencia_ms": 23508,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:37",
+      "tipo": "midi_nota",
+      "clave": "C6",
+      "detalle": {
+        "esperado": "A3",
+        "velocity": 38,
+        "diferencia_ms": 23381,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:38",
+      "tipo": "midi_nota",
+      "clave": "B5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 44,
+        "diferencia_ms": 23897,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:38",
+      "tipo": "midi_nota",
+      "clave": "A5",
+      "detalle": {
+        "esperado": "A#3",
+        "velocity": 26,
+        "diferencia_ms": 23766,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:39",
+      "tipo": "midi_nota",
+      "clave": "G5",
+      "detalle": {
+        "esperado": "A#4",
+        "velocity": 27,
+        "diferencia_ms": 24159,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:39",
+      "tipo": "midi_nota",
+      "clave": "F5",
+      "detalle": {
+        "esperado": "C4",
+        "velocity": 26,
+        "diferencia_ms": 24025,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:39",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "C5",
+        "velocity": 27,
+        "diferencia_ms": 24373,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:40",
+      "tipo": "midi_nota",
+      "clave": "D5",
+      "detalle": {
+        "esperado": "D4",
+        "velocity": 31,
+        "diferencia_ms": 24256,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:40",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "D5",
+        "velocity": 34,
+        "diferencia_ms": 24689,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:41",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:41",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "C4",
+        "velocity": 30,
+        "diferencia_ms": 25083,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:41",
+      "tipo": "midi_nota",
+      "clave": "D5",
+      "detalle": {
+        "esperado": "C5",
+        "velocity": 13,
+        "diferencia_ms": 25449,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:42",
+      "tipo": "observacion_sonido",
+      "clave": "sonido",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar escucha para revisar sonido real.",
+        "sin_grabacion": true,
+        "motivo": "El acorde no baja suficientemente junto. Conviene escuchar y/o ver el ataque."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:42",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "A#3",
+        "velocity": 23,
+        "diferencia_ms": 25351,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:42",
+      "tipo": "midi_nota",
+      "clave": "F5",
+      "detalle": {
+        "esperado": "A#4",
+        "velocity": 34,
+        "diferencia_ms": 25723,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:43",
+      "tipo": "midi_nota",
+      "clave": "G5",
+      "detalle": {
+        "esperado": "A3",
+        "velocity": 35,
+        "diferencia_ms": 25666,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:44",
+      "tipo": "midi_nota",
+      "clave": "G5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 30,
+        "diferencia_ms": 26509,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:44",
+      "tipo": "midi_nota",
+      "clave": "F5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 22,
+        "diferencia_ms": 26848,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:44",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 32,
+        "diferencia_ms": 27274,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:45",
+      "tipo": "midi_nota",
+      "clave": "D5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 19,
+        "diferencia_ms": 27609,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:45",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 23,
+        "diferencia_ms": 28051,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:45",
+      "tipo": "midi_nota",
+      "clave": "B4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 14,
+        "diferencia_ms": 28397,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:46",
+      "tipo": "midi_nota",
+      "clave": "F4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 11,
+        "diferencia_ms": 29257,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:46",
+      "tipo": "midi_nota",
+      "clave": "G4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 6,
+        "diferencia_ms": 29338,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:47",
+      "tipo": "midi_nota",
+      "clave": "E4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 26,
+        "diferencia_ms": 29779,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:47",
+      "tipo": "midi_nota",
+      "clave": "D4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 29,
+        "diferencia_ms": 30149,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:48",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 33,
+        "diferencia_ms": 30582,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:49",
+      "tipo": "midi_nota",
+      "clave": "B3",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 33,
+        "diferencia_ms": 31590,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:49",
+      "tipo": "midi_nota",
+      "clave": "A3",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 18,
+        "diferencia_ms": 32008,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:49",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:49",
+      "tipo": "midi_nota",
+      "clave": "G3",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 22,
+        "diferencia_ms": 32413,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:51",
+      "tipo": "observacion_sonido",
+      "clave": "sonido",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar escucha para revisar sonido real.",
+        "sin_grabacion": true,
+        "motivo": "El acorde no baja suficientemente junto. Conviene escuchar y/o ver el ataque."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:51",
+      "tipo": "midi_nota",
+      "clave": "F3",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 35,
+        "diferencia_ms": 33489,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:52",
+      "tipo": "midi_nota",
+      "clave": "C3",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 32,
+        "diferencia_ms": 35077,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:53",
+      "tipo": "midi_nota",
+      "clave": "C3",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 25,
+        "diferencia_ms": 35863,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:54",
+      "tipo": "midi_nota",
+      "clave": "B2",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 41,
+        "diferencia_ms": 36539,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:54",
+      "tipo": "midi_nota",
+      "clave": "A2",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 35,
+        "diferencia_ms": 36842,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:54",
+      "tipo": "midi_nota",
+      "clave": "G2",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 36,
+        "diferencia_ms": 37106,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:54",
+      "tipo": "midi_nota",
+      "clave": "F2",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 32,
+        "diferencia_ms": 37380,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:55",
+      "tipo": "midi_nota",
+      "clave": "F2",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 33,
+        "diferencia_ms": 37969,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:58",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:58",
+      "tipo": "midi_nota",
+      "clave": "F1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 26,
+        "diferencia_ms": 40995,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:58",
+      "tipo": "midi_nota",
+      "clave": "F1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 26,
+        "diferencia_ms": 41391,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "tipo": "midi_nota",
+      "clave": "F1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 28,
+        "diferencia_ms": 41616,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "tipo": "midi_nota",
+      "clave": "F1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 36,
+        "diferencia_ms": 41790,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "tipo": "midi_nota",
+      "clave": "F1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 26,
+        "diferencia_ms": 41958,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "tipo": "midi_nota",
+      "clave": "F1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 20,
+        "diferencia_ms": 42130,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:27:59",
+      "tipo": "midi_nota",
+      "clave": "G1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 8,
+        "diferencia_ms": 42438,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:00",
+      "tipo": "midi_nota",
+      "clave": "G1",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 39,
+        "diferencia_ms": 42694,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:02",
+      "tipo": "midi_nota",
+      "clave": "C3",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 31,
+        "diferencia_ms": 44482,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:04",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 28,
+        "diferencia_ms": 46597,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 36,
+        "diferencia_ms": 48688,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "tipo": "midi_nota",
+      "clave": "D4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 35,
+        "diferencia_ms": 49088,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:06",
+      "tipo": "midi_nota",
+      "clave": "E4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 35,
+        "diferencia_ms": 49410,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "tipo": "midi_nota",
+      "clave": "F4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 25,
+        "diferencia_ms": 49769,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "tipo": "observacion_sonido",
+      "clave": "sonido",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar escucha para revisar sonido real.",
+        "sin_grabacion": true,
+        "motivo": "El acorde no baja suficientemente junto. Conviene escuchar y/o ver el ataque."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:07",
+      "tipo": "midi_nota",
+      "clave": "G4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 23,
+        "diferencia_ms": 50073,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "tipo": "midi_nota",
+      "clave": "G4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 24,
+        "diferencia_ms": 50710,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "tipo": "midi_nota",
+      "clave": "F4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 23,
+        "diferencia_ms": 50954,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:08",
+      "tipo": "midi_nota",
+      "clave": "E4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 17,
+        "diferencia_ms": 51264,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "tipo": "midi_nota",
+      "clave": "D4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 25,
+        "diferencia_ms": 51525,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:28:09",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "A4",
+        "velocity": 33,
+        "diferencia_ms": 51811,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:40:57",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 36,
+        "diferencia_ms": -438.2952269988891,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:40:59",
+      "tipo": "midi_nota",
+      "clave": "D4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 35,
+        "diferencia_ms": -299.02943299930484,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:02",
+      "tipo": "midi_nota",
+      "clave": "E4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 41,
+        "diferencia_ms": 150.2037009995547,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:04",
+      "tipo": "midi_nota",
+      "clave": "E4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 36,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:14",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:15",
+      "tipo": "midi_nota",
+      "clave": "D3",
+      "detalle": {
+        "esperado": "C4",
+        "velocity": 31,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:27",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:27",
+      "tipo": "midi_nota",
+      "clave": "D4",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 32,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:39",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 36,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:41:53",
+      "tipo": "midi_nota",
+      "clave": "B3",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 34,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:42:02",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:42:02",
+      "tipo": "midi_nota",
+      "clave": "E5",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 31,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:42:15",
+      "tipo": "midi_nota",
+      "clave": "F3",
+      "detalle": {
+        "esperado": "E4",
+        "velocity": 41,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:42:28",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:42:28",
+      "tipo": "midi_nota",
+      "clave": "F4",
+      "detalle": {
+        "esperado": "F3",
+        "velocity": 17,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:46:50",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:46:50",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 26,
+        "diferencia_ms": -108.55816199909896,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:47:00",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:47:00",
+      "tipo": "midi_nota",
+      "clave": "C1",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 15,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:47:08",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:47:11",
+      "tipo": "midi_nota",
+      "clave": "D3",
+      "detalle": {
+        "esperado": "C4",
+        "velocity": 32,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:47:21",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:52:38",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T20:52:38",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 31,
+        "diferencia_ms": -126.64109399884182,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:53:42",
+      "tipo": "midi_nota",
+      "clave": "C5",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 63,
+        "diferencia_ms": -315.5730449998373,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T20:54:09",
+      "tipo": "midi_nota",
+      "clave": "F4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 84,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:26:37",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T21:26:37",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "C3",
+        "velocity": 22,
+        "diferencia_ms": 74.79718099784805,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:26:46",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T21:26:48",
+      "tipo": "midi_nota",
+      "clave": "D3",
+      "detalle": {
+        "esperado": "C4",
+        "velocity": 29,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:03",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:03",
+      "tipo": "midi_nota",
+      "clave": "D3",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 29,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:09",
+      "tipo": "midi_nota",
+      "clave": "E4",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 22,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:16",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:16",
+      "tipo": "midi_nota",
+      "clave": "C3",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 12,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:17",
+      "tipo": "midi_nota",
+      "clave": "C4",
+      "detalle": {
+        "esperado": "E3",
+        "velocity": 25,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:22",
+      "tipo": "midi_nota",
+      "clave": "E3",
+      "detalle": {
+        "esperado": "E4",
+        "velocity": 36,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:24",
+      "tipo": "midi_nota",
+      "clave": "E3",
+      "detalle": {
+        "esperado": "E4",
+        "velocity": 33,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:29",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:38",
+      "tipo": "observacion_camara",
+      "clave": "camara",
+      "detalle": {
+        "observacion": "Profesor: por lo que detecta el MIDI, conviene activar cámara para revisar mano/postura.",
+        "sin_grabacion": true,
+        "motivo": "El MIDI detecta una pulsación irregular. Conviene ver mano, muñeca y tensión."
+      }
+    },
+    {
+      "ts": "2026-05-09T21:27:38",
+      "tipo": "midi_nota",
+      "clave": "B3",
+      "detalle": {
+        "esperado": "G3",
+        "velocity": 28,
+        "diferencia_ms": -0.0,
+        "mensaje": ""
+      }
+    }
+  ]
+}

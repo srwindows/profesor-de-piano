@@ -1,0 +1,571 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "descripcion": "Resumen de MIDIs didácticos generados para las 30 clases del Nivel 1.",
+  "items": [
+    {
+      "id": "n1_01_midi",
+      "clase_id": "n1_01",
+      "titulo": "Técnica 1: cinco dedos en DO con mano derecha",
+      "archivo": "assets/midi/nivel_1/clases/clase_01.mid",
+      "tempo": 60,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_02_midi",
+      "clase_id": "n1_02",
+      "titulo": "Técnica 2: cinco dedos en DO con mano izquierda",
+      "archivo": "assets/midi/nivel_1/clases/clase_02.mid",
+      "tempo": 60,
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n1_03_midi",
+      "clase_id": "n1_03",
+      "titulo": "Técnica 3: alternancia lenta 1-2-3-4-5",
+      "archivo": "assets/midi/nivel_1/clases/clase_03.mid",
+      "tempo": 60,
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_04_midi",
+      "clase_id": "n1_04",
+      "titulo": "Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "archivo": "assets/midi/nivel_1/clases/clase_04.mid",
+      "tempo": 60,
+      "secuencia": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n1_05_midi",
+      "clase_id": "n1_05",
+      "titulo": "Técnica 5: igualdad de sonido entre dedos",
+      "archivo": "assets/midi/nivel_1/clases/clase_05.mid",
+      "tempo": 60,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n1_06_midi",
+      "clase_id": "n1_06",
+      "titulo": "Técnica 6: independencia del dedo 3",
+      "archivo": "assets/midi/nivel_1/clases/clase_06.mid",
+      "tempo": 60,
+      "secuencia": [
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_07_midi",
+      "clase_id": "n1_07",
+      "titulo": "Técnica 7: independencia del dedo 4",
+      "archivo": "assets/midi/nivel_1/clases/clase_07.mid",
+      "tempo": 60,
+      "secuencia": [
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_08_midi",
+      "clase_id": "n1_08",
+      "titulo": "Técnica 8: pulgar flexible",
+      "archivo": "assets/midi/nivel_1/clases/clase_08.mid",
+      "tempo": 60,
+      "secuencia": [
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_09_midi",
+      "clase_id": "n1_09",
+      "titulo": "Técnica 9: parejas de dedos 1-3 y 2-4",
+      "archivo": "assets/midi/nivel_1/clases/clase_09.mid",
+      "tempo": 60,
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "D4",
+        "F4",
+        "C4",
+        "E4"
+      ]
+    },
+    {
+      "id": "n1_10_midi",
+      "clase_id": "n1_10",
+      "titulo": "Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "archivo": "assets/midi/nivel_1/clases/clase_10.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_11_midi",
+      "clase_id": "n1_11",
+      "titulo": "Técnica 11: coordinación espejo de ambas manos",
+      "archivo": "assets/midi/nivel_1/clases/clase_11.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "B3",
+        "A3",
+        "G3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_12_midi",
+      "clase_id": "n1_12",
+      "titulo": "Técnica 12: pregunta y respuesta entre manos",
+      "archivo": "assets/midi/nivel_1/clases/clase_12.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n1_13_midi",
+      "clase_id": "n1_13",
+      "titulo": "Técnica 13: legato básico de cinco dedos",
+      "archivo": "assets/midi/nivel_1/clases/clase_13.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_14_midi",
+      "clase_id": "n1_14",
+      "titulo": "Técnica 14: staccato controlado",
+      "archivo": "assets/midi/nivel_1/clases/clase_14.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_15_midi",
+      "clase_id": "n1_15",
+      "titulo": "Técnica 15: acentos suaves",
+      "archivo": "assets/midi/nivel_1/clases/clase_15.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4"
+      ]
+    },
+    {
+      "id": "n1_16_midi",
+      "clase_id": "n1_16",
+      "titulo": "Técnica 16: dinámica piano y forte",
+      "archivo": "assets/midi/nivel_1/clases/clase_16.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_17_midi",
+      "clase_id": "n1_17",
+      "titulo": "Técnica 17: metrónomo en negras",
+      "archivo": "assets/midi/nivel_1/clases/clase_17.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_18_midi",
+      "clase_id": "n1_18",
+      "titulo": "Técnica 18: blancas y negras",
+      "archivo": "assets/midi/nivel_1/clases/clase_18.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_19_midi",
+      "clase_id": "n1_19",
+      "titulo": "Técnica 19: grupos de dos notas",
+      "archivo": "assets/midi/nivel_1/clases/clase_19.mid",
+      "tempo": 64,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_20_midi",
+      "clase_id": "n1_20",
+      "titulo": "Técnica 20: grupos de tres notas",
+      "archivo": "assets/midi/nivel_1/clases/clase_20.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_21_midi",
+      "clase_id": "n1_21",
+      "titulo": "Técnica 21: patrón 1-3-2-4-3-5",
+      "archivo": "assets/midi/nivel_1/clases/clase_21.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_22_midi",
+      "clase_id": "n1_22",
+      "titulo": "Técnica 22: patrón 1-2-4-3-5",
+      "archivo": "assets/midi/nivel_1/clases/clase_22.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "E4",
+        "F4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_23_midi",
+      "clase_id": "n1_23",
+      "titulo": "Técnica 23: dirección ascendente y descendente",
+      "archivo": "assets/midi/nivel_1/clases/clase_23.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_24_midi",
+      "clase_id": "n1_24",
+      "titulo": "Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "archivo": "assets/midi/nivel_1/clases/clase_24.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n1_25_midi",
+      "clase_id": "n1_25",
+      "titulo": "Técnica 25: leer SOL-FA-MI-RE-DO",
+      "archivo": "assets/midi/nivel_1/clases/clase_25.mid",
+      "tempo": 68,
+      "secuencia": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_26_midi",
+      "clase_id": "n1_26",
+      "titulo": "Técnica 26: posición de DO en mano izquierda",
+      "archivo": "assets/midi/nivel_1/clases/clase_26.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n1_27_midi",
+      "clase_id": "n1_27",
+      "titulo": "Técnica 27: manos por turnos",
+      "archivo": "assets/midi/nivel_1/clases/clase_27.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "C3",
+        "D3",
+        "E3",
+        "G3"
+      ]
+    },
+    {
+      "id": "n1_28_midi",
+      "clase_id": "n1_28",
+      "titulo": "Técnica 28: manos simultáneas por octavas",
+      "archivo": "assets/midi/nivel_1/clases/clase_28.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_29_midi",
+      "clase_id": "n1_29",
+      "titulo": "Técnica 29: miniestudio técnico Nivel 1",
+      "archivo": "assets/midi/nivel_1/clases/clase_29.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_30_midi",
+      "clase_id": "n1_30",
+      "titulo": "Técnica 30: examen global del Nivel 1",
+      "archivo": "assets/midi/nivel_1/clases/clase_30.mid",
+      "tempo": 68,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3"
+      ]
+    }
+  ]
+}

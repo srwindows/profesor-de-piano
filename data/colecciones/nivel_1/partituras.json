@@ -1,0 +1,572 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "partituras",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n1_01_partitura",
+      "clase_id": "n1_01",
+      "archivo": "assets/partituras/nivel_1/clase_01.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_02_partitura",
+      "clase_id": "n1_02",
+      "archivo": "assets/partituras/nivel_1/clase_02.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n1_03_partitura",
+      "clase_id": "n1_03",
+      "archivo": "assets/partituras/nivel_1/clase_03.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_04_partitura",
+      "clase_id": "n1_04",
+      "archivo": "assets/partituras/nivel_1/clase_04.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n1_05_partitura",
+      "clase_id": "n1_05",
+      "archivo": "assets/partituras/nivel_1/clase_05.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n1_06_partitura",
+      "clase_id": "n1_06",
+      "archivo": "assets/partituras/nivel_1/clase_06.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_07_partitura",
+      "clase_id": "n1_07",
+      "archivo": "assets/partituras/nivel_1/clase_07.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_08_partitura",
+      "clase_id": "n1_08",
+      "archivo": "assets/partituras/nivel_1/clase_08.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_09_partitura",
+      "clase_id": "n1_09",
+      "archivo": "assets/partituras/nivel_1/clase_09.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "D4",
+        "F4",
+        "C4",
+        "E4"
+      ]
+    },
+    {
+      "id": "n1_10_partitura",
+      "clase_id": "n1_10",
+      "archivo": "assets/partituras/nivel_1/clase_10.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_11_partitura",
+      "clase_id": "n1_11",
+      "archivo": "assets/partituras/nivel_1/clase_11.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "B3",
+        "A3",
+        "G3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_12_partitura",
+      "clase_id": "n1_12",
+      "archivo": "assets/partituras/nivel_1/clase_12.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n1_13_partitura",
+      "clase_id": "n1_13",
+      "archivo": "assets/partituras/nivel_1/clase_13.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_14_partitura",
+      "clase_id": "n1_14",
+      "archivo": "assets/partituras/nivel_1/clase_14.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_15_partitura",
+      "clase_id": "n1_15",
+      "archivo": "assets/partituras/nivel_1/clase_15.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4"
+      ]
+    },
+    {
+      "id": "n1_16_partitura",
+      "clase_id": "n1_16",
+      "archivo": "assets/partituras/nivel_1/clase_16.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_17_partitura",
+      "clase_id": "n1_17",
+      "archivo": "assets/partituras/nivel_1/clase_17.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_18_partitura",
+      "clase_id": "n1_18",
+      "archivo": "assets/partituras/nivel_1/clase_18.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_19_partitura",
+      "clase_id": "n1_19",
+      "archivo": "assets/partituras/nivel_1/clase_19.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_20_partitura",
+      "clase_id": "n1_20",
+      "archivo": "assets/partituras/nivel_1/clase_20.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n1_21_partitura",
+      "clase_id": "n1_21",
+      "archivo": "assets/partituras/nivel_1/clase_21.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_22_partitura",
+      "clase_id": "n1_22",
+      "archivo": "assets/partituras/nivel_1/clase_22.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "E4",
+        "F4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_23_partitura",
+      "clase_id": "n1_23",
+      "archivo": "assets/partituras/nivel_1/clase_23.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_24_partitura",
+      "clase_id": "n1_24",
+      "archivo": "assets/partituras/nivel_1/clase_24.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n1_25_partitura",
+      "clase_id": "n1_25",
+      "archivo": "assets/partituras/nivel_1/clase_25.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_26_partitura",
+      "clase_id": "n1_26",
+      "archivo": "assets/partituras/nivel_1/clase_26.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n1_27_partitura",
+      "clase_id": "n1_27",
+      "archivo": "assets/partituras/nivel_1/clase_27.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "C3",
+        "D3",
+        "E3",
+        "G3"
+      ]
+    },
+    {
+      "id": "n1_28_partitura",
+      "clase_id": "n1_28",
+      "archivo": "assets/partituras/nivel_1/clase_28.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_29_partitura",
+      "clase_id": "n1_29",
+      "archivo": "assets/partituras/nivel_1/clase_29.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n1_30_partitura",
+      "clase_id": "n1_30",
+      "archivo": "assets/partituras/nivel_1/clase_30.musicxml",
+      "estado": "funcional_generada",
+      "formato": "musicxml",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3"
+      ]
+    }
+  ]
+}

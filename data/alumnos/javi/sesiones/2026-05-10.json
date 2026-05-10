@@ -1,0 +1,464 @@
+{
+  "fecha": "2026-05-10",
+  "eventos": [
+    {
+      "ts": "2026-05-10T10:45:15",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:14.993",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:15.017",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 23.7 ms",
+        "contexto": {
+          "duracion_ms": 23.7
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:15.645",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:15.672",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 27.0 ms",
+        "contexto": {
+          "duracion_ms": 27.0
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:15.690",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:15",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:15.709",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 19.4 ms",
+        "contexto": {
+          "duracion_ms": 19.4
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:16.362",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:16.412",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 49.8 ms",
+        "contexto": {
+          "duracion_ms": 49.8
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:16.432",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:16.450",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 17.7 ms",
+        "contexto": {
+          "duracion_ms": 17.7
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:16.722",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:16",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:16.744",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 21.1 ms",
+        "contexto": {
+          "duracion_ms": 21.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:17",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:17.670",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:17",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:17.714",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 44.0 ms",
+        "contexto": {
+          "duracion_ms": 44.0
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:18",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:18.296",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:18",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:18.953",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 657.5 ms",
+        "contexto": {
+          "duracion_ms": 657.5
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:19",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:19.351",
+        "tipo": "nota_libre",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": 64,
+        "canal": null,
+        "esperado": "",
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": false,
+        "mensaje": "Nota registrada. Has tocado E4. Velocity: equilibrada.",
+        "contexto": {
+          "velocity_clase": "equilibrada",
+          "tiempo_reaccion_ms": null,
+          "diferencia_pulso_ms": null,
+          "pulso_clase": "sin_pulso",
+          "notas_activas": [
+            "E4"
+          ],
+          "notas_sobrantes": [],
+          "notas_faltantes": [],
+          "simultaneidad_ms": null,
+          "acorde_completo": null,
+          "permite_simultaneas": true
+        }
+      }
+    },
+    {
+      "ts": "2026-05-10T10:45:19",
+      "tipo": "midi",
+      "detalle": {
+        "ts": "2026-05-10T10:45:19.776",
+        "tipo": "duracion",
+        "origen": "piano_virtual",
+        "nota": "E4",
+        "velocity": null,
+        "canal": null,
+        "esperado": null,
+        "correcto": null,
+        "diferencia_ms": null,
+        "en_pulso": null,
+        "mensaje": "Duración de nota: 424.9 ms",
+        "contexto": {
+          "duracion_ms": 424.9
+        }
+      }
+    }
+  ]
+}

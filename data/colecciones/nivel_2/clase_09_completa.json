@@ -1,0 +1,296 @@
+{
+  "id": "n2_09",
+  "orden": 9,
+  "titulo": "Lectura 9: compás de 3/4",
+  "estado": "funcional_completa",
+  "tipo": "clase_real_nivel_2",
+  "flujo_obligatorio": [
+    "teoria",
+    "ejercicios",
+    "examen_clase"
+  ],
+  "objetivo": "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+  "resumen": "Clase completa con teoría, pizarra, MIDI, ejercicios asociados y examen final de clase.",
+  "competencias": [
+    "Reconocer el objetivo de la clase antes de tocar.",
+    "Seguir la nota resaltada en pizarra y pentagrama vivo.",
+    "Tocar la secuencia con piano virtual o MIDI externo.",
+    "Mantener pulso regular con metrónomo lento.",
+    "Aceptar correcciones sobre nota, orden, velocity, simultaneidad y tensión."
+  ],
+  "fase_teorica": {
+    "titulo": "Lectura 9: compás de 3/4",
+    "objetivo": "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+    "resumen": "Clase 09 del Nivel 2: lectura aplicada, pizarra, práctica MIDI y examen.",
+    "explicacion": "Javi, esta es la clase 09 del Nivel 2: Lectura 9: compás de 3/4. Tocar frases de tres pulsos sin convertirlas en grupos de cuatro. Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4. La digitación o foco técnico es: 3/4. No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión. Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase.",
+    "ejemplo": "La pizarra muestra DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4; el alumno toca la misma secuencia despacio.",
+    "practica": "Practica la secuencia DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4 a 66 bpm.",
+    "archivo_visual": "assets/teoria/nivel_2/clase_09.md"
+  },
+  "teoria": {
+    "guion_profesor": [
+      "Javi, esta es la clase 09 del Nivel 2: Lectura 9: compás de 3/4.",
+      "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+      "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4.",
+      "La digitación o foco técnico es: 3/4.",
+      "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+      "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+    ],
+    "conceptos": [
+      "lectura aplicada",
+      "mano derecha",
+      "3/4",
+      "pulso",
+      "MIDI externo",
+      "pentagrama vivo"
+    ]
+  },
+  "explicacion": "Javi, esta es la clase 09 del Nivel 2: Lectura 9: compás de 3/4. Tocar frases de tres pulsos sin convertirlas en grupos de cuatro. Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4. La digitación o foco técnico es: 3/4. No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión. Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase.",
+  "pizarra": {
+    "modo": "lectura_aplicada",
+    "titulo": "Lectura 9: compás de 3/4",
+    "guion": [
+      "Observa la clase 09: Lectura 9: compás de 3/4.",
+      "Secuencia visual: DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4.",
+      "Mano o enfoque principal: mano derecha.",
+      "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+      "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+    ],
+    "secuencia_docente": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "digitacion": "3/4",
+    "resalta_nota_actual": true,
+    "prepara_siguiente_nota": true,
+    "acepta_midi_externo": true,
+    "archivo": "assets/teoria/nivel_2/clase_09.md"
+  },
+  "midi_didactico": {
+    "pieza_id": "n2_09_midi",
+    "archivo": "assets/midi/nivel_2/clases/clase_09.mid",
+    "modos": [
+      "clase",
+      "escuchar",
+      "practica",
+      "examen"
+    ],
+    "tempo": 66,
+    "compas": "4/4",
+    "secuencia": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "E4",
+      "G4"
+    ]
+  },
+  "midi": {
+    "activo": true,
+    "objetivo": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "archivo": "assets/midi/nivel_2/clases/clase_09.mid",
+    "tempo": 66,
+    "acepta_entrada_externa": true
+  },
+  "partitura": {
+    "archivo": "assets/partituras/nivel_2/clase_09.musicxml",
+    "estado": "funcional_generada",
+    "formato": "musicxml",
+    "secuencia": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "E4",
+      "G4"
+    ]
+  },
+  "ejercicios_asociados": [
+    {
+      "id": "n2_09_ej01_comprension",
+      "orden": 1,
+      "tipo": "comprension",
+      "titulo": "Comprensión de la clase",
+      "objetivo": "Explicar qué se trabaja antes de pasar al teclado.",
+      "instruccion": "Responde qué busca esta clase: Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+      "criterio": "El alumno identifica el concepto principal y no toca por impulso.",
+      "validacion": {
+        "modo": "opcion_multiple",
+        "opciones": [
+          "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+          "Tocar lo más rápido posible sin mirar la partitura",
+          "Saltar la teoría y pasar directamente al examen"
+        ],
+        "respuesta_correcta": 0
+      }
+    },
+    {
+      "id": "n2_09_ej02_pizarra",
+      "orden": 2,
+      "tipo": "pizarra_guiada",
+      "titulo": "Pizarra y pentagrama",
+      "objetivo": "Seguir visualmente la nota actual y la siguiente nota preparada.",
+      "instruccion": "Pulsa Leer punto actual y recorre el guion de pizarra antes de tocar.",
+      "criterio": "El alumno sabe dónde mira, qué nota se resalta y qué mano interviene.",
+      "validacion": {
+        "modo": "pizarra_guiada",
+        "requiere_pizarra": true,
+        "resalta_secuencia": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "E4",
+          "D4",
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    {
+      "id": "n2_09_ej03_midi_secuencia",
+      "orden": 3,
+      "tipo": "midi_secuencia",
+      "titulo": "Tocar la secuencia",
+      "objetivo": "Tocar las notas en el orden indicado.",
+      "instruccion": "Toca: DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "criterio": "Notas correctas, orden correcto y sin teclas de más.",
+      "validacion": {
+        "modo": "midi_secuencia",
+        "acepta_piano_virtual": true,
+        "acepta_midi_externo": true,
+        "secuencia": [
+          "C4",
+          "D4",
+          "E4",
+          "F4",
+          "E4",
+          "D4",
+          "C4",
+          "E4",
+          "G4"
+        ]
+      }
+    },
+    {
+      "id": "n2_09_ej04_pulso_velocity",
+      "orden": 4,
+      "tipo": "midi_pulso",
+      "titulo": "Pulso y sonido controlado",
+      "objetivo": "Repetir la secuencia con metrónomo y velocity equilibrada.",
+      "instruccion": "Activa metrónomo a 66 bpm y toca sin acelerar.",
+      "tempo": 66,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "criterio": "Pulso aceptable, sonido parecido entre notas y liberación limpia.",
+      "validacion": {
+        "modo": "midi_pro",
+        "tempo": 66,
+        "comprueba_velocity": true,
+        "comprueba_pulso": true
+      }
+    }
+  ],
+  "examen_clase": {
+    "id": "n2_09_examen_clase",
+    "titulo": "Examen final de clase 09 — Lectura 9: compás de 3/4",
+    "tipo": "opcion_multiple_y_midi_pro",
+    "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+    "opciones": [
+      "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+      "Tocar más fuerte aunque haya errores",
+      "Avanzar sin comprobar la secuencia"
+    ],
+    "respuesta_correcta": 0,
+    "secuencia_obligatoria": [
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "tempo": 66,
+    "criterios": {
+      "nota_correcta": true,
+      "orden_correcto": true,
+      "pulso_aceptable": true,
+      "velocity_equilibrada": true,
+      "sin_teclas_de_mas": true,
+      "simultaneidad_si_aplica": false,
+      "postura_camara_opcional": true
+    },
+    "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+    "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+    "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+    "desbloquea_si_aprueba": "n2_10",
+    "si_aprueba": "desbloquea n2_10",
+    "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen"
+  },
+  "evaluacion": {
+    "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+    "opciones": [
+      "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+      "Tocar más fuerte aunque haya errores",
+      "Avanzar sin comprobar la secuencia"
+    ],
+    "respuesta_correcta": 0
+  },
+  "desbloquea": "n2_10",
+  "regla_avance": "No se avanza sin trabajar teoría, ejercicios asociados y superar el examen final de clase.",
+  "archivo_clase_completa": "data/colecciones/nivel_2/clase_09_completa.json",
+  "enlaces": {
+    "teoria_visual": "assets/teoria/nivel_2/clase_09.md",
+    "partitura": "assets/partituras/nivel_2/clase_09.musicxml",
+    "midi": "assets/midi/nivel_2/clases/clase_09.mid",
+    "documentacion": "docs/curriculo/nivel_2/clase_09.md"
+  }
+}

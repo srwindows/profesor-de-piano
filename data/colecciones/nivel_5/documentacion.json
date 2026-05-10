@@ -1,0 +1,13 @@
+{
+  "version": "4.0.0-lite-colecciones-preparadas",
+  "nivel": "nivel_5",
+  "coleccion": "documentacion",
+  "estado": "preparada_sin_contenido",
+  "items": [],
+  "enlaces": {
+    "carpeta_teoria": "assets/teoria/nivel_5/",
+    "carpeta_partituras": "assets/partituras/nivel_5/",
+    "carpeta_midi": "assets/midi/nivel_5/",
+    "documentacion": "docs/curriculo/nivel_5/"
+  }
+}

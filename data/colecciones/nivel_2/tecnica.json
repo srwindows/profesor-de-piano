@@ -1,0 +1,570 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "tecnica",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n2_01_tecnica",
+      "clase_id": "n2_01",
+      "titulo": "Lectura 1: clave de Sol con DO-RE-MI",
+      "objetivo": "Leer DO, RE y MI en clave de Sol y tocarlos sin depender solo de la memoria visual del teclado.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "lectura clave de Sol",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_02_tecnica",
+      "clase_id": "n2_02",
+      "titulo": "Lectura 2: clave de Fa con DO-RE-MI",
+      "objetivo": "Leer DO, RE y MI en registro grave y asociarlos a la mano izquierda.",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "digitacion": "lectura clave de Fa",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_03_tecnica",
+      "clase_id": "n2_03",
+      "titulo": "Lectura 3: dos pentagramas por turnos",
+      "objetivo": "Leer el pentagrama superior y el inferior alternando manos sin solaparlas.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "C4",
+        "E4",
+        "C3"
+      ],
+      "digitacion": "dos pentagramas",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_04_tecnica",
+      "clase_id": "n2_04",
+      "titulo": "Lectura 4: intervalos de segunda",
+      "objetivo": "Reconocer pasos conjuntos: de una nota a la siguiente por teclas vecinas.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "segundas",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_05_tecnica",
+      "clase_id": "n2_05",
+      "titulo": "Lectura 5: intervalos de tercera",
+      "objetivo": "Reconocer saltos de una tecla blanca intermedia sin perder orientación.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "terceras",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_06_tecnica",
+      "clase_id": "n2_06",
+      "titulo": "Lectura 6: negras y blancas en melodía",
+      "objetivo": "Leer duración y altura a la vez en una melodía corta.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "negras y blancas",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_07_tecnica",
+      "clase_id": "n2_07",
+      "titulo": "Lectura 7: silencios aplicados",
+      "objetivo": "Contar silencios sin perder el pulso ni entrar antes de tiempo.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "F4",
+        "E4",
+        "G4",
+        "C4"
+      ],
+      "digitacion": "silencios contados",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_08_tecnica",
+      "clase_id": "n2_08",
+      "titulo": "Lectura 8: compás de 4/4",
+      "objetivo": "Sentir cuatro pulsos por compás y reconocer el primer pulso como referencia.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "digitacion": "4/4",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_09_tecnica",
+      "clase_id": "n2_09",
+      "titulo": "Lectura 9: compás de 3/4",
+      "objetivo": "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "digitacion": "3/4",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_10_tecnica",
+      "clase_id": "n2_10",
+      "titulo": "Lectura 10: ligadura de prolongación",
+      "objetivo": "Mantener una nota durante más tiempo cuando la partitura la une con ligadura.",
+      "secuencia": [
+        "C4",
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "digitacion": "ligadura",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_11_tecnica",
+      "clase_id": "n2_11",
+      "titulo": "Lectura 11: frase de dos compases",
+      "objetivo": "Tocar una frase completa respirando al final, no cortando cada nota como si fuera aislada.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "fraseo",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_12_tecnica",
+      "clase_id": "n2_12",
+      "titulo": "Lectura 12: legato y staccato en partitura",
+      "objetivo": "Diferenciar notas unidas y notas cortas según la indicación escrita.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "digitacion": "articulación",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_13_tecnica",
+      "clase_id": "n2_13",
+      "titulo": "Lectura 13: cambio simple de posición",
+      "objetivo": "Mover la mano de posición de DO a posición de SOL con preparación y sin salto brusco.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "digitacion": "cambio a SOL",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_14_tecnica",
+      "clase_id": "n2_14",
+      "titulo": "Lectura 14: escala de DO mayor mano derecha",
+      "objetivo": "Tocar una octava de DO mayor con paso de pulgar preparado.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "digitacion": "escala DO mayor",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_15_tecnica",
+      "clase_id": "n2_15",
+      "titulo": "Lectura 15: escala de DO mayor mano izquierda",
+      "objetivo": "Tocar una octava de DO mayor descendente y ascendente con la mano izquierda.",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "digitacion": "escala DO mayor izquierda",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_16_tecnica",
+      "clase_id": "n2_16",
+      "titulo": "Lectura 16: tríadas mayores C, F y G",
+      "objetivo": "Reconocer y tocar acordes básicos de DO, FA y SOL sin apretar la mano.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "A4",
+        "C5",
+        "G4",
+        "B4",
+        "D5"
+      ],
+      "digitacion": "tríadas",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_17_tecnica",
+      "clase_id": "n2_17",
+      "titulo": "Lectura 17: bajo de tónica",
+      "objetivo": "Acompañar una melodía sencilla con la nota fundamental en la mano izquierda.",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "G4",
+        "F4",
+        "E4",
+        "C3",
+        "C4"
+      ],
+      "digitacion": "bajo tónica",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_18_tecnica",
+      "clase_id": "n2_18",
+      "titulo": "Lectura 18: melodía y bajo alterno",
+      "objetivo": "Mantener una melodía en la derecha mientras la izquierda entra en pulsos sencillos.",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "G3",
+        "E4",
+        "F4",
+        "C3",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "melodía + bajo",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_19_tecnica",
+      "clase_id": "n2_19",
+      "titulo": "Lectura 19: negras contra blancas",
+      "objetivo": "Coordinar una mano moviéndose por negras mientras la otra sostiene blancas.",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "E4",
+        "D4",
+        "C3",
+        "C4"
+      ],
+      "digitacion": "coordinación rítmica",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_20_tecnica",
+      "clase_id": "n2_20",
+      "titulo": "Lectura 20: primer sostenido FA#",
+      "objetivo": "Entender el sostenido como subida de medio tono y aplicarlo a FA sostenido.",
+      "secuencia": [
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "G4",
+        "F#4",
+        "F4"
+      ],
+      "digitacion": "FA sostenido",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_21_tecnica",
+      "clase_id": "n2_21",
+      "titulo": "Lectura 21: primer bemol SIb",
+      "objetivo": "Entender el bemol como bajada de medio tono y aplicarlo a SI bemol.",
+      "secuencia": [
+        "A4",
+        "Bb4",
+        "C5",
+        "Bb4",
+        "A4",
+        "G4",
+        "F4"
+      ],
+      "digitacion": "SI bemol",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_22_tecnica",
+      "clase_id": "n2_22",
+      "titulo": "Lectura 22: dinámica escrita",
+      "objetivo": "Aplicar piano, mezzo forte y forte sin cambiar el tempo.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "dinámica",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_23_tecnica",
+      "clase_id": "n2_23",
+      "titulo": "Lectura 23: lectura a primera vista sencilla",
+      "objetivo": "Leer una línea corta nueva con calma, mirando antes de tocar.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "C5",
+        "B4",
+        "A4",
+        "G4"
+      ],
+      "digitacion": "primera vista",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_24_tecnica",
+      "clase_id": "n2_24",
+      "titulo": "Lectura 24: patrón de acompañamiento simple",
+      "objetivo": "Usar izquierda en bajo y derecha en notas largas para formar acompañamiento básico.",
+      "secuencia": [
+        "C3",
+        "E4",
+        "G4",
+        "G3",
+        "D4",
+        "F4",
+        "C3",
+        "E4",
+        "G4"
+      ],
+      "digitacion": "acompañamiento",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_25_tecnica",
+      "clase_id": "n2_25",
+      "titulo": "Lectura 25: canon sencillo entre manos",
+      "objetivo": "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "F4",
+        "G4",
+        "F3",
+        "G3"
+      ],
+      "digitacion": "canon",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_26_tecnica",
+      "clase_id": "n2_26",
+      "titulo": "Lectura 26: arpegio de DO mayor mano derecha",
+      "objetivo": "Separar las notas del acorde de DO mayor manteniendo forma relajada.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "arpegio C",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_27_tecnica",
+      "clase_id": "n2_27",
+      "titulo": "Lectura 27: arpegio de DO mayor mano izquierda",
+      "objetivo": "Tocar el arpegio de DO mayor en registro grave sin colapsar la muñeca.",
+      "secuencia": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "G3",
+        "E3",
+        "C3"
+      ],
+      "digitacion": "arpegio C izquierda",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_28_tecnica",
+      "clase_id": "n2_28",
+      "titulo": "Lectura 28: pieza de ocho compases",
+      "objetivo": "Unir lectura, pulso, articulación y manos en una pieza corta completa.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "digitacion": "pieza corta",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_29_tecnica",
+      "clase_id": "n2_29",
+      "titulo": "Lectura 29: repaso técnico de lectura",
+      "objetivo": "Repasar intervalos, compás, alteraciones y coordinación antes del cierre del nivel.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "repaso Nivel 2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_30_tecnica",
+      "clase_id": "n2_30",
+      "titulo": "Lectura 30: examen global del Nivel 2",
+      "objetivo": "Demostrar lectura aplicada con ambas manos, pulso, intervalos y primeras alteraciones.",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "síntesis Nivel 2",
+      "estado": "funcional"
+    }
+  ]
+}

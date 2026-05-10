@@ -1,0 +1,80 @@
+{
+  "version": "2.5.1-partitura-clase-metronomo-real",
+  "titulo": "Sesión diaria inteligente",
+  "descripcion": "Rutina de estudio completa que une teoría, técnica, práctica, repaso y cierre pedagógico.",
+  "duracion_objetivo_min": 25,
+  "pasos_base": [
+    {
+      "id": "sd_01_preparacion",
+      "titulo": "Preparación del alumno",
+      "tipo": "preparacion",
+      "duracion_min": 2,
+      "objetivo": "Confirmar postura, manos relajadas y foco de estudio.",
+      "accion": "El profesor recuerda qué se va a trabajar y qué debe escuchar el alumno."
+    },
+    {
+      "id": "sd_02_tecnica",
+      "titulo": "Técnica diaria",
+      "tipo": "tecnica",
+      "duracion_min": 5,
+      "objetivo": "Activar dedos y pulso antes de practicar.",
+      "accion": "Abrir Técnica diaria y completar la siguiente rutina."
+    },
+    {
+      "id": "sd_02b_pulso",
+      "titulo": "Pulso y metrónomo",
+      "tipo": "pulso",
+      "duracion_min": 4,
+      "objetivo": "Ajustar el pulso interno antes de tocar ejercicios o repertorio.",
+      "accion": "Abrir Pulso guiado y completar el siguiente ejercicio de ritmo."
+    },
+    {
+      "id": "sd_03_teoria",
+      "titulo": "Repaso teórico visual",
+      "tipo": "teoria",
+      "duracion_min": 5,
+      "objetivo": "Reforzar el concepto que más conviene según el plan.",
+      "accion": "Abrir teoría o Plan alumno y revisar el punto recomendado."
+    },
+    {
+      "id": "sd_04b_partitura",
+      "titulo": "Lectura de partitura",
+      "tipo": "partitura",
+      "duracion_min": 6,
+      "objetivo": "Leer notas sencillas y relacionarlas con dedos, tecla y pulso.",
+      "accion": "Abrir Partitura y completar la siguiente lectura guiada."
+    },
+    {
+      "id": "sd_04_practica",
+      "titulo": "Práctica interactiva",
+      "tipo": "practica",
+      "duracion_min": 10,
+      "objetivo": "Aplicar lo estudiado en ejercicios cortos.",
+      "accion": "Entrar en práctica del nivel recomendado."
+    },
+    {
+      "id": "sd_05_repertorio",
+      "titulo": "Repertorio progresivo",
+      "tipo": "repertorio",
+      "duracion_min": 8,
+      "objetivo": "Aplicar técnica y teoría en una pieza corta guiada.",
+      "accion": "Abrir Repertorio y trabajar la siguiente pieza recomendada."
+    },
+    {
+      "id": "sd_05_repaso_ia",
+      "titulo": "Repaso IA si hubo fallos",
+      "tipo": "repaso",
+      "duracion_min": 3,
+      "objetivo": "Atacar errores recientes sin avanzar a ciegas.",
+      "accion": "Abrir Repaso IA si existen repasos pendientes."
+    },
+    {
+      "id": "sd_06_cierre",
+      "titulo": "Cierre de sesión",
+      "tipo": "cierre",
+      "duracion_min": 2,
+      "objetivo": "Guardar avance y dejar claro el siguiente paso.",
+      "accion": "El profesor resume qué se ha hecho y qué toca después."
+    }
+  ]
+}

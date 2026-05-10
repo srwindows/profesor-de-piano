@@ -1,0 +1,485 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "titulo": "Pentagrama vivo para Nivel 2",
+  "objetivo": "Resaltar lectura aplicada, intervalos, ritmo y manos coordinadas en cada clase del Nivel 2.",
+  "reglas": {
+    "nota_actual_resaltada": true,
+    "siguiente_nota_preparada": true,
+    "sincroniza_midi_externo": true,
+    "sincroniza_piano_virtual": true
+  },
+  "clases": [
+    {
+      "clase_id": "n2_01",
+      "titulo": "Lectura 1: clave de Sol con DO-RE-MI",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_01.mid"
+    },
+    {
+      "clase_id": "n2_02",
+      "titulo": "Lectura 2: clave de Fa con DO-RE-MI",
+      "secuencia_docente": [
+        "C3",
+        "D3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_02.mid"
+    },
+    {
+      "clase_id": "n2_03",
+      "titulo": "Lectura 3: dos pentagramas por turnos",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "C4",
+        "E4",
+        "C3"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_03.mid"
+    },
+    {
+      "clase_id": "n2_04",
+      "titulo": "Lectura 4: intervalos de segunda",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_04.mid"
+    },
+    {
+      "clase_id": "n2_05",
+      "titulo": "Lectura 5: intervalos de tercera",
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_05.mid"
+    },
+    {
+      "clase_id": "n2_06",
+      "titulo": "Lectura 6: negras y blancas en melodía",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_06.mid"
+    },
+    {
+      "clase_id": "n2_07",
+      "titulo": "Lectura 7: silencios aplicados",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "F4",
+        "E4",
+        "G4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_07.mid"
+    },
+    {
+      "clase_id": "n2_08",
+      "titulo": "Lectura 8: compás de 4/4",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_08.mid"
+    },
+    {
+      "clase_id": "n2_09",
+      "titulo": "Lectura 9: compás de 3/4",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_09.mid"
+    },
+    {
+      "clase_id": "n2_10",
+      "titulo": "Lectura 10: ligadura de prolongación",
+      "secuencia_docente": [
+        "C4",
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_10.mid"
+    },
+    {
+      "clase_id": "n2_11",
+      "titulo": "Lectura 11: frase de dos compases",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_11.mid"
+    },
+    {
+      "clase_id": "n2_12",
+      "titulo": "Lectura 12: legato y staccato en partitura",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_12.mid"
+    },
+    {
+      "clase_id": "n2_13",
+      "titulo": "Lectura 13: cambio simple de posición",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_13.mid"
+    },
+    {
+      "clase_id": "n2_14",
+      "titulo": "Lectura 14: escala de DO mayor mano derecha",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_14.mid"
+    },
+    {
+      "clase_id": "n2_15",
+      "titulo": "Lectura 15: escala de DO mayor mano izquierda",
+      "secuencia_docente": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_15.mid"
+    },
+    {
+      "clase_id": "n2_16",
+      "titulo": "Lectura 16: tríadas mayores C, F y G",
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "A4",
+        "C5",
+        "G4",
+        "B4",
+        "D5"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_16.mid"
+    },
+    {
+      "clase_id": "n2_17",
+      "titulo": "Lectura 17: bajo de tónica",
+      "secuencia_docente": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "G4",
+        "F4",
+        "E4",
+        "C3",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_17.mid"
+    },
+    {
+      "clase_id": "n2_18",
+      "titulo": "Lectura 18: melodía y bajo alterno",
+      "secuencia_docente": [
+        "C3",
+        "C4",
+        "D4",
+        "G3",
+        "E4",
+        "F4",
+        "C3",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_18.mid"
+    },
+    {
+      "clase_id": "n2_19",
+      "titulo": "Lectura 19: negras contra blancas",
+      "secuencia_docente": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "E4",
+        "D4",
+        "C3",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_19.mid"
+    },
+    {
+      "clase_id": "n2_20",
+      "titulo": "Lectura 20: primer sostenido FA#",
+      "secuencia_docente": [
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "G4",
+        "F#4",
+        "F4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_20.mid"
+    },
+    {
+      "clase_id": "n2_21",
+      "titulo": "Lectura 21: primer bemol SIb",
+      "secuencia_docente": [
+        "A4",
+        "Bb4",
+        "C5",
+        "Bb4",
+        "A4",
+        "G4",
+        "F4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_21.mid"
+    },
+    {
+      "clase_id": "n2_22",
+      "titulo": "Lectura 22: dinámica escrita",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_22.mid"
+    },
+    {
+      "clase_id": "n2_23",
+      "titulo": "Lectura 23: lectura a primera vista sencilla",
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "C5",
+        "B4",
+        "A4",
+        "G4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_23.mid"
+    },
+    {
+      "clase_id": "n2_24",
+      "titulo": "Lectura 24: patrón de acompañamiento simple",
+      "secuencia_docente": [
+        "C3",
+        "E4",
+        "G4",
+        "G3",
+        "D4",
+        "F4",
+        "C3",
+        "E4",
+        "G4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_24.mid"
+    },
+    {
+      "clase_id": "n2_25",
+      "titulo": "Lectura 25: canon sencillo entre manos",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "F4",
+        "G4",
+        "F3",
+        "G3"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_25.mid"
+    },
+    {
+      "clase_id": "n2_26",
+      "titulo": "Lectura 26: arpegio de DO mayor mano derecha",
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_26.mid"
+    },
+    {
+      "clase_id": "n2_27",
+      "titulo": "Lectura 27: arpegio de DO mayor mano izquierda",
+      "secuencia_docente": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "G3",
+        "E3",
+        "C3"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_27.mid"
+    },
+    {
+      "clase_id": "n2_28",
+      "titulo": "Lectura 28: pieza de ocho compases",
+      "secuencia_docente": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_28.mid"
+    },
+    {
+      "clase_id": "n2_29",
+      "titulo": "Lectura 29: repaso técnico de lectura",
+      "secuencia_docente": [
+        "C4",
+        "E4",
+        "G4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_29.mid"
+    },
+    {
+      "clase_id": "n2_30",
+      "titulo": "Lectura 30: examen global del Nivel 2",
+      "secuencia_docente": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "midi": "assets/midi/nivel_2/clases/clase_30.mid"
+    }
+  ]
+}

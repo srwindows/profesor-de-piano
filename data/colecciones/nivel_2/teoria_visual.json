@@ -1,0 +1,458 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "teoria_visual",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n2_01_teoria",
+      "clase_id": "n2_01",
+      "titulo": "Lectura 1: clave de Sol con DO-RE-MI",
+      "archivo": "assets/teoria/nivel_2/clase_01.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 01 del Nivel 2: Lectura 1: clave de Sol con DO-RE-MI.",
+        "Leer DO, RE y MI en clave de Sol y tocarlos sin depender solo de la memoria visual del teclado.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: lectura clave de Sol.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_02_teoria",
+      "clase_id": "n2_02",
+      "titulo": "Lectura 2: clave de Fa con DO-RE-MI",
+      "archivo": "assets/teoria/nivel_2/clase_02.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 02 del Nivel 2: Lectura 2: clave de Fa con DO-RE-MI.",
+        "Leer DO, RE y MI en registro grave y asociarlos a la mano izquierda.",
+        "Trabajamos mano izquierda con una secuencia corta: DO3 - RE3 - MI3 - RE3 - DO3.",
+        "La digitación o foco técnico es: lectura clave de Fa.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_03_teoria",
+      "clase_id": "n2_03",
+      "titulo": "Lectura 3: dos pentagramas por turnos",
+      "archivo": "assets/teoria/nivel_2/clase_03.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 03 del Nivel 2: Lectura 3: dos pentagramas por turnos.",
+        "Leer el pentagrama superior y el inferior alternando manos sin solaparlas.",
+        "Trabajamos manos alternas con una secuencia corta: DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - DO4 - MI4 - DO3.",
+        "La digitación o foco técnico es: dos pentagramas.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_04_teoria",
+      "clase_id": "n2_04",
+      "titulo": "Lectura 4: intervalos de segunda",
+      "archivo": "assets/teoria/nivel_2/clase_04.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 04 del Nivel 2: Lectura 4: intervalos de segunda.",
+        "Reconocer pasos conjuntos: de una nota a la siguiente por teclas vecinas.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: segundas.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_05_teoria",
+      "clase_id": "n2_05",
+      "titulo": "Lectura 5: intervalos de tercera",
+      "archivo": "assets/teoria/nivel_2/clase_05.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 05 del Nivel 2: Lectura 5: intervalos de tercera.",
+        "Reconocer saltos de una tecla blanca intermedia sin perder orientación.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - RE4 - FA4 - MI4 - SOL4 - FA4 - RE4 - DO4.",
+        "La digitación o foco técnico es: terceras.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_06_teoria",
+      "clase_id": "n2_06",
+      "titulo": "Lectura 6: negras y blancas en melodía",
+      "archivo": "assets/teoria/nivel_2/clase_06.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 06 del Nivel 2: Lectura 6: negras y blancas en melodía.",
+        "Leer duración y altura a la vez en una melodía corta.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - MI4 - FA4 - SOL4 - SOL4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: negras y blancas.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_07_teoria",
+      "clase_id": "n2_07",
+      "titulo": "Lectura 7: silencios aplicados",
+      "archivo": "assets/teoria/nivel_2/clase_07.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 07 del Nivel 2: Lectura 7: silencios aplicados.",
+        "Contar silencios sin perder el pulso ni entrar antes de tiempo.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - DO4 - MI4 - FA4 - MI4 - SOL4 - DO4.",
+        "La digitación o foco técnico es: silencios contados.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_08_teoria",
+      "clase_id": "n2_08",
+      "titulo": "Lectura 8: compás de 4/4",
+      "archivo": "assets/teoria/nivel_2/clase_08.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 08 del Nivel 2: Lectura 8: compás de 4/4.",
+        "Sentir cuatro pulsos por compás y reconocer el primer pulso como referencia.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - FA4 - MI4 - RE4.",
+        "La digitación o foco técnico es: 4/4.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_09_teoria",
+      "clase_id": "n2_09",
+      "titulo": "Lectura 9: compás de 3/4",
+      "archivo": "assets/teoria/nivel_2/clase_09.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 09 del Nivel 2: Lectura 9: compás de 3/4.",
+        "Tocar frases de tres pulsos sin convertirlas en grupos de cuatro.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - MI4 - RE4 - DO4 - MI4 - SOL4.",
+        "La digitación o foco técnico es: 3/4.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_10_teoria",
+      "clase_id": "n2_10",
+      "titulo": "Lectura 10: ligadura de prolongación",
+      "archivo": "assets/teoria/nivel_2/clase_10.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 10 del Nivel 2: Lectura 10: ligadura de prolongación.",
+        "Mantener una nota durante más tiempo cuando la partitura la une con ligadura.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - DO4 - RE4 - MI4 - MI4 - FA4 - SOL4.",
+        "La digitación o foco técnico es: ligadura.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_11_teoria",
+      "clase_id": "n2_11",
+      "titulo": "Lectura 11: frase de dos compases",
+      "archivo": "assets/teoria/nivel_2/clase_11.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 11 del Nivel 2: Lectura 11: frase de dos compases.",
+        "Tocar una frase completa respirando al final, no cortando cada nota como si fuera aislada.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: fraseo.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_12_teoria",
+      "clase_id": "n2_12",
+      "titulo": "Lectura 12: legato y staccato en partitura",
+      "archivo": "assets/teoria/nivel_2/clase_12.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 12 del Nivel 2: Lectura 12: legato y staccato en partitura.",
+        "Diferenciar notas unidas y notas cortas según la indicación escrita.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - DO4 - MI4 - SOL4 - FA4 - RE4.",
+        "La digitación o foco técnico es: articulación.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_13_teoria",
+      "clase_id": "n2_13",
+      "titulo": "Lectura 13: cambio simple de posición",
+      "archivo": "assets/teoria/nivel_2/clase_13.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 13 del Nivel 2: Lectura 13: cambio simple de posición.",
+        "Mover la mano de posición de DO a posición de SOL con preparación y sin salto brusco.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - LA4 - SI4 - DO5.",
+        "La digitación o foco técnico es: cambio a SOL.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_14_teoria",
+      "clase_id": "n2_14",
+      "titulo": "Lectura 14: escala de DO mayor mano derecha",
+      "archivo": "assets/teoria/nivel_2/clase_14.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 14 del Nivel 2: Lectura 14: escala de DO mayor mano derecha.",
+        "Tocar una octava de DO mayor con paso de pulgar preparado.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - LA4 - SI4 - DO5.",
+        "La digitación o foco técnico es: escala DO mayor.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_15_teoria",
+      "clase_id": "n2_15",
+      "titulo": "Lectura 15: escala de DO mayor mano izquierda",
+      "archivo": "assets/teoria/nivel_2/clase_15.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 15 del Nivel 2: Lectura 15: escala de DO mayor mano izquierda.",
+        "Tocar una octava de DO mayor descendente y ascendente con la mano izquierda.",
+        "Trabajamos mano izquierda con una secuencia corta: DO3 - RE3 - MI3 - FA3 - SOL3 - LA3 - SI3 - DO4.",
+        "La digitación o foco técnico es: escala DO mayor izquierda.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_16_teoria",
+      "clase_id": "n2_16",
+      "titulo": "Lectura 16: tríadas mayores C, F y G",
+      "archivo": "assets/teoria/nivel_2/clase_16.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 16 del Nivel 2: Lectura 16: tríadas mayores C, F y G.",
+        "Reconocer y tocar acordes básicos de DO, FA y SOL sin apretar la mano.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - SOL4 - FA4 - LA4 - DO5 - SOL4 - SI4 - RE5.",
+        "La digitación o foco técnico es: tríadas.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_17_teoria",
+      "clase_id": "n2_17",
+      "titulo": "Lectura 17: bajo de tónica",
+      "archivo": "assets/teoria/nivel_2/clase_17.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 17 del Nivel 2: Lectura 17: bajo de tónica.",
+        "Acompañar una melodía sencilla con la nota fundamental en la mano izquierda.",
+        "Trabajamos ambas manos con una secuencia corta: DO3 - DO4 - RE4 - MI4 - SOL3 - SOL4 - FA4 - MI4 - DO3 - DO4.",
+        "La digitación o foco técnico es: bajo tónica.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_18_teoria",
+      "clase_id": "n2_18",
+      "titulo": "Lectura 18: melodía y bajo alterno",
+      "archivo": "assets/teoria/nivel_2/clase_18.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 18 del Nivel 2: Lectura 18: melodía y bajo alterno.",
+        "Mantener una melodía en la derecha mientras la izquierda entra en pulsos sencillos.",
+        "Trabajamos ambas manos con una secuencia corta: DO3 - DO4 - RE4 - SOL3 - MI4 - FA4 - DO3 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: melodía + bajo.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_19_teoria",
+      "clase_id": "n2_19",
+      "titulo": "Lectura 19: negras contra blancas",
+      "archivo": "assets/teoria/nivel_2/clase_19.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 19 del Nivel 2: Lectura 19: negras contra blancas.",
+        "Coordinar una mano moviéndose por negras mientras la otra sostiene blancas.",
+        "Trabajamos ambas manos con una secuencia corta: DO3 - DO4 - RE4 - MI4 - SOL3 - FA4 - MI4 - RE4 - DO3 - DO4.",
+        "La digitación o foco técnico es: coordinación rítmica.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_20_teoria",
+      "clase_id": "n2_20",
+      "titulo": "Lectura 20: primer sostenido FA#",
+      "archivo": "assets/teoria/nivel_2/clase_20.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 20 del Nivel 2: Lectura 20: primer sostenido FA#.",
+        "Entender el sostenido como subida de medio tono y aplicarlo a FA sostenido.",
+        "Trabajamos mano derecha con una secuencia corta: FA4 - FA sostenido4 - SOL4 - LA4 - SOL4 - FA sostenido4 - FA4.",
+        "La digitación o foco técnico es: FA sostenido.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_21_teoria",
+      "clase_id": "n2_21",
+      "titulo": "Lectura 21: primer bemol SIb",
+      "archivo": "assets/teoria/nivel_2/clase_21.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 21 del Nivel 2: Lectura 21: primer bemol SIb.",
+        "Entender el bemol como bajada de medio tono y aplicarlo a SI bemol.",
+        "Trabajamos mano derecha con una secuencia corta: LA4 - SI bemol4 - DO5 - SI bemol4 - LA4 - SOL4 - FA4.",
+        "La digitación o foco técnico es: SI bemol.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_22_teoria",
+      "clase_id": "n2_22",
+      "titulo": "Lectura 22: dinámica escrita",
+      "archivo": "assets/teoria/nivel_2/clase_22.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 22 del Nivel 2: Lectura 22: dinámica escrita.",
+        "Aplicar piano, mezzo forte y forte sin cambiar el tempo.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - RE4 - MI4 - FA4 - SOL4 - LA4 - SOL4 - FA4 - MI4 - RE4 - DO4.",
+        "La digitación o foco técnico es: dinámica.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_23_teoria",
+      "clase_id": "n2_23",
+      "titulo": "Lectura 23: lectura a primera vista sencilla",
+      "archivo": "assets/teoria/nivel_2/clase_23.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 23 del Nivel 2: Lectura 23: lectura a primera vista sencilla.",
+        "Leer una línea corta nueva con calma, mirando antes de tocar.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - RE4 - FA4 - MI4 - SOL4 - DO5 - SI4 - LA4 - SOL4.",
+        "La digitación o foco técnico es: primera vista.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_24_teoria",
+      "clase_id": "n2_24",
+      "titulo": "Lectura 24: patrón de acompañamiento simple",
+      "archivo": "assets/teoria/nivel_2/clase_24.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 24 del Nivel 2: Lectura 24: patrón de acompañamiento simple.",
+        "Usar izquierda en bajo y derecha en notas largas para formar acompañamiento básico.",
+        "Trabajamos ambas manos con una secuencia corta: DO3 - MI4 - SOL4 - SOL3 - RE4 - FA4 - DO3 - MI4 - SOL4.",
+        "La digitación o foco técnico es: acompañamiento.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_25_teoria",
+      "clase_id": "n2_25",
+      "titulo": "Lectura 25: canon sencillo entre manos",
+      "archivo": "assets/teoria/nivel_2/clase_25.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 25 del Nivel 2: Lectura 25: canon sencillo entre manos.",
+        "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+        "Trabajamos manos alternas con una secuencia corta: DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3.",
+        "La digitación o foco técnico es: canon.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_26_teoria",
+      "clase_id": "n2_26",
+      "titulo": "Lectura 26: arpegio de DO mayor mano derecha",
+      "archivo": "assets/teoria/nivel_2/clase_26.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 26 del Nivel 2: Lectura 26: arpegio de DO mayor mano derecha.",
+        "Separar las notas del acorde de DO mayor manteniendo forma relajada.",
+        "Trabajamos mano derecha con una secuencia corta: DO4 - MI4 - SOL4 - DO5 - SOL4 - MI4 - DO4.",
+        "La digitación o foco técnico es: arpegio C.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_27_teoria",
+      "clase_id": "n2_27",
+      "titulo": "Lectura 27: arpegio de DO mayor mano izquierda",
+      "archivo": "assets/teoria/nivel_2/clase_27.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 27 del Nivel 2: Lectura 27: arpegio de DO mayor mano izquierda.",
+        "Tocar el arpegio de DO mayor en registro grave sin colapsar la muñeca.",
+        "Trabajamos mano izquierda con una secuencia corta: DO3 - MI3 - SOL3 - DO4 - SOL3 - MI3 - DO3.",
+        "La digitación o foco técnico es: arpegio C izquierda.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_28_teoria",
+      "clase_id": "n2_28",
+      "titulo": "Lectura 28: pieza de ocho compases",
+      "archivo": "assets/teoria/nivel_2/clase_28.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 28 del Nivel 2: Lectura 28: pieza de ocho compases.",
+        "Unir lectura, pulso, articulación y manos en una pieza corta completa.",
+        "Trabajamos ambas manos con una secuencia corta: DO4 - RE4 - MI4 - SOL4 - MI4 - RE4 - DO4 - DO3 - SOL3 - DO4 - MI4 - SOL4 - DO5.",
+        "La digitación o foco técnico es: pieza corta.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_29_teoria",
+      "clase_id": "n2_29",
+      "titulo": "Lectura 29: repaso técnico de lectura",
+      "archivo": "assets/teoria/nivel_2/clase_29.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 29 del Nivel 2: Lectura 29: repaso técnico de lectura.",
+        "Repasar intervalos, compás, alteraciones y coordinación antes del cierre del nivel.",
+        "Trabajamos ambas manos con una secuencia corta: DO4 - MI4 - SOL4 - FA sostenido4 - SOL4 - LA4 - SI bemol4 - LA4 - SOL4 - MI4 - DO4.",
+        "La digitación o foco técnico es: repaso Nivel 2.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    },
+    {
+      "id": "n2_30_teoria",
+      "clase_id": "n2_30",
+      "titulo": "Lectura 30: examen global del Nivel 2",
+      "archivo": "assets/teoria/nivel_2/clase_30.md",
+      "guion_profesor": [
+        "Javi, esta es la clase 30 del Nivel 2: Lectura 30: examen global del Nivel 2.",
+        "Demostrar lectura aplicada con ambas manos, pulso, intervalos y primeras alteraciones.",
+        "Trabajamos ambas manos con una secuencia corta: DO3 - DO4 - RE4 - MI4 - SOL3 - FA4 - FA sostenido4 - SOL4 - LA4 - SI bemol4 - LA4 - SOL4 - MI4 - DO4.",
+        "La digitación o foco técnico es: síntesis Nivel 2.",
+        "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+        "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+      ],
+      "estado": "funcional"
+    }
+  ]
+}

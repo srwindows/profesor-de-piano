@@ -1,0 +1,13 @@
+{
+  "version": "4.0.0-lite-colecciones-preparadas",
+  "nivel": "nivel_4",
+  "coleccion": "videos",
+  "estado": "preparada_sin_contenido",
+  "items": [],
+  "enlaces": {
+    "carpeta_teoria": "assets/teoria/nivel_4/",
+    "carpeta_partituras": "assets/partituras/nivel_4/",
+    "carpeta_midi": "assets/midi/nivel_4/",
+    "documentacion": "docs/curriculo/nivel_4/"
+  }
+}

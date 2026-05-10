@@ -1,0 +1,750 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_2",
+  "coleccion": "midi",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n2_01_midi",
+      "clase_id": "n2_01",
+      "pieza_id": "n2_01_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_01.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_02_midi",
+      "clase_id": "n2_02",
+      "pieza_id": "n2_02_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_02.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "D3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n2_03_midi",
+      "clase_id": "n2_03",
+      "pieza_id": "n2_03_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_03.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "C4",
+        "E4",
+        "C3"
+      ]
+    },
+    {
+      "id": "n2_04_midi",
+      "clase_id": "n2_04",
+      "pieza_id": "n2_04_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_04.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_05_midi",
+      "clase_id": "n2_05",
+      "pieza_id": "n2_05_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_05.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_06_midi",
+      "clase_id": "n2_06",
+      "pieza_id": "n2_06_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_06.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_07_midi",
+      "clase_id": "n2_07",
+      "pieza_id": "n2_07_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_07.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "F4",
+        "E4",
+        "G4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_08_midi",
+      "clase_id": "n2_08",
+      "pieza_id": "n2_08_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_08.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n2_09_midi",
+      "clase_id": "n2_09",
+      "pieza_id": "n2_09_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_09.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 66,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n2_10_midi",
+      "clase_id": "n2_10",
+      "pieza_id": "n2_10_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_10.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n2_11_midi",
+      "clase_id": "n2_11",
+      "pieza_id": "n2_11_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_11.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_12_midi",
+      "clase_id": "n2_12",
+      "pieza_id": "n2_12_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_12.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "D4"
+      ]
+    },
+    {
+      "id": "n2_13_midi",
+      "clase_id": "n2_13",
+      "pieza_id": "n2_13_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_13.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ]
+    },
+    {
+      "id": "n2_14_midi",
+      "clase_id": "n2_14",
+      "pieza_id": "n2_14_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_14.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "B4",
+        "C5"
+      ]
+    },
+    {
+      "id": "n2_15_midi",
+      "clase_id": "n2_15",
+      "pieza_id": "n2_15_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_15.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_16_midi",
+      "clase_id": "n2_16",
+      "pieza_id": "n2_16_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_16.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "F4",
+        "A4",
+        "C5",
+        "G4",
+        "B4",
+        "D5"
+      ]
+    },
+    {
+      "id": "n2_17_midi",
+      "clase_id": "n2_17",
+      "pieza_id": "n2_17_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_17.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "G4",
+        "F4",
+        "E4",
+        "C3",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_18_midi",
+      "clase_id": "n2_18",
+      "pieza_id": "n2_18_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_18.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "G3",
+        "E4",
+        "F4",
+        "C3",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_19_midi",
+      "clase_id": "n2_19",
+      "pieza_id": "n2_19_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_19.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 70,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "E4",
+        "D4",
+        "C3",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_20_midi",
+      "clase_id": "n2_20",
+      "pieza_id": "n2_20_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_20.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "G4",
+        "F#4",
+        "F4"
+      ]
+    },
+    {
+      "id": "n2_21_midi",
+      "clase_id": "n2_21",
+      "pieza_id": "n2_21_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_21.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "A4",
+        "Bb4",
+        "C5",
+        "Bb4",
+        "A4",
+        "G4",
+        "F4"
+      ]
+    },
+    {
+      "id": "n2_22_midi",
+      "clase_id": "n2_22",
+      "pieza_id": "n2_22_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_22.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "A4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_23_midi",
+      "clase_id": "n2_23",
+      "pieza_id": "n2_23_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_23.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "C5",
+        "B4",
+        "A4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n2_24_midi",
+      "clase_id": "n2_24",
+      "pieza_id": "n2_24_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_24.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "E4",
+        "G4",
+        "G3",
+        "D4",
+        "F4",
+        "C3",
+        "E4",
+        "G4"
+      ]
+    },
+    {
+      "id": "n2_25_midi",
+      "clase_id": "n2_25",
+      "pieza_id": "n2_25_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_25.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "F4",
+        "G4",
+        "F3",
+        "G3"
+      ]
+    },
+    {
+      "id": "n2_26_midi",
+      "clase_id": "n2_26",
+      "pieza_id": "n2_26_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_26.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "C5",
+        "G4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_27_midi",
+      "clase_id": "n2_27",
+      "pieza_id": "n2_27_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_27.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "G3",
+        "E3",
+        "C3"
+      ]
+    },
+    {
+      "id": "n2_28_midi",
+      "clase_id": "n2_28",
+      "pieza_id": "n2_28_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_28.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "G3",
+        "C4",
+        "E4",
+        "G4",
+        "C5"
+      ]
+    },
+    {
+      "id": "n2_29_midi",
+      "clase_id": "n2_29",
+      "pieza_id": "n2_29_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_29.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ]
+    },
+    {
+      "id": "n2_30_midi",
+      "clase_id": "n2_30",
+      "pieza_id": "n2_30_midi",
+      "archivo": "assets/midi/nivel_2/clases/clase_30.mid",
+      "modos": [
+        "clase",
+        "escuchar",
+        "practica",
+        "examen"
+      ],
+      "tempo": 74,
+      "compas": "4/4",
+      "secuencia": [
+        "C3",
+        "C4",
+        "D4",
+        "E4",
+        "G3",
+        "F4",
+        "F#4",
+        "G4",
+        "A4",
+        "Bb4",
+        "A4",
+        "G4",
+        "E4",
+        "C4"
+      ]
+    }
+  ]
+}

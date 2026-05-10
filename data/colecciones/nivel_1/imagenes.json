@@ -1,0 +1,218 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "imagenes",
+  "estado": "funcional_sin_recurso_pesado",
+  "items": [
+    {
+      "id": "n1_01_imagenes",
+      "clase_id": "n1_01",
+      "titulo": "Técnica 1: cinco dedos en DO con mano derecha",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_02_imagenes",
+      "clase_id": "n1_02",
+      "titulo": "Técnica 2: cinco dedos en DO con mano izquierda",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_03_imagenes",
+      "clase_id": "n1_03",
+      "titulo": "Técnica 3: alternancia lenta 1-2-3-4-5",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_04_imagenes",
+      "clase_id": "n1_04",
+      "titulo": "Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_05_imagenes",
+      "clase_id": "n1_05",
+      "titulo": "Técnica 5: igualdad de sonido entre dedos",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_06_imagenes",
+      "clase_id": "n1_06",
+      "titulo": "Técnica 6: independencia del dedo 3",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_07_imagenes",
+      "clase_id": "n1_07",
+      "titulo": "Técnica 7: independencia del dedo 4",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_08_imagenes",
+      "clase_id": "n1_08",
+      "titulo": "Técnica 8: pulgar flexible",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_09_imagenes",
+      "clase_id": "n1_09",
+      "titulo": "Técnica 9: parejas de dedos 1-3 y 2-4",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_10_imagenes",
+      "clase_id": "n1_10",
+      "titulo": "Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_11_imagenes",
+      "clase_id": "n1_11",
+      "titulo": "Técnica 11: coordinación espejo de ambas manos",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_12_imagenes",
+      "clase_id": "n1_12",
+      "titulo": "Técnica 12: pregunta y respuesta entre manos",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_13_imagenes",
+      "clase_id": "n1_13",
+      "titulo": "Técnica 13: legato básico de cinco dedos",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_14_imagenes",
+      "clase_id": "n1_14",
+      "titulo": "Técnica 14: staccato controlado",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_15_imagenes",
+      "clase_id": "n1_15",
+      "titulo": "Técnica 15: acentos suaves",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_16_imagenes",
+      "clase_id": "n1_16",
+      "titulo": "Técnica 16: dinámica piano y forte",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_17_imagenes",
+      "clase_id": "n1_17",
+      "titulo": "Técnica 17: metrónomo en negras",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_18_imagenes",
+      "clase_id": "n1_18",
+      "titulo": "Técnica 18: blancas y negras",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_19_imagenes",
+      "clase_id": "n1_19",
+      "titulo": "Técnica 19: grupos de dos notas",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_20_imagenes",
+      "clase_id": "n1_20",
+      "titulo": "Técnica 20: grupos de tres notas",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_21_imagenes",
+      "clase_id": "n1_21",
+      "titulo": "Técnica 21: patrón 1-3-2-4-3-5",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_22_imagenes",
+      "clase_id": "n1_22",
+      "titulo": "Técnica 22: patrón 1-2-4-3-5",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_23_imagenes",
+      "clase_id": "n1_23",
+      "titulo": "Técnica 23: dirección ascendente y descendente",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_24_imagenes",
+      "clase_id": "n1_24",
+      "titulo": "Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_25_imagenes",
+      "clase_id": "n1_25",
+      "titulo": "Técnica 25: leer SOL-FA-MI-RE-DO",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_26_imagenes",
+      "clase_id": "n1_26",
+      "titulo": "Técnica 26: posición de DO en mano izquierda",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_27_imagenes",
+      "clase_id": "n1_27",
+      "titulo": "Técnica 27: manos por turnos",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_28_imagenes",
+      "clase_id": "n1_28",
+      "titulo": "Técnica 28: manos simultáneas por octavas",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_29_imagenes",
+      "clase_id": "n1_29",
+      "titulo": "Técnica 29: miniestudio técnico Nivel 1",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    },
+    {
+      "id": "n1_30_imagenes",
+      "clase_id": "n1_30",
+      "titulo": "Técnica 30: examen global del Nivel 1",
+      "estado": "pendiente_recurso_externo",
+      "nota": "La clase funciona sin este recurso pesado; se podrá añadir manualmente después."
+    }
+  ]
+}

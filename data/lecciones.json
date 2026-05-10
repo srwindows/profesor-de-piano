@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ini_01",
+    "nivel": "inicial",
+    "titulo": "Orientación en el teclado",
+    "objetivos": [
+      "Encontrar Do central",
+      "Diferenciar teclas blancas y negras",
+      "Tocar con la mano relajada"
+    ],
+    "explicacion": "El piano se organiza en grupos de dos teclas negras, y en grupos de tres teclas negras. Do está justo a la izquierda de cada grupo de dos teclas negras."
+  },
+  {
+    "id": "ini_02",
+    "nivel": "inicial",
+    "titulo": "Pulso y duración",
+    "objetivos": [
+      "Mantener el pulso",
+      "Distinguir negras y blancas"
+    ],
+    "explicacion": "El pulso es el latido constante de la música. Una blanca dura el doble que una negra."
+  },
+  {
+    "id": "bas_01",
+    "nivel": "basico",
+    "titulo": "Escala de Do mayor",
+    "objetivos": [
+      "Tocar Do, Re, Mi, Fa, Sol, La y Si",
+      "Usar una digitación básica"
+    ],
+    "explicacion": "Do mayor no usa alteraciones. Es la base para entender tonos, semitonos y grados."
+  },
+  {
+    "id": "bas_02",
+    "nivel": "basico",
+    "titulo": "Acordes mayores y menores",
+    "objetivos": [
+      "Construir tríadas",
+      "Reconocer la tercera mayor y la tercera menor"
+    ],
+    "explicacion": "Una tríada combina fundamental, tercera y quinta. La tercera determina el color mayor o menor."
+  },
+  {
+    "id": "int_01",
+    "nivel": "intermedio",
+    "titulo": "Progresiones I-IV-V",
+    "objetivos": [
+      "Reconocer grados",
+      "Acompañar con tríadas"
+    ],
+    "explicacion": "Uno, cuatro y cinco, forman una estructura central en la música tonal. En Do mayor, son Do, Fa y Sol."
+  },
+  {
+    "id": "ava_01",
+    "nivel": "avanzado",
+    "titulo": "Armonía funcional",
+    "objetivos": [
+      "Identificar función tónica, subdominante y dominante",
+      "Resolver tensión"
+    ],
+    "explicacion": "La armonía funcional estudia la dirección de los acordes dentro de una tonalidad. No mira solo el nombre del acorde; mira su función."
+  }
+]

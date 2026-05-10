@@ -1,0 +1,55 @@
+{
+  "id": "hanon_27_ejercicios",
+  "titulo": "Ejercicios de práctica - Hanon 27: Doble dirección",
+  "ejercicios": [
+    {
+      "id": "hanon_27_practica_derecha_lenta",
+      "tipo": "practica_guiada",
+      "descripcion": "Tocar solo mano derecha a tempo lento.",
+      "mano": "derecha",
+      "bpm": 48,
+      "repeticiones": 2,
+      "criterio_superacion": {
+        "nota_correcta_pct": 90,
+        "pulso_pct": 75
+      }
+    },
+    {
+      "id": "hanon_27_practica_izquierda_lenta",
+      "tipo": "practica_guiada",
+      "descripcion": "Tocar solo mano izquierda a tempo lento.",
+      "mano": "izquierda",
+      "bpm": 48,
+      "repeticiones": 2,
+      "criterio_superacion": {
+        "nota_correcta_pct": 90,
+        "pulso_pct": 75
+      }
+    },
+    {
+      "id": "hanon_27_practica_alterna",
+      "tipo": "practica_guiada",
+      "descripcion": "Alternar mano derecha y mano izquierda siguiendo la pizarra.",
+      "mano": "alternas",
+      "bpm": 60,
+      "repeticiones": 2,
+      "criterio_superacion": {
+        "nota_correcta_pct": 90,
+        "pulso_pct": 80
+      }
+    },
+    {
+      "id": "hanon_27_practica_objetivo",
+      "tipo": "practica_objetivo",
+      "descripcion": "Tocar el patrón con control, sin subir tempo si hay tensión o irregularidad.",
+      "mano": "segun_nivel",
+      "bpm": 68,
+      "repeticiones": 1,
+      "criterio_superacion": {
+        "nota_correcta_pct": 92,
+        "pulso_pct": 82,
+        "desviacion_velocity_max": 18
+      }
+    }
+  ]
+}

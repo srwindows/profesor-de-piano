@@ -1,0 +1,11 @@
+Profesor de Piano IA v4.1.9 lite hotfix layout pizarra/partitura
+
+Base: v4.1.8-lite-hotfix-reto-comprension
+
+Archivos principales modificados:
+- app/config.py
+- app/ui/ventana_principal.py
+- app/ui/dialogo_lectura_partitura.py
+- app/ui/pizarra_musical.py
+
+La carpeta voices/ se omite intencionadamente en esta entrega ligera.

@@ -1,0 +1,602 @@
+{
+  "version": "4.1.15-lite-hotfix-niveles-1-2-completos",
+  "nivel": "nivel_1",
+  "coleccion": "tecnica",
+  "estado": "funcional_completa",
+  "items": [
+    {
+      "id": "n1_01_tecnica",
+      "clase_id": "n1_01",
+      "titulo": "Técnica 1: cinco dedos en DO con mano derecha",
+      "objetivo": "Colocar la mano derecha en DO-RE-MI-FA-SOL y tocar con digitación 1-2-3-4-5 sin tensión.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-2-3-4-5-4-3-2-1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_02_tecnica",
+      "clase_id": "n1_02",
+      "titulo": "Técnica 2: cinco dedos en DO con mano izquierda",
+      "objetivo": "Colocar la mano izquierda en DO-RE-MI-FA-SOL y tocar con digitación 5-4-3-2-1 con control.",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "digitacion": "5-4-3-2-1-2-3-4-5",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_03_tecnica",
+      "clase_id": "n1_03",
+      "titulo": "Técnica 3: alternancia lenta 1-2-3-4-5",
+      "objetivo": "Alternar dedos vecinos con pulso estable, escuchando que ninguna nota sobresalga por accidente.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-2-1-2-3-4-3-4-5-4-3-2-1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_04_tecnica",
+      "clase_id": "n1_04",
+      "titulo": "Técnica 4: vuelta 5-4-3-2-1 sin tensión",
+      "objetivo": "Bajar desde SOL hasta DO sin hundir la muñeca ni endurecer el quinto dedo.",
+      "secuencia": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "digitacion": "5-4-3-2-1-2-3-4-5",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_05_tecnica",
+      "clase_id": "n1_05",
+      "titulo": "Técnica 5: igualdad de sonido entre dedos",
+      "objetivo": "Conseguir que pulgar, índice, medio, anular y meñique produzcan un sonido parecido.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "digitacion": "1-2-3-4-5-1-2-3-4-5",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_06_tecnica",
+      "clase_id": "n1_06",
+      "titulo": "Técnica 6: independencia del dedo 3",
+      "objetivo": "Mantener la mano quieta mientras el dedo 3 trabaja sin arrastrar los demás dedos.",
+      "secuencia": [
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "3-2-3-4-3-2-1-3-5-3-1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_07_tecnica",
+      "clase_id": "n1_07",
+      "titulo": "Técnica 7: independencia del dedo 4",
+      "objetivo": "Entrenar el dedo 4 con movimiento pequeño, sin tensión en hombro ni muñeca.",
+      "secuencia": [
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "digitacion": "4-3-4-5-4-3-2-4-5-4-2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_08_tecnica",
+      "clase_id": "n1_08",
+      "titulo": "Técnica 8: pulgar flexible",
+      "objetivo": "Tocar con el pulgar sin golpear ni girar toda la mano.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-3-1-4-1-5-1-3-2-1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_09_tecnica",
+      "clase_id": "n1_09",
+      "titulo": "Técnica 9: parejas de dedos 1-3 y 2-4",
+      "objetivo": "Combinar parejas no vecinas para ganar orientación dentro de la posición de cinco dedos.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "D4",
+        "F4",
+        "C4",
+        "E4"
+      ],
+      "digitacion": "1-3-2-4-3-5-2-4-1-3",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_10_tecnica",
+      "clase_id": "n1_10",
+      "titulo": "Técnica 10: patrón 1-2-1-3-1-4-1-5",
+      "objetivo": "Usar DO como punto de apoyo para recorrer la posición sin perder la forma de la mano.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "C4",
+        "E4",
+        "C4",
+        "F4",
+        "C4",
+        "G4",
+        "C4"
+      ],
+      "digitacion": "1-2-1-3-1-4-1-5-1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_11_tecnica",
+      "clase_id": "n1_11",
+      "titulo": "Técnica 11: coordinación espejo de ambas manos",
+      "objetivo": "Tocar ambas manos por movimiento contrario desde DO sin adelantar una mano sobre la otra.",
+      "secuencia": [
+        "C4",
+        "B3",
+        "A3",
+        "G3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "digitacion": "MD 1-2-3-4-5 / MI 5-4-3-2-1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_12_tecnica",
+      "clase_id": "n1_12",
+      "titulo": "Técnica 12: pregunta y respuesta entre manos",
+      "objetivo": "La mano derecha toca una idea corta y la izquierda responde imitando el ritmo.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "C3"
+      ],
+      "digitacion": "MD 1-2-3-1 / MI 5-4-3-5",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_13_tecnica",
+      "clase_id": "n1_13",
+      "titulo": "Técnica 13: legato básico de cinco dedos",
+      "objetivo": "Unir notas vecinas sin huecos grandes, levantando cada dedo justo cuando entra el siguiente.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "legato 1-2-3-4-5-4-3-2-1",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_14_tecnica",
+      "clase_id": "n1_14",
+      "titulo": "Técnica 14: staccato controlado",
+      "objetivo": "Tocar notas cortas sin rigidez, usando rebote pequeño y sonido limpio.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "D4"
+      ],
+      "digitacion": "staccato controlado",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_15_tecnica",
+      "clase_id": "n1_15",
+      "titulo": "Técnica 15: acentos suaves",
+      "objetivo": "Acentuar solo la primera nota de cada grupo sin convertir el resto en golpes desiguales.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4",
+        "E4",
+        "F4"
+      ],
+      "digitacion": "acentos cada 4 notas",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_16_tecnica",
+      "clase_id": "n1_16",
+      "titulo": "Técnica 16: dinámica piano y forte",
+      "objetivo": "Distinguir sonido suave y sonido fuerte manteniendo la misma relajación corporal.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "piano luego forte",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_17_tecnica",
+      "clase_id": "n1_17",
+      "titulo": "Técnica 17: metrónomo en negras",
+      "objetivo": "Tocar una nota por pulso con metrónomo lento, sin correr al final de la secuencia.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "digitacion": "negras a 60 bpm",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_18_tecnica",
+      "clase_id": "n1_18",
+      "titulo": "Técnica 18: blancas y negras",
+      "objetivo": "Combinar notas de un pulso y dos pulsos mientras la mano mantiene la posición.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "E4",
+        "F4",
+        "G4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "negras y blancas",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_19_tecnica",
+      "clase_id": "n1_19",
+      "titulo": "Técnica 19: grupos de dos notas",
+      "objetivo": "Agrupar la lectura en parejas para no pensar nota por nota de forma aislada.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "D4"
+      ],
+      "digitacion": "grupos 2+2",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_20_tecnica",
+      "clase_id": "n1_20",
+      "titulo": "Técnica 20: grupos de tres notas",
+      "objetivo": "Agrupar tres sonidos manteniendo pulso y respiración musical.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "D4",
+        "E4",
+        "F4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4"
+      ],
+      "digitacion": "grupos de tres",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_21_tecnica",
+      "clase_id": "n1_21",
+      "titulo": "Técnica 21: patrón 1-3-2-4-3-5",
+      "objetivo": "Subir por dedos alternos sin descolocar la mano ni mirar continuamente los dedos.",
+      "secuencia": [
+        "C4",
+        "E4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "F4",
+        "D4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "1-3-2-4-3-5",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_22_tecnica",
+      "clase_id": "n1_22",
+      "titulo": "Técnica 22: patrón 1-2-4-3-5",
+      "objetivo": "Entrenar saltos internos pequeños dentro de DO-RE-MI-FA-SOL.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "G4",
+        "E4",
+        "F4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "1-2-4-3-5",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_23_tecnica",
+      "clase_id": "n1_23",
+      "titulo": "Técnica 23: dirección ascendente y descendente",
+      "objetivo": "Reconocer si la melodía sube, baja o vuelve al punto inicial.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "E4",
+        "C4"
+      ],
+      "digitacion": "dirección melódica",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_24_tecnica",
+      "clase_id": "n1_24",
+      "titulo": "Técnica 24: leer DO-RE-MI-FA-SOL en pentagrama",
+      "objetivo": "Relacionar cada nota de la posición de cinco dedos con su lugar visual en el pentagrama.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "digitacion": "lectura DO a SOL",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_25_tecnica",
+      "clase_id": "n1_25",
+      "titulo": "Técnica 25: leer SOL-FA-MI-RE-DO",
+      "objetivo": "Leer la dirección descendente sin confundir el orden de las notas.",
+      "secuencia": [
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "lectura SOL a DO",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_26_tecnica",
+      "clase_id": "n1_26",
+      "titulo": "Técnica 26: posición de DO en mano izquierda",
+      "objetivo": "Aplicar el mismo mapa de cinco dedos a la mano izquierda en registro grave.",
+      "secuencia": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "digitacion": "5-4-3-2-1-2-3-4-5",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_27_tecnica",
+      "clase_id": "n1_27",
+      "titulo": "Técnica 27: manos por turnos",
+      "objetivo": "Alternar una frase corta de derecha y otra de izquierda sin perder el pulso.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "G4",
+        "C3",
+        "D3",
+        "E3",
+        "G3"
+      ],
+      "digitacion": "MD responde MI",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_28_tecnica",
+      "clase_id": "n1_28",
+      "titulo": "Técnica 28: manos simultáneas por octavas",
+      "objetivo": "Tocar la misma nota en dos registros a la vez, escuchando si ambas manos caen juntas.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "octavas C3/C4",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_29_tecnica",
+      "clase_id": "n1_29",
+      "titulo": "Técnica 29: miniestudio técnico Nivel 1",
+      "objetivo": "Unir los patrones del nivel en una pieza corta de estudio con inicio, desarrollo y cierre.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "E4",
+        "C4",
+        "D4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4"
+      ],
+      "digitacion": "miniestudio",
+      "estado": "funcional"
+    },
+    {
+      "id": "n1_30_tecnica",
+      "clase_id": "n1_30",
+      "titulo": "Técnica 30: examen global del Nivel 1",
+      "objetivo": "Repasar todo el Nivel 1 antes del examen global: posición, igualdad, pulso, lectura y coordinación básica.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4",
+        "F4",
+        "E4",
+        "D4",
+        "C4",
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3"
+      ],
+      "digitacion": "síntesis Nivel 1",
+      "estado": "funcional"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "hanon_25_pizarra",
+  "titulo": "Pizarra Hanon 25: Repetición con cambio de dedo",
+  "limpiar_entre_pasos": true,
+  "partitura_musicxml": "data/hanon/nivel_3/hanon_25/partituras/hanon_25.musicxml",
+  "midi_demo": "data/hanon/nivel_3/hanon_25/midi/hanon_25_demo.mid",
+  "pasos": [
+    {
+      "id": "presentacion",
+      "texto_profesor": "Hoy trabajamos Hanon 25: Repetición con cambio de dedo. El objetivo es repetición con cambio de dedo sin tensión y con sonido regular.",
+      "marcas": [
+        {
+          "tipo": "etiqueta",
+          "texto": "Hanon 25: Repetición con cambio de dedo",
+          "zona": "superior_centro",
+          "duracion_ms": 3500
+        }
+      ]
+    },
+    {
+      "id": "pentagrama",
+      "texto_profesor": "Observa el pentagrama. La pizarra resaltará las líneas, las claves y la nota activa para que sepas dónde mirar.",
+      "marcas": [
+        {
+          "tipo": "resaltar_lineas_pentagrama",
+          "pentagrama": "ambos",
+          "duracion_ms": 2500
+        }
+      ]
+    },
+    {
+      "id": "mano_derecha",
+      "texto_profesor": "La mano derecha toca el patrón superior. La asociamos con la clave de Sol y con la línea superior de la práctica.",
+      "marcas": [
+        {
+          "tipo": "senalar_clave_sol",
+          "animacion": "halo_pulsante",
+          "duracion_ms": 2500
+        },
+        {
+          "tipo": "mostrar_mano_derecha",
+          "animacion": "aparicion_pulso",
+          "duracion_ms": 3000
+        }
+      ]
+    },
+    {
+      "id": "patron_derecha",
+      "texto_profesor": "El primer patrón de la mano derecha es: Do4, Do4, Re4, Re4, Mi4, Mi4, Fa4, Fa4. Debes tocarlo regular, sin golpes fuertes aislados.",
+      "marcas": [
+        {
+          "tipo": "resaltar_notas_por_indice",
+          "pentagrama": "superior",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "duracion_ms": 5000
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "Igualdad y control",
+          "zona": "derecha_media",
+          "duracion_ms": 3500
+        }
+      ]
+    },
+    {
+      "id": "mano_izquierda",
+      "texto_profesor": "La mano izquierda trabaja el pentagrama inferior, asociado normalmente a la clave de Fa.",
+      "marcas": [
+        {
+          "tipo": "senalar_clave_fa",
+          "animacion": "halo_pulsante",
+          "duracion_ms": 2500
+        },
+        {
+          "tipo": "mostrar_mano_izquierda",
+          "animacion": "aparicion_pulso",
+          "duracion_ms": 3000
+        }
+      ]
+    },
+    {
+      "id": "demo",
+      "texto_profesor": "Ahora escucha una demostración lenta. La nota activa debe iluminarse en la partitura y en el piano virtual.",
+      "marcas": [
+        {
+          "tipo": "activar_seguimiento_midi_demo",
+          "midi": "data/hanon/nivel_3/hanon_25/midi/hanon_25_demo.mid",
+          "duracion_ms": 0
+        }
+      ]
+    },
+    {
+      "id": "practica",
+      "texto_profesor": "Ahora toca tú. El sistema comprobará nota, pulso, velocity y duración.",
+      "marcas": [
+        {
+          "tipo": "activar_analisis_midi_externo",
+          "duracion_ms": 0
+        },
+        {
+          "tipo": "leyenda_colores",
+          "items": {
+            "verde": "correcto",
+            "amarillo": "fuera de pulso",
+            "rojo": "nota incorrecta"
+          },
+          "duracion_ms": 6000
+        }
+      ]
+    },
+    {
+      "id": "correccion",
+      "texto_profesor": "Revisamos los errores. Si hay notas incorrectas o pulso irregular, repetiremos más lento antes de avanzar.",
+      "marcas": [
+        {
+          "tipo": "mostrar_resultados_evaluacion",
+          "duracion_ms": 0
+        }
+      ]
+    }
+  ]
+}

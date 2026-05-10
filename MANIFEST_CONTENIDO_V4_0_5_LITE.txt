@@ -1,0 +1,10 @@
+PROFESOR DE PIANO v4.0.5 LITE FLUJO DOCENTE CLASES
+ZIP sin IA pesada, sin modelos y sin voices.
+
+Total de archivos: 630
+
+Ejecutar:
+python3 main.py
+
+Archivo clave:
+data/flujo_docente_nivel_0.json

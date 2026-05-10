@@ -1,0 +1,44 @@
+{
+  "eventos": [
+    {
+      "ts": "2026-05-05T22:59:03",
+      "clase_id": "n1_01",
+      "titulo": "Técnica 1: cinco dedos en DO con mano derecha",
+      "evento": "examen_clase_superado",
+      "correcto": true,
+      "detalle": {
+        "origen": "examen_clase"
+      }
+    },
+    {
+      "ts": "2026-05-05T22:59:03",
+      "clase_id": "n2_01",
+      "titulo": "Lectura 1: clave de Sol con DO-RE-MI",
+      "evento": "examen_clase_superado",
+      "correcto": true,
+      "detalle": {
+        "origen": "examen_clase"
+      }
+    },
+    {
+      "ts": "2026-05-05T23:00:48",
+      "clase_id": "n1_01",
+      "titulo": "Técnica 1: cinco dedos en DO con mano derecha",
+      "evento": "examen_clase_superado",
+      "correcto": true,
+      "detalle": {
+        "origen": "examen_clase"
+      }
+    },
+    {
+      "ts": "2026-05-05T23:00:48",
+      "clase_id": "n2_01",
+      "titulo": "Lectura 1: clave de Sol con DO-RE-MI",
+      "evento": "examen_clase_superado",
+      "correcto": true,
+      "detalle": {
+        "origen": "examen_clase"
+      }
+    }
+  ]
+}

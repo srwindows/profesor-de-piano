@@ -1,0 +1,13 @@
+{
+  "version": "4.0.0-lite-colecciones-preparadas",
+  "nivel": "nivel_0",
+  "coleccion": "evaluaciones",
+  "estado": "preparada",
+  "items": [],
+  "enlaces": {
+    "carpeta_teoria": "assets/teoria/nivel_0/",
+    "carpeta_partituras": "assets/partituras/nivel_0/",
+    "carpeta_midi": "assets/midi/nivel_0/",
+    "documentacion": "docs/curriculo/nivel_0/"
+  }
+}

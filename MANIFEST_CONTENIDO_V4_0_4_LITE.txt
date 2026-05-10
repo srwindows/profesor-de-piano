@@ -1,0 +1,7 @@
+PROFESOR DE PIANO v4.0.4 LITE MODOS CLASE PRACTICA EXAMEN
+ZIP sin IA pesada, sin modelos y sin voices.
+
+Total de archivos: 624
+
+Ejecutar:
+python3 main.py

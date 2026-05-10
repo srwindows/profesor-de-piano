@@ -1,0 +1,230 @@
+{
+  "version": "4.0.0-lite-colecciones-preparadas",
+  "nivel": "nivel_0",
+  "estado": "cerrado",
+  "titulo": "Nivel 0 — Base absoluta cerrada",
+  "total_clases": 20,
+  "archivo_origen": "data/lecciones_nivel_0.json",
+  "clases": [
+    {
+      "id": "n0_01_postura_base",
+      "orden": 1,
+      "titulo": "Postura al piano: cuerpo preparado",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/postura_al_piano.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_02_postura_incorrecta_correcta",
+      "orden": 2,
+      "titulo": "Postura incorrecta y postura correcta",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/postura_mala_correcta.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_03_mano_redondeada",
+      "orden": 3,
+      "titulo": "Mano redondeada y muñeca viva",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/mano_correcta.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_04_digitacion_1_5",
+      "orden": 4,
+      "titulo": "Digitación 1–5",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/gifs/digitacion_1_5_pro_suave.gif",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_05_patron_teclas_negras",
+      "orden": 5,
+      "titulo": "Patrón del teclado: dos y tres teclas negras",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/patron_teclado.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_06_do_central",
+      "orden": 6,
+      "titulo": "Localizar DO y DO central",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/teclas_blancas.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_07_teclas_blancas",
+      "orden": 7,
+      "titulo": "Teclas blancas: DO RE MI FA SOL LA SI",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/teclas_blancas.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_08_partitura_piano",
+      "orden": 8,
+      "titulo": "Qué es una partitura de piano",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/patron_teclado.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_09_claves_sol_fa",
+      "orden": 9,
+      "titulo": "Claves de SOL y FA",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/teclas_blancas.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_10_do_central_pentagrama",
+      "orden": 10,
+      "titulo": "DO central entre teclado y pentagrama",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/teclas_blancas.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_11_figura_negra",
+      "orden": 11,
+      "titulo": "La negra: un pulso",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_12_blanca_redonda",
+      "orden": 12,
+      "titulo": "Blanca y redonda",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_13_silencios",
+      "orden": 13,
+      "titulo": "Silencios: no tocar, pero contar",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_14_metro_pulso",
+      "orden": 14,
+      "titulo": "Metrónomo y pulso regular",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/digitacion_1_5_base.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_15_lectura_sol_fa_do",
+      "orden": 15,
+      "titulo": "Primera lectura: SOL, FA y DO central",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/teclas_blancas.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_16_secuencia_do_re_mi",
+      "orden": 16,
+      "titulo": "Secuencia DO–RE–MI",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/teclas_blancas.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_17_digitacion_do_sol",
+      "orden": 17,
+      "titulo": "Digitación DO–RE–MI–FA–SOL",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/gifs/digitacion_1_5_pro_suave.gif",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_18_manos_roles",
+      "orden": 18,
+      "titulo": "Mano derecha y mano izquierda",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/mano_correcta.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_19_primer_reto_midi",
+      "orden": 19,
+      "titulo": "Primer reto con teclado MIDI",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/teclas_blancas.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    },
+    {
+      "id": "n0_20_cierre_nivel0",
+      "orden": 20,
+      "titulo": "Cierre del Nivel 0: ver, entender y tocar",
+      "estado": "cerrada",
+      "enlaces": {
+        "clase": "data/lecciones_nivel_0.json",
+        "teoria_visual": "assets/teoria/nivel_0/patron_teclado.png",
+        "documentacion": "docs/curriculo/nivel_0/"
+      }
+    }
+  ]
+}

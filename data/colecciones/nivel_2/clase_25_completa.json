@@ -1,0 +1,305 @@
+{
+  "id": "n2_25",
+  "orden": 25,
+  "titulo": "Lectura 25: canon sencillo entre manos",
+  "estado": "funcional_completa",
+  "tipo": "clase_real_nivel_2",
+  "flujo_obligatorio": [
+    "teoria",
+    "ejercicios",
+    "examen_clase"
+  ],
+  "objetivo": "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+  "resumen": "Clase completa con teoría, pizarra, MIDI, ejercicios asociados y examen final de clase.",
+  "competencias": [
+    "Reconocer el objetivo de la clase antes de tocar.",
+    "Seguir la nota resaltada en pizarra y pentagrama vivo.",
+    "Tocar la secuencia con piano virtual o MIDI externo.",
+    "Mantener pulso regular con metrónomo lento.",
+    "Aceptar correcciones sobre nota, orden, velocity, simultaneidad y tensión."
+  ],
+  "fase_teorica": {
+    "titulo": "Lectura 25: canon sencillo entre manos",
+    "objetivo": "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+    "resumen": "Clase 25 del Nivel 2: lectura aplicada, pizarra, práctica MIDI y examen.",
+    "explicacion": "Javi, esta es la clase 25 del Nivel 2: Lectura 25: canon sencillo entre manos. Imitar con la izquierda una idea que acaba de tocar la derecha. Trabajamos manos alternas con una secuencia corta: DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3. La digitación o foco técnico es: canon. No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión. Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase.",
+    "ejemplo": "La pizarra muestra DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3; el alumno toca la misma secuencia despacio.",
+    "practica": "Practica la secuencia DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3 a 74 bpm.",
+    "archivo_visual": "assets/teoria/nivel_2/clase_25.md"
+  },
+  "teoria": {
+    "guion_profesor": [
+      "Javi, esta es la clase 25 del Nivel 2: Lectura 25: canon sencillo entre manos.",
+      "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+      "Trabajamos manos alternas con una secuencia corta: DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3.",
+      "La digitación o foco técnico es: canon.",
+      "No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión.",
+      "Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase."
+    ],
+    "conceptos": [
+      "lectura aplicada",
+      "manos alternas",
+      "canon",
+      "pulso",
+      "MIDI externo",
+      "pentagrama vivo"
+    ]
+  },
+  "explicacion": "Javi, esta es la clase 25 del Nivel 2: Lectura 25: canon sencillo entre manos. Imitar con la izquierda una idea que acaba de tocar la derecha. Trabajamos manos alternas con una secuencia corta: DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3. La digitación o foco técnico es: canon. No buscamos correr. Buscamos nota correcta, pulso estable, sonido controlado y ausencia de tensión. Después de la teoría vendrán los ejercicios asociados y el examen final de esta clase.",
+  "pizarra": {
+    "modo": "lectura_aplicada",
+    "titulo": "Lectura 25: canon sencillo entre manos",
+    "guion": [
+      "Observa la clase 25: Lectura 25: canon sencillo entre manos.",
+      "Secuencia visual: DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3.",
+      "Mano o enfoque principal: manos alternas.",
+      "Primero se entiende en la pizarra; después se toca con piano virtual o teclado MIDI.",
+      "El profesor debe resaltar la nota actual, preparar la siguiente y corregir antes de avanzar."
+    ],
+    "secuencia_docente": [
+      "C4",
+      "D4",
+      "E4",
+      "C3",
+      "D3",
+      "E3",
+      "F4",
+      "G4",
+      "F3",
+      "G3"
+    ],
+    "digitacion": "canon",
+    "resalta_nota_actual": true,
+    "prepara_siguiente_nota": true,
+    "acepta_midi_externo": true,
+    "archivo": "assets/teoria/nivel_2/clase_25.md"
+  },
+  "midi_didactico": {
+    "pieza_id": "n2_25_midi",
+    "archivo": "assets/midi/nivel_2/clases/clase_25.mid",
+    "modos": [
+      "clase",
+      "escuchar",
+      "practica",
+      "examen"
+    ],
+    "tempo": 74,
+    "compas": "4/4",
+    "secuencia": [
+      "C4",
+      "D4",
+      "E4",
+      "C3",
+      "D3",
+      "E3",
+      "F4",
+      "G4",
+      "F3",
+      "G3"
+    ]
+  },
+  "midi": {
+    "activo": true,
+    "objetivo": [
+      "C4",
+      "D4",
+      "E4",
+      "C3",
+      "D3",
+      "E3",
+      "F4",
+      "G4",
+      "F3",
+      "G3"
+    ],
+    "archivo": "assets/midi/nivel_2/clases/clase_25.mid",
+    "tempo": 74,
+    "acepta_entrada_externa": true
+  },
+  "partitura": {
+    "archivo": "assets/partituras/nivel_2/clase_25.musicxml",
+    "estado": "funcional_generada",
+    "formato": "musicxml",
+    "secuencia": [
+      "C4",
+      "D4",
+      "E4",
+      "C3",
+      "D3",
+      "E3",
+      "F4",
+      "G4",
+      "F3",
+      "G3"
+    ]
+  },
+  "ejercicios_asociados": [
+    {
+      "id": "n2_25_ej01_comprension",
+      "orden": 1,
+      "tipo": "comprension",
+      "titulo": "Comprensión de la clase",
+      "objetivo": "Explicar qué se trabaja antes de pasar al teclado.",
+      "instruccion": "Responde qué busca esta clase: Imitar con la izquierda una idea que acaba de tocar la derecha.",
+      "criterio": "El alumno identifica el concepto principal y no toca por impulso.",
+      "validacion": {
+        "modo": "opcion_multiple",
+        "opciones": [
+          "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+          "Tocar lo más rápido posible sin mirar la partitura",
+          "Saltar la teoría y pasar directamente al examen"
+        ],
+        "respuesta_correcta": 0
+      }
+    },
+    {
+      "id": "n2_25_ej02_pizarra",
+      "orden": 2,
+      "tipo": "pizarra_guiada",
+      "titulo": "Pizarra y pentagrama",
+      "objetivo": "Seguir visualmente la nota actual y la siguiente nota preparada.",
+      "instruccion": "Pulsa Leer punto actual y recorre el guion de pizarra antes de tocar.",
+      "criterio": "El alumno sabe dónde mira, qué nota se resalta y qué mano interviene.",
+      "validacion": {
+        "modo": "pizarra_guiada",
+        "requiere_pizarra": true,
+        "resalta_secuencia": [
+          "C4",
+          "D4",
+          "E4",
+          "C3",
+          "D3",
+          "E3",
+          "F4",
+          "G4",
+          "F3",
+          "G3"
+        ]
+      }
+    },
+    {
+      "id": "n2_25_ej03_midi_secuencia",
+      "orden": 3,
+      "tipo": "midi_secuencia",
+      "titulo": "Tocar la secuencia",
+      "objetivo": "Tocar las notas en el orden indicado.",
+      "instruccion": "Toca: DO4 - RE4 - MI4 - DO3 - RE3 - MI3 - FA4 - SOL4 - FA3 - SOL3.",
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "F4",
+        "G4",
+        "F3",
+        "G3"
+      ],
+      "criterio": "Notas correctas, orden correcto y sin teclas de más.",
+      "validacion": {
+        "modo": "midi_secuencia",
+        "acepta_piano_virtual": true,
+        "acepta_midi_externo": true,
+        "secuencia": [
+          "C4",
+          "D4",
+          "E4",
+          "C3",
+          "D3",
+          "E3",
+          "F4",
+          "G4",
+          "F3",
+          "G3"
+        ]
+      }
+    },
+    {
+      "id": "n2_25_ej04_pulso_velocity",
+      "orden": 4,
+      "tipo": "midi_pulso",
+      "titulo": "Pulso y sonido controlado",
+      "objetivo": "Repetir la secuencia con metrónomo y velocity equilibrada.",
+      "instruccion": "Activa metrónomo a 74 bpm y toca sin acelerar.",
+      "tempo": 74,
+      "secuencia": [
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "F4",
+        "G4",
+        "F3",
+        "G3"
+      ],
+      "criterio": "Pulso aceptable, sonido parecido entre notas y liberación limpia.",
+      "validacion": {
+        "modo": "midi_pro",
+        "tempo": 74,
+        "comprueba_velocity": true,
+        "comprueba_pulso": true
+      }
+    }
+  ],
+  "examen_clase": {
+    "id": "n2_25_examen_clase",
+    "titulo": "Examen final de clase 25 — Lectura 25: canon sencillo entre manos",
+    "tipo": "opcion_multiple_y_midi_pro",
+    "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+    "opciones": [
+      "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+      "Tocar más fuerte aunque haya errores",
+      "Avanzar sin comprobar la secuencia"
+    ],
+    "respuesta_correcta": 0,
+    "secuencia_obligatoria": [
+      "C4",
+      "D4",
+      "E4",
+      "C3",
+      "D3",
+      "E3",
+      "F4",
+      "G4",
+      "F3",
+      "G3"
+    ],
+    "tempo": 74,
+    "criterios": {
+      "nota_correcta": true,
+      "orden_correcto": true,
+      "pulso_aceptable": true,
+      "velocity_equilibrada": true,
+      "sin_teclas_de_mas": true,
+      "simultaneidad_si_aplica": false,
+      "postura_camara_opcional": true
+    },
+    "aprobado_si": "80% de precisión mínima, sin errores graves de orden y con pulso razonable.",
+    "feedback_correcto": "Correcto. Has entendido el objetivo y puedes pasar al siguiente paso.",
+    "feedback_error": "Todavía no. Repasa la teoría, mira la pizarra y repite la secuencia lentamente.",
+    "desbloquea_si_aprueba": "n2_26",
+    "si_aprueba": "desbloquea n2_26",
+    "si_falla": "repite ejercicios 2, 3 y 4 antes de volver al examen"
+  },
+  "evaluacion": {
+    "pregunta": "¿Cuál es el objetivo principal de esta clase?",
+    "opciones": [
+      "Imitar con la izquierda una idea que acaba de tocar la derecha.",
+      "Tocar más fuerte aunque haya errores",
+      "Avanzar sin comprobar la secuencia"
+    ],
+    "respuesta_correcta": 0
+  },
+  "desbloquea": "n2_26",
+  "regla_avance": "No se avanza sin trabajar teoría, ejercicios asociados y superar el examen final de clase.",
+  "archivo_clase_completa": "data/colecciones/nivel_2/clase_25_completa.json",
+  "enlaces": {
+    "teoria_visual": "assets/teoria/nivel_2/clase_25.md",
+    "partitura": "assets/partituras/nivel_2/clase_25.musicxml",
+    "midi": "assets/midi/nivel_2/clases/clase_25.mid",
+    "documentacion": "docs/curriculo/nivel_2/clase_25.md"
+  }
+}
