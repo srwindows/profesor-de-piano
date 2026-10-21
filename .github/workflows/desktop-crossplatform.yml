@@ -37,6 +37,9 @@ jobs:
           patch -p1 < ../crossplatform-build-fixes.patch
           patch -p1 < ../crossplatform-draw-fixes.patch
           patch -p1 < ../crossplatform-language-fixes.patch
+          patch -p1 < ../crossplatform-startup-init.patch
+          patch -p1 < ../crossplatform-macos-menu-crash-guard.patch
+          grep -q 'window.init();' src/QtMain.cpp
           cmake -S . -B out/win -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DNO_DOCS=ON -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
           cmake --build out/win --parallel 4
           mkdir -p dist/PianoBooster-Windows-x64/music dist/PianoBooster-Windows-x64/tools
@@ -106,6 +109,13 @@ jobs:
           # First run macOS: continuous listening mode, correctly selected
           # Spanish UI, with educational Follow-You still user-selectable.
           patch -p1 < ../crossplatform-macos-playback-language.patch
+          patch -p1 < ../crossplatform-startup-init.patch
+          patch -p1 < ../crossplatform-macos-menu-crash-guard.patch
+          # Full app startup must execute before we can claim the menu/locale
+          # and CoreAudio fixes work. Prior builds called show() without init().
+          grep -q 'window.init();' src/QtMain.cpp
+          grep -q 'setNativeMenuBar(false)' src/QtWindow.cpp
+          grep -q 'QMenu::title()' src/QtWindow.cpp
           grep -q 'ListenModeMigration20261021' src/GuiSidePanel.cpp
           grep -q 'SpanishDefaultMigration20261021' src/Settings.cpp
           grep -q 'MidiDeviceCoreAudio.cpp' src/CMakeLists.txt
