@@ -1,0 +1,15 @@
+--- a/src/QtMain.cpp
++++ b/src/QtMain.cpp
+@@ -46,7 +46,11 @@
+ 
+     QApplication app(argc, argv);
+     QtWindow window;
+-    window.show();
++    // The constructor only creates widgets. init() loads persisted settings,
++    // creates/actions connects the actual menus, applies translations, selects
++    // the audio/MIDI output and shows the window. Calling show() alone left
++    // macOS with an uninitialized menu bar and a nonfunctional application.
++    window.init();
+ 
+     int value = app.exec();
+     closeLogs();
