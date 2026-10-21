@@ -9,6 +9,7 @@ jobs:
   windows-x64:
     name: Windows x64 (Qt6 / MIDI / FluidSynth)
     runs-on: windows-2025
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: msys2/setup-msys2@v2
@@ -16,7 +17,7 @@ jobs:
           msystem: UCRT64
           update: true
           install: >-
-            git zip unzip pkgconf
+            git zip unzip patch pkgconf
             mingw-w64-ucrt-x86_64-toolchain
             mingw-w64-ucrt-x86_64-cmake
             mingw-w64-ucrt-x86_64-ninja
@@ -34,6 +35,7 @@ jobs:
           unzip -q PianoBooster-source.zip
           cd PianoBooster
           patch -p1 < ../crossplatform-build-fixes.patch
+          patch -p1 < ../crossplatform-draw-fixes.patch
           cmake -S . -B out/win -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DNO_DOCS=ON -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
           cmake --build out/win --parallel 4
           mkdir -p dist/PianoBooster-Windows-x64/music dist/PianoBooster-Windows-x64/tools
@@ -73,13 +75,14 @@ jobs:
           - label: AppleSilicon-arm64
             runner: macos-15
     runs-on: ${{ matrix.runner }}
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - name: Install Qt and native audio dependencies
         run: |
           cat PianoBooster-source.zip.part-* > PianoBooster-source.zip
           unzip -q PianoBooster-source.zip
-          brew update
+          export HOMEBREW_NO_AUTO_UPDATE=1
           brew install cmake ninja pkg-config qt fluidsynth dylibbundler
       - name: Build macOS .app
         shell: bash
@@ -87,6 +90,7 @@ jobs:
           set -euxo pipefail
           cd PianoBooster
           patch -p1 < ../crossplatform-build-fixes.patch
+          patch -p1 < ../crossplatform-draw-fixes.patch
           export PATH="$(brew --prefix qt)/bin:$PATH"
           cmake -S . -B out/mac -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DCMAKE_PREFIX_PATH="$(brew --prefix qt)" -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
           cmake --build out/mac --parallel 3
