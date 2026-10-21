@@ -101,9 +101,15 @@ jobs:
           patch -p1 < ../crossplatform-build-fixes.patch
           patch -p1 < ../crossplatform-draw-fixes.patch
           patch -p1 < ../crossplatform-language-fixes.patch
+          # macOS-only: native Apple DLS/CoreAudio output (not FluidSynth).
+          patch -p1 < ../crossplatform-native-coreaudio.patch
+          grep -q 'MidiDeviceCoreAudio.cpp' src/CMakeLists.txt
+          grep -q 'CoreAudio (Mac)' src/MidiDeviceCoreAudio.h
           export PATH="$(brew --prefix qt)/bin:$PATH"
           cmake -S . -B out/mac -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DCMAKE_PREFIX_PATH="$(brew --prefix qt)" -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
           cmake --build out/mac --parallel 3
+          # CoreAudio DLS must be linked in the built native executable.
+          otool -L out/mac/build/pianobooster.app/Contents/MacOS/pianobooster | grep -q AudioToolbox
           APP=out/mac/build/pianobooster.app
           test -f "$APP/Contents/MacOS/pianobooster"
           mkdir -p "$APP/Contents/Resources/score-engine"
