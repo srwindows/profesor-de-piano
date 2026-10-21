@@ -1,0 +1,30 @@
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -1,3 +1,5 @@
++set(CMAKE_CXX_STANDARD 17)
++set(CMAKE_CXX_STANDARD_REQUIRED ON)
+ # Cmake File for Piano Booster
+ 
+ option(WITH_INTERNAL_FLUIDSYNTH "Build with an internal FluidSynth sound generator" ON)
+@@ -94,6 +96,13 @@
+     LINK_LIBRARIES (GL)
+ endif(${CMAKE_SYSTEM} MATCHES "Linux")
+ 
++# Qt6 uses std::byte under C++17. Headers from old sources sometimes
++# import the std namespace before Draw.h includes Windows RPC headers.
++# Preinclude Windows headers before any such namespace pollution.
++if(WIN32 AND MINGW)
++    ADD_COMPILE_OPTIONS(-include windows.h)
++endif()
++
+ if(${CMAKE_SYSTEM} MATCHES "Windows")
+     ADD_DEFINITIONS(-D__WINDOWS_MM__ -D_WIN32)
+     LINK_LIBRARIES(winmm opengl32)
+@@ -101,7 +110,6 @@
+ 
+ if(${CMAKE_SYSTEM} MATCHES "Darwin")
+     ADD_DEFINITIONS(-D__MACOSX_CORE__)
+-    ADD_DEFINITIONS(-std=c++11)
+     LINK_LIBRARIES("-framework CoreMidi -framework CoreAudio -framework CoreFoundation -framework OpenGL")
+ endif(${CMAKE_SYSTEM} MATCHES "Darwin")
+ 
