@@ -36,6 +36,7 @@ jobs:
           cd PianoBooster
           patch -p1 < ../crossplatform-build-fixes.patch
           patch -p1 < ../crossplatform-draw-fixes.patch
+          patch -p1 < ../crossplatform-language-fixes.patch
           cmake -S . -B out/win -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DNO_DOCS=ON -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
           cmake --build out/win --parallel 4
           mkdir -p dist/PianoBooster-Windows-x64/music dist/PianoBooster-Windows-x64/tools
@@ -46,6 +47,14 @@ jobs:
           cp license.txt gplv3.txt dist/PianoBooster-Windows-x64/
           /ucrt64/bin/windeployqt6.exe --release dist/PianoBooster-Windows-x64/PianoBooster.exe
           python packaging/collect_msys_dlls.py dist/PianoBooster-Windows-x64 /ucrt64/bin
+          # The app reads its language choices from translations/langs.json and
+          # actual Qt .qm catalogs next to the program. Ship all 18 languages.
+          mkdir -p dist/PianoBooster-Windows-x64/translations
+          cp translations/langs.json out/win/build/translations/pianobooster_*.qm dist/PianoBooster-Windows-x64/translations/
+          for locale in es de fr it; do
+            test -s "dist/PianoBooster-Windows-x64/translations/pianobooster_${locale}.qm"
+          done
+          test "$(find dist/PianoBooster-Windows-x64/translations -name 'pianobooster_*.qm' | wc -l)" -ge 18
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -91,6 +100,7 @@ jobs:
           cd PianoBooster
           patch -p1 < ../crossplatform-build-fixes.patch
           patch -p1 < ../crossplatform-draw-fixes.patch
+          patch -p1 < ../crossplatform-language-fixes.patch
           export PATH="$(brew --prefix qt)/bin:$PATH"
           cmake -S . -B out/mac -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DCMAKE_PREFIX_PATH="$(brew --prefix qt)" -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
           cmake --build out/mac --parallel 3
@@ -105,6 +115,14 @@ jobs:
           # directory (including QtXml, QtCore and QtGui) from the final DMG.
           # Never run dylibbundler -od after macdeployqt.
           "$(brew --prefix qt)/bin/macdeployqt" "$APP" -verbose=1
+          # CMake builds *.qm but the .app currently only includes langs.json.
+          # Without those files the Preferences menu offers only English.
+          mkdir -p "$APP/Contents/Resources/translations"
+          cp translations/langs.json out/mac/build/translations/pianobooster_*.qm "$APP/Contents/Resources/translations/"
+          for locale in es de fr it; do
+            test -s "$APP/Contents/Resources/translations/pianobooster_${locale}.qm"
+          done
+          test "$(find "$APP/Contents/Resources/translations" -name 'pianobooster_*.qm' | wc -l)" -ge 18
           for module in QtCore QtGui QtWidgets QtXml QtOpenGL QtOpenGLWidgets QtCore5Compat; do
             FRAMEWORK="$APP/Contents/Frameworks/${module}.framework/Versions/A/${module}"
             test -f "$FRAMEWORK" || { echo "::error::Missing bundled Qt framework: $FRAMEWORK"; exit 1; }
@@ -136,6 +154,8 @@ jobs:
           cp -R "$APP" "staging/PianoBooster.app"
           # Verify that the .app actually being put in the DMG contains QtXml.
           test -f "staging/PianoBooster.app/Contents/Frameworks/QtXml.framework/Versions/A/QtXml"
+          test -s "staging/PianoBooster.app/Contents/Resources/translations/pianobooster_es.qm"
+          test -s "staging/PianoBooster.app/Contents/Resources/translations/langs.json"
           "staging/PianoBooster.app/Contents/MacOS/pianobooster" --version
           hdiutil create -volname 'PianoBooster' -srcfolder staging -ov -format UDZO "../PianoBooster-macOS-${{ matrix.label }}.dmg"
       - uses: actions/upload-artifact@v4
