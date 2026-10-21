@@ -1,0 +1,352 @@
+--- a/src/MidiDeviceCoreAudio.h
++++ b/src/MidiDeviceCoreAudio.h
+@@ -1,34 +1,49 @@
+ /*
+  * PianoBooster derivative (2026), GNU GPLv3 or later.
+- * macOS native CoreAudio DLS MusicDevice MIDI output.
++ * Native macOS CoreAudio DLS synth: 16 independently metered PCM buses.
+  */
+ #ifndef PIANOBOOSTER_COREAUDIO_H
+ #define PIANOBOOSTER_COREAUDIO_H
+ #ifdef __APPLE__
+ #include "MidiDeviceBase.h"
+ #include <AudioToolbox/AudioToolbox.h>
++#include <array>
++#include <atomic>
+ class CMidiDeviceCoreAudio final : public CMidiDeviceBase {
+ public:
++    static constexpr unsigned CHANNEL_COUNT=16;
++    CMidiDeviceCoreAudio();
+     ~CMidiDeviceCoreAudio() override;
+-    static QString name() { return QStringLiteral("CoreAudio (Mac)"); }
++    static QString name(){return QStringLiteral("CoreAudio (Mac)");}
+     void init() override {}
+     QStringList getMidiPortList(midiType_t type) override;
+     bool openMidiPort(midiType_t type,const QString &port) override;
+     void closeMidiPort(midiType_t type,int index) override;
+-    bool validMidiConnection() override {return active;}
++    bool validMidiConnection() override{return active.load();}
+     void playMidiEvent(const CMidiEvent &ev) override;
+-    int checkMidiInput() override {return 0;}
+-    CMidiEvent readMidiInput() override {return CMidiEvent();}
+-    int midiSettingsSetStr(const QString &,const QString &) override {return 0;}
+-    int midiSettingsSetNum(const QString &,double) override {return 0;}
+-    int midiSettingsSetInt(const QString &,int) override {return 0;}
+-    QString midiSettingsGetStr(const QString &) override {return QString();}
+-    double midiSettingsGetNum(const QString &) override {return 0;}
+-    int midiSettingsGetInt(const QString &) override {return 0;}
++    int checkMidiInput() override{return 0;}
++    CMidiEvent readMidiInput() override{return CMidiEvent();}
++    float audioMeterDb(int midiChannel) const override;
++    bool hasPcmMeters() const override{return active.load() && meteringActive;}
++    int midiSettingsSetStr(const QString &,const QString &) override{return 0;}
++    int midiSettingsSetNum(const QString &,double) override{return 0;}
++    int midiSettingsSetInt(const QString &,int) override{return 0;}
++    QString midiSettingsGetStr(const QString &) override{return QString();}
++    double midiSettingsGetNum(const QString &) override{return 0;}
++    int midiSettingsGetInt(const QString &) override{return 0;}
+ private:
++    struct CallbackState {
++        CMidiDeviceCoreAudio *owner=nullptr;
++        unsigned channel=0;
++    };
++    static OSStatus meterCallback(void *context,AudioUnitRenderActionFlags *flags,
++        const AudioTimeStamp *timestamp,UInt32 bus,UInt32 frames,AudioBufferList *data);
+     AUGraph graph=nullptr;
+-    AudioUnit synth=nullptr;
+-    bool active=false;
++    std::array<AudioUnit,CHANNEL_COUNT> synths{};
++    std::array<CallbackState,CHANNEL_COUNT> callbacks{};
++    std::array<std::atomic<float>,CHANNEL_COUNT> channelRms{};
++    std::atomic<bool> active{false};
++    bool meteringActive=false;
+ };
+ #endif
+ #endif
+--- a/src/MidiDeviceCoreAudio.cpp
++++ b/src/MidiDeviceCoreAudio.cpp
+@@ -1,14 +1,58 @@
+ /*
+  * PianoBooster derivative (2026), GNU GPLv3 or later.
+- * Apple's own DLS synthesizer and default CoreAudio output, without FluidSynth.
++ * 16 native Apple DLS units, each with real PCM render notification.
++ * No FluidSynth or MIDI-velocity approximation for the audio meters.
+  */
+ #include "MidiDeviceCoreAudio.h"
+ #ifdef __APPLE__
+ #include <AudioUnit/AudioUnit.h>
+ #include <QDebug>
+-CMidiDeviceCoreAudio::~CMidiDeviceCoreAudio() {closeMidiPort(MIDI_OUTPUT,-1);}
++#include <algorithm>
++#include <cmath>
++
++CMidiDeviceCoreAudio::CMidiDeviceCoreAudio() {
++    for(unsigned c=0;c<CHANNEL_COUNT;++c) {
++        channelRms[c].store(0.0f);
++        callbacks[c]={this,c};
++    }
++}
++CMidiDeviceCoreAudio::~CMidiDeviceCoreAudio(){closeMidiPort(MIDI_OUTPUT,-1);}
+ QStringList CMidiDeviceCoreAudio::getMidiPortList(midiType_t type) {
+     return type==MIDI_OUTPUT?QStringList{name()}:QStringList{};
++}
++OSStatus CMidiDeviceCoreAudio::meterCallback(void *context,
++        AudioUnitRenderActionFlags *flags,const AudioTimeStamp *,
++        UInt32,UInt32 frames,AudioBufferList *data) {
++    auto *state=static_cast<CallbackState*>(context);
++    if(!state || !state->owner || !flags || !data || !frames)return noErr;
++    if(!(*flags & kAudioUnitRenderAction_PostRender) ||
++       (*flags & kAudioUnitRenderAction_PostRenderError))return noErr;
++    auto *owner=state->owner;
++    if(!owner->active.load(std::memory_order_relaxed))return noErr;
++    if(*flags & kAudioUnitRenderAction_OutputIsSilence) {
++        owner->channelRms[state->channel].store(0.0f,std::memory_order_relaxed);
++        return noErr;
++    }
++    // Callback is in the real-time audio thread: no allocations or locks.
++    double sum=0.0;
++    size_t samples=0;
++    for(UInt32 b=0;b<data->mNumberBuffers;++b) {
++        const AudioBuffer &buf=data->mBuffers[b];
++        if(!buf.mData || buf.mDataByteSize<sizeof(Float32))continue;
++        const auto *pcm=static_cast<const Float32*>(buf.mData);
++        const size_t count=std::min<size_t>(
++            buf.mDataByteSize/sizeof(Float32),
++            size_t(frames)*std::max<UInt32>(1,buf.mNumberChannels));
++        for(size_t n=0;n<count;++n) {
++            const double x=pcm[n];
++            sum+=x*x;
++        }
++        samples+=count;
++    }
++    owner->channelRms[state->channel].store(
++        samples?float(std::sqrt(sum/double(samples))):0.0f,
++        std::memory_order_relaxed);
++    return noErr;
+ }
+ bool CMidiDeviceCoreAudio::openMidiPort(midiType_t type,const QString &port) {
+     if(type!=MIDI_OUTPUT || port!=name())return false;
+@@ -18,46 +62,85 @@
+     music.componentType=kAudioUnitType_MusicDevice;
+     music.componentSubType=kAudioUnitSubType_DLSSynth;
+     music.componentManufacturer=kAudioUnitManufacturer_Apple;
++    AudioComponentDescription mixerDesc={};
++    mixerDesc.componentType=kAudioUnitType_Mixer;
++    mixerDesc.componentSubType=kAudioUnitSubType_MultiChannelMixer;
++    mixerDesc.componentManufacturer=kAudioUnitManufacturer_Apple;
+     AudioComponentDescription output={};
+     output.componentType=kAudioUnitType_Output;
+     output.componentSubType=kAudioUnitSubType_DefaultOutput;
+     output.componentManufacturer=kAudioUnitManufacturer_Apple;
+-    AUNode musicNode=0,outputNode=0;
+-    OSStatus err=AUGraphAddNode(graph,&music,&musicNode);
++    AUNode mixerNode=0,outputNode=0;
++    std::array<AUNode,CHANNEL_COUNT> nodes{};
++    OSStatus err=AUGraphAddNode(graph,&mixerDesc,&mixerNode);
+     if(err==noErr)err=AUGraphAddNode(graph,&output,&outputNode);
++    for(unsigned ch=0;ch<CHANNEL_COUNT && err==noErr;++ch)
++        err=AUGraphAddNode(graph,&music,&nodes[ch]);
+     if(err==noErr)err=AUGraphOpen(graph);
+-    if(err==noErr)err=AUGraphNodeInfo(graph,musicNode,nullptr,&synth);
+-    if(err==noErr && !synth)err=kAudio_ParamError;
+-    if(err==noErr)err=AUGraphConnectNodeInput(graph,musicNode,0,outputNode,0);
++    AudioUnit mixer=nullptr;
++    if(err==noErr)err=AUGraphNodeInfo(graph,mixerNode,nullptr,&mixer);
++    const UInt32 inputBuses=CHANNEL_COUNT;
++    if(err==noErr)err=AudioUnitSetProperty(mixer,kAudioUnitProperty_ElementCount,
++        kAudioUnitScope_Input,0,&inputBuses,sizeof(inputBuses));
++    for(unsigned ch=0;ch<CHANNEL_COUNT && err==noErr;++ch) {
++        err=AUGraphNodeInfo(graph,nodes[ch],nullptr,&synths[ch]);
++        if(err==noErr && !synths[ch])err=kAudio_ParamError;
++        if(err!=noErr)break;
++        AudioStreamBasicDescription format={};
++        UInt32 len=sizeof(format);
++        err=AudioUnitGetProperty(synths[ch],kAudioUnitProperty_StreamFormat,
++            kAudioUnitScope_Output,0,&format,&len);
++        if(err==noErr &&
++           (format.mFormatID!=kAudioFormatLinearPCM ||
++            !(format.mFormatFlags & kAudioFormatFlagIsFloat) ||
++            format.mBitsPerChannel!=32))err=kAudioUnitErr_FormatNotSupported;
++        if(err==noErr)err=AudioUnitAddRenderNotify(synths[ch],meterCallback,&callbacks[ch]);
++        if(err==noErr)err=AUGraphConnectNodeInput(graph,nodes[ch],0,mixerNode,ch);
++    }
++    if(err==noErr)err=AUGraphConnectNodeInput(graph,mixerNode,0,outputNode,0);
+     if(err==noErr)err=AUGraphInitialize(graph);
+     if(err==noErr)err=AUGraphStart(graph);
+-    if(err!=noErr){
+-        qWarning()<<"CoreAudio DLS graph failed: OSStatus"<<err;
++    if(err!=noErr) {
++        qWarning()<<"CoreAudio: 16-bus DLS graph failed, OSStatus"<<err;
+         closeMidiPort(MIDI_OUTPUT,-1);
+         return false;
+     }
+-    active=true;
+-    qInfo()<<"CoreAudio native DLS sound output enabled";
++    meteringActive=true;
++    active.store(true);
++    qInfo()<<"CoreAudio DLS native output: 16 PCM-metered channels active";
+     return true;
+ }
+ void CMidiDeviceCoreAudio::closeMidiPort(midiType_t type,int index) {
+     Q_UNUSED(index)
+     if(type!=MIDI_OUTPUT)return;
+-    active=false;
+-    synth=nullptr;
+-    if(graph){
++    active.store(false);
++    meteringActive=false;
++    if(graph) {
+         Boolean running=false;
+         if(AUGraphIsRunning(graph,&running)==noErr && running)AUGraphStop(graph);
++        for(unsigned ch=0;ch<CHANNEL_COUNT;++ch)
++            if(synths[ch])AudioUnitRemoveRenderNotify(
++                synths[ch],meterCallback,&callbacks[ch]);
+         AUGraphUninitialize(graph);
+         AUGraphClose(graph);
+         DisposeAUGraph(graph);
+         graph=nullptr;
+     }
++    synths.fill(nullptr);
++    for(auto &rms:channelRms)rms.store(0.0f);
++}
++float CMidiDeviceCoreAudio::audioMeterDb(int channel) const {
++    if(!active.load() || !meteringActive ||
++       channel<0 || channel>=int(CHANNEL_COUNT))return -120.0f;
++    const float rms=channelRms[channel].load(std::memory_order_relaxed);
++    return rms<=1.e-8f?-120.0f:20.0f*std::log10(rms);
+ }
+ void CMidiDeviceCoreAudio::playMidiEvent(const CMidiEvent &ev) {
+-    if(!active || !synth)return;
+-    UInt32 status=0, d1=UInt32(ev.data1())&127, d2=UInt32(ev.data2())&127;
+-    switch(ev.type()){
++    if(!active.load())return;
++    const unsigned channel=unsigned(ev.channel())&15u;
++    if(!synths[channel])return;
++    UInt32 status=0,d1=UInt32(ev.data1())&127,d2=UInt32(ev.data2())&127;
++    switch(ev.type()) {
+         case MIDI_NOTE_OFF:status=MIDI_NOTE_OFF;break;
+         case MIDI_NOTE_ON:status=MIDI_NOTE_ON;break;
+         case MIDI_NOTE_PRESSURE:status=MIDI_NOTE_PRESSURE;break;
+@@ -67,7 +150,8 @@
+         case MIDI_PITCH_BEND:status=MIDI_PITCH_BEND;break;
+         default:return;
+     }
+-    OSStatus err=MusicDeviceMIDIEvent(synth,status|(UInt32(ev.channel())&15),d1,d2,0);
++    // Preserve the source GM channel so CH10 remains percussion.
++    const OSStatus err=MusicDeviceMIDIEvent(synths[channel],status|channel,d1,d2,0);
+     if(err!=noErr)qWarning()<<"CoreAudio MIDI event OSStatus"<<err;
+ }
+ #endif
+--- a/src/GuiSidePanel.cpp
++++ b/src/GuiSidePanel.cpp
+@@ -450,8 +450,22 @@
+             m_staffLeft=lower;
+         }
+     }
++    // On Mac, do not activate unrelated piano/accompaniment tracks merely
++    // because they exist in the MIDI. The user's checkboxes are authoritative.
++    // Earlier startup wrote an all-on accompaniment preference even though
++    // the user did not explicitly select any accompaniment.
++#ifdef Q_OS_DARWIN
++    const bool autoAccompanimentMigration=
++        !explicitlyConfigured &&
++        !m_settings->value(key+"MacOS/ScoreOnlyDefault20261022",false).toBool();
++    if (autoAccompanimentMigration)
++        m_settings->setValue(key+"MacOS/ScoreOnlyDefault20261022",true);
++#else
++    const bool autoAccompanimentMigration=false;
++#endif
+     for (int track : m_trackList->sourceTracks.keys())
+-        if (!saved || enabled.contains(QString::number(track)))
++        if (!autoAccompanimentMigration && saved &&
++            enabled.contains(QString::number(track)))
+             desiredAccompaniment.insert(track);
+ 
+     // Keep the exact original top dropdown and its persisted selection.
+--- a/src/QtWindow.cpp
++++ b/src/QtWindow.cpp
+@@ -572,15 +572,25 @@
+             if (job!=m_process || expectedKey!=m_activeKey ||
+                 expectedOutput!=m_output) return;
+             if (code!=0 || status!=QProcess::NormalExit) {
+-                m_label->setText("Error generando la partitura: "+
+-                    QString::fromUtf8(job->readAllStandardError()).trimmed().left(120));
++                const QString detail=QString::fromUtf8(job->readAllStandardError()).trimmed();
++                const bool missingMuseScore=detail.contains(
++                    QStringLiteral("MuseScore 3 or 4 required"),Qt::CaseInsensitive);
++                m_label->setWordWrap(true);
++                m_label->setText(missingMuseScore
++                    ?QStringLiteral("Modo Experto necesita MuseScore 4 en Aplicaciones. Instálalo y pulsa Actualizar partitura.")
++                    :QStringLiteral("Error en modo Experto: ")+detail.left(360));
++                m_label->setToolTip(detail);
+                 return;
+             }
+             m_cache.insert(expectedKey,expectedOutput);
+             displayResult();
+         });
+         connect(job,&QProcess::errorOccurred,this,[this,job](QProcess::ProcessError){
+-            if(job==m_process)m_label->setText("No se pudo iniciar MuseScore.");
++            if(job==m_process) {
++                m_label->setWordWrap(true);
++                m_label->setText("No se pudo ejecutar el motor de partitura: "+job->errorString());
++                m_label->setToolTip(job->program());
++            }
+         });
+         QStringList args={song,"--tracks",tracks.join(","),
+                           "--output-dir",m_output};
+--- a/tools/advanced_score.py
++++ b/tools/advanced_score.py
+@@ -49,6 +49,11 @@
+         mac_paths=(
+           '/Applications/MuseScore 4.app/Contents/MacOS/mscore',
+           '/Applications/MuseScore 4.app/Contents/MacOS/MuseScore 4',
++          '/Applications/MuseScore 4.app/Contents/MacOS/MuseScore4',
++          '/Applications/MuseScore Studio.app/Contents/MacOS/mscore',
++          '/Applications/MuseScore Studio.app/Contents/MacOS/MuseScore Studio',
++          str(Path.home()/'Applications/MuseScore 4.app/Contents/MacOS/mscore'),
++          str(Path.home()/'Applications/MuseScore 4.app/Contents/MacOS/MuseScore 4'),
+           '/Applications/MuseScore 3.app/Contents/MacOS/mscore',
+         ),
+         windows_subdirs=(
+--- a/src/QtMain.cpp
++++ b/src/QtMain.cpp
+@@ -25,6 +25,10 @@
+ 
+ #include "QtWindow.h"
+ #include "version.h"
++#ifdef __APPLE__
++#include "MidiDeviceCoreAudio.h"
++#include <QThread>
++#endif
+ 
+ int main(int argc, char *argv[]){
+     QCoreApplication::setOrganizationName(QStringLiteral("PianoBooster"));
+@@ -41,6 +45,28 @@
+                 fprintf(stdout, "pianobooster " PB_VERSION "\n");
+                 return EXIT_SUCCESS;
+             }
++#ifdef __APPLE__
++            // Opt-in CI diagnostic: exercise the actual CoreAudio graph and
++            // real render callbacks, without launching a GUI or loading a song.
++            if (arg == QLatin1String("--probe-coreaudio")) {
++                CMidiDeviceCoreAudio dev;
++                if (!dev.openMidiPort(CMidiDeviceBase::MIDI_OUTPUT,
++                                      CMidiDeviceCoreAudio::name()))
++                    return 30;
++                CMidiEvent ev;
++                ev.noteOnEvent(0,0,60,108);
++                dev.playMidiEvent(ev);
++                float peak=-120.0f;
++                for(int i=0;i<24;++i) {
++                    QThread::msleep(40);
++                    peak=qMax(peak,dev.audioMeterDb(0));
++                }
++                ev.noteOffEvent(0,0,60,0);
++                dev.playMidiEvent(ev);
++                fprintf(stdout,"CoreAudio channel 1 PCM peak %.1f dBFS\n",peak);
++                return peak>-90.0f?EXIT_SUCCESS:31;
++            }
++#endif
+         }
+     }
+ 
