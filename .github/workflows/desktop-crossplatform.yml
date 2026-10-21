@@ -1,0 +1,119 @@
+name: Piano Booster - Windows and macOS builds
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - pianobooster-desktop-build
+
+jobs:
+  windows-x64:
+    name: Windows x64 (Qt6 / MIDI / FluidSynth)
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@v4
+      - uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            git zip unzip pkgconf
+            mingw-w64-ucrt-x86_64-toolchain
+            mingw-w64-ucrt-x86_64-cmake
+            mingw-w64-ucrt-x86_64-ninja
+            mingw-w64-ucrt-x86_64-binutils
+            mingw-w64-ucrt-x86_64-qt6-base
+            mingw-w64-ucrt-x86_64-qt6-tools
+            mingw-w64-ucrt-x86_64-qt6-declarative
+            mingw-w64-ucrt-x86_64-qt6-5compat
+            mingw-w64-ucrt-x86_64-fluidsynth
+      - name: Compile Windows desktop app and deploy Qt
+        shell: msys2 {0}
+        run: |
+          set -euxo pipefail
+          cat PianoBooster-source.zip.part-* > PianoBooster-source.zip
+          unzip -q PianoBooster-source.zip
+          cd PianoBooster
+          cmake -S . -B out/win -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DNO_DOCS=ON -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
+          cmake --build out/win --parallel 4
+          mkdir -p dist/PianoBooster-Windows-x64/music dist/PianoBooster-Windows-x64/tools
+          cp out/win/build/pianobooster.exe dist/PianoBooster-Windows-x64/PianoBooster.exe
+          cp music/BoosterMusicBooks.zip dist/PianoBooster-Windows-x64/music/
+          cp packaging/WINDOWS-MACOS-README.txt dist/PianoBooster-Windows-x64/LEEME.txt
+          cp NOTICE-MODIFICACIONES-Y-AUTORES.md dist/PianoBooster-Windows-x64/
+          cp license.txt gplv3.txt dist/PianoBooster-Windows-x64/
+          /ucrt64/bin/windeployqt6.exe --release dist/PianoBooster-Windows-x64/PianoBooster.exe
+          python packaging/collect_msys_dlls.py dist/PianoBooster-Windows-x64 /ucrt64/bin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Package advanced score engine for Windows
+        shell: pwsh
+        run: |
+          Set-Location PianoBooster
+          python -m pip install --upgrade pip
+          python -m pip install pyinstaller mido pillow numpy pypdfium2
+          python -m PyInstaller --clean --noconfirm --onefile --name score-engine --paths tools tools/advanced_score.py
+          New-Item -ItemType Directory -Force dist/PianoBooster-Windows-x64/score-engine
+          Copy-Item dist/score-engine.exe dist/PianoBooster-Windows-x64/score-engine/score-engine.exe
+          Compress-Archive -Path dist/PianoBooster-Windows-x64 -DestinationPath ../PianoBooster-Windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PianoBooster-Windows-x64
+          path: PianoBooster-Windows-x64.zip
+
+  macos:
+    name: macOS (${{ matrix.label }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: Intel-x64
+            runner: macos-15-intel
+          - label: AppleSilicon-arm64
+            runner: macos-15
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Qt and native audio dependencies
+        run: |
+          cat PianoBooster-source.zip.part-* > PianoBooster-source.zip
+          unzip -q PianoBooster-source.zip
+          brew update
+          brew install cmake ninja pkg-config qt fluidsynth dylibbundler
+      - name: Build macOS .app
+        shell: bash
+        run: |
+          set -euxo pipefail
+          cd PianoBooster
+          export PATH="$(brew --prefix qt)/bin:$PATH"
+          cmake -S . -B out/mac -G Ninja -DQT_PACKAGE_NAME=Qt6 -DUSE_FTGL=OFF -DUSE_BUNDLED_RTMIDI=ON -DWITH_INTERNAL_FLUIDSYNTH=ON -DCMAKE_PREFIX_PATH="$(brew --prefix qt)" -DUSE_SYSTEM_FONT=ON -DCMAKE_BUILD_TYPE=Release
+          cmake --build out/mac --parallel 3
+          APP=out/mac/build/pianobooster.app
+          test -f "$APP/Contents/MacOS/pianobooster"
+          mkdir -p "$APP/Contents/Resources/score-engine"
+          mkdir -p "$APP/Contents/Resources/tools"
+          cp packaging/WINDOWS-MACOS-README.txt "$APP/Contents/Resources/LEEME.txt"
+          cp NOTICE-MODIFICACIONES-Y-AUTORES.md license.txt gplv3.txt "$APP/Contents/Resources/"
+          $(brew --prefix qt)/bin/macdeployqt "$APP" -verbose=1
+          # Homebrew's fluidsynth depends on libraries beyond Qt frameworks.
+          dylibbundler -od -b -x "$APP/Contents/MacOS/pianobooster" -d "$APP/Contents/Frameworks" -p @executable_path/../Frameworks
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Bundle the advanced score Python engine
+        shell: bash
+        run: |
+          set -euxo pipefail
+          cd PianoBooster
+          python -m pip install pyinstaller mido numpy pillow pypdfium2
+          python -m PyInstaller --clean --noconfirm --onefile --name score-engine --paths tools tools/advanced_score.py
+          APP=out/mac/build/pianobooster.app
+          cp dist/score-engine "$APP/Contents/Resources/score-engine/score-engine"
+          chmod +x "$APP/Contents/Resources/score-engine/score-engine"
+          mkdir -p staging
+          cp -R "$APP" "staging/PianoBooster.app"
+          hdiutil create -volname 'PianoBooster' -srcfolder staging -ov -format UDZO "../PianoBooster-macOS-${{ matrix.label }}.dmg"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PianoBooster-macOS-${{ matrix.label }}
+          path: PianoBooster-macOS-${{ matrix.label }}.dmg
