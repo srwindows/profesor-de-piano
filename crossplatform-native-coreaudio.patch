@@ -1,0 +1,255 @@
+--- /dev/null
++++ b/src/MidiDeviceCoreAudio.h
+@@ -0,0 +1,34 @@
++/*
++ * PianoBooster derivative (2026), GNU GPLv3 or later.
++ * macOS native CoreAudio DLS MusicDevice MIDI output.
++ */
++#ifndef PIANOBOOSTER_COREAUDIO_H
++#define PIANOBOOSTER_COREAUDIO_H
++#ifdef __APPLE__
++#include "MidiDeviceBase.h"
++#include <AudioToolbox/AudioToolbox.h>
++class CMidiDeviceCoreAudio final : public CMidiDeviceBase {
++public:
++    ~CMidiDeviceCoreAudio() override;
++    static QString name() { return QStringLiteral("CoreAudio (Mac)"); }
++    void init() override {}
++    QStringList getMidiPortList(midiType_t type) override;
++    bool openMidiPort(midiType_t type,const QString &port) override;
++    void closeMidiPort(midiType_t type,int index) override;
++    bool validMidiConnection() override {return active;}
++    void playMidiEvent(const CMidiEvent &ev) override;
++    int checkMidiInput() override {return 0;}
++    CMidiEvent readMidiInput() override {return CMidiEvent();}
++    int midiSettingsSetStr(const QString &,const QString &) override {return 0;}
++    int midiSettingsSetNum(const QString &,double) override {return 0;}
++    int midiSettingsSetInt(const QString &,int) override {return 0;}
++    QString midiSettingsGetStr(const QString &) override {return QString();}
++    double midiSettingsGetNum(const QString &) override {return 0;}
++    int midiSettingsGetInt(const QString &) override {return 0;}
++private:
++    AUGraph graph=nullptr;
++    AudioUnit synth=nullptr;
++    bool active=false;
++};
++#endif
++#endif
+--- /dev/null
++++ b/src/MidiDeviceCoreAudio.cpp
+@@ -0,0 +1,73 @@
++/*
++ * PianoBooster derivative (2026), GNU GPLv3 or later.
++ * Apple's own DLS synthesizer and default CoreAudio output, without FluidSynth.
++ */
++#include "MidiDeviceCoreAudio.h"
++#ifdef __APPLE__
++#include <AudioUnit/AudioUnit.h>
++#include <QDebug>
++CMidiDeviceCoreAudio::~CMidiDeviceCoreAudio() {closeMidiPort(MIDI_OUTPUT,-1);}
++QStringList CMidiDeviceCoreAudio::getMidiPortList(midiType_t type) {
++    return type==MIDI_OUTPUT?QStringList{name()}:QStringList{};
++}
++bool CMidiDeviceCoreAudio::openMidiPort(midiType_t type,const QString &port) {
++    if(type!=MIDI_OUTPUT || port!=name())return false;
++    closeMidiPort(MIDI_OUTPUT,-1);
++    if(NewAUGraph(&graph)!=noErr || !graph)return false;
++    AudioComponentDescription music={};
++    music.componentType=kAudioUnitType_MusicDevice;
++    music.componentSubType=kAudioUnitSubType_DLSSynth;
++    music.componentManufacturer=kAudioUnitManufacturer_Apple;
++    AudioComponentDescription output={};
++    output.componentType=kAudioUnitType_Output;
++    output.componentSubType=kAudioUnitSubType_DefaultOutput;
++    output.componentManufacturer=kAudioUnitManufacturer_Apple;
++    AUNode musicNode=0,outputNode=0;
++    OSStatus err=AUGraphAddNode(graph,&music,&musicNode);
++    if(err==noErr)err=AUGraphAddNode(graph,&output,&outputNode);
++    if(err==noErr)err=AUGraphOpen(graph);
++    if(err==noErr)err=AUGraphNodeInfo(graph,musicNode,nullptr,&synth);
++    if(err==noErr && !synth)err=kAudio_ParamError;
++    if(err==noErr)err=AUGraphConnectNodeInput(graph,musicNode,0,outputNode,0);
++    if(err==noErr)err=AUGraphInitialize(graph);
++    if(err==noErr)err=AUGraphStart(graph);
++    if(err!=noErr){
++        qWarning()<<"CoreAudio DLS graph failed: OSStatus"<<err;
++        closeMidiPort(MIDI_OUTPUT,-1);
++        return false;
++    }
++    active=true;
++    qInfo()<<"CoreAudio native DLS sound output enabled";
++    return true;
++}
++void CMidiDeviceCoreAudio::closeMidiPort(midiType_t type,int index) {
++    Q_UNUSED(index)
++    if(type!=MIDI_OUTPUT)return;
++    active=false;
++    synth=nullptr;
++    if(graph){
++        Boolean running=false;
++        if(AUGraphIsRunning(graph,&running)==noErr && running)AUGraphStop(graph);
++        AUGraphUninitialize(graph);
++        AUGraphClose(graph);
++        DisposeAUGraph(graph);
++        graph=nullptr;
++    }
++}
++void CMidiDeviceCoreAudio::playMidiEvent(const CMidiEvent &ev) {
++    if(!active || !synth)return;
++    UInt32 status=0, d1=UInt32(ev.data1())&127, d2=UInt32(ev.data2())&127;
++    switch(ev.type()){
++        case MIDI_NOTE_OFF:status=MIDI_NOTE_OFF;break;
++        case MIDI_NOTE_ON:status=MIDI_NOTE_ON;break;
++        case MIDI_NOTE_PRESSURE:status=MIDI_NOTE_PRESSURE;break;
++        case MIDI_CONTROL_CHANGE:status=MIDI_CONTROL_CHANGE;break;
++        case MIDI_PROGRAM_CHANGE:status=MIDI_PROGRAM_CHANGE;d1=UInt32(ev.programme())&127;d2=0;break;
++        case MIDI_CHANNEL_PRESSURE:status=MIDI_CHANNEL_PRESSURE;d2=0;break;
++        case MIDI_PITCH_BEND:status=MIDI_PITCH_BEND;break;
++        default:return;
++    }
++    OSStatus err=MusicDeviceMIDIEvent(synth,status|(UInt32(ev.channel())&15),d1,d2,0);
++    if(err!=noErr)qWarning()<<"CoreAudio MIDI event OSStatus"<<err;
++}
++#endif
+--- a/src/MidiDevice.h
++++ b/src/MidiDevice.h
+@@ -78,6 +78,9 @@
+ 
+ private:
+     CMidiDeviceBase* m_rtMidiDevice;
++#ifdef __APPLE__
++    CMidiDeviceBase* m_coreAudioDevice;
++#endif
+ #if WITH_INTERNAL_FLUIDSYNTH
+     CMidiDeviceBase* m_fluidSynthMidiDevice;
+ #endif
+--- a/src/MidiDevice.cpp
++++ b/src/MidiDevice.cpp
+@@ -28,6 +28,9 @@
+ 
+ #include "MidiDevice.h"
+ #include "MidiDeviceRt.h"
++#ifdef __APPLE__
++#include "MidiDeviceCoreAudio.h"
++#endif
+ #if WITH_INTERNAL_FLUIDSYNTH
+     #include "MidiDeviceFluidSynth.h"
+ #endif
+@@ -35,6 +38,9 @@
+ CMidiDevice::CMidiDevice()
+ {
+     m_rtMidiDevice = new CMidiDeviceRt();
++#ifdef __APPLE__
++    m_coreAudioDevice = new CMidiDeviceCoreAudio();
++#endif
+ #if WITH_INTERNAL_FLUIDSYNTH
+     m_fluidSynthMidiDevice = new CMidiDeviceFluidSynth();
+ #endif
+@@ -47,6 +53,9 @@
+ CMidiDevice::~CMidiDevice()
+ {
+     delete m_rtMidiDevice;
++#ifdef __APPLE__
++    delete m_coreAudioDevice;
++#endif
+ #if WITH_INTERNAL_FLUIDSYNTH
+     delete m_fluidSynthMidiDevice;
+ #endif
+@@ -63,6 +72,9 @@
+ QStringList CMidiDevice::getMidiPortList(midiType_t type)
+ {
+     QStringList list;
++#ifdef __APPLE__
++    list << m_coreAudioDevice->getMidiPortList(type);
++#endif
+ #if WITH_INTERNAL_FLUIDSYNTH
+     list <<  m_fluidSynthMidiDevice->getMidiPortList(type);
+ #endif
+@@ -87,7 +99,13 @@
+     else
+     {
+         m_validOutput = false;
+-
++#ifdef __APPLE__
++        if(m_coreAudioDevice->openMidiPort(type,portName)){
++            m_selectedMidiOutputDevice=m_coreAudioDevice;
++            m_validOutput=true;
++            return true;
++        }
++#endif
+         //m_selectedMidiOutputDevice->closeMidiPort(type, portName);
+         if ( m_rtMidiDevice->openMidiPort(type, portName) )
+         {
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -134,6 +134,11 @@
+ # we need this to be able to include headers produced by uic in our code
+ # (CMAKE_BINARY_DIR holds a path to the build directory, while INCLUDE_DIRECTORIES() works just like INCLUDEPATH from qmake)
+ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_BINARY_DIR} ${OPENGL_INCLUDE_DIR} ${FTGL_INCLUDE_DIR})
++
++if(APPLE)
++    list(APPEND PB_BASE_SRCS MidiDeviceCoreAudio.cpp)
++    LINK_LIBRARIES("-framework AudioToolbox -framework AudioUnit")
++endif()
+ 
+ SET(PB_BASE_SRCS MidiFile.cpp MidiTrack.cpp Song.cpp Conductor.cpp Util.cpp
+     Chord.cpp Tempo.cpp MidiDevice.cpp MidiDeviceRt.cpp ${PB_BASE_SRCS})
+--- a/src/Settings.cpp
++++ b/src/Settings.cpp
+@@ -52,6 +52,9 @@
+ 
+ #if WITH_INTERNAL_FLUIDSYNTH
+ #include "MidiDeviceFluidSynth.h"
++#endif
++#ifdef __APPLE__
++#include "MidiDeviceCoreAudio.h"
+ #endif
+ 
+ #define OPTION_DEBUG_SETTINGS   0
+@@ -402,6 +405,16 @@
+ //    if (!songName.isEmpty())
+ //        openSongFile( songName );
+ 
++#ifdef __APPLE__
++    // On Mac the native output works without an externally supplied SoundFont.
++    // Preserve a selected physical MIDI output; migrate old silent FluidSynth
++    // configurations to native CoreAudio.
++    const QString oldOutput=value("Midi/Output").toString();
++    if(oldOutput.isEmpty() || oldOutput.contains(QStringLiteral("(FluidSynth)")))
++        setValue("Midi/Output",CMidiDeviceCoreAudio::name());
++    if(value("Midi/Output").toString()==CMidiDeviceCoreAudio::name())
++        m_song->openMidiPort(CMidiDevice::MIDI_OUTPUT,CMidiDeviceCoreAudio::name());
++#endif
+     setupDefaultSoundFont();
+ 
+     updateWarningMessages();
+--- a/src/MidiDeviceFluidSynth.cpp
++++ b/src/MidiDeviceFluidSynth.cpp
+@@ -109,7 +109,12 @@
+     fluid_settings_setint(m_fluidSettings, "audio.period-size", qsettings->value("FluidSynth/bufferSizeCombo", 128).toInt());
+     fluid_settings_setint(m_fluidSettings, "audio.periods", qsettings->value("FluidSynth/bufferCountCombo", 4).toInt());
+ 
+-#if !defined (Q_OS_WINDOWS)
++#if defined(Q_OS_DARWIN)
++    // FluidSynth is optional on Mac; its selected PCM backend is still CoreAudio.
++    QString driver=qsettings->value("FluidSynth/audioDriverCombo","coreaudio").toString();
++    if(driver==QStringLiteral("pulseaudio"))driver=QStringLiteral("coreaudio");
++    fluid_settings_setstr(m_fluidSettings,"audio.driver",driver.toUtf8().constData());
++#elif !defined(Q_OS_WINDOWS)
+     fluid_settings_setstr(m_fluidSettings, "audio.driver", qsettings->value("FluidSynth/audioDriverCombo", "pulseaudio").toString().toStdString().c_str());
+ #endif
+ 
+--- a/src/GuiMidiSetupDialog.cpp
++++ b/src/GuiMidiSetupDialog.cpp
+@@ -93,7 +93,11 @@
+         masterGainSpin->setValue(m_settings->value("FluidSynth/masterGainSpin","40").toInt());
+         reverbCheck->setChecked(m_settings->value("FluidSynth/reverbCheck","false").toBool());
+         chorusCheck->setChecked(m_settings->value("FluidSynth/chorusCheck","false").toBool());
++#if defined(Q_OS_DARWIN)
++        setComboFromSetting(audioDriverCombo, "FluidSynth/audioDriverCombo","coreaudio");
++#else
+         setComboFromSetting(audioDriverCombo, "FluidSynth/audioDriverCombo","pulseaudio");
++#endif
+         setComboFromSetting(sampleRateCombo, "FluidSynth/sampleRateCombo","22050");
+         setComboFromSetting(bufferSizeCombo, "FluidSynth/bufferSizeCombo","128");
+         setComboFromSetting(bufferCountCombo, "FluidSynth/bufferCountCombo","4");
