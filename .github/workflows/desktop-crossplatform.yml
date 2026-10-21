@@ -103,6 +103,11 @@ jobs:
           patch -p1 < ../crossplatform-language-fixes.patch
           # macOS-only: native Apple DLS/CoreAudio output (not FluidSynth).
           patch -p1 < ../crossplatform-native-coreaudio.patch
+          # First run macOS: continuous listening mode, correctly selected
+          # Spanish UI, with educational Follow-You still user-selectable.
+          patch -p1 < ../crossplatform-macos-playback-language.patch
+          grep -q 'ListenModeMigration20261021' src/GuiSidePanel.cpp
+          grep -q 'SpanishDefaultMigration20261021' src/Settings.cpp
           grep -q 'MidiDeviceCoreAudio.cpp' src/CMakeLists.txt
           grep -q 'CoreAudio (Mac)' src/MidiDeviceCoreAudio.h
           export PATH="$(brew --prefix qt)/bin:$PATH"
