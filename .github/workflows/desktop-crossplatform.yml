@@ -100,9 +100,19 @@ jobs:
           mkdir -p "$APP/Contents/Resources/tools"
           cp packaging/WINDOWS-MACOS-README.txt "$APP/Contents/Resources/LEEME.txt"
           cp NOTICE-MODIFICACIONES-Y-AUTORES.md license.txt gplv3.txt "$APP/Contents/Resources/"
-          $(brew --prefix qt)/bin/macdeployqt "$APP" -verbose=1
-          # Homebrew's fluidsynth depends on libraries beyond Qt frameworks.
-          dylibbundler -od -b -x "$APP/Contents/MacOS/pianobooster" -d "$APP/Contents/Frameworks" -p @executable_path/../Frameworks
+          # macdeployqt bundles Qt and compatible Homebrew dylibs. A later
+          # dylibbundler -od invocation used to DELETE the entire Frameworks
+          # directory (including QtXml, QtCore and QtGui) from the final DMG.
+          # Never run dylibbundler -od after macdeployqt.
+          "$(brew --prefix qt)/bin/macdeployqt" "$APP" -verbose=1
+          for module in QtCore QtGui QtWidgets QtXml QtOpenGL QtOpenGLWidgets QtCore5Compat; do
+            FRAMEWORK="$APP/Contents/Frameworks/${module}.framework/Versions/A/${module}"
+            test -f "$FRAMEWORK" || { echo "::error::Missing bundled Qt framework: $FRAMEWORK"; exit 1; }
+          done
+          test -n "$(find "$APP/Contents/Frameworks" -type f -print -quit)" || { echo "::error::No dynamic frameworks packaged"; exit 1; }
+          # Validate the executable with the packaged libraries, not Homebrew.
+          # Runtime linking errors (DYLD) must fail the workflow, not reach users.
+          "$APP/Contents/MacOS/pianobooster" --version
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -116,8 +126,17 @@ jobs:
           APP=out/mac/build/pianobooster.app
           cp dist/score-engine "$APP/Contents/Resources/score-engine/score-engine"
           chmod +x "$APP/Contents/Resources/score-engine/score-engine"
+          "$APP/Contents/Resources/score-engine/score-engine" --help >/dev/null
+          # Re-sign the complete final bundle after adding the score engine.
+          # Development-only ad-hoc signature, not Apple notarization.
+          codesign --force --deep --sign - "$APP"
+          codesign --verify --deep --strict --verbose=2 "$APP"
+          "$APP/Contents/MacOS/pianobooster" --version
           mkdir -p staging
           cp -R "$APP" "staging/PianoBooster.app"
+          # Verify that the .app actually being put in the DMG contains QtXml.
+          test -f "staging/PianoBooster.app/Contents/Frameworks/QtXml.framework/Versions/A/QtXml"
+          "staging/PianoBooster.app/Contents/MacOS/pianobooster" --version
           hdiutil create -volname 'PianoBooster' -srcfolder staging -ov -format UDZO "../PianoBooster-macOS-${{ matrix.label }}.dmg"
       - uses: actions/upload-artifact@v4
         with:
