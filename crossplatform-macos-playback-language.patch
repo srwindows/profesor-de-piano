@@ -1,0 +1,75 @@
+--- a/src/GuiSidePanel.cpp
++++ b/src/GuiSidePanel.cpp
+@@ -281,8 +281,25 @@
+     m_topBar = topBar;
+     m_trackList->init(songObj, m_settings);
+ 
+-    // set skill from config
+-    playMode_t skill = m_settings->value("SidePanel/skill",PB_PLAY_MODE_followYou).toInt();
++    // On macOS, normal listening must not silently use the educational
++    // Follow-You mode (which waits for a pianist and appears to stop mid-song).
++    // Migrate only once, and only if no physical MIDI input is configured.
++    // An explicitly selected Follow-You mode remains available.
++#if defined(Q_OS_DARWIN)
++    if (!m_settings->value("MacOS/ListenModeMigration20261021", false).toBool()) {
++        const QString input = m_settings->value("Midi/Input").toString();
++        const int priorMode = m_settings->value("SidePanel/skill", PB_PLAY_MODE_followYou).toInt();
++        if ((input.isEmpty() || input.startsWith(QStringLiteral("None"))) &&
++            priorMode == PB_PLAY_MODE_followYou)
++            m_settings->setValue("SidePanel/skill", PB_PLAY_MODE_listen);
++        m_settings->setValue("MacOS/ListenModeMigration20261021", true);
++    }
++    playMode_t skill = static_cast<playMode_t>(
++        m_settings->value("SidePanel/skill", PB_PLAY_MODE_listen).toInt());
++#else
++    playMode_t skill = static_cast<playMode_t>(
++        m_settings->value("SidePanel/skill", PB_PLAY_MODE_followYou).toInt());
++#endif
+     switch (skill) {
+         case PB_PLAY_MODE_listen:
+             listenRadio->setChecked(true);
+--- a/src/Settings.cpp
++++ b/src/Settings.cpp
+@@ -74,6 +74,18 @@
+     m_tutorPagesEnabled = value("Tutor/TutorPages", true ).toBool();
+     CNotation::setCourtesyAccidentals(value("Score/CourtesyAccidentals", false ).toBool());
+     m_followThroughErrorsEnabled = value("Score/FollowThroughErrors", false ).toBool();
++
++    // Existing Mac installations may have English persisted or no locale set.
++    // Make Spanish the initial UI on Mac for this localized distribution.
++    // Later explicit user language selections (including English) are retained.
++#ifdef Q_OS_DARWIN
++    if (!contains("MacOS/SpanishDefaultMigration20261021")) {
++        const QString priorLanguage = value("General/lang", "").toString();
++        if (priorLanguage.isEmpty() || priorLanguage == QStringLiteral("en"))
++            setValue("General/lang", QStringLiteral("es"));
++        setValue("MacOS/SpanishDefaultMigration20261021", true);
++    }
++#endif
+ 
+     // load Fluid settings
+     setFluidSoundFontNames( value("FluidSynth/SoundFont").toStringList());
+--- a/src/QtWindow.cpp
++++ b/src/QtWindow.cpp
+@@ -1607,10 +1607,17 @@
+     }
+     ppLogInfo("Translations loaded from '%s'",  qPrintable(translationsDir));
+ 
+-    // set translator for app
+-    auto ok = true;
+-    if (!translator.load(QSTR_APPNAME + QString("_") + locale , translationsDir))
+-        ok = ok & translator.load(QSTR_APPNAME + QString("_") + locale, QApplication::applicationDirPath());
++    // Load the app catalog from its actual .app Resources directory.
++    // Do not report success when no translator exists. Preferences can still
++    // choose another installed language at any time.
++    const bool appTranslationLoaded =
++        translator.load(QSTR_APPNAME + QString("_") + locale, translationsDir)
++        || translator.load(QSTR_APPNAME + QString("_") + locale,
++                           QApplication::applicationDirPath());
++    bool ok = appTranslationLoaded || locale == QStringLiteral("en");
++    if (!appTranslationLoaded && locale != QStringLiteral("en"))
++        qWarning() << "PianoBooster: missing UI translations for" << locale
++                   << "in" << translationsDir;
+     qApp->installTranslator(&translator);
+ 
+     // set translator for music
