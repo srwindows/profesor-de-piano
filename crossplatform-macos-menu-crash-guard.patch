@@ -1,0 +1,103 @@
+--- a/src/QtWindow.cpp
++++ b/src/QtWindow.cpp
+@@ -1134,11 +1134,17 @@
+     connect(m_openAct, SIGNAL(triggered()), this, SLOT(open()));
+ 
+     m_exitAct = new QAction(tr("E&xit"), this);
++#ifdef Q_OS_DARWIN
++    m_exitAct->setMenuRole(QAction::NoRole);
++#endif
+     m_exitAct->setShortcut(tr("Ctrl+Q"));
+     m_exitAct->setToolTip(tr("Exit the application"));
+     connect(m_exitAct, SIGNAL(triggered()), this, SLOT(close()));
+ 
+     m_aboutAct = new QAction(tr("&About"), this);
++#ifdef Q_OS_DARWIN
++    m_aboutAct->setMenuRole(QAction::NoRole);
++#endif
+     m_aboutAct->setToolTip(tr("Show the application's About box"));
+     connect(m_aboutAct, SIGNAL(triggered()), this, SLOT(about()));
+ 
+@@ -1179,6 +1185,10 @@
+     connect(m_viewPianoKeyboard, SIGNAL(triggered()), this, SLOT(onViewPianoKeyboard()));
+ 
+     m_setupPreferencesAct = new QAction(tr("&Preferences ..."), this);
++#ifdef Q_OS_DARWIN
++    // Keep it in Setup rather than Cocoa moving it into the application menu.
++    m_setupPreferencesAct->setMenuRole(QAction::NoRole);
++#endif
+     m_setupPreferencesAct->setToolTip(tr("Settings"));
+     m_setupPreferencesAct->setShortcut(tr("Ctrl+P"));
+     connect(m_setupPreferencesAct, SIGNAL(triggered()), this, SLOT(showPreferencesDialog()));
+@@ -1220,6 +1230,11 @@
+ 
+ void QtWindow::createMenus()
+ {
++#ifdef Q_OS_DARWIN
++    // Avoid Cocoa's native Qt action relocation and dangling menu wrappers.
++    // The in-window menu bar is also consistent with the Linux/Windows UI.
++    menuBar()->setNativeMenuBar(false);
++#endif
+     m_fileMenu = menuBar()->addMenu(tr("&File"));
+     m_fileMenu->setToolTipsVisible(true);
+     m_fileMenu->addAction(m_openAct);
+@@ -1633,9 +1648,20 @@
+         qDebug() << "Unable to load all translations";
+     }
+ 
+-    // retranslate UI
++    // Menu titles are QMenu::title(), not QWidget::windowTitle().
++    // Translating the latter can re-enter Cocoa's native menu integration.
++    m_fileMenu->setTitle(tr("&File"));
++    m_viewMenu->setTitle(tr("&View"));
++    m_songMenu->setTitle(tr("&Song"));
++    m_setupMenu->setTitle(tr("Set&up"));
++    m_helpMenu->setTitle(tr("&Help"));
++
++    // Apply translation only to live widgets which we captured. New dynamic
++    // children must not be mapped to empty source strings by operator[].
+     QList<QWidget*> l2 = this->findChildren<QWidget *>();
+     for (auto &w:l2){
++        if (qobject_cast<QMenu*>(w) || !listWidgetsRetranslateUi.contains(w))
++            continue;
+         if (!w->toolTip().isEmpty()) w->setToolTip(tr(listWidgetsRetranslateUi[w]["toolTip"].toStdString().c_str()));
+         if (!w->whatsThis().isEmpty()) w->setWhatsThis(tr(listWidgetsRetranslateUi[w]["whatsThis"].toStdString().c_str()));
+         if (!w->windowTitle().isEmpty()) w->setWindowTitle(tr(listWidgetsRetranslateUi[w]["windowTitle"].toStdString().c_str()));
+@@ -1644,6 +1670,8 @@
+ 
+     QList<QAction*> l = this->findChildren<QAction *>();
+     for (auto &w:l){
++        if (!listActionsRetranslateUi.contains(w))
++            continue;
+         if (!w->toolTip().isEmpty()) w->setToolTip(tr(listActionsRetranslateUi[w]["toolTip"].toStdString().c_str()));
+         if (!w->whatsThis().isEmpty()) w->setWhatsThis(tr(listActionsRetranslateUi[w]["whatsThis"].toStdString().c_str()));
+         if (!w->statusTip().isEmpty()) w->setStatusTip(tr(listActionsRetranslateUi[w]["statusTip"].toStdString().c_str()));
+--- a/src/GuiPreferencesDialog.cpp
++++ b/src/GuiPreferencesDialog.cpp
+@@ -93,7 +93,7 @@
+     QFileInfoList listLang = dirLang.entryInfoList();
+     for (QFileInfo fileInfo : listLang) {
+ 
+-        QRegExp rx("(pianobooster_)(.*)(.qm)");
++        QRegExp rx("^pianobooster_(.+)\\.qm$");
+         if (rx.indexIn(fileInfo.fileName())!=-1){
+             QString lang_code = rx.cap(2);
+ 
+@@ -118,11 +118,12 @@
+ 
+             }
+ 
+-            languageName[0]=languageName[0].toUpper();
+-
+-            if (languageName.isEmpty() || languageName=="C"){
+-                    languageName=lang_code;
+-            }
++            // Never index a possibly empty QString (a missing locale name
++            // caused an assert/crash when entering Preferences on macOS).
++            if (languageName.isEmpty() || languageName == "C")
++                languageName = lang_code;
++            else
++                languageName[0] = languageName[0].toUpper();
+ 
+             languageCombo->addItem(languageName,lang_code);
+             if (m_settings->value("General/lang","").toString()==lang_code){
