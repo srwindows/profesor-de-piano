@@ -114,6 +114,11 @@ jobs:
           # Mac-specific audio channel isolation, genuine CoreAudio PCM meters
           # and expert engraver diagnosis, leaving Debian unchanged.
           patch -p1 < ../crossplatform-macos-pcm-accomp-expert.patch
+          # Restore audible PCM after the DLS pre-mixer meters:
+          # enable every CoreAudio mixer input and monitor final mixed output.
+          patch -p1 < ../crossplatform-macos-mixer-output-fix.patch
+          grep -q 'kMultiChannelMixerParam_Enable' src/MidiDeviceCoreAudio.cpp
+          grep -q 'mixedAudioDb()' src/MidiDeviceCoreAudio.cpp
           grep -q 'kAudioUnitSubType_MultiChannelMixer' src/MidiDeviceCoreAudio.cpp
           grep -q 'autoAccompanimentMigration' src/GuiSidePanel.cpp
           grep -q 'MuseScore Studio.app' tools/advanced_score.py
@@ -131,14 +136,11 @@ jobs:
           cmake --build out/mac --parallel 3
           # CoreAudio DLS must be linked in the built native executable.
           otool -L out/mac/build/pianobooster.app/Contents/MacOS/pianobooster | grep -q AudioToolbox
-          # Attempt a real CoreAudio DLS note and PCM-meter probe on the
-          # GitHub macOS runner. Lack of a connected audio device is reported
-          # but does not invalidate a correctly compiled package.
-          if out/mac/build/pianobooster.app/Contents/MacOS/pianobooster --probe-coreaudio; then
-            echo "CoreAudio native PCM render probe PASSED"
-          else
-            echo "::warning::CoreAudio PCM hardware probe failed on hosted runner; verify on physical Mac"
-          fi
+          # Must prove a musical note reaches BOTH DLS output and FINAL
+          # mixed PCM. Pre-mixer VU activity alone is not audible output.
+          # Fail packaging if the final bus remains silent.
+          out/mac/build/pianobooster.app/Contents/MacOS/pianobooster --probe-coreaudio
+          echo "CoreAudio: DLS AND mixed output both have PCM signal"
           APP=out/mac/build/pianobooster.app
           test -f "$APP/Contents/MacOS/pianobooster"
           mkdir -p "$APP/Contents/Resources/score-engine"
