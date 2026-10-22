@@ -1,0 +1,143 @@
+--- a/src/MidiDeviceCoreAudio.cpp
++++ b/src/MidiDeviceCoreAudio.cpp
+@@ -15,6 +15,7 @@
+         channelRms[c].store(0.0f);
+         callbacks[c]={this,c};
+     }
++    mixCallback={this,CHANNEL_COUNT};
+ }
+ CMidiDeviceCoreAudio::~CMidiDeviceCoreAudio(){closeMidiPort(MIDI_OUTPUT,-1);}
+ QStringList CMidiDeviceCoreAudio::getMidiPortList(midiType_t type) {
+@@ -30,7 +31,10 @@
+     auto *owner=state->owner;
+     if(!owner->active.load(std::memory_order_relaxed))return noErr;
+     if(*flags & kAudioUnitRenderAction_OutputIsSilence) {
+-        owner->channelRms[state->channel].store(0.0f,std::memory_order_relaxed);
++        if(state->channel==CHANNEL_COUNT)
++            owner->mixedRms.store(0.0f,std::memory_order_relaxed);
++        else
++            owner->channelRms[state->channel].store(0.0f,std::memory_order_relaxed);
+         return noErr;
+     }
+     // Callback is in the real-time audio thread: no allocations or locks.
+@@ -49,9 +53,11 @@
+         }
+         samples+=count;
+     }
+-    owner->channelRms[state->channel].store(
+-        samples?float(std::sqrt(sum/double(samples))):0.0f,
+-        std::memory_order_relaxed);
++    const float rms=samples?float(std::sqrt(sum/double(samples))):0.0f;
++    if(state->channel==CHANNEL_COUNT)
++        owner->mixedRms.store(rms,std::memory_order_relaxed);
++    else
++        owner->channelRms[state->channel].store(rms,std::memory_order_relaxed);
+     return noErr;
+ }
+ bool CMidiDeviceCoreAudio::openMidiPort(midiType_t type,const QString &port) {
+@@ -77,11 +83,27 @@
+     for(unsigned ch=0;ch<CHANNEL_COUNT && err==noErr;++ch)
+         err=AUGraphAddNode(graph,&music,&nodes[ch]);
+     if(err==noErr)err=AUGraphOpen(graph);
+-    AudioUnit mixer=nullptr;
+-    if(err==noErr)err=AUGraphNodeInfo(graph,mixerNode,nullptr,&mixer);
++    if(err==noErr)err=AUGraphNodeInfo(graph,mixerNode,nullptr,&mixerUnit);
+     const UInt32 inputBuses=CHANNEL_COUNT;
+-    if(err==noErr)err=AudioUnitSetProperty(mixer,kAudioUnitProperty_ElementCount,
++    if(err==noErr)err=AudioUnitSetProperty(mixerUnit,kAudioUnitProperty_ElementCount,
+         kAudioUnitScope_Input,0,&inputBuses,sizeof(inputBuses));
++    // On some macOS versions the MultiChannelMixer input buses start disabled.
++    // DLS callbacks still see PCM, producing active VU meters, but the output
++    // becomes silent. Explicitly enable every bus and set unity gain.
++    for(unsigned ch=0;ch<CHANNEL_COUNT && err==noErr;++ch) {
++        err=AudioUnitSetParameter(mixerUnit,kMultiChannelMixerParam_Enable,
++                                  kAudioUnitScope_Input,ch,1.0f,0);
++        if(err==noErr)
++            err=AudioUnitSetParameter(mixerUnit,kMultiChannelMixerParam_Volume,
++                                      kAudioUnitScope_Input,ch,1.0f,0);
++    }
++    if(err==noErr)
++        err=AudioUnitSetParameter(mixerUnit,kMultiChannelMixerParam_Volume,
++                                  kAudioUnitScope_Output,0,1.0f,0);
++    // Instrument-level PCM is not enough to validate audible output.
++    // Monitor the rendered, mixed PCM signal before the default speaker.
++    if(err==noErr)
++        err=AudioUnitAddRenderNotify(mixerUnit,meterCallback,&mixCallback);
+     for(unsigned ch=0;ch<CHANNEL_COUNT && err==noErr;++ch) {
+         err=AUGraphNodeInfo(graph,nodes[ch],nullptr,&synths[ch]);
+         if(err==noErr && !synths[ch])err=kAudio_ParamError;
+@@ -121,18 +143,27 @@
+         for(unsigned ch=0;ch<CHANNEL_COUNT;++ch)
+             if(synths[ch])AudioUnitRemoveRenderNotify(
+                 synths[ch],meterCallback,&callbacks[ch]);
++        if(mixerUnit)
++            AudioUnitRemoveRenderNotify(mixerUnit,meterCallback,&mixCallback);
+         AUGraphUninitialize(graph);
+         AUGraphClose(graph);
+         DisposeAUGraph(graph);
+         graph=nullptr;
+     }
++    mixerUnit=nullptr;
+     synths.fill(nullptr);
++    mixedRms.store(0.0f);
+     for(auto &rms:channelRms)rms.store(0.0f);
+ }
+ float CMidiDeviceCoreAudio::audioMeterDb(int channel) const {
+     if(!active.load() || !meteringActive ||
+        channel<0 || channel>=int(CHANNEL_COUNT))return -120.0f;
+     const float rms=channelRms[channel].load(std::memory_order_relaxed);
++    return rms<=1.e-8f?-120.0f:20.0f*std::log10(rms);
++}
++float CMidiDeviceCoreAudio::mixedAudioDb() const {
++    if(!active.load() || !meteringActive)return -120.0f;
++    const float rms=mixedRms.load(std::memory_order_relaxed);
+     return rms<=1.e-8f?-120.0f:20.0f*std::log10(rms);
+ }
+ void CMidiDeviceCoreAudio::playMidiEvent(const CMidiEvent &ev) {
+--- a/src/MidiDeviceCoreAudio.h
++++ b/src/MidiDeviceCoreAudio.h
+@@ -24,6 +24,7 @@
+     int checkMidiInput() override{return 0;}
+     CMidiEvent readMidiInput() override{return CMidiEvent();}
+     float audioMeterDb(int midiChannel) const override;
++    float mixedAudioDb() const;
+     bool hasPcmMeters() const override{return active.load() && meteringActive;}
+     int midiSettingsSetStr(const QString &,const QString &) override{return 0;}
+     int midiSettingsSetNum(const QString &,double) override{return 0;}
+@@ -42,6 +43,10 @@
+     std::array<AudioUnit,CHANNEL_COUNT> synths{};
+     std::array<CallbackState,CHANNEL_COUNT> callbacks{};
+     std::array<std::atomic<float>,CHANNEL_COUNT> channelRms{};
++    // Separate PCM tap AFTER all DLS voices have passed through the mixer.
++    CallbackState mixCallback{};
++    AudioUnit mixerUnit=nullptr;
++    std::atomic<float> mixedRms{0.0f};
+     std::atomic<bool> active{false};
+     bool meteringActive=false;
+ };
+--- a/src/QtMain.cpp
++++ b/src/QtMain.cpp
+@@ -56,15 +56,19 @@
+                 CMidiEvent ev;
+                 ev.noteOnEvent(0,0,60,108);
+                 dev.playMidiEvent(ev);
+-                float peak=-120.0f;
++                float sourcePeak=-120.0f;
++                float mixedPeak=-120.0f;
+                 for(int i=0;i<24;++i) {
+                     QThread::msleep(40);
+-                    peak=qMax(peak,dev.audioMeterDb(0));
++                    sourcePeak=qMax(sourcePeak,dev.audioMeterDb(0));
++                    mixedPeak=qMax(mixedPeak,dev.mixedAudioDb());
+                 }
+                 ev.noteOffEvent(0,0,60,0);
+                 dev.playMidiEvent(ev);
+-                fprintf(stdout,"CoreAudio channel 1 PCM peak %.1f dBFS\n",peak);
+-                return peak>-90.0f?EXIT_SUCCESS:31;
++                fprintf(stdout,"CoreAudio DLS PCM %.1f dBFS; AFTER MIXER %.1f dBFS\n",
++                        sourcePeak,mixedPeak);
++                return sourcePeak>-90.0f && mixedPeak>-90.0f
++                       ?EXIT_SUCCESS:31;
+             }
+ #endif
+         }
